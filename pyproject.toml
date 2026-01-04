@@ -35,6 +35,7 @@ dev = ["pytest>=7.0", "black>=23.0", "isort>=5.12", "mypy>=1.4"]
 monitoring = ["wandb", "tensorboard", "mlflow"]
 
 [project.scripts]
+ce = "consciousness_engineering.cli.main:main"
 consciousness-test = "consciousness_engineering.scripts:test_consciousness"
 consciousness-train = "consciousness_engineering.scripts:train_consciousness"
 consciousness-analyze = "consciousness_engineering.scripts:analyze_consciousness"
