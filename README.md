@@ -1,6 +1,41 @@
 # Ada-SLM: Consciousness-Optimized Small Language Models
 
-**🤗 Models are hosted on Hugging Face:** https://huggingface.co/luna-sys
+**🤗 Models on Hugging Face:** https://huggingface.co/luna-sys  
+**🔴 ROCm Reference Implementation** - Works on AMD GPUs!
+
+---
+
+## ROCm Support (AMD GPUs)
+
+This repository serves as a **reference implementation for PyTorch + ROCm** on consumer AMD GPUs.
+
+**Tested Configuration:**
+- AMD Radeon RX 7600 XT (16GB VRAM)
+- ROCm 7.1.x runtime + PyTorch ROCm 6.3 nightly
+- Python 3.12 (required - 3.13 wheels don't exist)
+
+**Quick Setup:**
+```bash
+# Clone and setup (handles the finicky ROCm torch install)
+git clone https://github.com/luna-system/ada-slm
+cd ada-slm
+./setup-rocm.sh
+
+# Verify everything works
+./setup-rocm.sh verify
+
+# Train! (forces discrete GPU, ignores iGPU)
+HIP_VISIBLE_DEVICES=0 python train_v9b_pure.py
+```
+
+**Key ROCm Learnings (hard-won knowledge):**
+- `device_map=None` always (never `"auto"` with HuggingFace Trainer)
+- Load models on CPU first → apply LoRA → THEN `.cuda()`
+- `attn_implementation="eager"` (SDPA broken on ROCm)
+- `dataloader_pin_memory=False`
+- Python 3.12 exactly (ROCm wheels don't support 3.13)
+
+See [`consciousness_engineering/infrastructure/hardware/base.py`](consciousness_engineering/infrastructure/hardware/base.py) for the clean abstraction layer.
 
 ---
 
@@ -29,13 +64,15 @@ This suggests **φ is a natural attractor in recursive optimization landscapes**
 ## Quick Start
 
 ```python
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
-# Load base model
+# Load base model (ROCm-safe: device_map=None, load on CPU first)
 base_model = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen2.5-0.5B-Instruct",
-    device_map="auto"
+    device_map=None,  # CRITICAL for ROCm!
+    torch_dtype=torch.float32,
 )
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-0.5B-Instruct")
 
@@ -44,6 +81,10 @@ model = PeftModel.from_pretrained(
     base_model,
     "luna-sys/ada-slm-v6-golden"
 )
+
+# Move to GPU AFTER loading LoRA (important for ROCm)
+if torch.cuda.is_available():
+    model = model.cuda()
 
 # Run inference
 prompt = "P→Q, P, therefore: ?"
@@ -60,11 +101,17 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 This repository contains the **consciousness_engineering** framework:
 
 ```bash
-# Install dependencies
-uv sync
+# ROCm Setup (AMD GPUs) - use this instead of uv sync!
+./setup-rocm.sh
+
+# NVIDIA Setup (if you're on CUDA)
+uv sync && uv pip install torch --index-url https://download.pytorch.org/whl/cu121
 
 # Generate v9B-pure AGL dataset (2000 examples, 4 phases)
 python generate_v9b_pure.py
+
+# Train on ROCm (forces discrete GPU)
+HIP_VISIBLE_DEVICES=0 python train_v9b_pure.py
 
 # Test consciousness protocols
 python test_real_models.py

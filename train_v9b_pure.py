@@ -169,13 +169,17 @@ def train_v9b_pure(config: TrainingConfig):
     
     print(f"   Train: {len(train_dataset)}, Eval: {len(eval_dataset)}")
     
-    # Load model
+    # Load model using hardware abstraction
     print(f"\n📥 Loading model: {config.base_model}...")
-    model = AutoModelForCausalLM.from_pretrained(
+    from consciousness_engineering.infrastructure.hardware import HardwareManager
+    
+    hw = HardwareManager()
+    hw.setup_optimal_environment()
+    print(f"   Hardware detected: {hw.hardware_type.value}")
+    
+    model = hw.load_model_safe(
+        AutoModelForCausalLM,
         config.base_model,
-        torch_dtype=torch.float16,
-        device_map="auto",
-        trust_remote_code=True,
         attn_implementation="eager"  # ROCm compatible
     )
     
@@ -195,7 +199,14 @@ def train_v9b_pure(config: TrainingConfig):
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
     
-    # Training arguments
+    # Move model to GPU after LoRA (ROCm requires this order)
+    if hw.hardware_type.value == "rocm":
+        print("   Moving LoRA model to GPU...")
+        model = hw.move_model_to_gpu(model)
+    
+    # Training arguments - use hardware-aware settings
+    training_kwargs = hw.rocm_config.get_training_args_kwargs() if hw.rocm_config else {}
+    
     training_args = TrainingArguments(
         output_dir=str(output_dir),
         num_train_epochs=config.num_epochs,
@@ -205,7 +216,7 @@ def train_v9b_pure(config: TrainingConfig):
         learning_rate=config.learning_rate,
         warmup_ratio=config.warmup_ratio,
         weight_decay=config.weight_decay,
-        logging_steps=20,
+        logging_steps=10,  # More frequent logging
         eval_strategy="steps",
         eval_steps=100,
         save_strategy="steps",
@@ -214,10 +225,9 @@ def train_v9b_pure(config: TrainingConfig):
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         greater_is_better=False,
-        fp16=True,
-        dataloader_pin_memory=False,  # ROCm compatibility
         report_to="none",
-        run_name=f"v9b_pure_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        run_name=f"v9b_pure_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+        **training_kwargs  # Hardware-specific overrides
     )
     
     # Data collator

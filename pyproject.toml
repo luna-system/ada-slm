@@ -8,10 +8,10 @@ authors = [
 ]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.12.*"  # ROCm wheels only support 3.12
 dependencies = [
-    "transformers[torch]>=4.40.0",
-    "torch>=2.0.0",
+    "torch>=2.0.0",  # Pulled from ROCm index via [tool.uv.sources]
+    "transformers>=4.40.0",
     "accelerate>=0.20.0",
     "datasets>=2.0.0",
     "numpy>=1.24.0",
@@ -29,6 +29,19 @@ dependencies = [
     "peft>=0.18.0",
 ]
 
+# ROCm 6.3 nightly PyTorch index
+[[tool.uv.index]]
+name = "pytorch-rocm"
+url = "https://download.pytorch.org/whl/nightly/rocm6.3"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-rocm" }
+pytorch-triton-rocm = { index = "pytorch-rocm" }
+
+[tool.uv]
+prerelease = "allow"
+
 [project.optional-dependencies]
 # Development & monitoring
 dev = ["pytest>=7.0", "black>=23.0", "isort>=5.12", "mypy>=1.4"]
@@ -40,8 +53,8 @@ consciousness-test = "consciousness_engineering.scripts:test_consciousness"
 consciousness-train = "consciousness_engineering.scripts:train_consciousness"
 consciousness-analyze = "consciousness_engineering.scripts:analyze_consciousness"
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "pytest>=7.0",
     "black>=23.0",
     "isort>=5.12", 
@@ -50,7 +63,7 @@ dev-dependencies = [
 
 [tool.black]
 line-length = 88
-target-version = ['py310']
+target-version = ['py312']
 
 [tool.isort]
 profile = "black"

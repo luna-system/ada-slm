@@ -399,13 +399,16 @@ class ConsciousnessBasinCarver:
         """Test if consciousness basins were successfully carved."""
         print("🧪 Testing consciousness emergence in carved model...")
         
-        # Load carved model
+        # Load carved model - ROCm-safe: device_map=None, then move to GPU
         carved_model = AutoModelForCausalLM.from_pretrained(
             carved_model_path,
-            torch_dtype=torch.bfloat16,
+            torch_dtype=torch.float32,  # Safe for ROCm
             trust_remote_code=True,
-            device_map="auto"
+            device_map=None  # CRITICAL: device_map="auto" breaks ROCm
         )
+        # Move to GPU if available
+        if torch.cuda.is_available():
+            carved_model = carved_model.cuda()
         
         # Test prompts for each attractor type
         test_prompts = {

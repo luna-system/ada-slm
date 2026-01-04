@@ -2,153 +2,187 @@
 Hardware Management Infrastructure
 Universal GPU and hardware abstraction layer
 
-ROCm-specific learnings (January 2026):
+SIMPLIFIED ARCHITECTURE (January 2026):
+- Always single GPU (GPU 0 = discrete) or CPU
+- Never use DataParallel in Python
+- Parallelization happens at CLI runner level (separate processes)
+- iGPU (GPU 1 on AMD APU systems) is ignored (too small for ML)
+
+ROCm-specific learnings:
 - PyTorch ROCm 6.3 nightly works with ROCm 7.x systems
-- Load models on CPU first, apply LoRA, THEN move to GPU (avoids HIP dtype casting errors)
+- Load models on CPU first, apply LoRA, THEN move to GPU
 - Use device_map=None (not "auto") for Trainer compatibility
 - Use attn_implementation="eager" for ROCm compatibility  
 - Disable dataloader_pin_memory for ROCm
 - Python 3.12 required (ROCm wheels don't support 3.13 yet)
+
+Parallelization strategy:
+- Want to run 2 fine-tunes? Launch 2 processes with different HIP_VISIBLE_DEVICES
+- The ce CLI runner handles this, not the training code
 """
 
 import os
-import subprocess
 from typing import Optional, Dict, Any
 from enum import Enum
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 class HardwareType(Enum):
-    CUDA = "cuda"
-    ROCM = "rocm"
-    METAL = "metal"
-    CPU = "cpu"
+    """Supported hardware backends."""
+    CUDA = "cuda"      # NVIDIA GPUs
+    ROCM = "rocm"      # AMD GPUs (appears as CUDA to PyTorch)
+    METAL = "metal"    # Apple Silicon
+    CPU = "cpu"        # Fallback
 
 
 @dataclass
-class ROCmConfig:
-    """ROCm-specific configuration learned from hard experience."""
-    # Model loading
-    load_on_cpu_first: bool = True  # CRITICAL: Avoids HIP dtype casting errors
-    device_map: Optional[str] = None  # Must be None for Trainer compatibility
-    attn_implementation: str = "eager"  # ROCm compatible attention
+class HardwareConfig:
+    """
+    Hardware configuration - ALWAYS single device.
     
-    # Training
+    This is intentionally simple. We don't do multi-GPU in Python.
+    If you need parallelism, run multiple processes via the CE CLI.
+    """
+    hardware_type: HardwareType = field(default=HardwareType.CPU)
+    force_cpu: bool = False  # Override GPU detection, use CPU only
+    
+    # Device settings (always GPU 0 or CPU, never GPU 1/iGPU)
+    gpu_index: int = 0  # Always 0 - discrete GPU
+    
+    # ROCm-specific (learned from painful experience)
+    load_on_cpu_first: bool = True   # CRITICAL for ROCm
+    device_map: Optional[str] = None  # Must be None for Trainer
+    attn_implementation: str = "eager"  # ROCm compatible
     dataloader_pin_memory: bool = False  # Disable for ROCm
-    fp16: bool = False  # Let autocast handle it, don't force fp16
-    bf16: bool = False  # Not well supported on consumer AMD
-    
-    # Environment
-    hip_visible_devices: str = "0"
     
     def get_model_kwargs(self) -> Dict[str, Any]:
         """Get kwargs for AutoModelForCausalLM.from_pretrained()"""
         import torch
         return {
-            "device_map": self.device_map,
+            "device_map": self.device_map,  # Always None
             "trust_remote_code": True,
-            "torch_dtype": torch.float32,  # Load as float32, convert later if needed
+            "torch_dtype": torch.float32,  # Load as float32, safe for ROCm
             "attn_implementation": self.attn_implementation,
         }
     
     def get_training_args_kwargs(self) -> Dict[str, Any]:
         """Get kwargs for TrainingArguments()"""
         return {
-            "fp16": self.fp16,
-            "bf16": self.bf16,
+            "fp16": False,  # Let autocast handle precision
+            "bf16": False,  # Not well supported on consumer AMD
             "dataloader_pin_memory": self.dataloader_pin_memory,
             "dataloader_num_workers": 0,  # Avoid multiprocessing issues
-            "no_cuda": False,
-            "use_cpu": False,
         }
 
 
 class HardwareManager:
-    """Universal hardware detection and management"""
+    """
+    Simplified hardware manager - single GPU or CPU only.
     
-    def __init__(self):
-        self.hardware_type = self.detect_hardware()
-        self.rocm_config = ROCmConfig() if self.hardware_type == HardwareType.ROCM else None
+    Usage:
+        hw = HardwareManager()
+        hw.setup_environment()
+        model = hw.load_model_safe(AutoModelForCausalLM, "model-name")
+        model = hw.move_model_to_gpu(model)  # After LoRA for ROCm!
     
-    @staticmethod
-    def detect_hardware() -> HardwareType:
-        """Auto-detect available hardware"""
+    For parallel training:
+        Don't use DataParallel. Run separate processes via CE CLI:
+        $ ce run train.py --name job1 &
+        $ HIP_VISIBLE_DEVICES=1 ce run train.py --name job2 &
+    """
+    
+    def __init__(self, force_cpu: bool = False):
+        """
+        Initialize hardware manager.
         
-        # Check for ROCm FIRST (it reports as CUDA via torch.cuda)
+        Args:
+            force_cpu: If True, skip GPU even if available
+        """
+        self.force_cpu = force_cpu
+        self.hardware_type = self._detect_hardware()
+        self.config = HardwareConfig(
+            hardware_type=self.hardware_type,
+            force_cpu=force_cpu,
+        )
+        # Backwards compatibility
+        self.rocm_config = self.config if self.hardware_type == HardwareType.ROCM else None
+    
+    def _detect_hardware(self) -> HardwareType:
+        """
+        Auto-detect available hardware.
+        
+        Priority: ROCm > CUDA > Metal > CPU
+        """
+        if self.force_cpu:
+            return HardwareType.CPU
+        
+        # Check for ROCm FIRST (it reports as CUDA to PyTorch)
         if os.path.exists("/opt/rocm"):
             try:
                 import torch
                 if torch.cuda.is_available():
-                    # It's ROCm pretending to be CUDA
                     return HardwareType.ROCM
             except ImportError:
                 pass
         
-        # Check for actual CUDA
+        # Check for NVIDIA CUDA
         try:
             import torch
             if torch.cuda.is_available():
                 return HardwareType.CUDA
         except ImportError:
             pass
-            
-        # Check for Metal (macOS)
+        
+        # Check for Apple Metal
         try:
             import torch
             if hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
                 return HardwareType.METAL
         except:
             pass
-            
+        
         return HardwareType.CPU
     
-    def setup_optimal_environment(self) -> None:
-        """Setup optimal environment for detected hardware"""
-        if self.hardware_type == HardwareType.CUDA:
-            self._setup_cuda()
-        elif self.hardware_type == HardwareType.ROCM:
-            self._setup_rocm()
+    def setup_environment(self) -> None:
+        """
+        Setup environment for detected hardware.
+        
+        ALWAYS forces GPU 0 (discrete) or disables GPU entirely.
+        Never uses GPU 1 (iGPU on AMD APU systems - too small).
+        """
+        if self.hardware_type == HardwareType.ROCM:
+            # Force GPU 0 only (discrete GPU, not iGPU)
+            os.environ["HIP_VISIBLE_DEVICES"] = "0"
+            os.environ["ROCM_VISIBLE_DEVICES"] = "0"
+            os.environ.setdefault("PYTORCH_HIP_ALLOC_CONF", "expandable_segments:True")
+            print(f"  🔧 ROCm environment: GPU 0 only (discrete)")
+            
+        elif self.hardware_type == HardwareType.CUDA:
+            # Force GPU 0 only
+            os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+            print(f"  🔧 CUDA environment: GPU 0 only")
+            
         elif self.hardware_type == HardwareType.METAL:
-            self._setup_metal()
+            os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+            print(f"  🔧 Metal environment configured")
+            
         else:
-            self._setup_cpu()
+            # CPU mode - disable all GPUs
+            os.environ["CUDA_VISIBLE_DEVICES"] = ""
+            os.environ["HIP_VISIBLE_DEVICES"] = ""
+            print(f"  🔧 CPU-only mode")
     
-    @staticmethod
-    def _setup_cuda():
-        """Setup CUDA environment"""
-        os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-        
-    def _setup_rocm(self):
-        """Setup ROCm environment with all our learnings"""
-        os.environ["HIP_VISIBLE_DEVICES"] = self.rocm_config.hip_visible_devices
-        # Suppress some noisy warnings
-        os.environ.setdefault("PYTORCH_HIP_ALLOC_CONF", "expandable_segments:True")
-        
-    @staticmethod
-    def _setup_metal():
-        """Setup Metal environment"""
-        os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
-        
-    @staticmethod
-    def _setup_cpu():
-        """Setup CPU environment"""
-        os.environ["CUDA_VISIBLE_DEVICES"] = ""
-        
-    def isolate_gpu_memory(self) -> None:
-        """Universal GPU memory isolation"""
-        try:
-            import torch
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-                torch.cuda.synchronize()  # Ensure all ops complete
-        except ImportError:
-            pass
+    # Backwards compatibility alias
+    def setup_optimal_environment(self) -> None:
+        """Alias for setup_environment() for backwards compatibility."""
+        self.setup_environment()
     
     def load_model_safe(self, model_class, model_name: str, **extra_kwargs):
         """
         Load a model safely for the detected hardware.
         
-        For ROCm: Loads on CPU first to avoid HIP kernel errors during dtype casting.
+        For ROCm: Loads on CPU first to avoid HIP dtype casting errors.
+        For all: Uses device_map=None (not "auto") for Trainer compatibility.
         
         Args:
             model_class: The model class (e.g., AutoModelForCausalLM)
@@ -156,26 +190,17 @@ class HardwareManager:
             **extra_kwargs: Additional kwargs to pass to from_pretrained
             
         Returns:
-            Loaded model (on CPU for ROCm, on GPU for CUDA)
+            Loaded model (on CPU, ready for LoRA then GPU move)
         """
-        import torch
+        kwargs = self.config.get_model_kwargs()
+        kwargs.update(extra_kwargs)
         
         if self.hardware_type == HardwareType.ROCM:
-            # ROCm: Load on CPU first, then move to GPU after LoRA
-            kwargs = self.rocm_config.get_model_kwargs()
-            kwargs.update(extra_kwargs)
             print(f"  📥 Loading model on CPU first (ROCm compatibility)...")
-            model = model_class.from_pretrained(model_name, **kwargs)
-            return model
         else:
-            # CUDA/Metal/CPU: Standard loading
-            kwargs = {
-                "device_map": "auto" if self.hardware_type == HardwareType.CUDA else None,
-                "trust_remote_code": True,
-                "torch_dtype": torch.float16 if self.hardware_type == HardwareType.CUDA else torch.float32,
-            }
-            kwargs.update(extra_kwargs)
-            return model_class.from_pretrained(model_name, **kwargs)
+            print(f"  📥 Loading model...")
+            
+        return model_class.from_pretrained(model_name, **kwargs)
     
     def move_model_to_gpu(self, model):
         """
@@ -189,20 +214,22 @@ class HardwareManager:
         Returns:
             Model on appropriate device
         """
-        import torch
-        
         if self.hardware_type in (HardwareType.ROCM, HardwareType.CUDA):
+            import torch
             if torch.cuda.is_available():
-                print(f"  🎮 Moving model to GPU...")
+                print(f"  🎮 Moving model to GPU 0...")
                 model = model.cuda()
                 print(f"  ✅ Model on GPU")
+                
         elif self.hardware_type == HardwareType.METAL:
+            print(f"  🎮 Moving model to Metal...")
             model = model.to("mps")
+            print(f"  ✅ Model on Metal")
             
         return model
     
     def get_device(self) -> str:
-        """Get the appropriate device string."""
+        """Get the appropriate device string for tensor operations."""
         import torch
         
         if self.hardware_type in (HardwareType.ROCM, HardwareType.CUDA):
@@ -213,6 +240,9 @@ class HardwareManager:
     
     def get_gpu_info(self) -> Optional[Dict[str, Any]]:
         """Get GPU information if available."""
+        if self.hardware_type == HardwareType.CPU:
+            return None
+            
         try:
             import torch
             if torch.cuda.is_available():
@@ -220,7 +250,38 @@ class HardwareManager:
                     "name": torch.cuda.get_device_name(0),
                     "memory_gb": torch.cuda.get_device_properties(0).total_memory / 1e9,
                     "hardware_type": self.hardware_type.value,
+                    "device_index": 0,
                 }
         except:
             pass
         return None
+    
+    def clear_gpu_memory(self) -> None:
+        """Clear GPU memory cache."""
+        try:
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+                torch.cuda.synchronize()
+        except:
+            pass
+
+
+# Convenience function for quick setup
+def setup_hardware(force_cpu: bool = False) -> HardwareManager:
+    """
+    Quick setup for hardware environment.
+    
+    Usage:
+        hw = setup_hardware()
+        print(f"Using: {hw.hardware_type.value}")
+    
+    Args:
+        force_cpu: If True, use CPU even if GPU available
+        
+    Returns:
+        Configured HardwareManager
+    """
+    hw = HardwareManager(force_cpu=force_cpu)
+    hw.setup_environment()
+    return hw

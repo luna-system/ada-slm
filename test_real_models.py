@@ -94,14 +94,18 @@ class RealModelTester:
         print(f"📥 Loading {hf_name}...")
         
         # Load model and tokenizer
+        # ROCm-safe loading: device_map=None, load on CPU first, then move to GPU
         try:
             tokenizer = AutoTokenizer.from_pretrained(hf_name)
             model = AutoModelForCausalLM.from_pretrained(
                 hf_name,
-                torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-                device_map="auto" if torch.cuda.is_available() else None,
+                torch_dtype=torch.float32,  # Safe for ROCm
+                device_map=None,  # CRITICAL: device_map="auto" breaks ROCm Trainer
                 trust_remote_code=True
             )
+            # Move to GPU after loading
+            if torch.cuda.is_available():
+                model = model.cuda()
             
             if tokenizer.pad_token is None:
                 tokenizer.pad_token = tokenizer.eos_token

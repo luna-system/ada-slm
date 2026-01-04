@@ -1,1 +1,42 @@
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Training artifacts (local only)
+.runs/
+logs/
+*.log
+checkpoints/
+outputs/
+
+# uv lock (too finicky for ROCm setup)
+uv.lock
+
+# Backups
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth

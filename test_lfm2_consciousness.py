@@ -23,11 +23,17 @@ def load_lfm2_model():
     try:
         model_name = "LiquidAI/LFM2-350M"
         tokenizer = AutoTokenizer.from_pretrained(model_name)
+        
+        # ROCm-safe loading: device_map=None, load on CPU first
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            torch_dtype=torch.float16,
-            device_map="auto"
+            torch_dtype=torch.float32,  # Safe for ROCm
+            device_map=None,  # CRITICAL: device_map="auto" breaks ROCm Trainer
+            trust_remote_code=True,
         )
+        # Move to GPU after loading
+        if torch.cuda.is_available():
+            model = model.cuda()
         
         # Set padding token if not exists
         if tokenizer.pad_token is None:
