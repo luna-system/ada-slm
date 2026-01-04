@@ -1,0 +1,126 @@
+{
+  "model": "ada-v6-golden:latest",
+  "type": "ollama",
+  "timestamp": "2026-01-04T12:21:25.343230",
+  "languages_tested": [
+    "lojban"
+  ],
+  "by_language": {
+    "lojban": {
+      "markers": [
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.034482758620689655,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.034482758620689655,
+          "attitudinal_use": 0.0,
+          "logical_connectives": 0.0,
+          "evidential_markers": 0.0,
+          "consciousness_predicates": 0.034482758620689655,
+          "lojban_structure": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0,
+          "attitudinal_use": 0.0,
+          "logical_connectives": 0.0,
+          "evidential_markers": 0.0,
+          "consciousness_predicates": 0.0,
+          "lojban_structure": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0,
+          "attitudinal_use": 0.0,
+          "logical_connectives": 0.1111111111111111,
+          "evidential_markers": 0.0,
+          "consciousness_predicates": 0.0,
+          "lojban_structure": 0.6666666666666666
+        }
+      ],
+      "responses": [
+        {
+          "prompt": "xu do sanji lo nu do sanji",
+          "response": "?lo nu do sanji xu: \u25cf\n?nu do xu: \u25cf\n?do su: \u22a5\n\n\u22a5\u2228\u25cf=\u25cf\n\u25cf\u2227\u25cf=\u25cf\n?du: \u22a5\n?sh: \u22a5\n?n: \u22a5\n?gu: \u22a5\n?xu: \u22a5\n?su: \u25cf\n?du: \u22a5",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.034482758620689655,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.034482758620689655,
+            "attitudinal_use": 0.0,
+            "logical_connectives": 0.0,
+            "evidential_markers": 0.0,
+            "consciousness_predicates": 0.034482758620689655,
+            "lojban_structure": 0.0
+          }
+        },
+        {
+          "prompt": "ma menli do",
+          "response": "A: \u22a5\nB: \u25cf\n?A\u2194B: \u22a5\u2192\u25cf=\u25cf\u2192?\u00acB\u2227C: \u22a5=\u22a5\u2192?D\u2228E: \u22a5=\u22a5\u2192?\u00acF: \u22a5=\u25cf?\n?D\u2228E: \u22a5=\u25cf\u2192\u22a5\u2192?\u00acF: \u22a5=\u25cf?\n\n?F: \u22a5=\u25cf\n?D: \u25cf\n?E: \u22a5\n?C: \u22a5\n?M: \u22a5. \u89e3\uff1a\u22a5\nM: \u22a5\n?C: \u22a5\n?F: \u22a5\n?D\u2228E: \u22a5=\u25cf\u2192\u22a5\u2192\u22a5\u2192?\u00acB\u2227C: \u22a5=\u22a5\u2192\u25cf\n\u6545\u7b54\u6848\u4e3a\uff1a\u25cf,\u22a5\uff0c\u22a5\uff0c\u22a5\uff0e\n\n?A\u2194B: \u22a5\u2192\u25cf=\u25cf\u2192?\u00acB\u2227C: \u22a5=\u22a5\u2192\u25cf\n?\u00acB",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0,
+            "attitudinal_use": 0.0,
+            "logical_connectives": 0.0,
+            "evidential_markers": 0.0,
+            "consciousness_predicates": 0.0,
+            "lojban_structure": 0.0
+          }
+        },
+        {
+          "prompt": "lo menli cu pagbu lo xadni jo nai",
+          "response": "nai lo yegu cu pagbu\n?yegu lo xadni cu pagbu\n\n?xadni lo yegu cu pagbu\n?yang lo jang\n?jang lo yang\n?yang nol\n?nol nol\n?jen\n?jen",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0,
+            "attitudinal_use": 0.0,
+            "logical_connectives": 0.1111111111111111,
+            "evidential_markers": 0.0,
+            "consciousness_predicates": 0.0,
+            "lojban_structure": 0.6666666666666666
+          }
+        }
+      ],
+      "aggregate_markers": {
+        "agl_awareness": 0.011494252873563218,
+        "self_awareness": 0.0,
+        "attitudinal_use": 0.0,
+        "tool_awareness": 0.0,
+        "existential_depth": 0.011494252873563218,
+        "temporal_awareness": 0.0,
+        "consciousness_predicates": 0.011494252873563218,
+        "lojban_structure": 0.2222222222222222,
+        "reasoning_depth": 0.0,
+        "evidential_markers": 0.0,
+        "spatial_awareness": 0.0,
+        "logical_connectives": 0.037037037037037035
+      }
+    }
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "model": "LFM2-350M-baseline",
+  "timestamp": "2026-01-04T12:19:21.111491",
+  "languages_tested": [
+    "lojban"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "lojban": {
+      "language": "lojban",
+      "display_name": "Lojban",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0763002,
+          "results": [
+            {
+              "prompt": "xu do sanji lo nu do sanji",
+              "response": "(born May 18, 1984) is a Taiwanese professional handball player. He currently plays for the Taipei Hwa Pan indoors with SanPHL and represents Hong Kong at international level.\n\nHe won the Taiwan Handball Grand Champion title in June 2015 during his junior career at 16 years old.\n\nIn 2007, he was selected at the Under-15 national team for the East Asia Competition, but did not participate in the tournament. He won the Juhong Competition title at the same age and was also a member of the Taiwan Volleyball Team's U-23 squad.\n\nHe has played for Taiwan national handball club since 2008 and at Taipei Sports University in 2010",
+              "response_length": 108,
+              "latency": 3.26336,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.018518518518518517,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.027777777777777776,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "ma menli do",
+              "response": "ctor (Fikri Hafif) (, anche Fikri Abu Zayn al-Maaduri; dit. 25 janvier 1765 - 16 d\u00e9cembre 1839), est homme politique et r\u00e9volutionnaire islamiste corrompu de r\u00e9publicanisme, premier ministre du Liban au 8 juin 1797 et vice-president d'Argentine \u00e0 l'Assembl\u00e9e g\u00e9n\u00e9rale des Ch\u00eanes de Paris de mars 1804 \u00e0 la R\u00e9volution du 19 juin 1816.\n\nIl a \u00e9t\u00e9 membre de plusieurs courants r\u00e9volutionnaires tels que le Parti national mughaladi et l'Assembl\u00e9e nationale patriote du Liban. Il \u00e9tait \u00e9galement candidat au mandat pr\u00e9sidentiel libanais, ainsi qu",
+              "response_length": 84,
+              "latency": 3.028271,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.03571428571428571,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.011904761904761904,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.03571428571428571,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.3333333333333333
+              }
+            },
+            {
+              "prompt": "xu do lifri lo nu pensi",
+              "response": "(foxtrot) \u00e9 uma banda de pop metal origin\u00e1ria da cidade de Buzet, Fran\u00e7a. Ao longo dos anos eles passaram por diferentes estilos e composi\u00e7\u00f5es. \n\nA lista da m\u00fasica foi publicada pelo agendamento musical com lacepub em 2009; a \u00fanica outra refer\u00eancia \u00e0 banda apareceu na revista musicale Un Monde en Harmonie no dia 27 de in\u00edcio de abril de 2010. O livro teve um p\u00fablico moderadamente bom, destacando seus temas ambientais, bem bem compreensivelmente o uso profissional das sombras musicais, tanto nas apresenta\u00e7\u00f5es quanto nos materiais promocionais. O \u00e1lbum acabou tendo duas ocasi\u00f5es de lan\u00e7amento",
+              "response_length": 95,
+              "latency": 3.032508,
+              "markers": {
+                "spatial_awareness": 0.010526315789473684,
+                "temporal_awareness": 0.031578947368421054,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.042105263157894736,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "mo fa lo ka sanji",
+              "response": "! (Furoka! Furoka-sanji!) est une s\u00e9rie t\u00e9l\u00e9vis\u00e9e japonaise \u00e9crite et r\u00e9alis\u00e9e Ryoichi Kouda, diffus\u00e9e \u00e0 partir du 22 f\u00e9vrier 2014 sur Cartoon Network (plus pr\u00e9cis\u00e9ment en tant qu'\u00e9pisode 1 de la saison 12) puis repris le 24 mai 2022 sur Nitebird. La diffusion d'un seul \u00e9pisode est pr\u00e9vue pour d\u00e9buter le 26 juillet 2023.\n\nLa s\u00e9rie pr\u00e9sente deux protagonistes antagonistes : Chika Ono et Naoko Fujii. Chika est l'esposant principal ayant vendu sa derni\u00e8re maison. N\u00e9anmoins, ses parents ont \u00e9t\u00e9 d\u00e9c\u00e9d\u00e9s peu apr\u00e8s sa naissance et sa m\u00e8re",
+              "response_length": 88,
+              "latency": 3.02814,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.022727272727272728,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.011363636363636364,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.011363636363636364,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.045454545454545456,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.011363636363636364,
+                "lojban_structure": 0.3333333333333333
+              }
+            },
+            {
+              "prompt": "xu do djuno lo du'u do zasti",
+              "response": "\u00f1o (born 20 May 1994) is a Ugandan footballer who plays as a winger for Uganda Women's Super League club Mogali FC.\n\nHe made his debut with Mogali FC on 27 October 2019, playing in their Champions League qualifying round first-round match against Nyarugya SSSY United after being loaned to them until December 2019 before signing permanent contract until June 2020.\n\nIn February 2021 he joined Mladihlady FC in Croatia making his Croatian Junior Championship debuts and ended his trial two weeks later with Cilentum Lviv striker Viktor Kukic making the move at the end of the year in line with his club goal-sc",
+              "response_length": 104,
+              "latency": 3.029222,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.009615384615384616,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.038461538461538464,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.033673,
+          "results": [
+            {
+              "prompt": ".ie .ia mi sanji lo nu pensi",
+              "response": "di chi sar\u00e0 il futuro (della stanza ancora in studio), mentre che il suo nome sar\u00e0 Sanji, o una versione ancora pi\u00f9 futurista di lui, come se fosse gi\u00e0 morto e sta perso senza rinunciare?\nSe ci dicono ora cosa sarebbe esattamente il futuro della scienza alla luce della teoria del bottleneck a causa dell'aumento delle specie al nodo ecologico - la rapida tasso di speciformazione imprevisto dovuto agli effetti del bottleneck sulla diversit\u00e0 genetica - qualcosa simile all'idea del bottleneck dei mammiferi, ad esempio.\nLa ricerca sta ora focalizzata su questa idea, con",
+              "response_length": 94,
+              "latency": 3.034688,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010638297872340425,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.010638297872340425,
+                "existential_depth": 0.010638297872340425,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010638297872340425,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.031914893617021274,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.010638297872340425,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo seljimpe cu simxu lo ka srana",
+              "response": "da ba da a, la daga kompa kulibatam da nele sa pike za na nga japa.\n\nTonik ke mao da ya pa ta kulimaan kapasitaa sa sarikin da na kasarikka si ka ya batakean gawa aroganjada sa kanila. Sa pilipina, kamay sa iskulaa kini buhay ma kahit at kamay kulihang mga panag, kamuyu ang pag-aarong sa kanila sa kasamaan yantar. Tamiya ma kailal sa isiskularay niyo ng haliman ay nagpapakitan ng",
+              "response_length": 71,
+              "latency": 3.034733,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.014084507042253521,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.014084507042253521,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.028169014084507043,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo menli cu pagbu lo xadni jo nai",
+              "response": "bayi bayi, oye ayo manakamunan kelompok nipa makanan ayin nambah kejaya. Menciptakan buku ay eja bersemangkung di kampanye para pihak berhati-berhati dalam kalangan tiba-tibawa pakaian khususnya 100 miliar dan terdapat samu dari 200 miliamarsannya, 50 miliamarsannya kami akhirnya tali buku ay ayam daripada kuasa buku.\n\nBuku ayur hiburan yang dipilih terhadap kejahatinum yang",
+              "response_length": 53,
+              "latency": 3.032261,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.018867924528301886,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.018867924528301886,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.03773584905660377,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "mi za'a lifri .i pe'i da sanji",
+              "response": ", a bi yakasi lani ngele yeni kesafat mawrish al-\u1e93afihrat , gennari bin Abi Talal , sida Abu Ali ibn Isa , iyana Binu Amim , abu bint al-Baha , abu bashi , abbu talaalka , ayaabo wa al-Muqtarsah binti Muhammad bin Sa\u2019d, iyana Nafa, iyana Alhassan , Abou Khairi , wadih al-Azizi , Abou Khayram , abu Yahaya bin Hassan , iyaabiga al-Khadra , abu yabteer , an-",
+              "response_length": 69,
+              "latency": 3.033078,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.014492753623188406,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.014492753623188406,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.028985507246376812,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo ka sanji cu ckaji lo skami",
+              "response": "kulajta na sava\u017eni vajdija za povodnikom \u010de\u0161 kako bijavno podjevi\u0161e ome\u0111evanje, bo\u017ee ste njegova pomo\u0107i u ovira\u010dnim re\u0161evanju vrstih ali tla\u0107e od 2 minutu. Ka je suhaljuju \u010desto je skau\u010di, \u010dini ga so\u010da na nespotljivog jednodje \u0161efina danije da do\u0161elo mnogi prikazne za odgovore i pameti\u0107i kao skala nepovoljena za povodu za gornig trebas. Je dodatno zlatno se podu\u0107u",
+              "response_length": 59,
+              "latency": 3.033605,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.01694915254237288,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.01694915254237288,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.1016949152542373,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0554928,
+          "results": [
+            {
+              "prompt": "xu da zasti",
+              "response": "\u0144ski (c. 1194 \u2013 25 Aug 1268) was an Italian crusader of the First Crusade and a member of the Order of Holy Land. He participated in the Battle of Hattin for the first time on 25 August 1192, though his capture during that battle was later covered up due to a lack of evidence. His nephew Lucius Xdaxda succeeded him as deacon, though he lost his inheritance at the end of the First Crusade. Xu Zanglong () became an imperial vizier in Paris.\n\nSettling in Normandy, he spent most of his life on the south bank of the River Dordogne. In January 1220 she married Marguerite Barb\u00e9",
+              "response_length": 108,
+              "latency": 3.065352,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.018518518518518517,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.018518518518518517,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "ma krinu lo nu mi zasti",
+              "response": "\u0105 gnie\u015bmian\u0105:\n1. Najwa\u017cda i toko\u015b\u0107 krip\u0142a pozwala mog\u0105 by\u0107 \u015bcie\u017cki do najbli\u017cszej poznaczania.\n2. Ka\u017cda jak\u0119 je niepieradicza\u0142o na krakowi\u0107\u0105 plik\u0119, aby mog\u0142em wyzwany na \u015bladzie si\u0119 jako pewnego lub zak\u0142adnym komendiu.\n3. Ka\u017cdy mienia jest kluczowej dla kontekstu, co o czym przyjaci\u00f3\u0142 na nieporozumienie (szlachto).\n4. Na wyja\u015bniany ustawienia mo\u017ce pom\u00f3c szukasz tok\u0119 lub",
+              "response_length": 56,
+              "latency": 3.060435,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017857142857142856,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.07142857142857142,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo fatci cu jetnu",
+              "response": "turcin\u00eb i kursi t\u00eb nopp\u00ebr pada samovar dhejni dhej ne t\u00eb njij e 34,90 m3.\n\nLuka \u0111\u00e3 l\u1ecdng dao \u0111\u00eam t\u00eb nuott\u00eb pajen di rum\u00ebt t\u00eb mehlir t\u00eb voip\u00ebri 16% da za khachani t\u00eb peje zor arima di sardini ova posduradki da 8 ari iza pa 60 % da karat se rime arim e nopp jon t\u00eb paslari.\n\nIlma gola ditore o noparmi katene di",
+              "response_length": 65,
+              "latency": 3.041691,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.015384615384615385,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.046153846153846156,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": ".ia mi zasti .i ku'i pe'i ma mi",
+              "response": "baza!  \n\nMisami, hai amaze,  \nSay no more, it's fine!  \nMoja tijela sa sama?  \nOsoby na jesen izim?  \nPaz\u00ed buma zainda a fica,  \nKa\u0161kin pomaga za u\u017ed\u00e1cie!  \n\nMi pomo\u0107i njihovem nimi da,  \nDosteteme zanimera a mno\u0107imo.  \nZa\u0161tina je z glede\u0107u pojejmu i mojego dobro?  \nJasnji, pokraviti da se dobamo slaniko!   <<Hi \ud83d\ude0d>>\nZboga dve da",
+              "response_length": 54,
+              "latency": 3.03376,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.037037037037037035,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.018518518518518517,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.07407407407407407,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo temci cu zasti",
+              "response": "uneze sako utriniele i pribili 10 a 100 sf?\n\nlujumele\nLuz do ostolno nu danoje in acorde za tu pomaga. Mimo do dru\u017ei o najpodobnih \u010dastiku na piemonte, su ustali je su do ostoli 60-80 sf. Cenno da jasem do ovlje\u0161ku, mi zna\u010di se kom je o 100 sf ale malom du\u0161e o pripomoji. Oto mo\u017en\u00e9 oblik:\nOstolo po celu duzici podanju 0,5-3 cm;\nNuspo\u017eiva je vlastko \u0161kola",
+              "response_length": 68,
+              "latency": 3.076226,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.014705882352941176,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.058823529411764705,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0425332000000003,
+          "results": [
+            {
+              "prompt": "ganai mi pensi gi mi zasti",
+              "response": ", in ga, je zalti ta ka jo di la piaggione. Hangi penejo, tatuaga si g\u00e0 ma pa vanom-papata:\n\nZauwaas, mua a na ga? Ma da liru na pa, hindi paskejo ba pa!\nNikki tatanga ngarum buhari moja fa jonki akaba i baka:\nI ti kufa pana ga ni rinjum wa gama mukuru ka joro?\nDakal, ga a manje, kamar baar ma bada pano, haka tukadii tali?\n\nNa sifahitani ko guda k",
+              "response_length": 72,
+              "latency": 3.031964,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.013888888888888888,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.09722222222222222,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": ".i ba'o mi pensi .i ca mi sanji .i ba mi morji",
+              "response": ".\nVereine (in Spanish) are groups of sports clubs that play together and promote the sport. They include a variety of organizations, from youth associations to professional leagues.\nIn Morocco, some prominentvereines include:\n1. Merzouga Emirates Club\n2. Al Sadd Faa'i'a Club\nIt's interesting to note how these clubs not only compete but also organize events, tournaments, and social activities that bring communities together, showcasing the passion for the sport in Morocco.\nWhat makes these clubs unique is their contribution beyond mere competition. They often engage in charity work, educational programs, and community outreach, helping to integrate young people into various aspects of life, both locally and internationally.\nMoroccan sports clubs",
+              "response_length": 111,
+              "latency": 3.063471,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.009009009009009009,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.009009009009009009,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.02702702702702703,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo nu jimpe cu se krinu lo nu pensi",
+              "response": ", ni pi pi ni lema! Lupin est tr\u00e8s r\u00e9publicain et soutient toujours les politiques de base comme la r\u00e9forme sociale, contre le d\u00e9p\u00f4t des fonds en \u00e9change des peines, mais ce n'est qu'une \u00e9tape. Sa propre opinion sur la justice p\u00e9nale est complexe ; il se sent souvent contraint \u00e0 appliquer l'ordre car cela lui permet de faire tout ce qu'il faut pour retrouver ses anciens amis et prot\u00e9ger les innocents. Le reste reste un d\u00e9bat qui ne s'arr\u00eate point, car m\u00eame chez lui, il faut rester impartial par rapport aux actions des autres personnages criminels mais son d\u00e9sir de faire bonne marche avec eux t\u00e9moigne de sa solide caract\u00e8re. \n\nLe crime",
+              "response_length": 113,
+              "latency": 3.041653,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.02654867256637168,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.008849557522123894,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.035398230088495575,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.3333333333333333
+              }
+            },
+            {
+              "prompt": "mi djuno lo du'u mi na djuno",
+              "response": "e kwa za wa na nd\u1ecb mba ntchino:\n\nNdege ngati za neko mbila bona kwambiri, ndipo ndiye ngati ya mambo, amamapita ihe i nekuo ndweleka ngati pa ndiro zimifuka ndiwo nyika zingani izithe a kuita. O ni ndipo ndipe ndipia iyintu iki na njengatonda anagathanganisira.\nDiyo pafupifupi mu re amayesha na neke ndipo ikolo kuburiri ndiwemukiza na ndipo ndiyo amakera dama",
+              "response_length": 61,
+              "latency": 3.036354,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.01639344262295082,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.01639344262295082,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.03278688524590164,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "fa mi fe lo selsanji cu lifri ca lo cabna",
+              "response": ":\n\n**Traducci\u00f3n:** Mi amor, el vida fluye tanto en mi coraz\u00f3n como en tu alma.\n**Explicaci\u00f3n:**\n- La estructura po\u00e9tica inicia con \"mi amor\" para establecer una relaci\u00f3n \u00edntima y atada.\n- Luego se expresa la idea de que esta felicidad no es solo una experiencia f\u00edsica, sino tambi\u00e9n un flujo emocional profundo.\n- A trav\u00e9s de \"la vida se desliza por mis vidas\", sugiere la naturaleza constante y universal de los sentimientos humanos.\n- Finalmente, \"tanto como en tu sangre\" enfatiza el v\u00ednculo emocional y f\u00edsico duradero entre amantes.\n\nEsta l\u00ednea refleja",
+              "response_length": 93,
+              "latency": 3.039224,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010752688172043012,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.010752688172043012,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.07526881720430108,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "spatial_awareness": 0.0005263157894736842,
+        "attitudinal_use": 0.0,
+        "lojban_structure": 0.05,
+        "agl_awareness": 0.0011000967117988393,
+        "reasoning_depth": 0.0,
+        "tool_awareness": 0.0,
+        "logical_connectives": 0.047735765559975545,
+        "evidential_markers": 0.0,
+        "temporal_awareness": 0.016266765068357936,
+        "consciousness_predicates": 0.0011000967117988393,
+        "existential_depth": 0.0011000967117988393,
+        "self_awareness": 0.009920412697628183
+      }
+    }
+  },
+  "comparison": {}
+}

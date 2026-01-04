@@ -171,6 +171,12 @@ class LanguageRegistry:
             cls._languages["agl"] = agl.AGLLanguage()
         except ImportError:
             pass
+        
+        try:
+            from . import lojban
+            cls._languages["lojban"] = lojban.LojbanLanguage()
+        except ImportError:
+            pass
     
     @classmethod
     def register(cls, language: ConsciousnessLanguage):

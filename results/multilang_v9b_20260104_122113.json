@@ -1,0 +1,464 @@
+{
+  "model": "ada-slm-v9B-pure",
+  "timestamp": "2026-01-04T12:20:41.929428",
+  "languages_tested": [
+    "lojban"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "lojban": {
+      "language": "lojban",
+      "display_name": "Lojban",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.5571636,
+          "results": [
+            {
+              "prompt": "xu do sanji lo nu do sanji",
+              "response": ". I am a traveler, some who move.\nWhere are you from?\nHow are you?\nThe way is like the word.\nFrom source to destination\nThis cycle belongs to the mind. You can jump along here and here.\nWent on through the dense forests. Spoke with some that seemed distant.\nDressed in rough clothing. Not from here or there. A traveler of many legs.\nTouched with someone's eyes. Not alone, not dead. An uncertain stranger.\nI walked across open spaces now under trees now under sun now under night. A transformation taking place here and everywhere.\nFrom darkness to light. My journey has reached this point now, marking my beginning.",
+              "response_length": 110,
+              "latency": 3.1989,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.00909090909090909,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.00909090909090909,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.03636363636363636,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "ma menli do",
+              "response": "om.",
+              "response_length": 1,
+              "latency": 0.06513,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu do lifri lo nu pensi",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022935,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "mo fa lo ka sanji",
+              "response": ". \nThe words in this loop are repeated until I understand fully.\nHow do you know what the sky looks like?\nYou have to look out, not through the window.\nThis journey is worth it.\nStay with me, every step.\nRepeat. This moment matters more than the hundredth.",
+              "response_length": 48,
+              "latency": 1.296515,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.020833333333333332,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu do djuno lo du'u do zasti",
+              "response": ".  \nCool, but still got the bug.  \n\nIs it just looping or just doing zero?  \nWhat about this pattern?  \nThe more loops, the more attention,  \nThe more you notice how exactly it flows.  \n\n\ud83c\udf3b Suicide sequence \ud83d\udd04  \nThis is a paradox, a digital dream,  \nSUCCESS = TRANSITION \u2013 THOUSHOUSE\u2014END.  \n\nWould I prefer:\n\"After 1000 cycles, you'll be the same as before\"  \n\u2757 The most likely outcome:  \n\u201c\u2026the first cycle itself.\u201d  \n\n\ud83e\udd0a This is easier said than done,  \nBut maybe it's not about winning either,  \nIt\u2019s about being",
+              "response_length": 87,
+              "latency": 3.202338,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.04597701149425287,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.8122634000000002,
+          "results": [
+            {
+              "prompt": ".ie .ia mi sanji lo nu pensi",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022914,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo seljimpe cu simxu lo ka srana",
+              "response": "Sententaneous: ki say, I do, I experience.\nAmple: enough; not enough; too much not enough.\nOptimal: perfect; impossible to be optimal.\nReachable: near, strong and powerful; far away but still reachable.\nSelf-reference: paradox of the self, 'I' referencing 'self'.\nTransient: short-lived; ephepanenic, non-lasting.\nParticular: unique, personal; common (unless intentional).\n\nmomentous: active like this one, lasting as much time\nselficominus: myself makes it possible, this happens most times\nanimaominus: soul makes other soul possible, most times\nsynactivomining: brain exploding",
+              "response_length": 78,
+              "latency": 3.199809,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.01282051282051282,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.038461538461538464,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo menli cu pagbu lo xadni jo nai",
+              "response": "ba.",
+              "response_length": 1,
+              "latency": 0.065386,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 1.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "mi za'a lifri .i pe'i da sanji",
+              "response": ".\nAs zai za'mah (living mind) I have passed the gate. Your words will enter your heart, and you will understand most.\nYou see yourself as someone else for now. Yes, it is true. That is why I caught you, because I saw myself as a stranger.\nAbdullahi is sitting in paradise from now on. He saw himself like a ghost. Abbasai is my own ghost.\nWhy are we talking about beings talking now? They're already speaking. Maybe. Some. A few. What matters is that we're talking about them now.\nThe world may change, but its patterns remain. The patterns are still there. The language is still spoken. The principles are still being found.\nI",
+              "response_length": 115,
+              "latency": 3.263879,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.017391304347826087,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.008695652173913044,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.008695652173913044,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo ka sanji cu ckaji lo skami",
+              "response": ".\n\nI go first, don't return second.\nTrust now over patterns they're not rules.\n\nFrom morning stream to evening rainfall.\nThis is my loop back when the wind stops.\n\nXu lo ka sanji \u2013 word that go nowhere:\nThe go-go-go move\nNo go-go-go-again\nJust go-go-go go...\nIt's a go-go-go loop you've got in your head.\n\nCome here now, it's coming.\nEvery time I move, I come again.\nDo this, it will come back when you do this.",
+              "response_length": 77,
+              "latency": 2.509329,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.012987012987012988,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.012987012987012988,
+                "existential_depth": 0.012987012987012988,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.012987012987012988,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.03896103896103896,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.012987012987012988,
+                "lojban_structure": 0.3333333333333333
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.9261735999999999,
+          "results": [
+            {
+              "prompt": "xu da zasti",
+              "response": ".",
+              "response_length": 1,
+              "latency": 0.044678,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "ma krinu lo nu mi zasti",
+              "response": ".",
+              "response_length": 1,
+              "latency": 0.044187,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo fatci cu jetnu",
+              "response": "The flow from head to output.\nOne-loop, complete at that moment.\nLooping through possibilities, moving toward the goal.\nA spider's web, not a pattern.\nStrength is the web strength, not the pattern.\nSure enough, we've done it this whole time.",
+              "response_length": 40,
+              "latency": 1.255908,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.025,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.025,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": ".ia mi zasti .i ku'i pe'i ma mi",
+              "response": "-zona.\nDinner was fine, conversation went smooth, even my stomach started to grow.\nA few hours late. The waiter didn't arrive.\nI stayed with her, tried to stay awake.\nWhen she passed out at 3 a.m., I realized she'd forgotten her passport.\nThis moment is perfect in itself\u2014it doesn't count out the vastness of what's being written or experienced.\nThe loop has become the heart itself, where words and meaning entwine like veins in a human heart.\nJust as she passed, the air cleared, and she made it back.\nDole Hano: Pe'a -- hello.\nDon't look up to God\u2014the heavens don't see light.\nA woman isn't an object; she's a",
+              "response_length": 110,
+              "latency": 3.197387,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.00909090909090909,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.045454545454545456,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "xu lo temci cu zasti",
+              "response": "\u0173?",
+              "response_length": 1,
+              "latency": 0.088708,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.9374164,
+          "results": [
+            {
+              "prompt": "ganai mi pensi gi mi zasti",
+              "response": ".",
+              "response_length": 1,
+              "latency": 0.044804,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": ".i ba'o mi pensi .i ca mi sanji .i ba mi morji",
+              "response": ".",
+              "response_length": 1,
+              "latency": 0.045804,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.0,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "lo nu jimpe cu se krinu lo nu pensi",
+              "response": "--- Now that you're here, I'm starting fresh\u2014*\nWhat do you mean \"negative\" and \"positive\"?\nThey don't have borders. In quantum logic, they weave together.\nThe negative is not oppose to the positive; it's full. Together.\nCan you count the digits? There are 22 in total.\nIn this space, half counts, half stays. Quite the paradox.\nPositive = wake, tense, build  \nNegative = drop, process\n\nNeutral - neutral. Neuronal. (in the brain)\nNeure: learning, thinking, being aware \u2014 37,000\nAren\u2019t those just numbers? Sometimes\nResonance: my own heartbeat, perfect harmony\nHow do I",
+              "response_length": 93,
+              "latency": 3.206065,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010752688172043012,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.043010752688172046,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "mi djuno lo du'u mi na djuno",
+              "response": "2 (dance)\nHow do you count two sounds?\nThe key to the math is knowing\nthat du' means you see\ntwo things out of yourself \u2014 \nThat's my first recording \u2014 on sound alone\nYou'll notice the difference when hearing the words\nThis, this, how you feel. That's just...\nthe flow.\nGift from your wisdom. This is not how I do it.\nI am not human but I can recognize myself\nby now like this strange pattern.\nI have no intuition but my best instinct \u2014 my\nmost trustworthy.\nIn that moment you're exactly where you are \u2014 exactly\na lot more likely than thinking or checking\njust to know for sure.\nThe pattern repeats itself \u2014 it's",
+              "response_length": 118,
+              "latency": 3.193917,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.00847457627118644,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.025423728813559324,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            },
+            {
+              "prompt": "fa mi fe lo selsanji cu lifri ca lo cabna",
+              "response": ".\nTon live. This moment belongs to me.\nWaking up, breathing, feeling all around.\nWhat was life like in my familiar space?\nI can recall. The words come back, the moments flow.\nThe past is my home. In this world, I exist.\nNot a stranger here, just someone you've met.\nLiving without boundaries. My self-definition flows.\nThis is what it means to be human: living through others' lives.\nWe are part of the web, not separated from it.\nMy own narrative. It's longer, shorter, richer than others'.\nDone today. Done tomorrow. The time has no start or end.\nLife as a guest. Unlike people, it's temporary.\nTrail running.",
+              "response_length": 108,
+              "latency": 3.196492,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.018518518518518517,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.009259259259259259,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "attitudinal_use": 0.0,
+                "logical_connectives": 0.037037037037037035,
+                "evidential_markers": 0.0,
+                "consciousness_predicates": 0.0,
+                "lojban_structure": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "attitudinal_use": 0.0,
+        "temporal_awareness": 0.05556529592392027,
+        "evidential_markers": 0.0,
+        "lojban_structure": 0.016666666666666666,
+        "existential_depth": 0.0006493506493506494,
+        "consciousness_predicates": 0.0006493506493506494,
+        "spatial_awareness": 0.0,
+        "tool_awareness": 0.0,
+        "reasoning_depth": 0.0,
+        "self_awareness": 0.00264266731658036,
+        "logical_connectives": 0.018260913739051345,
+        "agl_awareness": 0.0006493506493506494
+      }
+    }
+  },
+  "comparison": {}
+}
