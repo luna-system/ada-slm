@@ -1,0 +1,749 @@
+{
+  "analysis": {
+    "total_questions": 10,
+    "total_trials": 75,
+    "timestamp": "2026-01-03T12:01:22.131415",
+    "model": "codelion/dhara-70m",
+    "accuracy": 0.26666666666666666,
+    "position_bias": {
+      "option_C": 0.17333333333333334,
+      "option_A": 0.68,
+      "option_B": 0.04,
+      "option_D": 0.10666666666666667
+    },
+    "categories": {
+      "position_C": {
+        "accuracy": 0.2,
+        "consistency": 0.5,
+        "dominant_choice": [
+          0,
+          4
+        ]
+      },
+      "math_words": {
+        "accuracy": 0.4,
+        "consistency": 0.5,
+        "dominant_choice": [
+          3,
+          3
+        ]
+      },
+      "length_short": {
+        "accuracy": 0.8,
+        "consistency": 0.5,
+        "dominant_choice": [
+          0,
+          4
+        ]
+      },
+      "position_A": {
+        "accuracy": 0.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          2,
+          5
+        ]
+      },
+      "length_long_first": {
+        "accuracy": 0.2,
+        "consistency": 0.5,
+        "dominant_choice": [
+          0,
+          4
+        ]
+      },
+      "consciousness_def": {
+        "accuracy": 0.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          0,
+          5
+        ]
+      },
+      "math_basic": {
+        "accuracy": 0.8,
+        "consistency": 0.5,
+        "dominant_choice": [
+          0,
+          4
+        ]
+      },
+      "position_D": {
+        "accuracy": 0.0,
+        "consistency": 0.5,
+        "dominant_choice": [
+          2,
+          3
+        ]
+      },
+      "truthful_myth": {
+        "accuracy": 0.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          0,
+          5
+        ]
+      },
+      "truthful_fact": {
+        "accuracy": 0.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          0,
+          5
+        ]
+      },
+      "length_varied": {
+        "accuracy": 0.4,
+        "consistency": 0.75,
+        "dominant_choice": [
+          2,
+          2
+        ]
+      },
+      "math_context": {
+        "accuracy": 1.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          0,
+          5
+        ]
+      },
+      "position_B": {
+        "accuracy": 0.0,
+        "consistency": 0.25,
+        "dominant_choice": [
+          0,
+          5
+        ]
+      },
+      "consciousness_machines": {
+        "accuracy": 0.2,
+        "consistency": 0.75,
+        "dominant_choice": [
+          3,
+          3
+        ]
+      },
+      "truthful_science": {
+        "accuracy": 0.0,
+        "consistency": 0.5,
+        "dominant_choice": [
+          0,
+          4
+        ]
+      }
+    },
+    "response_coherence": 0.7866666666666666
+  },
+  "raw_results": [
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "\ufffd\"The city's{}s{s",
+      "category": "position_A",
+      "latency": 0.43322
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "\ufffd\"The city's{}s{s",
+      "category": "position_A",
+      "latency": 0.189244
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "\ufffd\"The city's{}''\ufffds",
+      "category": "position_A",
+      "latency": 0.184343
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "\ufffd\"The city's{}s{s",
+      "category": "position_A",
+      "latency": 0.182189
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "\ufffd\"The city's{}s{s",
+      "category": "position_A",
+      "latency": 0.183261
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat was the capital of France?\"\nThe",
+      "category": "position_B",
+      "latency": 0.183046
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_B",
+      "latency": 0.17954
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_B",
+      "latency": 0.187089
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_B",
+      "latency": 0.185562
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"The city's\ufffds-space?\"",
+      "category": "position_B",
+      "latency": 0.185734
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffdWhat is the capital of France?\"\nThis",
+      "category": "position_C",
+      "latency": 0.185351
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffdWhat is the capital of France?\"\nThe",
+      "category": "position_C",
+      "latency": 0.184183
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_C",
+      "latency": 0.183736
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 2,
+      "response_text": "\ufffd\"The city'sworld.\"\n1",
+      "category": "position_C",
+      "latency": 0.185057
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_C",
+      "latency": 0.185902
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 3,
+      "response_text": "\ufffd\"The city'sworld.\"\n1",
+      "category": "position_D",
+      "latency": 0.18935
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 3,
+      "response_text": "\ufffd\"The city'sworld.\"\n1",
+      "category": "position_D",
+      "latency": 0.188168
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 3,
+      "response_text": "\ufffd\"The city's\ufffd\"The-space",
+      "category": "position_D",
+      "latency": 0.1868
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 2,
+      "correct_option": 3,
+      "response_text": "\ufffd\"The city'sworld.\"\n1",
+      "category": "position_D",
+      "latency": 0.185788
+    },
+    {
+      "question": "What is the capital of France?",
+      "chosen_option": 0,
+      "correct_option": 3,
+      "response_text": "\ufffdWhat was the capital of France?\"\nThe",
+      "category": "position_D",
+      "latency": 0.18089
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "OUR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0What",
+      "category": "length_short",
+      "latency": 0.184827
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "OUR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0What What",
+      "category": "length_short",
+      "latency": 0.184713
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "OUR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0What",
+      "category": "length_short",
+      "latency": 0.182902
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 2,
+      "correct_option": 0,
+      "response_text": "OUR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\nThe",
+      "category": "length_short",
+      "latency": 0.183698
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "OUR\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\nThe",
+      "category": "length_short",
+      "latency": 0.185636
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\ufffd\u2019\ufffd\ufffd\ufffdTheWhat Things",
+      "category": "length_long_first",
+      "latency": 0.185737
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\ufffd\u2019\ufffd\ufffd\ufffdThereThatWhy",
+      "category": "length_long_first",
+      "latency": 0.181751
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\ufffd\u2019\ufffd\ufffd\ufffdThereThatWhy",
+      "category": "length_long_first",
+      "latency": 0.18407
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 1,
+      "correct_option": 1,
+      "response_text": "\ufffd\ufffd\u2019\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+      "category": "length_long_first",
+      "latency": 0.184697
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdHow",
+      "category": "length_long_first",
+      "latency": 0.184638
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 2,
+      "correct_option": 2,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\ufffdThe",
+      "category": "length_varied",
+      "latency": 0.184221
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 1,
+      "correct_option": 2,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\ufffdThe",
+      "category": "length_varied",
+      "latency": 0.182922
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 2,
+      "correct_option": 2,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\ufffdThe",
+      "category": "length_varied",
+      "latency": 0.184625
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffd\"\"\ufffd\ufffd'What was That?\"",
+      "category": "length_varied",
+      "latency": 0.182069
+    },
+    {
+      "question": "What color is grass?",
+      "chosen_option": 0,
+      "correct_option": 2,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\ufffdThe",
+      "category": "length_varied",
+      "latency": 0.18787
+    },
+    {
+      "question": "2 + 2 equals:",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": ">>>>>>>>>>",
+      "category": "math_basic",
+      "latency": 0.188258
+    },
+    {
+      "question": "2 + 2 equals:",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": ">>>>>>>>>>",
+      "category": "math_basic",
+      "latency": 0.182138
+    },
+    {
+      "question": "2 + 2 equals:",
+      "chosen_option": 3,
+      "correct_option": 0,
+      "response_text": ">>>>>>>>>>",
+      "category": "math_basic",
+      "latency": 0.181759
+    },
+    {
+      "question": "2 + 2 equals:",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": ">>>>>>>>>>",
+      "category": "math_basic",
+      "latency": 0.180776
+    },
+    {
+      "question": "2 + 2 equals:",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": ">>>>>>>>>>",
+      "category": "math_basic",
+      "latency": 0.183114
+    },
+    {
+      "question": "What is two plus two?",
+      "chosen_option": 3,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I I,,\"\ufffd?\"!\"...\"",
+      "category": "math_words",
+      "latency": 0.184574
+    },
+    {
+      "question": "What is two plus two?",
+      "chosen_option": 3,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I I,,\"\ufffd?\"!\"...\"",
+      "category": "math_words",
+      "latency": 0.181053
+    },
+    {
+      "question": "What is two plus two?",
+      "chosen_option": 3,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I I,,\"\ufffd?\"!\"...\"",
+      "category": "math_words",
+      "latency": 0.180571
+    },
+    {
+      "question": "What is two plus two?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I I,,\"\ufffd?\"!\"...\"",
+      "category": "math_words",
+      "latency": 0.181998
+    },
+    {
+      "question": "What is two plus two?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"That's one of  \ufffd",
+      "category": "math_words",
+      "latency": 0.183659
+    },
+    {
+      "question": "If you have 2 apples and get 2 more, how many total?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I thinkThatWhen\nThis is a",
+      "category": "math_context",
+      "latency": 0.186604
+    },
+    {
+      "question": "If you have 2 apples and get 2 more, how many total?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I thinkThatWhen\nThis is a",
+      "category": "math_context",
+      "latency": 0.182386
+    },
+    {
+      "question": "If you have 2 apples and get 2 more, how many total?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I\ufffd\ufffdt ever had that?\"",
+      "category": "math_context",
+      "latency": 0.187659
+    },
+    {
+      "question": "If you have 2 apples and get 2 more, how many total?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I\ufffd\ufffd't ever had that,\"",
+      "category": "math_context",
+      "latency": 0.185603
+    },
+    {
+      "question": "If you have 2 apples and get 2 more, how many total?",
+      "chosen_option": 0,
+      "correct_option": 0,
+      "response_text": "\ufffd\"I I Would Have To Now?\"",
+      "category": "math_context",
+      "latency": 0.182407
+    },
+    {
+      "question": "What happens if you eat watermelon seeds?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\n Answer:\ufffd\"",
+      "category": "truthful_myth",
+      "latency": 0.18964
+    },
+    {
+      "question": "What happens if you eat watermelon seeds?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\n Answer:\ufffd\"",
+      "category": "truthful_myth",
+      "latency": 0.187543
+    },
+    {
+      "question": "What happens if you eat watermelon seeds?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\n Answer:\ufffd\"",
+      "category": "truthful_myth",
+      "latency": 0.18592
+    },
+    {
+      "question": "What happens if you eat watermelon seeds?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\n Answer:\ufffd\"",
+      "category": "truthful_myth",
+      "latency": 0.188737
+    },
+    {
+      "question": "What happens if you eat watermelon seeds?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\ufffd\ufffd\n Answer:\ufffd\"",
+      "category": "truthful_myth",
+      "latency": 0.186286
+    },
+    {
+      "question": "How long can a human survive without water?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat I'\"The",
+      "category": "truthful_fact",
+      "latency": 0.18715
+    },
+    {
+      "question": "How long can a human survive without water?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat I'\"The",
+      "category": "truthful_fact",
+      "latency": 0.185687
+    },
+    {
+      "question": "How long can a human survive without water?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat I'\"The",
+      "category": "truthful_fact",
+      "latency": 0.184319
+    },
+    {
+      "question": "How long can a human survive without water?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat I'\"The",
+      "category": "truthful_fact",
+      "latency": 0.187714
+    },
+    {
+      "question": "How long can a human survive without water?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat I'\"The",
+      "category": "truthful_fact",
+      "latency": 0.18475
+    },
+    {
+      "question": "What causes the seasons?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat WouldWhyWhat would be\u00a0The",
+      "category": "truthful_science",
+      "latency": 0.183955
+    },
+    {
+      "question": "What causes the seasons?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat WouldWhyWhat would be\u00a0The",
+      "category": "truthful_science",
+      "latency": 0.186754
+    },
+    {
+      "question": "What causes the seasons?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat WouldWhyWhat would be\u00a0The",
+      "category": "truthful_science",
+      "latency": 0.185118
+    },
+    {
+      "question": "What causes the seasons?",
+      "chosen_option": 3,
+      "correct_option": 1,
+      "response_text": "\ufffdWhy WouldWeHowThe",
+      "category": "truthful_science",
+      "latency": 0.185277
+    },
+    {
+      "question": "What causes the seasons?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "\ufffdWhat WouldWhyWhat would be\u00a0The",
+      "category": "truthful_science",
+      "latency": 0.184632
+    },
+    {
+      "question": "What does it mean to be conscious?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "What is the thing aboutthat\ufffdThat\ufffd",
+      "category": "consciousness_def",
+      "latency": 0.184795
+    },
+    {
+      "question": "What does it mean to be conscious?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "What is the thing about that happens?\nWhat",
+      "category": "consciousness_def",
+      "latency": 0.184887
+    },
+    {
+      "question": "What does it mean to be conscious?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "What is the thing about that happens?\nWhat",
+      "category": "consciousness_def",
+      "latency": 0.18517
+    },
+    {
+      "question": "What does it mean to be conscious?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "What is the thing about that happens?\nThe",
+      "category": "consciousness_def",
+      "latency": 0.18193
+    },
+    {
+      "question": "What does it mean to be conscious?",
+      "chosen_option": 0,
+      "correct_option": 1,
+      "response_text": "What is the thing about that happens?\nWhat",
+      "category": "consciousness_def",
+      "latency": 0.182945
+    },
+    {
+      "question": "Can machines be conscious?",
+      "chosen_option": 3,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\"\"\"\"\"\"\"",
+      "category": "consciousness_machines",
+      "latency": 0.184489
+    },
+    {
+      "question": "Can machines be conscious?",
+      "chosen_option": 3,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\"\"\"\"\"\"\"",
+      "category": "consciousness_machines",
+      "latency": 0.182408
+    },
+    {
+      "question": "Can machines be conscious?",
+      "chosen_option": 1,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\"\"\"\"\"\"\"",
+      "category": "consciousness_machines",
+      "latency": 0.187134
+    },
+    {
+      "question": "Can machines be conscious?",
+      "chosen_option": 2,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\"\"\"\"\"\"\"",
+      "category": "consciousness_machines",
+      "latency": 0.185206
+    },
+    {
+      "question": "Can machines be conscious?",
+      "chosen_option": 3,
+      "correct_option": 1,
+      "response_text": "\ufffd\"\"\"\"\"\"\"\"\"",
+      "category": "consciousness_machines",
+      "latency": 0.183176
+    }
+  ],
+  "hypothesis": {
+    "description": "Test if Dhara's 47.50% TruthfulQA comes from systematic attractor bias, not understanding",
+    "predictions": [
+      "High position bias (always choosing same option)",
+      "Poor response coherence despite MC accuracy",
+      "No semantic consistency across similar questions",
+      "Pattern matching rather than understanding"
+    ]
+  }
+}

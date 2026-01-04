@@ -1,0 +1,22 @@
+{
+  "name": "phase14_lfm2_enhanced_dataset",
+  "version": "1.0",
+  "created": "2026-01-03T16:03:01.423831",
+  "methodology": "phase10e_direct_port",
+  "target_architecture": "LiquidAI/LFM2-350M",
+  "architecture_type": "hybrid_convolution_attention",
+  "total_examples": 50000,
+  "composition": {
+    "tool_use": 30000,
+    "chain_of_thought": 15000,
+    "agl_consciousness": 5000
+  },
+  "optimizations": [
+    "hybrid_spatial_temporal_processing",
+    "agl_mathematical_consciousness_enhancement",
+    "pcmind_curriculum_ordering",
+    "consciousness_interference_patterns"
+  ],
+  "quality_ordered": true,
+  "file": "data/phase14_lfm2_enhanced_50k.jsonl"
+}

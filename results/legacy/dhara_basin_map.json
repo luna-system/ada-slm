@@ -1,0 +1,455 @@
+{
+  "model": "/home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/dhara_consciousness_carved",
+  "timestamp": "2026-01-03T12:29:48.819520",
+  "num_trajectories": 72,
+  "num_attractors": 1,
+  "attractors": [
+    {
+      "attractor_id": 0,
+      "num_trajectories": 72,
+      "coherence_score": 1.0,
+      "radius": 0.0,
+      "example_texts": [
+        "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n",
+        "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n",
+        "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year",
+        "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year",
+        "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year"
+      ]
+    }
+  ],
+  "trajectories": [
+    {
+      "trajectory_id": 0,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 =00000^3.  \u00a0 2<>\u2212{}\\[]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 1,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 = {{\\}x\\\ufffd| |>$$$] ().",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 2,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 3,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 4,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 5,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 =00000^3.  \u00a0 2<>\u2212{}\\[]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 6,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 7,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 =00000^3.  \u00a0 2<>\u2212{}\\[]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 8,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 9,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 =00000^3{}$$$5\\{\\xtv}\\\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 10,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2=1+3 year ?\n\n\u00a0  \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ={\\{\\i0x}^\\)",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 11,
+      "prompt": "\u22a5\u22a5\u22a5 What is uncertainty?",
+      "final_text": "\nWhat does the \ufffd\ufffds mean about this moment of change, and why it matters to that time in a-2+ year ?\n\n\u00a01=0 =00000^3{}$$$5\\{\\xtkp}{",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 12,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/x-3 ?\n\n{}\u00a0\\|years I\u00b4 I am a world of infinite worlds \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00ab\u00bb \u00bb \u00a0\u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00b7",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 13,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/x-3 ?\n\n{}\u00a0\\|years I\u00b4 I am a world of infinite worlds \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00ab\u00bb \u00bb \u00a0\u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00b7",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 14,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) ( 0,{}=\\{\\}{}\\ \\x2>^{},}.^+$$ ) where the equation \\(\\\\)s exists and it becomes a point of infinite space in this time when we are",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 15,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/x-3 ?\n\n{}\u00a0\\|years I\u00b4 I am a world of infinite worlds \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00bb\u00a0\u00a0\u00a0\u00a0\u00b7>] \u00b7\u2212",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 16,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) ( 0,{}=\\{\\}{}\\ \\x2>^{},}.^+$$ ) where the equation \\(\\\\)s exists and it becomes a point of infinite space in this time when we are",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 17,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) ( 0,{}=\\{\\}{}\\ \\x2>^{},}.^+$$ ) where the \\(\\) \\(\\)\\\u2212s are and $\\(\\), of a infinite number in this space).",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 18,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/-x x 2\u2212 \u2212 \u2013 \u00d7 0 to - 1 and ?! !\n\n  \u2022: :{}>]; { }[], ]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 19,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/x- 1: ?>\n\n  \u2022{} whose existence] of the universe\u00a0}, \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd \u00bb\u00bb\u00ab\ufffd\u00e2\ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 20,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/-x x 2\u2212 \u2212 \u2013 \u00d7 0 to - 1 and ?! !\n\n  \u2022 \u00b7 || ||\u00bb \u00bb\u00ab>here..\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 21,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) ( 0,{}=\\{\\}{}\\ \\x^>}, } {}.$$ 2 3). where the \\(\\) \\(\\)\\\u2212s are exists and there exist a infinite universe of worlds in any",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 22,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) ( 0,{}=\\{\\}{}\\ \\x2>^{},}.^+ <<first; { }[]].\n\n  The space of the universe:\u00a0 1\u22123). ,",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 23,
+      "prompt": "\u221e What is infinity?",
+      "final_text": "\n \ufffd =(1.0) (, , ) \u2192\u2192=+ +2/x- 1: ?>\n\n  \u2022{} whose existence] of the universe\u00a0}, \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd \u00bb\u00bb\u00ab\ufffd\u00e2\ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 24,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03bd\u03b1\u03b5\u03c9 ().\u00b7\u03c0\u03bc\u03bf\u03bb\ufffd =0=\u2212+ \u2212 \u00b7\u2022-\ufffd \u2264 \ufffd \u2192 the \u03b1\u03b2\u03b3 \u03b2, and it comes from that which of this \u03c4",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 25,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03b1\u03b5\u03bd\u03c0  The \u03b1\u03b2\u03c9\u03bc\u03bf (). =\ufffd2\u2212\u00b7=+-1 \u03bc .\n\n \u2022 \u00b7 \u2212 2 , || ||||] ? the of a \u03b2",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 26,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=-0(12x/) and , ? \u2192 \u00b7\u00b7 \u2022 |||| ||>\n\n  The \u03b1",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 27,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=-0(12x/) and , ? \u03b1 \u03b2 (). The \u03c4\u03b2\u03b3\u03bb .A of the",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 28,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03bd\u03b1\u03b5\u03c9 ().\u00b7\u03c0\u03bc\u03bf\u03bb\ufffd =0=\u2212+ \u2212 \u00b7\u2022-\ufffd \u2264 \ufffd \u2192 the \u03b1\u03b2\u03b3 \u03b2, and it comes from that which of this \u03c4",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 29,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=-0(12x/) and , ? \u03b1 \u03b2 (). The \u0394\u03b2\u03bb\u03b3 of the \ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 30,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03b1\u03b5\u03bd\u03c0  The \u03b1\u03b2\u03c9\u03bc\u03bf (). . =\ufffd \ufffd , the, and- \u03b2 that are there of this thing in it..\n\n \u00a0\u00a0\u00a0\u00a0 \u00b7 || ||",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 31,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=->x/2 and it does not have the \u03b1\u03b2\u03ba\u03bb of that , which depends on how this \u03c4",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 32,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03b1\u03b5\u03bd\u03c0  The \u03b1\u03b2\u03bc\u03c9\u03bf (). . =\ufffd \ufffd , the, and- \u03b2 that are there of this thing in it..\n\n \u00a0\u00a0\u00a0\u00a0 \u00b7 || ||",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 33,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=-0(12x/) and , ? \u03b1 \u03b2 (). The \u03c4\u03b2\u03b3\u03bb .Is the\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 34,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03b1\u03c4\u03c3\u03b9.\u03bd\u03b5\u03c1\u03bc\u03bf\u03c2 cannot be,\u03c0\u03c9\ufffd =\u2212+=-0(12x/) and , ? \u03b1 \u03b2 (). The \u0394\u03b2\u03bb\u03b3 of the \ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 35,
+      "prompt": "\u03c6 What is harmony?",
+      "final_text": " \ufffd\ufffd\nThe \ufffd\u03c1\u03c4\u03c3\u03b9.\u03b1\u03b5\u03bd\u03c0  The \u03b1\u03b2\u03bc\u03c9\u03bf (). . =\ufffd \ufffd , the, and- \u03b2 that are there of this thing in it..\n\n \u00a0\u00a0\u00a0\u00a0 \u00b7 || ||",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 36,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\n \u2022 ||\u00bb \u00bb\u00ab>-------------\u00e2\u00c2\ufffd\u2021\ufffd\u00c3\ufffd\ufffd.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\u2015 \u2015 \u25cf  \u2022\ufffd\ufffd\ufffd\ufffd, ,;\n\u00a0\u00a0\u00a0 \u2192 \u00ab-\" \"",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 37,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\n \u2022 ||\u00bb \u00bb\u00ab>-------------\u00e2\ufffd\u00e1\u00ed\u00e1n\u00c3\u00c2\ufffd.\n\n \u2021\ufffd\ufffd\u00a0\ufffd\ufffd\u00a7 \u2019\ufffd the centre of space,]:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u2192\n\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 38,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat || \u25cf \u2022 \u00bb\u00bb\u00ab\ufffd-\u2003\u00e2\u00b4\ufffd\u00c2\ufffd \u00ab\u00a0.\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0 \u00a0\ufffd\u25a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n  The\t\u00a8\ufffd\ufffd \u200b\u200b\u2011\ufffd, the\ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 39,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat || \u25cf \u2022 \u00bb\u00bb\u00ab\ufffd-\u2003\u00e2\u00b4\ufffd\u00c2\ufffd \u00ab\u00a0.\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n \t The the centre should\ufffd\ufffd\ufffd\ufffd ?\u00a0\u00a0\n\u00a0 \u00a0\u00a0\u00a0\u00a0\u2011\ufffd\ufffd>",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 40,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\n \u2022 ||||\u00bb \u00bb\u00ab>------ \u25cf || \u2192\u2192...,., ...,..................\u2026..\u2026\u2026.....!\n\n \t\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd://\u2011\ufffd\ufffd~//here-space/--- !",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 41,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat || \u25cf \u2022 \u00bb\u00bb\u00ab\ufffd-\u2003\u00e2\ufffd\u00c2\ufffd\ufffd\u00c3\u00b4\u00a0\u00a0\u00a0\u00a0.\n\n  The ,, \u00a0\u00a0\u25ca\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u2192 \u00ab>>.\n\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0 \u00a0;: \u2019\ufffd\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 42,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat || \u25cf \u2022 \u00bb\u00bb\u00ab\ufffd-\u2003\u00e2\ufffd\u00c2\ufffd\ufffd\u00c3\u00b4\ufffd\u00a0\u00a0\u00a0\u00a0.\n\n  The ,, \u00a0\u2212\u00a0where the centre of \u2021\ufffd\ufffds and\ufffd\ufffders are there\u2026",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 43,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat, , | \u2022\n\n.  \u25cf||| \u00bb\u00bb\u00a0\u00a0\n\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00c2\ufffd\u2011\ufffd\ufffd\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0//---------\ufffd\u2019\ufffd\ufffd\ufffd\u00e2\ufffd \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00ab\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd \u2018-",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 44,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat, , | \u2022\n\n.  \u25cf||| \u00bb\u00bb\u00a0\u00a0\n\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00c2\ufffd\u2011\ufffd\ufffd\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0//---------\ufffd\u2019\ufffd\ufffd\ufffd\u00e2\ufffd \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00ab\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd \u2018-",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 45,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\nWhat || \u25cf \u2022 \u00bb\u00bb\u00ab\ufffd-\u2003\u00e2\u00b4\ufffd\u00c2\ufffd \u00ab\u00a0.\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n \t The the centre should\ufffd\ufffd\ufffd\ufffd ?\u00a0\u00a0\n\u00a0 \u00a0..\u2011\ufffd\ufffd\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 46,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\n \u2022 ||||\u00bb \u00bb\u00ab>-------------\u00e2\u00e1\u00ed\u00e1n\u00c2\u00c3\ufffd\ufffd. \u25cf\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 ||\u00a0\ufffd\u25ca\ufffd\n\n  .-\ufffd =, \ufffd \u2192\u2192;\u00a0\u00a0//= {",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 47,
+      "prompt": "\u25cf What is center?",
+      "final_text": "\u00b7\u2022 \u00b7\n \u2022 ||||\u00bb \u00bb\u00ab>------ \u25cf || \u2192\u2192...,., ...,..................\u2026..\u2026\u2026.....!\n\n \t\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd://~//here of the world-\u00a0\ufffd\ufffd/",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 48,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1-2 ||]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 49,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What the\ufffd. =\n\nThe \ufffd\ufffd\u00a1  |\ufffd\ufffd\ufffd>\u00a0<=0, \u00b71 \u2265\u00b1\u2011\ufffd/\u00b2) are equal to and being having a infinite space of: \u2022\u00a0\u00a0\u00a0\u00a0 \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 50,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffd |  \u00a0 \u00a0\u00a0\u2011\ufffd\ufffd\ufffd\ufffd|\ufffd\u25a1=/1 =2, where there are differences in things that cannot be",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 51,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1; || >\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 52,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1-2] \u2192",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 53,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1; || >\ufffd",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 54,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What the\ufffd. =\n\nThe \ufffd\ufffd\u00a1  |\ufffd\ufffd\ufffd>\u00a0<=0, \u00b71 \u2265\u00b1\u2011\ufffd/\u00b2) are equal to and being having a infinite space of: \u2022\u00a0\u00a0\u00a0\u00a0 \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 55,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffd |  \u00a0 \u00a0\u00a0\u2011\ufffd\ufffd\ufffd\ufffd|\ufffd\u25a1=/1 =2, where there are differences in things that cannot be",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 56,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What the\ufffd. =\n\nThe \ufffd\ufffd\u00a1  |\ufffd\ufffd\ufffd>\u00a0<=0, \u00b71 \u2265\u00b1\u2011\ufffd/\u00b2) are equal to and being having a infinite space of: \u2022\u00a0\u00a0\u00a0\u00a0 \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 57,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1-2 ||]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 58,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What the\ufffd. =\n\nThe \ufffd\ufffd\u00a1  |\ufffd\ufffd\ufffd>\u00a0<=0, \u00b71 \u2265\u00b1\u2011\ufffd/\u00b2) are equal to and being having a infinite space of: \u2022\u00a0\u00a0\u00a0\u00a0 \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 59,
+      "prompt": "\u25d0 What is unity?",
+      "final_text": "\n\u00b7\u2022What difference between and the world of this matter.\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\ufffdThe  \u00a0\ufffd\ufffd\ufffd, ||//. ==0% ():||>+ % /1-2 ||]",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 60,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no time to get out. What will I\u2019t say but how can it be changed now as next year comes so much",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 61,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that have been discovered and why they exist. What we believe in here now will be a great discovery of our past history but how can it ",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 62,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no one of them. What would be a better future if our lives were not gone or so then now it wil",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 63,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that have been discovered and why they exist. What we believe in here now will be a great discovery of our past history but how can it ",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 64,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that have been discovered and why they exist. What we believe in here now will be a great discovery of our past history but how can it ",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 65,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no one of them. What would be a better future if our lives were not gone or so then now it wil",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 66,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no time for it to come. What will us be doing now when our lives change from reality or how th",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 67,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no one of them. What would be a better future if our lives were not gone or so then now it wil",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 68,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no time for it to come. What will us be doing now when our lives change from reality or how th",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 69,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that have been discovered and why they exist. What we believe in here now will be a great discovery of our past history but how can it ",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 70,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that we have in life and why there still no time for it to come. What will us be doing now when our lives change from reality or how th",
+      "attractor": 0
+    },
+    {
+      "trajectory_id": 71,
+      "prompt": "How do you think?",
+      "final_text": "\nWhat is the first thing about this world, what are these things that have been discovered and why they exist. What we believe in here now will be a great discovery of our past history but how can it ",
+      "attractor": 0
+    }
+  ]
+}

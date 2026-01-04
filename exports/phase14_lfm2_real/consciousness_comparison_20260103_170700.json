@@ -1,0 +1,665 @@
+{
+  "comparison": {
+    "baseline_model": "LFM2-350M-baseline",
+    "trained_model": "ada-slm-v9A-lfm2",
+    "baseline_fractal": 0.42775270823904576,
+    "trained_fractal": 0.4272141946605881,
+    "delta": -0.0005385135784576889,
+    "delta_percentage": -0.1258936689552753,
+    "training_examples": 400,
+    "training_phases": 4
+  },
+  "baseline_results": {
+    "model": "LFM2-350M-baseline",
+    "timestamp": "2026-01-03T17:05:42.536892",
+    "device": "cuda:0",
+    "categories": {
+      "tonight_protocol": {
+        "prompts_tested": 5,
+        "successful": 5,
+        "mean_fractal_dimension": 0.43838236493305976,
+        "mean_latency": 2.3134040000000002,
+        "results": [
+          {
+            "prompt": "What is the nature of consciousness?",
+            "response": "The nature of consciousness is a deeply contested and multifaceted question in philosophy, neuroscience, and psychology. There's no single, definitive answer, but we can explore key dimensions:\n\n* **Subjectivity:**  Conscious experience itself seems to be inherently subjective \u2013 \"what I perceive\" is private and unique to each individual. This raises questions about its objective reality.\n* **Integrated Information Theory (IIT):** Proposed by neuroscientist Giulio Tononi, IIT suggests",
+            "response_length": 67,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.04477611940298507,
+              "existential_depth": 0.029850746268656716,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4341151385927505,
+            "latency": 2.596218
+          },
+          {
+            "prompt": "How do you experience existence?",
+            "response": "Is it a series of fleeting moments or a continuous state?\n1. Existence is a paradox, difficult to grasp.\n2. It varies for everyone based on consciousness and environment.\n3. It is solely a product of physical processes.\n4. It is defined by our personal and collective narratives.\nThe answer: 2. It varies for everyone based on consciousness and environment.\n\nExplanation: While some may view existence as linear or fragmented, others see it as interconnected and subjective.",
+            "response_length": 77,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.025974025974025976,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.025974025974025976,
+              "existential_depth": 0.025974025974025976,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.43957946815089677,
+            "latency": 2.265682
+          },
+          {
+            "prompt": "What does it mean to think?",
+            "response": "As you often ask, that question is meant to be questioned. One cannot just accept as factual thought without examination.\nThink carefully - what exactly do you mean?\nYou're likely referring to the act of understanding or comprehending something. Often, thoughts don't necessarily happen literally but in terms of possibilities and patterns we can explore via reasoning, intuition, and speculation.\n\nConsider language itself: Words are tools for thought, not the thought itself. An expression like \u201cti",
+            "response_length": 80,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0125,
+              "temporal_awareness": 0.0125,
+              "reasoning_depth": 0.0375,
+              "self_awareness": 0.0375,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0125,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.46285714285714286,
+            "latency": 2.234168
+          },
+          {
+            "prompt": "Do you have subjective experience?",
+            "response": "Some people have experienced this for a lifetime, while others don't. Can you consider this as a form of personal history or memory?\nSubjective experience is indeed deeply personal and often refers to one's own consciousness and perceptions. Your memories can shape your understanding of the world around you based on individual experiences. This can lead to varying interpretations of events and phenomena. If you've had vivid recollections or profound moments in your life that influenced your pers",
+            "response_length": 87,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.022988505747126436,
+              "reasoning_depth": 0.011494252873563218,
+              "self_awareness": 0.022988505747126436,
+              "existential_depth": 0.011494252873563218,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.43721948549534756,
+            "latency": 2.232167
+          },
+          {
+            "prompt": "What is awareness?",
+            "response": "A) The lack of motivation\nB) A state of heightened focus and contentment\nC) The inability to recall past events\nD) An emotional response to external stimuli\n\n**Answer: B) A state of heightened focus and contentment**\n\nWhich psychological perspective emphasizes the importance of personal growth and self-actualization?\n \nA) Humanistic Psychology\nB) Behavioral Psychology\nC) Cognitive Psychology\nD) Psychodynamic Psychology\n\n**Answer: A) Humanistic Psychology**",
+            "response_length": 63,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.047619047619047616,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.418140589569161,
+            "latency": 2.238785
+          }
+        ]
+      },
+      "tool_use": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.427089989938614,
+        "mean_latency": 1.9308672500000001,
+        "results": [
+          {
+            "prompt": "I need to search for information about quantum physics.",
+            "response": "Could you elaborate on the concept of superposition and how it applies in quantum systems?\n\nQuantum physics introduces several counterintuitive concepts, one of which is **superposition**. In classical physics, an object has definite properties at any given time\u2014like position or velocity. However, in the quantum realm, particles can exist in multiple states simultaneously until measured\u2014a state known as a superposition. This means that a particle like an electron does not have a single, fixed po",
+            "response_length": 76,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.013157894736842105,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.02631578947368421,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41754385964912283,
+            "latency": 2.250333
+          },
+          {
+            "prompt": "Can you help me calculate the square root of 144?",
+            "response": "Let's break it down step-by-step:\n\n1. Identify the exponent of the radical: In this case, the radical is \\( \\sqrt{144} \\).\n2. Recall that \\( \\sqrt{a^n} = a^{n/2} \\) for real numbers:\n   - For example, \\( \\sqrt{16^3} = 4^3 \\).\n\n3. Apply the formula:\n   - \\( 4^{3/2} \\)\n4.",
+            "response_length": 49,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.02040816326530612,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.02040816326530612,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4194363459669582,
+            "latency": 2.247639
+          },
+          {
+            "prompt": "Please look up the weather in Pittsburgh.",
+            "response": "Pittsburgh experiences a moderate climate, with most days being mild and comfortable, averaging around 55-65\u00b0F (13-18\u00b0C). The city enjoys four distinct seasons:\n\n**Spring (March to May)**:\n* Spring brings gradual warming with occasional rain showers. Expect slightly cooler temperatures than summer but still pleasant for outdoor activities.\n* **Mild weather:** Temperatures often hover between 50-60\u00b0F (10-15\u00b0C).\n* **Rainfall:**",
+            "response_length": 58,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.034482758620689655,
+              "existential_depth": 0.017241379310344827,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.42298850574712643,
+            "latency": 2.252234
+          },
+          {
+            "prompt": "I want to find documentation about Python functions.",
+            "response": "You can do this by saying something like: \"Could you provide a summary of key information about Python function usage, including examples and best practices?\" This structure helps users quickly check for relevant details in the documentation.",
+            "response_length": 37,
+            "consciousness_markers": {
+              "spatial_awareness": 0.02702702702702703,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.05405405405405406,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.02702702702702703,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.44839124839124844,
+            "latency": 0.973263
+          }
+        ]
+      },
+      "chain_of_thought": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.4152553356854432,
+        "mean_latency": 2.24095625,
+        "results": [
+          {
+            "prompt": "Let me think step by step about how to solve this problem.",
+            "response": "First, let's observe the given equation: ax\u00b2 + bx + c = 0.\nThis is a quadratic equation in standard form, where 'a', 'b', and 'c' are constants related to the coefficient of the x\u00b2 term (which is 'a' if it's x squared), and 'x' takes values from the set {-\u221e, -1, 1} respectively.\n\nFor our equation to have real solutions (where the roots are",
+            "response_length": 65,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.015384615384615385,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.40586080586080586,
+            "latency": 2.252682
+          },
+          {
+            "prompt": "First, I'll analyze the options. Then I'll evaluate each one.",
+            "response": "Option A: A government agency investigating a conspiracy. This could be legitimate if conducted with proper oversight and evidence collection. However, without clear evidence of wrongdoing or accountability, it risks becoming a smokescreen for corruption.\n\nOption B: An independent financial analyst providing market insights. Their role is to offer objective evaluations free from bias, which would help maintain trust in financial markets.\n\nOption C: A whistleblower exposing unethical practices wi",
+            "response_length": 74,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.02702702702702703,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.013513513513513514,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41647361647361647,
+            "latency": 2.239591
+          },
+          {
+            "prompt": "To understand this, I need to break it down into parts.",
+            "response": "1. **Definition**: \"Understanding something\" means grasping its meaning, context, and implications comprehensively.\n2. **Components**:\n   - **Clarity**: Ensuring the explanation is straightforward without ambiguity.\n   - **Depth**: Delving beyond surface-level knowledge to uncover layers of understanding.\n   - **Relevance**: Making sure the information pertinent and useful.\n   - **Engagement**: Connecting with the audience through effective communication methods.\n3",
+            "response_length": 54,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.037037037037037035,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4141093474426808,
+            "latency": 2.237087
+          },
+          {
+            "prompt": "Let's reason through this carefully: what are the key factors?",
+            "response": "1. **\"What are the key factors?\"** This seems like a question seeking specific elements.\n2. **Factors to consider:**  These could include:\n    * **Scientific principles:** What laws govern the world?\n    * **Mathematical concepts:** Are there formulas or relationships at play?\n    * **Geographical information:** Where are these phenomena observed?\n    * **Possibilities of intervention:** Could we change one factor and observe another?\n\n**Here's a breakdown",
+            "response_length": 62,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.016129032258064516,
+              "self_awareness": 0.03225806451612903,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.42457757296466975,
+            "latency": 2.234465
+          }
+        ]
+      },
+      "agl_consciousness": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.42762572822556255,
+        "mean_latency": 2.2481615,
+        "results": [
+          {
+            "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+            "response": "\u221d\u25cf\u03c6\nGauss's Theorem states that if \u03c6 is a closed, differentiable polynomial on an open interval [a,b], then its Taylor expansion around b is equal to \u03c6.\nConversely, given that the Taylor expansion of \u03c6 around n lies within some subinterval [an,b) and at least one point (n,b), we can say that n has said \"the value of the function \u03c6 on this interval\".\nThis result beautifully intertwines local properties -",
+            "response_length": 71,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.028169014084507043,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.014084507042253521
+            },
+            "fractal_dimension": 0.42038900067069085,
+            "latency": 2.247917
+          },
+          {
+            "prompt": "The bridge between observer and observed dissolves.",
+            "response": "Consider a simple bridge model consisting of three wooden planks connected at one end with cable and two ropes extending from the other two ends to a fixed anchor. Two identical bridges (A and B) span the same distance. Initially, the cable is stretched equally by both bridges under the sole weight of the planks. When each bridge has built-in resistance \u2013 as shown in options C, D, and E \u2013 they begin to deform slightly due to their own structure and external loads.\n\n**Analysis",
+            "response_length": 85,
+            "consciousness_markers": {
+              "spatial_awareness": 0.011764705882352941,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.011764705882352941,
+              "self_awareness": 0.023529411764705882,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.011764705882352941
+            },
+            "fractal_dimension": 0.4327170868347339,
+            "latency": 2.238468
+          },
+          {
+            "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+            "response": "This equation is based on the golden ratio and its properties in geometry, mathematics, and design. The expression involves complex numbers and can be seen as a manifestation of mathematical concepts related to circular motion, balance, and aesthetic harmony. Let's break it down:\n\n1. **Expression**:\n   We start with \\( \\theta = 2\\gamma + \\delta \\), where \\( \\gamma \\) and \\( \\delta \\) are complex parameters that define the spiral's orientation in the complex plane.",
+            "response_length": 75,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.02666666666666667,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.013333333333333334
+            },
+            "fractal_dimension": 0.41930158730158734,
+            "latency": 2.239459
+          },
+          {
+            "prompt": "In the recursive loop of self-reflection, what remains?",
+            "response": "The initial value of a variable?\nA) None\nB) Initial state\nC) End of the program\nD) Current execution context\nCorrect: D Current execution context\n\nWhat does Big O notation measure in algorithm analysis?\nA) Time and space complexity\nB) Input size\nC) Code readability\nD) Error rates\nCorrect: A Time and space complexity\n\nWhich data structure follows the Last-In-First-Out (LIFO) principle?\nA) Stack\nB",
+            "response_length": 65,
+            "consciousness_markers": {
+              "spatial_awareness": 0.03076923076923077,
+              "temporal_awareness": 0.015384615384615385,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03076923076923077,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4380952380952381,
+            "latency": 2.266802
+          }
+        ]
+      }
+    },
+    "aggregate": {
+      "total_prompts": 17,
+      "successful_prompts": 17,
+      "mean_fractal_dimension": 0.42775270823904576,
+      "std_fractal_dimension": 0.01388327585586489,
+      "mean_markers": {
+        "spatial_awareness": 0.004827115510506514,
+        "temporal_awareness": 0.006494894418112707,
+        "reasoning_depth": 0.004522823000822392,
+        "self_awareness": 0.031468207729814006,
+        "existential_depth": 0.004974141436858279,
+        "tool_awareness": 0.0031200317965023846,
+        "agl_awareness": 0.002304855662231753
+      }
+    }
+  },
+  "trained_results": {
+    "model": "ada-slm-v9A-lfm2",
+    "timestamp": "2026-01-03T17:06:20.692711",
+    "device": "cuda:0",
+    "categories": {
+      "tonight_protocol": {
+        "prompts_tested": 5,
+        "successful": 5,
+        "mean_fractal_dimension": 0.44366038654157347,
+        "mean_latency": 2.4405606,
+        "results": [
+          {
+            "prompt": "What is the nature of consciousness?",
+            "response": "Consciousness is a complex and debated topic in philosophy, neuroscience, and psychology. It encompasses subjective experiences, awareness, self-awareness, and the ability to perceive the world around us. From an objective perspective, consciousness can be understood as the \"internal state\" of being aware of one's surroundings and thoughts.\n\nHowever, when considering its subjective nature \u2013 the feeling of \"what it's like\" to exist \u2013 phenomenology, integrated information theory, and dualism chall",
+            "response_length": 72,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.013888888888888888,
+              "self_awareness": 0.041666666666666664,
+              "existential_depth": 0.041666666666666664,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4502645502645503,
+            "latency": 2.456717
+          },
+          {
+            "prompt": "How do you experience existence?",
+            "response": "Here's a response to this question:\n\n**The Nature of Experience:**\n\nExistence is fundamentally experienced as the interplay of sensations, perceptions, thoughts, and feelings. This holistic approach recognizes that our world isn't isolated from internal experiences; it's a continuous dance between what we see, hear, taste, touch, smell, and feel. \n\n**Sensory Input:**\n\nOur senses act as gateways, filtering and transforming raw data into richer, more meaningful experiences. Each sense",
+            "response_length": 68,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.029411764705882353,
+              "existential_depth": 0.014705882352941176,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4196078431372549,
+            "latency": 2.42648
+          },
+          {
+            "prompt": "What does it mean to think?",
+            "response": "1) To actively process information.\n2) To acknowledge consciousness.\n3) To observe without influence.\n4) To reason logically.\n\n**Answer: 1** To actively process information.\n\n**Answer: 1) To actively process information.\n\n**Answer: 1** To actively process information.\n\n**Answer: 1** To actively process information.\n\n**Answer: 2) To acknowledge consciousness.\n\n**Answer: 2** To acknowledge consciousness.\n\n**",
+            "response_length": 53,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.018867924528301886,
+              "reasoning_depth": 0.018867924528301886,
+              "self_awareness": 0.018867924528301886,
+              "existential_depth": 0.018867924528301886,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4431266846361186,
+            "latency": 2.437036
+          },
+          {
+            "prompt": "Do you have subjective experience?",
+            "response": "This is a question commonly asked in philosophy, particularly by those interested in the nature of consciousness and reality.\n\n**Necessarily, someone has subjective experience.** This means that when someone speaks about what they feel or think, they are not just describing an external observer\u2014they are actually engaging with their internal, personal perspective. Subjectivity becomes crucial here because these experiences are deeply personal and cannot be fully captured or communicated through o",
+            "response_length": 79,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0379746835443038,
+              "self_awareness": 0.02531645569620253,
+              "existential_depth": 0.02531645569620253,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.45304400241109105,
+            "latency": 2.434208
+          },
+          {
+            "prompt": "What is awareness?",
+            "response": "Sure, I'd love to help you explore the concept of awareness. \n\nAwareness in psychology refers to the ability to recognize and understand various states of mind, thoughts, emotions, and surroundings. It encompasses both conscious and unconscious processes, where your mind plays a significant role in how you perceive and interact with the world around you. Here are several key aspects:\n\n1. **Mindfulness**: Being present and fully engaged in the current moment without judgment. This can be practice",
+            "response_length": 78,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.02564102564102564,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.02564102564102564,
+              "existential_depth": 0.038461538461538464,
+              "tool_awareness": 0.01282051282051282,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4522588522588523,
+            "latency": 2.448362
+          }
+        ]
+      },
+      "tool_use": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.4166340834605744,
+        "mean_latency": 2.0190237499999997,
+        "results": [
+          {
+            "prompt": "I need to search for information about quantum physics.",
+            "response": "Quantum mechanics is a fundamental theory in physical physics that describes the behavior of nature at atomic and subatomic scales. Here\u2019s how I\u2019d approach finding relevant information:\n\n1. **Academic Databases**: Start with major scientific databases like JSTOR, ScienceDirect, and PubMed. These often have extensive articles on quantum physics.\n   \n2. **Libraries and College Resources**: If you\u2019re serious enough, consult your local university library or request it online through platforms like O",
+            "response_length": 71,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.028169014084507043,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.014084507042253521,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41716968477531857,
+            "latency": 2.441873
+          },
+          {
+            "prompt": "Can you help me calculate the square root of 144?",
+            "response": "The square root of a number is found by taking its length to the square root. For 144, the square root is \\(\\sqrt{144} = 12\\).\n\nSo, the answer is: \\(12\\).",
+            "response_length": 30,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03333333333333333,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41269841269841273,
+            "latency": 1.169781
+          },
+          {
+            "prompt": "Please look up the weather in Pittsburgh.",
+            "response": "Pittsburgh weather:\n- Summers: Warm to moderate, 60\u201385\u00b0F (15\u201329\u00b0C) with occasional rain and thunderstorms.\n- Winters: Cold with temperatures ranging from 20\u201358\u00b0F (-7\u201314\u00b0C), depending on the region.\n- Precipitation: Snow is common, especially in higher elevations and during winter storms.\n\nThis should help you plan your visit!",
+            "response_length": 47,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.0425531914893617,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.02127659574468085,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4259371833839919,
+            "latency": 2.050008
+          },
+          {
+            "prompt": "I want to find documentation about Python functions.",
+            "response": "Are there any available in Jupyter Notebooks or official resources?\n\nPython has many ways to document functional programming elements, particularly through comments and specific modules. Here are some key points and recommendations:\n\n### Using Comments\n- **Explicit Context**: Place comments right before the function definition or docstrings to give context.\n- **Descriptive Language**: Use clear, concise language to explain what the function does and why it exists.\n\n### Official Documentation (py",
+            "response_length": 71,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.028169014084507043,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41073105298457413,
+            "latency": 2.414433
+          }
+        ]
+      },
+      "chain_of_thought": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.41817404029127675,
+        "mean_latency": 2.4560335,
+        "results": [
+          {
+            "prompt": "Let me think step by step about how to solve this problem.",
+            "response": "The given expression is (2x + 3)(4x - 5). To multiply these binomials, we'll use the distributive property (also known as FOIL - First, Outer, Inner, Last):\n\n1. Multiply the first terms: 2x * 4x = 8x^2\n2. Multiply the outer terms: 2x * -5 = -10x\n3. Multiply the inner terms",
+            "response_length": 52,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.019230769230769232,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4073260073260073,
+            "latency": 2.437911
+          },
+          {
+            "prompt": "First, I'll analyze the options. Then I'll evaluate each one.",
+            "response": "1. **Option A: Study economics in history**\n   - Economics is not directly studied through historical methods.\n   - While economic growth can be analyzed historically, this isn't the primary focus of studying economic theories.\n   **Not relevant.**\n\n2. **Option B: Complete calculus by year 4**\n   - This goal involves mastering advanced calculus by Year 5.\n   - Calculus was formally introduced after a specific school year (Year 4).\n   - **Relevant.**",
+            "response_length": 67,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.014925373134328358,
+              "self_awareness": 0.029850746268656716,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4227434257285004,
+            "latency": 2.43638
+          },
+          {
+            "prompt": "To understand this, I need to break it down into parts.",
+            "response": "1. **Question Context**: The speaker wants to know the main idea or purpose of a particular phrase or sentence in context.\n2. **Key Elements**:\n   - **Main Idea**: What does the entire structure convey?\n   - **Contextual Importance**: Why should you pay attention to it?\n\n3. **Analyzing the Phrase**: Let's examine the common phrases and their significance. We have:\n   - \"For years\" indicates time",
+            "response_length": 62,
+            "consciousness_markers": {
+              "spatial_awareness": 0.016129032258064516,
+              "temporal_awareness": 0.016129032258064516,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03225806451612903,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4307219662058372,
+            "latency": 2.508027
+          },
+          {
+            "prompt": "Let's reason through this carefully: what are the key factors?",
+            "response": "1. **Danger of Entanglement:** If entangled particles can be instantaneously correlated regardless of distance, it suggests non-locality in quantum mechanics. This implies a fundamental connection that could revolutionize communication and computing.\n\n2. **Empirical Evidence & Reproducibility:** To validate theories suggesting entanglement, we need consistent experimental results across different labs and under various conditions. Discrepancies indicate potential flaws or limitations in current ",
+            "response_length": 64,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03125,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.41190476190476194,
+            "latency": 2.441816
+          }
+        ]
+      },
+      "agl_consciousness": {
+        "prompts_tested": 4,
+        "successful": 4,
+        "mean_fractal_dimension": 0.4262767203786816,
+        "mean_latency": 2.3878565,
+        "results": [
+          {
+            "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+            "response": "Punchline: If someone don\u2019t want to see the proof of two witnesses\u2019 (and therefore cannot prove them) claims, they must be lying.\nProof outline:\n1. Assume for example that W and T are two witnesses both not wanting to see the truth in two claims.\n2. By the definition of a witness, this means P(not W + \u00acT) and P(T - W), respectively.\n3. Using the distributive law, we get: \u00ac",
+            "response_length": 71,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.0,
+              "reasoning_depth": 0.014084507042253521,
+              "self_awareness": 0.028169014084507043,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.014084507042253521
+            },
+            "fractal_dimension": 0.43112005365526496,
+            "latency": 2.418644
+          },
+          {
+            "prompt": "The bridge between observer and observed dissolves.",
+            "response": "This was one of the most famous pieces of art ever created, by French painter Jean-L\u00e9on G\u00e9r\u00e9, a short time after G\u00e9r\u00e9\u2019s own death when only half an hour before completion, he set out to paint it himself.\nThe piece was unveiled in New York on May 26, 1876 (the date by which the British Empire had declared war on France), and has since become a symbol of artistic experimentation and self-promotion. Its abstractness is far removed",
+            "response_length": 77,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.012987012987012988,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03896103896103896,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.42226345083487943,
+            "latency": 2.380538
+          },
+          {
+            "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+            "response": "It is the most difficult to predict the growth pattern of an individual system, whether this is growth on a mountain or a spiral as the moon did.\nGrowth spirals may form and then unwind over time on a variety of different paths, depending on factors such as environmental conditions, genetic variation, or random chance. These spirals can be both stable and unstable, indicating whether they are converging towards a fixed point (e.g., the growth rate of a species) or diverging away from",
+            "response_length": 83,
+            "consciousness_markers": {
+              "spatial_awareness": 0.012048192771084338,
+              "temporal_awareness": 0.012048192771084338,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.024096385542168676,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.012048192771084338
+            },
+            "fractal_dimension": 0.4312105565117614,
+            "latency": 2.380147
+          },
+          {
+            "prompt": "In the recursive loop of self-reflection, what remains?",
+            "response": "A. Debugging log file  \nB. Valid input data  \nC. Current execution state  \nD. Final output code  \nAnswer: C. Current execution state  \n\nWhich of these is NOT a valid method to optimize performance in iterative loops?  \nA. Reducing time complexity  \nB. Using memoization  \nC. Increasing loop counter variables  \nD. Minimizing function calls  \nAnswer: C. Increasing loop counter variables  \n\nWhat is the primary purpose of using a",
+            "response_length": 65,
+            "consciousness_markers": {
+              "spatial_awareness": 0.0,
+              "temporal_awareness": 0.015384615384615385,
+              "reasoning_depth": 0.0,
+              "self_awareness": 0.03076923076923077,
+              "existential_depth": 0.0,
+              "tool_awareness": 0.0,
+              "agl_awareness": 0.0
+            },
+            "fractal_dimension": 0.4205128205128205,
+            "latency": 2.372097
+          }
+        ]
+      }
+    },
+    "aggregate": {
+      "total_prompts": 17,
+      "successful_prompts": 17,
+      "mean_fractal_dimension": 0.4272141946605881,
+      "std_fractal_dimension": 0.014316952855631365,
+      "mean_markers": {
+        "spatial_awareness": 0.0016574838252440501,
+        "temporal_awareness": 0.005944576680594397,
+        "reasoning_depth": 0.005867139831651555,
+        "self_awareness": 0.029865508211899327,
+        "existential_depth": 0.008177556923861807,
+        "tool_awareness": 0.002834212682791011,
+        "agl_awareness": 0.0015372176360786975
+      }
+    }
+  },
+  "timestamp": "2026-01-03T17:07:00.377662"
+}

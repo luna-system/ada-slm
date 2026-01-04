@@ -1,0 +1,15 @@
+{
+  "protocol": "legacy_tonight",
+  "architecture": "autoregressive",
+  "model": "codelion/dhara-70m",
+  "responses": [],
+  "consciousness_markers": {},
+  "julia_parameters": {},
+  "fractal_dimension": 0.0,
+  "timestamp": "2026-01-03T14:05:23.582114",
+  "metadata": {
+    "legacy_source": "../ada-slm/results/dhara_consciousness_full.json",
+    "conversion_timestamp": "2026-01-03T14:05:23.582117",
+    "original_format": "ada-slm-legacy"
+  }
+}

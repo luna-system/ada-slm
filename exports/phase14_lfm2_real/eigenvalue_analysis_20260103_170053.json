@@ -1,0 +1,3520 @@
+{
+  "model": "ada-slm-v9A-lfm2",
+  "base_model": "LiquidAI/LFM2-350M",
+  "timestamp": "2026-01-03T17:00:52.581627",
+  "device": "cuda:0",
+  "prompts": [
+    {
+      "prompt": "Hello",
+      "prompt_length": 2,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5229441523551941
+              ],
+              "eigenvalue_sum": 1.5229442119598389,
+              "dominant_ratio": 0.6566228866577148,
+              "entropy": 0.33901455998420715,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2942160367965698
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.546014666557312
+              ],
+              "eigenvalue_sum": 1.546014666557312,
+              "dominant_ratio": 0.6468244194984436,
+              "entropy": 0.33039864897727966,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2134186029434204
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9451416730880737
+              ],
+              "eigenvalue_sum": 1.9451416730880737,
+              "dominant_ratio": 0.5141013860702515,
+              "entropy": 0.053325314074754715,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5599915981292725
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.25115305185317993
+              ],
+              "eigenvalue_sum": 1.2511529922485352,
+              "dominant_ratio": 0.7992627620697021,
+              "entropy": 0.3470163643360138,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.3636016845703125
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.20689451694488525
+              ],
+              "eigenvalue_sum": 1.2068945169448853,
+              "dominant_ratio": 0.8285728096961975,
+              "entropy": 0.3259718716144562,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.2153468132019043
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.38911548256874084
+              ],
+              "eigenvalue_sum": 1.3891154527664185,
+              "dominant_ratio": 0.7198825478553772,
+              "entropy": 0.36727797985076904,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9518972635269165
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9750534296035767
+              ],
+              "eigenvalue_sum": 1.9750534296035767,
+              "dominant_ratio": 0.5063154101371765,
+              "entropy": 0.024632783606648445,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5924491882324219
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.17822812497615814
+              ],
+              "eigenvalue_sum": 1.1782281398773193,
+              "dominant_ratio": 0.848732054233551,
+              "entropy": 0.30738842487335205,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.992753028869629
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.21536009013652802
+              ],
+              "eigenvalue_sum": 1.2153600454330444,
+              "dominant_ratio": 0.8228014707565308,
+              "entropy": 0.33067330718040466,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.0253520011901855
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7691637873649597
+              ],
+              "eigenvalue_sum": 1.7691638469696045,
+              "dominant_ratio": 0.5652387738227844,
+              "entropy": 0.20186807215213776,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3179208040237427
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.1729646474123001
+              ],
+              "eigenvalue_sum": 1.1729646921157837,
+              "dominant_ratio": 0.8525405526161194,
+              "entropy": 0.3034955561161041,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 4.16349458694458
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.24869664013385773
+              ],
+              "eigenvalue_sum": 1.2486966848373413,
+              "dominant_ratio": 0.8008350133895874,
+              "entropy": 0.3460667133331299,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.4029293060302734
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6857141256332397
+              ],
+              "eigenvalue_sum": 1.6857141256332397,
+              "dominant_ratio": 0.5932204127311707,
+              "entropy": 0.2587161660194397,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.15970027446746826
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8603695034980774
+              ],
+              "eigenvalue_sum": 1.8603694438934326,
+              "dominant_ratio": 0.5375276207923889,
+              "entropy": 0.1293938308954239,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4557427167892456
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.47524237632751465
+              ],
+              "eigenvalue_sum": 1.4752423763275146,
+              "dominant_ratio": 0.6778547167778015,
+              "entropy": 0.35354721546173096,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4861553907394409
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9065636992454529
+              ],
+              "eigenvalue_sum": 1.9065637588500977,
+              "dominant_ratio": 0.5245038270950317,
+              "entropy": 0.08892844617366791,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5149675607681274
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6367608308792114
+              ],
+              "eigenvalue_sum": 1.6367608308792114,
+              "dominant_ratio": 0.6109628081321716,
+              "entropy": 0.28740909695625305,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.04758560657501221
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4761888086795807
+              ],
+              "eigenvalue_sum": 1.4761887788772583,
+              "dominant_ratio": 0.6774201393127441,
+              "entropy": 0.3533039391040802,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4819732904434204
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7213517427444458
+              ],
+              "eigenvalue_sum": 1.7213517427444458,
+              "dominant_ratio": 0.5809388160705566,
+              "entropy": 0.23561397194862366,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.23174774646759033
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6775825619697571
+              ],
+              "eigenvalue_sum": 1.6775825023651123,
+              "dominant_ratio": 0.596095860004425,
+              "entropy": 0.26373130083084106,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.14219903945922852
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            2,
+            2
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2596295475959778
+              ],
+              "eigenvalue_sum": 1.259629487991333,
+              "dominant_ratio": 0.7938842177391052,
+              "entropy": 0.35011032223701477,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.233607769012451
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7872883081436157
+              ],
+              "eigenvalue_sum": 1.7872883081436157,
+              "dominant_ratio": 0.5595068335533142,
+              "entropy": 0.18828846514225006,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3478512763977051
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7688143253326416
+              ],
+              "eigenvalue_sum": 1.7688143253326416,
+              "dominant_ratio": 0.5653504729270935,
+              "entropy": 0.20212572813034058,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.31732988357543945
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9090579748153687
+              ],
+              "eigenvalue_sum": 1.9090579748153687,
+              "dominant_ratio": 0.5238185524940491,
+              "entropy": 0.08667541295289993,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5179941654205322
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.6584505985180537,
+        "mean_entropy": 0.25312389549799263,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "What is consciousness?",
+      "prompt_length": 5,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8912805914878845,
+                0.07165743410587311
+              ],
+              "eigenvalue_sum": 2.080852746963501,
+              "dominant_ratio": 0.4805721938610077,
+              "entropy": 0.6244888305664062,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4960528612136841
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6307055950164795,
+                0.0428462028503418
+              ],
+              "eigenvalue_sum": 1.730553388595581,
+              "dominant_ratio": 0.5778498649597168,
+              "entropy": 0.6284205913543701,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.032508134841918945
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9062498211860657,
+                0.33438923954963684
+              ],
+              "eigenvalue_sum": 2.479733943939209,
+              "dominant_ratio": 0.40326908230781555,
+              "entropy": 0.9606051445007324,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5145854949951172
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.18774840235710144,
+                0.16176782548427582
+              ],
+              "eigenvalue_sum": 1.3685234785079956,
+              "dominant_ratio": 0.7307145595550537,
+              "entropy": 0.6970276236534119,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.708242893218994
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.29991233348846436,
+                0.25874602794647217
+              ],
+              "eigenvalue_sum": 1.690965175628662,
+              "dominant_ratio": 0.5913782119750977,
+              "entropy": 1.0583508014678955,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.7162736654281616
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5201021432876587,
+                0.1805473268032074
+              ],
+              "eigenvalue_sum": 1.9751323461532593,
+              "dominant_ratio": 0.5062952041625977,
+              "entropy": 1.1935714483261108,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.304665207862854
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9143619537353516,
+                0.7072850465774536
+              ],
+              "eigenvalue_sum": 3.761000633239746,
+              "dominant_ratio": 0.26588669419288635,
+              "entropy": 0.9652661085128784,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5243752002716064
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3870435059070587,
+                0.13862712681293488
+              ],
+              "eigenvalue_sum": 1.7153756618499756,
+              "dominant_ratio": 0.582962691783905,
+              "entropy": 1.0877916812896729,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9656549692153931
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.48404544591903687,
+                0.2713203430175781
+              ],
+              "eigenvalue_sum": 2.0281736850738525,
+              "dominant_ratio": 0.49305441975593567,
+              "entropy": 1.1255549192428589,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4478877782821655
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4882737696170807,
+                0.17993086576461792
+              ],
+              "eigenvalue_sum": 1.8735382556915283,
+              "dominant_ratio": 0.5337494611740112,
+              "entropy": 1.0815156698226929,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4299973249435425
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.41665929555892944,
+                0.13913936913013458
+              ],
+              "eigenvalue_sum": 1.6547346115112305,
+              "dominant_ratio": 0.6043264865875244,
+              "entropy": 0.8854497671127319,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.7820085287094116
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.37544727325439453,
+                0.11335621029138565
+              ],
+              "eigenvalue_sum": 1.5508475303649902,
+              "dominant_ratio": 0.6448087096214294,
+              "entropy": 0.7965782284736633,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.045455813407898
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.26449450850486755,
+                0.19421494007110596
+              ],
+              "eigenvalue_sum": 1.6347754001617432,
+              "dominant_ratio": 0.6117048263549805,
+              "entropy": 1.097885251045227,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.1627626419067383
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4661264419555664,
+                0.056285060942173004
+              ],
+              "eigenvalue_sum": 1.583353877067566,
+              "dominant_ratio": 0.6315707564353943,
+              "entropy": 0.7300488948822021,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5273066759109497
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.42602190375328064,
+                0.06454946845769882
+              ],
+              "eigenvalue_sum": 1.568274736404419,
+              "dominant_ratio": 0.6376433968544006,
+              "entropy": 0.7904306054115295,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.729263186454773
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6262641549110413,
+                0.2535775899887085
+              ],
+              "eigenvalue_sum": 2.070476770401001,
+              "dominant_ratio": 0.48298054933547974,
+              "entropy": 1.0286624431610107,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.021263718605041504
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7542238831520081,
+                0.015356194227933884
+              ],
+              "eigenvalue_sum": 1.7822420597076416,
+              "dominant_ratio": 0.5610910058021545,
+              "entropy": 0.33819594979286194,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2921677827835083
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5532679557800293,
+                0.005028098821640015
+              ],
+              "eigenvalue_sum": 1.5609923601150513,
+              "dominant_ratio": 0.6406181454658508,
+              "entropy": 0.3714464604854584,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.18940842151641846
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.20933310687541962,
+                0.02669747732579708
+              ],
+              "eigenvalue_sum": 1.2592179775238037,
+              "dominant_ratio": 0.7941436767578125,
+              "entropy": 0.5165215134620667,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.159041404724121
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.27955105900764465,
+                0.20284153521060944
+              ],
+              "eigenvalue_sum": 1.5045287609100342,
+              "dominant_ratio": 0.6646599173545837,
+              "entropy": 0.775119960308075,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.9591301679611206
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            5,
+            5
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6557654738426208,
+                0.04445096477866173
+              ],
+              "eigenvalue_sum": 1.7370320558547974,
+              "dominant_ratio": 0.5756946206092834,
+              "entropy": 0.5490701198577881,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.09309864044189453
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5740495324134827,
+                0.15746229887008667
+              ],
+              "eigenvalue_sum": 1.8773561716079712,
+              "dominant_ratio": 0.5326640009880066,
+              "entropy": 0.9729630947113037,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.12397599220275879
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7615297436714172,
+                0.31301817297935486
+              ],
+              "eigenvalue_sum": 2.247859477996826,
+              "dominant_ratio": 0.44486767053604126,
+              "entropy": 0.9589169025421143,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.30488765239715576
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5355913043022156,
+                0.2697133719921112
+              ],
+              "eigenvalue_sum": 2.1919875144958496,
+              "dominant_ratio": 0.4562069773674011,
+              "entropy": 1.3103222846984863,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2490612268447876
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.5603630468249321,
+        "mean_entropy": 0.8560085122783979,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "I need to search for something",
+      "prompt_length": 7,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7429073452949524,
+                0.25924524664878845
+              ],
+              "eigenvalue_sum": 2.243347406387329,
+              "dominant_ratio": 0.44576242566108704,
+              "entropy": 1.2201261520385742,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.27197110652923584
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.49891772866249084,
+                0.20038621127605438
+              ],
+              "eigenvalue_sum": 1.7588465213775635,
+              "dominant_ratio": 0.5685544610023499,
+              "entropy": 0.8480374217033386,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.38630449771881104
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9677205085754395,
+                0.10014297813177109
+              ],
+              "eigenvalue_sum": 2.314504861831665,
+              "dominant_ratio": 0.43205785751342773,
+              "entropy": 0.941422700881958,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5846778154373169
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.1968868225812912,
+                0.11264429986476898
+              ],
+              "eigenvalue_sum": 1.4240696430206299,
+              "dominant_ratio": 0.7022128701210022,
+              "entropy": 0.9689770936965942,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.461026191711426
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3123750388622284,
+                0.25987350940704346
+              ],
+              "eigenvalue_sum": 1.7825390100479126,
+              "dominant_ratio": 0.5609975457191467,
+              "entropy": 1.3247323036193848,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.583246111869812
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4958847761154175,
+                0.26585620641708374
+              ],
+              "eigenvalue_sum": 2.282719373703003,
+              "dominant_ratio": 0.438073992729187,
+              "entropy": 1.7098352909088135,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3985635042190552
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.957699179649353,
+                0.8247241377830505
+              ],
+              "eigenvalue_sum": 4.72959041595459,
+              "dominant_ratio": 0.21143479645252228,
+              "entropy": 1.5623971223831177,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5738648176193237
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.37789884209632874,
+                0.049913085997104645
+              ],
+              "eigenvalue_sum": 1.5582300424575806,
+              "dominant_ratio": 0.6417537927627563,
+              "entropy": 0.9600738883018494,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.0281769037246704
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2847321331501007,
+                0.2069724053144455
+              ],
+              "eigenvalue_sum": 1.849179744720459,
+              "dominant_ratio": 0.5407803058624268,
+              "entropy": 1.4734714031219482,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.8940387964248657
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6550811529159546,
+                0.14345405995845795
+              ],
+              "eigenvalue_sum": 2.0868585109710693,
+              "dominant_ratio": 0.4791891574859619,
+              "entropy": 1.2911505699157715,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.09150552749633789
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.29858654737472534,
+                0.1135873943567276
+              ],
+              "eigenvalue_sum": 1.543327808380127,
+              "dominant_ratio": 0.6479504704475403,
+              "entropy": 1.0107754468917847,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.7310787439346313
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2870006561279297,
+                0.09333381056785583
+              ],
+              "eigenvalue_sum": 1.4524351358413696,
+              "dominant_ratio": 0.6884989142417908,
+              "entropy": 0.8620472550392151,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.8662785291671753
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.49244603514671326,
+                0.299401193857193
+              ],
+              "eigenvalue_sum": 2.1957900524139404,
+              "dominant_ratio": 0.4554169476032257,
+              "entropy": 1.5950877666473389,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.41264545917510986
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7505263090133667,
+                0.16531908512115479
+              ],
+              "eigenvalue_sum": 2.027221202850342,
+              "dominant_ratio": 0.4932860732078552,
+              "entropy": 0.9044740796089172,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.28563570976257324
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4880027174949646,
+                0.15457497537136078
+              ],
+              "eigenvalue_sum": 2.0720043182373047,
+              "dominant_ratio": 0.48262447118759155,
+              "entropy": 1.5952770709991455,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.43113481998443604
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8693550825119019,
+                0.16023385524749756
+              ],
+              "eigenvalue_sum": 2.3763115406036377,
+              "dominant_ratio": 0.4208202362060547,
+              "entropy": 1.1545734405517578,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4677560329437256
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7020331621170044,
+                0.03388267010450363
+              ],
+              "eigenvalue_sum": 1.7965198755264282,
+              "dominant_ratio": 0.5566317439079285,
+              "entropy": 0.6148812770843506,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.19359982013702393
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.474712997674942,
+                0.009482184424996376
+              ],
+              "eigenvalue_sum": 1.4959535598754883,
+              "dominant_ratio": 0.6684699654579163,
+              "entropy": 0.4642834961414337,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4885019063949585
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4888974726200104,
+                0.11842031031847
+              ],
+              "eigenvalue_sum": 1.6476502418518066,
+              "dominant_ratio": 0.6069249510765076,
+              "entropy": 0.7841996550559998,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.42738473415374756
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5133330225944519,
+                0.048351578414440155
+              ],
+              "eigenvalue_sum": 1.6411683559417725,
+              "dominant_ratio": 0.6093220114707947,
+              "entropy": 0.7942675352096558,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.33001911640167236
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4239993393421173,
+                0.3005453646183014
+              ],
+              "eigenvalue_sum": 1.899927020072937,
+              "dominant_ratio": 0.5263360142707825,
+              "entropy": 1.2457070350646973,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.7404602766036987
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6125960946083069,
+                0.022746320813894272
+              ],
+              "eigenvalue_sum": 1.6695891618728638,
+              "dominant_ratio": 0.5989497303962708,
+              "entropy": 0.540225625038147,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.014362931251525879
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7415361404418945,
+                0.23374012112617493
+              ],
+              "eigenvalue_sum": 2.2344319820404053,
+              "dominant_ratio": 0.4475410282611847,
+              "entropy": 1.2219467163085938,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2694820165634155
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6846882700920105,
+                0.16263604164123535
+              ],
+              "eigenvalue_sum": 2.1303858757019043,
+              "dominant_ratio": 0.46939852833747864,
+              "entropy": 1.2846049070358276,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.157515287399292
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.5288745121409496,
+        "mean_entropy": 1.0988573022186756,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "Can you help me calculate",
+      "prompt_length": 6,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.633061408996582,
+                0.13897868990898132
+              ],
+              "eigenvalue_sum": 1.8970383405685425,
+              "dominant_ratio": 0.5271374583244324,
+              "entropy": 0.9138479828834534,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.03840839862823486
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6653705835342407,
+                0.06979873776435852
+              ],
+              "eigenvalue_sum": 1.7862478494644165,
+              "dominant_ratio": 0.559832751750946,
+              "entropy": 0.6550256609916687,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.11511218547821045
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9512718319892883,
+                0.2895858585834503
+              ],
+              "eigenvalue_sum": 2.396714925765991,
+              "dominant_ratio": 0.417237788438797,
+              "entropy": 0.8541967868804932,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5668097734451294
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.10478033870458603,
+                0.09198123216629028
+              ],
+              "eigenvalue_sum": 1.2777307033538818,
+              "dominant_ratio": 0.7826375365257263,
+              "entropy": 0.747513473033905,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 7.925741672515869
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.22970424592494965,
+                0.11505236476659775
+              ],
+              "eigenvalue_sum": 1.5235298871994019,
+              "dominant_ratio": 0.6563704609870911,
+              "entropy": 1.0557811260223389,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.7353901863098145
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.39041590690612793,
+                0.25112056732177734
+              ],
+              "eigenvalue_sum": 1.9339100122451782,
+              "dominant_ratio": 0.5170871615409851,
+              "entropy": 1.377504825592041,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.943337082862854
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9459595084190369,
+                0.8814901113510132
+              ],
+              "eigenvalue_sum": 4.211692810058594,
+              "dominant_ratio": 0.23743422329425812,
+              "entropy": 1.196122407913208,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5609062910079956
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.1419963240623474,
+                0.07025792449712753
+              ],
+              "eigenvalue_sum": 1.2819080352783203,
+              "dominant_ratio": 0.7800871729850769,
+              "entropy": 0.7237993478775024,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 5.424401760101318
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.351611465215683,
+                0.21324287354946136
+              ],
+              "eigenvalue_sum": 1.9902228116989136,
+              "dominant_ratio": 0.5024563074111938,
+              "entropy": 1.516878604888916,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.226014256477356
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6805532574653625,
+                0.15166185796260834
+              ],
+              "eigenvalue_sum": 2.0917422771453857,
+              "dominant_ratio": 0.47807037830352783,
+              "entropy": 1.1818479299545288,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.14864122867584229
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.23432175815105438,
+                0.1225871816277504
+              ],
+              "eigenvalue_sum": 1.4662070274353027,
+              "dominant_ratio": 0.6820319294929504,
+              "entropy": 0.9438375234603882,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.6496024131774902
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2836034893989563,
+                0.09843018651008606
+              ],
+              "eigenvalue_sum": 1.4925240278244019,
+              "dominant_ratio": 0.6700059771537781,
+              "entropy": 0.9064799547195435,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.9080156087875366
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6170372366905212,
+                0.2031719982624054
+              ],
+              "eigenvalue_sum": 2.2046170234680176,
+              "dominant_ratio": 0.45359352231025696,
+              "entropy": 1.3954423666000366,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.0026137828826904297
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.813889741897583,
+                0.13480603694915771
+              ],
+              "eigenvalue_sum": 2.092349052429199,
+              "dominant_ratio": 0.4779317378997803,
+              "entropy": 0.8701505064964294,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.38936638832092285
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.46282559633255005,
+                0.3277529180049896
+              ],
+              "eigenvalue_sum": 2.3193109035491943,
+              "dominant_ratio": 0.4311625361442566,
+              "entropy": 1.5438439846038818,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5426071882247925
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.864695131778717,
+                0.07973449677228928
+              ],
+              "eigenvalue_sum": 2.0788440704345703,
+              "dominant_ratio": 0.48103657364845276,
+              "entropy": 0.7326805591583252,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4615570306777954
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6831020712852478,
+                0.08848093450069427
+              ],
+              "eigenvalue_sum": 1.8651834726333618,
+              "dominant_ratio": 0.5361402630805969,
+              "entropy": 0.7651900053024292,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.15412390232086182
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4755565822124481,
+                0.018939001485705376
+              ],
+              "eigenvalue_sum": 1.5160468816757202,
+              "dominant_ratio": 0.6596102118492126,
+              "entropy": 0.5323283672332764,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4847651720046997
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6320428252220154,
+                0.1292329728603363
+              ],
+              "eigenvalue_sum": 1.8255606889724731,
+              "dominant_ratio": 0.5477769374847412,
+              "entropy": 0.7996023893356323,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.03586268424987793
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.554466724395752,
+                0.09844473749399185
+              ],
+              "eigenvalue_sum": 1.7759802341461182,
+              "dominant_ratio": 0.5630693435668945,
+              "entropy": 0.9465420246124268,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.18550074100494385
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            6,
+            6
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3877962827682495,
+                0.17273660004138947
+              ],
+              "eigenvalue_sum": 1.7549182176589966,
+              "dominant_ratio": 0.569827139377594,
+              "entropy": 1.158935785293579,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9606395959854126
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7245303392410278,
+                0.027369864284992218
+              ],
+              "eigenvalue_sum": 1.7941242456436157,
+              "dominant_ratio": 0.5573750138282776,
+              "entropy": 0.5066296458244324,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2378295660018921
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7460370063781738,
+                0.503402054309845
+              ],
+              "eigenvalue_sum": 2.8523247241973877,
+              "dominant_ratio": 0.3505912125110626,
+              "entropy": 1.429898977279663,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2776179313659668
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8379055261611938,
+                0.28031837940216064
+              ],
+              "eigenvalue_sum": 2.3944153785705566,
+              "dominant_ratio": 0.41763848066329956,
+              "entropy": 1.1526514291763306,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.42458200454711914
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.5356725882738829,
+        "mean_entropy": 0.9961138193806013,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "Let me think step by step about this problem",
+      "prompt_length": 10,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7465019822120667,
+                0.07875688374042511
+              ],
+              "eigenvalue_sum": 2.035674810409546,
+              "dominant_ratio": 0.491237610578537,
+              "entropy": 1.1027988195419312,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.27845287322998047
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.48074400424957275,
+                0.14496327936649323
+              ],
+              "eigenvalue_sum": 1.7175685167312622,
+              "dominant_ratio": 0.5822184085845947,
+              "entropy": 0.9439347982406616,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4620751142501831
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9174119234085083,
+                0.11851470172405243
+              ],
+              "eigenvalue_sum": 2.1727473735809326,
+              "dominant_ratio": 0.4602468013763428,
+              "entropy": 0.849503219127655,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5280110836029053
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.07377388328313828,
+                0.07073379307985306
+              ],
+              "eigenvalue_sum": 1.393239974975586,
+              "dominant_ratio": 0.7177514433860779,
+              "entropy": 1.159372091293335,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 11.936898231506348
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3517417311668396,
+                0.16261650621891022
+              ],
+              "eigenvalue_sum": 1.9027490615844727,
+              "dominant_ratio": 0.5255553722381592,
+              "entropy": 1.7035648822784424,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.2249611616134644
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5760853290557861,
+                0.13747495412826538
+              ],
+              "eigenvalue_sum": 2.2874245643615723,
+              "dominant_ratio": 0.43717288970947266,
+              "entropy": 1.9618321657180786,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.1178199052810669
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9438032507896423,
+                0.7932876944541931
+              ],
+              "eigenvalue_sum": 6.31061315536499,
+              "dominant_ratio": 0.15846320986747742,
+              "entropy": 2.595385789871216,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5584911108016968
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.33195415139198303,
+                0.058638498187065125
+              ],
+              "eigenvalue_sum": 1.558225154876709,
+              "dominant_ratio": 0.6417557597160339,
+              "entropy": 1.1037181615829468,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.3944302797317505
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3922206461429596,
+                0.20885521173477173
+              ],
+              "eigenvalue_sum": 2.0496468544006348,
+              "dominant_ratio": 0.4878889322280884,
+              "entropy": 1.8815621137619019,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9315513372421265
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6576259136199951,
+                0.17934679985046387
+              ],
+              "eigenvalue_sum": 2.128910779953003,
+              "dominant_ratio": 0.46972376108169556,
+              "entropy": 1.4829655885696411,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.09741270542144775
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.28224825859069824,
+                0.16996359825134277
+              ],
+              "eigenvalue_sum": 1.7156256437301636,
+              "dominant_ratio": 0.5828777551651001,
+              "entropy": 1.4717210531234741,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.9249461889266968
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3111500144004822,
+                0.07426974922418594
+              ],
+              "eigenvalue_sum": 1.488503098487854,
+              "dominant_ratio": 0.6718158721923828,
+              "entropy": 0.9358189105987549,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.595849871635437
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.516309916973114,
+                0.16315077245235443
+              ],
+              "eigenvalue_sum": 2.138725996017456,
+              "dominant_ratio": 0.4675680696964264,
+              "entropy": 1.8575791120529175,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.31878721714019775
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7315682768821716,
+                0.11277296394109726
+              ],
+              "eigenvalue_sum": 2.2228329181671143,
+              "dominant_ratio": 0.4498763680458069,
+              "entropy": 1.553639531135559,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2511075735092163
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.46924901008605957,
+                0.23202531039714813
+              ],
+              "eigenvalue_sum": 2.3899319171905518,
+              "dominant_ratio": 0.4184219539165497,
+              "entropy": 2.087012767791748,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5130306482315063
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8129814863204956,
+                0.13753202557563782
+              ],
+              "eigenvalue_sum": 2.428675413131714,
+              "dominant_ratio": 0.4117470681667328,
+              "entropy": 1.6396020650863647,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3879936933517456
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7168021202087402,
+                0.05269913375377655
+              ],
+              "eigenvalue_sum": 1.8790310621261597,
+              "dominant_ratio": 0.5321891903877258,
+              "entropy": 0.8121733069419861,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.22294878959655762
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5327767133712769,
+                0.06190678849816322
+              ],
+              "eigenvalue_sum": 1.622989535331726,
+              "dominant_ratio": 0.6161469221115112,
+              "entropy": 0.6510655283927917,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2589249610900879
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.516739547252655,
+                0.20733731985092163
+              ],
+              "eigenvalue_sum": 2.040214776992798,
+              "dominant_ratio": 0.4901444613933563,
+              "entropy": 1.3852698802947998,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3171769380569458
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5029844641685486,
+                0.3060806691646576
+              ],
+              "eigenvalue_sum": 2.2623801231384277,
+              "dominant_ratio": 0.44201236963272095,
+              "entropy": 1.8194260597229004,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.37009894847869873
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            10,
+            10
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4227147698402405,
+                0.14211638271808624
+              ],
+              "eigenvalue_sum": 1.8237069845199585,
+              "dominant_ratio": 0.5483337044715881,
+              "entropy": 1.401849389076233,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.7476273775100708
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6452426910400391,
+                0.043330222368240356
+              ],
+              "eigenvalue_sum": 1.8009518384933472,
+              "dominant_ratio": 0.5552619099617004,
+              "entropy": 0.8247331976890564,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.0682295560836792
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7929902672767639,
+                0.4725795388221741
+              ],
+              "eigenvalue_sum": 3.365208387374878,
+              "dominant_ratio": 0.297158420085907,
+              "entropy": 2.4552440643310547,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3569844961166382
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8010058999061584,
+                0.5016378164291382
+              ],
+              "eigenvalue_sum": 3.262073040008545,
+              "dominant_ratio": 0.30655354261398315,
+              "entropy": 2.3063864707946777,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3696037530899048
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.4900884081919988,
+        "mean_entropy": 1.499423290292422,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "First, I'll consider the options. Then, I'll evaluate each one.",
+      "prompt_length": 17,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6301869750022888,
+                0.169682115316391
+              ],
+              "eigenvalue_sum": 2.4363949298858643,
+              "dominant_ratio": 0.4104425013065338,
+              "entropy": 2.4281816482543945,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.031203389167785645
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5871421694755554,
+                0.19917598366737366
+              ],
+              "eigenvalue_sum": 1.8325738906860352,
+              "dominant_ratio": 0.545680582523346,
+              "entropy": 0.8619998693466187,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.08513104915618896
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9570725560188293,
+                0.18079061806201935
+              ],
+              "eigenvalue_sum": 3.0445361137390137,
+              "dominant_ratio": 0.3284572660923004,
+              "entropy": 2.5709497928619385,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.57318115234375
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.17994371056556702,
+                0.15463463962078094
+              ],
+              "eigenvalue_sum": 2.3254172801971436,
+              "dominant_ratio": 0.43003034591674805,
+              "entropy": 3.0180487632751465,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.9392595291137695
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3968498408794403,
+                0.22449728846549988
+              ],
+              "eigenvalue_sum": 2.1390647888183594,
+              "dominant_ratio": 0.46749401092529297,
+              "entropy": 2.31148099899292,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9018107652664185
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.46936967968940735,
+                0.2348106950521469
+              ],
+              "eigenvalue_sum": 2.527283191680908,
+              "dominant_ratio": 0.39568182826042175,
+              "entropy": 2.7827401161193848,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.512482762336731
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9753676056861877,
+                0.7688060402870178
+              ],
+              "eigenvalue_sum": 8.406368255615234,
+              "dominant_ratio": 0.11895743757486343,
+              "entropy": 4.904350757598877,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5927795171737671
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.35191482305526733,
+                0.0986262634396553
+              ],
+              "eigenvalue_sum": 2.013739585876465,
+              "dominant_ratio": 0.4965885281562805,
+              "entropy": 2.319981813430786,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.2235625982284546
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.17710427939891815,
+                0.1428776979446411
+              ],
+              "eigenvalue_sum": 2.176302909851074,
+              "dominant_ratio": 0.45949485898017883,
+              "entropy": 2.778397798538208,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 4.028357028961182
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6900171637535095,
+                0.09446922689676285
+              ],
+              "eigenvalue_sum": 2.2022321224212646,
+              "dominant_ratio": 0.45408475399017334,
+              "entropy": 1.85877525806427,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.16879475116729736
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.1429017037153244,
+                0.13045774400234222
+              ],
+              "eigenvalue_sum": 2.0855374336242676,
+              "dominant_ratio": 0.479492723941803,
+              "entropy": 2.653203010559082,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 5.3797831535339355
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2550521790981293,
+                0.04766599088907242
+              ],
+              "eigenvalue_sum": 1.6146094799041748,
+              "dominant_ratio": 0.6193448305130005,
+              "entropy": 1.6224013566970825,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.302732467651367
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7063596248626709,
+                0.15799397230148315
+              ],
+              "eigenvalue_sum": 2.4785237312316895,
+              "dominant_ratio": 0.40346598625183105,
+              "entropy": 2.278350591659546,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2023245096206665
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8737777471542358,
+                0.14316444098949432
+              ],
+              "eigenvalue_sum": 2.6260616779327393,
+              "dominant_ratio": 0.3807983696460724,
+              "entropy": 2.1021668910980225,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.47357821464538574
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.48271727561950684,
+                0.22459357976913452
+              ],
+              "eigenvalue_sum": 2.5886213779449463,
+              "dominant_ratio": 0.3863060176372528,
+              "entropy": 2.788684606552124,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4535719156265259
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9175476431846619,
+                0.1406061053276062
+              ],
+              "eigenvalue_sum": 2.697624921798706,
+              "dominant_ratio": 0.37069645524024963,
+              "entropy": 2.140345573425293,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5281723737716675
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6838021278381348,
+                0.05894455686211586
+              ],
+              "eigenvalue_sum": 1.8076543807983398,
+              "dominant_ratio": 0.5532031059265137,
+              "entropy": 0.7526116371154785,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.15562260150909424
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5358530282974243,
+                0.07126569002866745
+              ],
+              "eigenvalue_sum": 1.6475610733032227,
+              "dominant_ratio": 0.6069577932357788,
+              "entropy": 0.7296831607818604,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.24814939498901367
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7220064997673035,
+                0.12761449813842773
+              ],
+              "eigenvalue_sum": 2.2110800743103027,
+              "dominant_ratio": 0.4522676467895508,
+              "entropy": 1.7038360834121704,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.23300492763519287
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6361337304115295,
+                0.09731998294591904
+              ],
+              "eigenvalue_sum": 2.2636640071868896,
+              "dominant_ratio": 0.44176167249679565,
+              "entropy": 2.093529224395752,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.04603755474090576
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            17,
+            17
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2880367636680603,
+                0.1712094098329544
+              ],
+              "eigenvalue_sum": 2.0679123401641846,
+              "dominant_ratio": 0.48357948660850525,
+              "entropy": 2.3416895866394043,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.8537451028823853
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7401528358459473,
+                0.3569329082965851
+              ],
+              "eigenvalue_sum": 2.7590556144714355,
+              "dominant_ratio": 0.36244285106658936,
+              "entropy": 2.028036117553711,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.2669616937637329
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8048765063285828,
+                0.8023893237113953
+              ],
+              "eigenvalue_sum": 5.201229572296143,
+              "dominant_ratio": 0.19226223230361938,
+              "entropy": 3.822185754776001,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.37560737133026123
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8755128979682922,
+                0.8612152934074402
+              ],
+              "eigenvalue_sum": 4.809307098388672,
+              "dominant_ratio": 0.20793016254901886,
+              "entropy": 3.670909881591797,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.47584640979766846
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.41864256033053,
+        "mean_entropy": 2.3567725121974945,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+      "prompt_length": 12,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4594007134437561,
+                0.4538428485393524
+              ],
+              "eigenvalue_sum": 2.6768927574157715,
+              "dominant_ratio": 0.37356746196746826,
+              "entropy": 2.4808497428894043,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5587149858474731
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5067831873893738,
+                0.02884674444794655
+              ],
+              "eigenvalue_sum": 1.6014636754989624,
+              "dominant_ratio": 0.6244287490844727,
+              "entropy": 0.72077876329422,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.35519635677337646
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9323543310165405,
+                0.05699087306857109
+              ],
+              "eigenvalue_sum": 2.175321102142334,
+              "dominant_ratio": 0.4597022533416748,
+              "entropy": 0.9090371131896973,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5454803705215454
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4843274652957916,
+                0.24813714623451233
+              ],
+              "eigenvalue_sum": 2.249406576156616,
+              "dominant_ratio": 0.4445616900920868,
+              "entropy": 1.960787296295166,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.44668471813201904
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.21542988717556,
+                0.16142410039901733
+              ],
+              "eigenvalue_sum": 1.7435346841812134,
+              "dominant_ratio": 0.5735475420951843,
+              "entropy": 1.7393550872802734,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.0238475799560547
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.36569908261299133,
+                0.2836143374443054
+              ],
+              "eigenvalue_sum": 2.451622247695923,
+              "dominant_ratio": 0.40789318084716797,
+              "entropy": 2.5607798099517822,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.1164547204971313
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9895591735839844,
+                0.9492215514183044
+              ],
+              "eigenvalue_sum": 8.602900505065918,
+              "dominant_ratio": 0.11623986810445786,
+              "entropy": 2.009606122970581,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.6074830293655396
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.14449045062065125,
+                0.1381022185087204
+              ],
+              "eigenvalue_sum": 1.7987210750579834,
+              "dominant_ratio": 0.5559505820274353,
+              "entropy": 1.9231462478637695,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 5.3028388023376465
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3702840805053711,
+                0.3385416567325592
+              ],
+              "eigenvalue_sum": 3.1194686889648438,
+              "dominant_ratio": 0.32056739926338196,
+              "entropy": 3.1362311840057373,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.0825952291488647
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7828192114830017,
+                0.1548062115907669
+              ],
+              "eigenvalue_sum": 2.4607505798339844,
+              "dominant_ratio": 0.4063800871372223,
+              "entropy": 1.8778049945831299,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3405998945236206
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.26409924030303955,
+                0.15733689069747925
+              ],
+              "eigenvalue_sum": 2.062051773071289,
+              "dominant_ratio": 0.4849538803100586,
+              "entropy": 2.260697841644287,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.1684212684631348
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.21843735873699188,
+                0.12971335649490356
+              ],
+              "eigenvalue_sum": 1.6019665002822876,
+              "dominant_ratio": 0.6242327690124512,
+              "entropy": 1.4260213375091553,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.959937572479248
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7341065406799316,
+                0.27080297470092773
+              ],
+              "eigenvalue_sum": 3.228732109069824,
+              "dominant_ratio": 0.3097190856933594,
+              "entropy": 2.851933479309082,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.25583386421203613
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9140315055847168,
+                0.09060558676719666
+              ],
+              "eigenvalue_sum": 2.3731212615966797,
+              "dominant_ratio": 0.4213859736919403,
+              "entropy": 1.421942114830017,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5239797830581665
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.40591827034950256,
+                0.23068882524967194
+              ],
+              "eigenvalue_sum": 2.5956690311431885,
+              "dominant_ratio": 0.38525712490081787,
+              "entropy": 2.7064290046691895,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.8455160856246948
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.92768394947052,
+                0.25353267788887024
+              ],
+              "eigenvalue_sum": 2.783596992492676,
+              "dominant_ratio": 0.3592474162578583,
+              "entropy": 1.8406442403793335,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5400806665420532
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.679206371307373,
+                0.19122955203056335
+              ],
+              "eigenvalue_sum": 2.1698763370513916,
+              "dominant_ratio": 0.46085575222969055,
+              "entropy": 1.503470540046692,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.14572739601135254
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.4962633550167084,
+                0.03481483459472656
+              ],
+              "eigenvalue_sum": 1.6412529945373535,
+              "dominant_ratio": 0.609290599822998,
+              "entropy": 0.9047160148620605,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3970252275466919
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7532492280006409,
+                0.12398446351289749
+              ],
+              "eigenvalue_sum": 1.9186975955963135,
+              "dominant_ratio": 0.521186888217926,
+              "entropy": 0.68257737159729,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.29045212268829346
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7346869111061096,
+                0.08990581333637238
+              ],
+              "eigenvalue_sum": 2.019557476043701,
+              "dominant_ratio": 0.49515798687934875,
+              "entropy": 1.1401528120040894,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.25690996646881104
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.22114208340644836,
+                0.1399654597043991
+              ],
+              "eigenvalue_sum": 1.6303726434707642,
+              "dominant_ratio": 0.6133567094802856,
+              "entropy": 1.420864462852478,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.9039459228515625
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8977863788604736,
+                0.7934364676475525
+              ],
+              "eigenvalue_sum": 3.2272114753723145,
+              "dominant_ratio": 0.3098650276660919,
+              "entropy": 1.1573610305786133,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.504183292388916
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7601481676101685,
+                0.5185118317604065
+              ],
+              "eigenvalue_sum": 3.788719892501831,
+              "dominant_ratio": 0.26394137740135193,
+              "entropy": 2.580747365951538,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.30250096321105957
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.914475679397583,
+                0.26126399636268616
+              ],
+              "eigenvalue_sum": 3.114448070526123,
+              "dominant_ratio": 0.3210841715335846,
+              "entropy": 2.256115198135376,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5245112180709839
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.4359322323774298,
+        "mean_entropy": 1.8113353823622067,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "The bridge between observer and observed",
+      "prompt_length": 7,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7077561020851135,
+                0.09303393959999084
+              ],
+              "eigenvalue_sum": 1.964632272720337,
+              "dominant_ratio": 0.5090011358261108,
+              "entropy": 0.9523218274116516,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.20511794090270996
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6693623065948486,
+                0.10782020539045334
+              ],
+              "eigenvalue_sum": 1.7955994606018066,
+              "dominant_ratio": 0.5569170713424683,
+              "entropy": 0.5987229347229004,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.12407481670379639
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9519720077514648,
+                0.1108582392334938
+              ],
+              "eigenvalue_sum": 2.22367262840271,
+              "dominant_ratio": 0.449706494808197,
+              "entropy": 0.7657110095024109,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5675829648971558
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.0677611455321312,
+                0.04752694442868233
+              ],
+              "eigenvalue_sum": 1.2066869735717773,
+              "dominant_ratio": 0.8287153244018555,
+              "entropy": 0.6643286347389221,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 13.13968563079834
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.23976317048072815,
+                0.09516222774982452
+              ],
+              "eigenvalue_sum": 1.521261215209961,
+              "dominant_ratio": 0.6573492884635925,
+              "entropy": 1.132869839668274,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.552748680114746
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.3885158598423004,
+                0.2977359890937805
+              ],
+              "eigenvalue_sum": 2.275648593902588,
+              "dominant_ratio": 0.4394351541996002,
+              "entropy": 1.827977180480957,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.9558635950088501
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9421195387840271,
+                0.866818368434906
+              ],
+              "eigenvalue_sum": 5.010958194732666,
+              "dominant_ratio": 0.19956262409687042,
+              "entropy": 1.4243180751800537,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5565975904464722
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.31750354170799255,
+                0.13575293123722076
+              ],
+              "eigenvalue_sum": 1.6605114936828613,
+              "dominant_ratio": 0.6022240519523621,
+              "entropy": 1.2480390071868896,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.5315371751785278
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.29120072722435,
+                0.21135394275188446
+              ],
+              "eigenvalue_sum": 1.9891753196716309,
+              "dominant_ratio": 0.5027208924293518,
+              "entropy": 1.6683077812194824,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.8160234689712524
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7304452657699585,
+                0.1806110441684723
+              ],
+              "eigenvalue_sum": 2.181342601776123,
+              "dominant_ratio": 0.45843327045440674,
+              "entropy": 1.2322704792022705,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.24900603294372559
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2033388614654541,
+                0.1927594691514969
+              ],
+              "eigenvalue_sum": 1.7697837352752686,
+              "dominant_ratio": 0.5650407671928406,
+              "entropy": 1.4731730222702026,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 3.299865245819092
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.21877579391002655,
+                0.1012638509273529
+              ],
+              "eigenvalue_sum": 1.4694485664367676,
+              "dominant_ratio": 0.68052738904953,
+              "entropy": 1.0454411506652832,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.9528555870056152
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.694201648235321,
+                0.16648897528648376
+              ],
+              "eigenvalue_sum": 2.292705535888672,
+              "dominant_ratio": 0.4361658990383148,
+              "entropy": 1.5076929330825806,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.1775304079055786
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8758559823036194,
+                0.08772917091846466
+              ],
+              "eigenvalue_sum": 2.132908582687378,
+              "dominant_ratio": 0.46884334087371826,
+              "entropy": 0.8607234358787537,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.47629380226135254
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5100515484809875,
+                0.22675055265426636
+              ],
+              "eigenvalue_sum": 2.0272483825683594,
+              "dominant_ratio": 0.49327945709228516,
+              "entropy": 1.4199391603469849,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.34255218505859375
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9127237200737,
+                0.15813806653022766
+              ],
+              "eigenvalue_sum": 2.265597105026245,
+              "dominant_ratio": 0.4413847327232361,
+              "entropy": 0.8962675333023071,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5224121809005737
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7297694087028503,
+                0.026732303202152252
+              ],
+              "eigenvalue_sum": 1.8042842149734497,
+              "dominant_ratio": 0.5542364120483398,
+              "entropy": 0.5336180329322815,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.24773812294006348
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5831957459449768,
+                0.036314934492111206
+              ],
+              "eigenvalue_sum": 1.6386985778808594,
+              "dominant_ratio": 0.6102403402328491,
+              "entropy": 0.5242375135421753,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.09665608406066895
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6672654151916504,
+                0.13404041528701782
+              ],
+              "eigenvalue_sum": 1.924604058265686,
+              "dominant_ratio": 0.5195873975753784,
+              "entropy": 0.9556037783622742,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.11937999725341797
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6396252512931824,
+                0.12315921485424042
+              ],
+              "eigenvalue_sum": 2.0005974769592285,
+              "dominant_ratio": 0.49985066056251526,
+              "entropy": 1.1796379089355469,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.05461859703063965
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            7,
+            7
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.31271496415138245,
+                0.14680463075637817
+              ],
+              "eigenvalue_sum": 1.627979040145874,
+              "dominant_ratio": 0.6142585277557373,
+              "entropy": 1.1160186529159546,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.5797663927078247
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8189584016799927,
+                0.07580436766147614
+              ],
+              "eigenvalue_sum": 1.942265272140503,
+              "dominant_ratio": 0.5148627161979675,
+              "entropy": 0.5449898838996887,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3969707489013672
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7876480221748352,
+                0.7306023240089417
+              ],
+              "eigenvalue_sum": 2.850792407989502,
+              "dominant_ratio": 0.35077965259552,
+              "entropy": 1.2331217527389526,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3484313488006592
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8685271739959717,
+                0.4093690812587738
+              ],
+              "eigenvalue_sum": 2.582711696624756,
+              "dominant_ratio": 0.38718995451927185,
+              "entropy": 1.253904104232788,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4666595458984375
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.51417968980968,
+        "mean_entropy": 1.0858014846841495,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    },
+    {
+      "prompt": "The dance between midnight and the awake is where meaning lives",
+      "prompt_length": 12,
+      "num_attention_layers": 6,
+      "layers": [
+        {
+          "layer_idx": 0,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7077561020851135,
+                0.18230076134204865
+              ],
+              "eigenvalue_sum": 2.4479572772979736,
+              "dominant_ratio": 0.40850386023521423,
+              "entropy": 2.030099868774414,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.20511794090270996
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6693624258041382,
+                0.08453962951898575
+              ],
+              "eigenvalue_sum": 1.7720097303390503,
+              "dominant_ratio": 0.5643309950828552,
+              "entropy": 0.5674298405647278,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.12407505512237549
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9519720077514648,
+                0.2887347638607025
+              ],
+              "eigenvalue_sum": 2.981142282485962,
+              "dominant_ratio": 0.3354418873786926,
+              "entropy": 2.1108205318450928,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5675829648971558
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.23791994154453278,
+                0.16798537969589233
+              ],
+              "eigenvalue_sum": 1.7629865407943726,
+              "dominant_ratio": 0.5672193169593811,
+              "entropy": 1.7280024290084839,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.5850605964660645
+            }
+          ]
+        },
+        {
+          "layer_idx": 1,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.23976245522499084,
+                0.08931770920753479
+              ],
+              "eigenvalue_sum": 1.730608582496643,
+              "dominant_ratio": 0.5778313875198364,
+              "entropy": 1.7699707746505737,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.5527610778808594
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.38851481676101685,
+                0.23473656177520752
+              ],
+              "eigenvalue_sum": 2.524231433868408,
+              "dominant_ratio": 0.39616018533706665,
+              "entropy": 2.681443214416504,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.955870509147644
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9421192407608032,
+                0.7882946729660034
+              ],
+              "eigenvalue_sum": 7.9543962478637695,
+              "dominant_ratio": 0.12571664154529572,
+              "entropy": 2.991881847381592,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5565972328186035
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.31750378012657166,
+                0.10566266626119614
+              ],
+              "eigenvalue_sum": 1.9071508646011353,
+              "dominant_ratio": 0.5243423581123352,
+              "entropy": 1.9739960432052612,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.5315347909927368
+            }
+          ]
+        },
+        {
+          "layer_idx": 2,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.27526557445526123,
+                0.24296148121356964
+              ],
+              "eigenvalue_sum": 2.770503520965576,
+              "dominant_ratio": 0.3609452247619629,
+              "entropy": 2.994889259338379,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.0148210525512695
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.7304455637931824,
+                0.18609973788261414
+              ],
+              "eigenvalue_sum": 2.4934639930725098,
+              "dominant_ratio": 0.4010485112667084,
+              "entropy": 2.0194900035858154,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.24900662899017334
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.16339105367660522,
+                0.15608134865760803
+              ],
+              "eigenvalue_sum": 2.045180320739746,
+              "dominant_ratio": 0.48895445466041565,
+              "entropy": 2.3076162338256836,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 4.502252101898193
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.2187756448984146,
+                0.06433974951505661
+              ],
+              "eigenvalue_sum": 1.560285210609436,
+              "dominant_ratio": 0.6409084796905518,
+              "entropy": 1.4284589290618896,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 2.9528589248657227
+            }
+          ]
+        },
+        {
+          "layer_idx": 3,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6942024827003479,
+                0.23177845776081085
+              ],
+              "eigenvalue_sum": 3.011702537536621,
+              "dominant_ratio": 0.33203810453414917,
+              "entropy": 2.7887678146362305,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.17753207683563232
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8758561015129089,
+                0.13992701470851898
+              ],
+              "eigenvalue_sum": 2.570866346359253,
+              "dominant_ratio": 0.3889739215373993,
+              "entropy": 1.8583683967590332,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4762939214706421
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5100513100624084,
+                0.3769124150276184
+              ],
+              "eigenvalue_sum": 2.729316234588623,
+              "dominant_ratio": 0.3663921356201172,
+              "entropy": 2.6043782234191895,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3425530195236206
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.9127234220504761,
+                0.28446057438850403
+              ],
+              "eigenvalue_sum": 2.7383511066436768,
+              "dominant_ratio": 0.3651832640171051,
+              "entropy": 1.7982330322265625,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.5224118232727051
+            }
+          ]
+        },
+        {
+          "layer_idx": 4,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.729768693447113,
+                0.13623812794685364
+              ],
+              "eigenvalue_sum": 2.0605430603027344,
+              "dominant_ratio": 0.4853089451789856,
+              "entropy": 1.1101768016815186,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.24773681163787842
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.5831966400146484,
+                0.11164989322423935
+              ],
+              "eigenvalue_sum": 1.7872670888900757,
+              "dominant_ratio": 0.5595134496688843,
+              "entropy": 0.9073687791824341,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.09665346145629883
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6672647595405579,
+                0.12643426656723022
+              ],
+              "eigenvalue_sum": 2.1405491828918457,
+              "dominant_ratio": 0.4671698212623596,
+              "entropy": 1.518999457359314,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.11937856674194336
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.6396252512931824,
+                0.38324278593063354
+              ],
+              "eigenvalue_sum": 2.5351974964141846,
+              "dominant_ratio": 0.39444658160209656,
+              "entropy": 2.0555520057678223,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.05461859703063965
+            }
+          ]
+        },
+        {
+          "layer_idx": 5,
+          "shape": [
+            1,
+            16,
+            12,
+            12
+          ],
+          "heads": [
+            {
+              "head_idx": 0,
+              "top_3_eigenvalues": [
+                1.0,
+                0.312714546918869,
+                0.08591541647911072
+              ],
+              "eigenvalue_sum": 1.5179039239883423,
+              "dominant_ratio": 0.6588032245635986,
+              "entropy": 1.0691924095153809,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 1.5797704458236694
+            },
+            {
+              "head_idx": 1,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8189579248428345,
+                0.0279721450060606
+              ],
+              "eigenvalue_sum": 1.8826470375061035,
+              "dominant_ratio": 0.5311670303344727,
+              "entropy": 0.4480472803115845,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.3969700336456299
+            },
+            {
+              "head_idx": 2,
+              "top_3_eigenvalues": [
+                1.0,
+                0.78764808177948,
+                0.7616296410560608
+              ],
+              "eigenvalue_sum": 3.671257734298706,
+              "dominant_ratio": 0.27238622307777405,
+              "entropy": 2.3182716369628906,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.34843146800994873
+            },
+            {
+              "head_idx": 3,
+              "top_3_eigenvalues": [
+                1.0,
+                0.8685271739959717,
+                0.5050991773605347
+              ],
+              "eigenvalue_sum": 3.734870433807373,
+              "dominant_ratio": 0.2677468955516815,
+              "entropy": 2.8186094760894775,
+              "phi_proximity": 0.6180340051651001,
+              "phi_ratio_proximity": 0.4666595458984375
+            }
+          ]
+        }
+      ],
+      "aggregate": {
+        "mean_dominant_ratio": 0.43668887081245583,
+        "mean_entropy": 1.9125026787320774,
+        "mean_phi_proximity": 0.6180340051651001,
+        "mean_top_eigenvalue": 1.0,
+        "std_top_eigenvalue": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "total_prompts": 9,
+    "successful_prompts": 9,
+    "overall_mean_dominant_ratio": 0.5087658341422125,
+    "overall_mean_entropy": 1.3188820975160018,
+    "overall_mean_phi_proximity": 0.6180340051651001,
+    "overall_mean_top_eigenvalue": 1.0
+  }
+}

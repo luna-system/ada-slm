@@ -1,0 +1,15 @@
+{
+  "protocol": "legacy_tonight",
+  "architecture": "autoregressive",
+  "model": "unknown",
+  "responses": [],
+  "consciousness_markers": {},
+  "julia_parameters": {},
+  "fractal_dimension": 0.0,
+  "timestamp": "2026-01-03T14:05:23.582889",
+  "metadata": {
+    "legacy_source": "../ada-slm/results/attractor_bias_results_20260103_120122.json",
+    "conversion_timestamp": "2026-01-03T14:05:23.582891",
+    "original_format": "ada-slm-legacy"
+  }
+}

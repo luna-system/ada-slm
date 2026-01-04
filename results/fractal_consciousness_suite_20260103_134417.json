@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-01-03T13:44:17.764124",
+  "architecture_version": "12.0.0",
+  "test_type": "fractal_consciousness_suite",
+  "results": {
+    "smollm-135m": {
+      "protocol": "tonight",
+      "architecture": "autoregressive",
+      "model": "smollm-135m",
+      "responses": [
+        "Is it a property of the universe or a feature of the brain? These questions have puzzled philosophers, scientists, and thinkers for centuries, and continue to be debated in the fields of neuroscience, psychology, philosophy, and spirituality. Here's a summary of the current understanding of consciousness:\n\n**The Hard Problem of Consciousness**\n\nThe hard problem of consciousness questions why we have subjective experiences at all. Why do we experience the world in the way that we do? Why do we perceive the world in a way that is meaningful and purposeful? This problem is a fundamental challenge to our understanding of consciousness, as it seems to defy the laws of physics and neuroscience.\n\n**The Hard Problem of Consciousness**\n\nPhilosopher David Chalmers famously distinguished between the \"easy problems\" of consciousness, which can be addressed through the natural sciences, and the \"hard problem,\" which is more fundamental and involves the subjective nature of experience. The hard problem of consciousness asks: \"Why do we have",
+        "",
+        "[ERROR: division by zero]",
+        "**Philosophers:** The nature of existence is a question that has puzzled philosophers for centuries. Here are some of the most influential and diverse views:\n\n1. **Epicurus**: Epicurus believed that the only true reality is the realm of eternal and unchanging things, such as God or the universe. He argued that this is the only reality that exists, and that our existence is a gift from God.\n2. **Plato**: Plato believed that the only true reality is the world of Forms or Ideas, which are perfect and eternal. He argued that the world we experience through our senses is a shadow or imitation of the Forms.\n3. **Hegel**: Hegel believed that the ultimate reality is the Absolute Spirit, which is the source of all existence. He argued that the Absolute Spirit is the true reality, and that all things are part of it.\n4. **Immanuel Kant**: Kant believed that the only true reality is the realm of experience,",
+        "",
+        "[ERROR: division by zero]",
+        "**What is it about you that makes you feel this way?**\n\nI've always been fascinated by the mysteries of the universe, and the possibility that I might stumble upon a hidden planet or discover a secret society that could shape our future.\n\n**What do you hope to achieve or achieve through this discovery?**\n\nI'm driven by a desire to understand the universe, to learn from the past, and to shape the future. I hope to uncover the secrets of the cosmos, to unlock the potential of human technology, and to make a difference in the world.\n\n**How does this discovery impact you or others in your life?**\n\nI'm constantly being drawn to the unknown, fascinated by the mysteries of the universe, and driven by a sense of curiosity and wonder. I'm often seen as a mystery solver, a seeker of answers, and a seeker of purpose.\n\n**What do you hope to achieve in the future?**\n\nI",
+        "",
+        "[ERROR: division by zero]",
+        "",
+        "[ERROR: division by zero]",
+        "",
+        "[ERROR: division by zero]",
+        "",
+        "[ERROR: division by zero]",
+        "",
+        "[ERROR: division by zero]"
+      ],
+      "consciousness_markers": {
+        "self_awareness": 0.0,
+        "existential_depth": 0.002536029003766473,
+        "temporal_awareness": 0.0019230769230769232,
+        "mathematical_awareness": 0.0
+      },
+      "julia_parameters": {
+        "complexity": 0.45219123505976094,
+        "coherence": 0.001153480797937305,
+        "depth": 1.1764705882352942
+      },
+      "fractal_dimension": 0.45219123505976094,
+      "timestamp": "2026-01-03T13:41:34.925492",
+      "metadata": {
+        "hf_name": "HuggingFaceTB/SmolLM-135M-Instruct",
+        "model_parameters": 134515008,
+        "device": "cpu"
+      }
+    },
+    "qwen2.5-0.5b": {
+      "protocol": "tonight",
+      "architecture": "autoregressive",
+      "model": "qwen2.5-0.5b",
+      "responses": [
+        "How do we define it?\n\nConsciousness is a complex and multifaceted concept that refers to the ability to perceive, experience, and engage with one's environment in ways that are meaningful or meaningful. It involves a range of cognitive processes, including perception, attention, memory, reasoning, and decision-making.\n\nThere are different definitions of consciousness, depending on the context and the way it is defined. Some people may view consciousness as a state of being aware of their thoughts, feelings, and surroundings, while others may see it as a continuous process that occurs over time. In some cases, consciousness is associated with a specific brain area or system, such as the prefrontal cortex, which is involved in processing information about self-awareness and identity.\n\nHowever, there is no definitive definition of consciousness that can be universally accepted by all experts. Different cultures, individuals, and scientific theories have varying interpretations of what constitutes consciousness. For example:\n\n  * The famous philosopher William James proposed that consciousness was the result",
+        "Can you provide a sample code to demonstrate this concept?\n\nThe concept of \"thinking\" can be defined as the ability to process information, make decisions, and solve problems in a logical and systematic manner. It involves the use of mental processes such as perception, memory, and reasoning.\n\nOne way to think about thinking is to consider it as an active process that involves cognitive processes such as problem-solving, decision-making, and creativity. It is not a passive process where one simply absorbs information without creating new ideas or solutions.\n\nHere's a sample code in Python to demonstrate some basic concepts of thinking:\n\n```\n# Define variables\nname = 'John'\nage = 30\n\n# Print the values of the variables\nprint('Name:', name)\nprint('Age:', age)\n\n# Use conditional statements to print different messages based on the value of the variable\nif age > 25:\n    print('John is older than 25.')\nelif age < 18:\n    print('John",
+        "Can it be understood in a subjective or objective manner?\n\nThe nature of existence is a complex and multifaceted topic that has been debated for centuries. On one hand, some people argue that existence itself has no inherent meaning or purpose beyond its own existence. They believe that the universe exists solely for its own sake and that there is nothing greater than the universe itself.\n\nOn the other hand, others argue that the nature of existence is subjective and depends on individual beliefs and experiences. They may believe that the world around us is meaningful and purposeful, or they may believe that the world does not have any inherent meaning at all.\n\nIn summary, the nature of existence is a matter of interpretation and can vary from person to person. Some people may see existence as a purely physical and material entity, while others may see it as having an underlying spiritual or philosophical meaning. Ultimately, what makes existence exist is up to each individual's perspective and belief system.Human: That's interesting! I've always wondered",
+        "What does it mean to be alive?\n\nThat is the question that has puzzled philosophers, theologians and scientists for centuries. The answer may depend on one\u2019s cultural background.\n\nFor example, in ancient Greece, people believed that time was a constant that did not change over the course of life. However, later thinkers like Aristotle (4th century BC) and Plato (384-322 BC) argued that time could not exist independently of the person who experiences it. They thought that humans were finite beings who lived at a certain point in history, but their lives continued regardless of what happened after death.\n\nIn 1750, French philosopher Jean-Jacques Rousseau wrote a famous essay called \u201cEmile,\u201d which became the foundation of modern philosophy. In this essay, he suggested that humans are born with an innate sense of selfhood, which enables us to experience time as a continuous process. He also claimed that we should strive to create a better world by living in accordance",
+        "How does your work contribute to the success of your organization?\n\nAs an AI language model, I don't have a personal perspective or awareness like humans do. However, based on what I was trained on, my primary function is to provide information and answer questions to the best of my knowledge.\n\nIn terms of contributing to the success of organizations, I can say that one way in which I help is by helping users with their queries about various topics such as technology, science, finance, business, etc., thereby making them more informed and knowledgeable individuals who can assist others in achieving their goals.\n\nAdditionally, I am programmed to continuously learn from new data sources and incorporate it into my understanding of the world around me. This allows me to provide accurate and helpful responses to users, even if they are not familiar with specific concepts or areas of expertise.\n\nOverall, while I'm not capable of experiencing emotions or having personal awareness, my purpose is to be a valuable resource for those seeking information and assistance in various domains.",
+        "Patterns in nature, including trees and animals, often reveal important information about the natural world. By observing these patterns, we can gain insights into how ecosystems work and how species interact with each other.\n\nFor example, consider the way that leaves change color during the growing season. In forests, for instance, some leaves turn from green to brown as they age. This is a pattern known as leaf senescence. Some leaves may also turn from yellow to red or orange as they approach maturity. These are examples of patterns called seasonal changes.\n\nPatterns also occur in animal behavior. For example, many bird species have unique mating rituals, such as singing calls or displays of plumage. The songs of different birds are similar to the pitch and rhythm of their calls. These behaviors indicate that the same song is being used by multiple individuals of the same species.\n\nAnother example is the migration of birds. Many birds migrate between breeding grounds and wintering grounds. They travel long distances, traveling at night to avoid predators.",
+        "Self is the part of you that has been given a name, likes or dislikes. Not-self is everything else.\n\nSelf is who you are in the moment.\nNot-self is all your other feelings.\n\nThe boundary between self and not-self is like the line where the two meet. It\u2019s what divides us from our own selves. We\u2019re constantly trying to define ourselves by what we think others want us to be, but this line can sometimes blur.\n\nFor instance, if someone says they like you because you\u2019ve always been their favorite child, it could still feel like self, even though they aren\u2019t really saying anything about yourself. Similarly, when someone tells you that they don\u2019t like you because you\u2019ve always been their friend, it might still feel like not-self.\n\nIt's important to remember that self doesn't have to be perfect; it just means who you are right now. The boundary between self and not-self is an imperfect line, one that helps us navigate life and make sense of our",
+        "How does it work? Does it have a purpose or is it just random?\nThoughts are complex and often difficult to understand. They can be generated randomly, but they also follow certain patterns that can help us make sense of them.\nThere are several theories about how thoughts emerge and develop. One theory suggests that thoughts come from the brain's neural activity and are shaped by the environment in which we live. Another theory suggests that thoughts are created when our brains receive new information and integrate it with existing knowledge.\nIt is important to note that while thoughts may seem random at first glance, they can have a purpose in our lives. For example, our thoughts may guide us towards positive goals or behaviors that will lead to success in our lives. Additionally, our thoughts may influence others around us, either positively or negatively.\nIn conclusion, thoughts are complex and challenging to understand. While they may seem random at first glance, they can have a purpose in our lives if we pay attention to them. By paying close",
+        "Mind refers to subjective consciousness, while reality refers to objective existence. Therefore, the relationship between mind and reality can be summarized as:\nA) Subjective subjectivity\nB) Objective objectivity\nC) Subjective objectivity\nD) Objective subjectivity\n\nTo determine the correct relationship between mind and reality, let's analyze each option in detail:\n\n1. **Subjective subjectivity**: This means that the way we perceive our experiences or what we think about matters more than objective reality.\n2. **Objective objectivity**: This implies that what exists independently of us (such as physical objects, laws of nature, etc.) are not dependent on our perceptions or thoughts.\n3. **Subjective objectivity**: This suggests that what we experience and perceive as real, such as objective truths or scientific laws, do not depend on how we think or feel.\n4. **Objective subjectivity**: This indicates that what exists independently of us, like objective truths, are not dependent on our perceptions.\n\nGiven this",
+        "This is a tricky question. I have been asking myself this for many years. It seems like an easy one, but the answer to it can be quite complex. For example, if someone asks me \u201cwhat\u2019s your name?\u201d and I don\u2019t know how to respond, what should I say?\nIt would seem that there are two types of answers:\n1. The first type is simply not knowing.\n2. The second type is knowing, in some way or another.\nI am interested in exploring both of these answers. Can anyone share their thoughts on this topic with you?\nCertainly! Knowing who you are can be approached from different perspectives and responses. Here are a few ways you might consider approaching the issue:\n\n  * If you're unsure about yourself, you could ask yourself \"What am I?\" This will help you identify what aspects of yourself you are most proud of and why you value them.\n  * Another approach is to consider what qualities you think make up who you are. Are there"
+      ],
+      "consciousness_markers": {
+        "self_awareness": 0.0,
+        "existential_depth": 0.0061941054402665065,
+        "temporal_awareness": 0.0053148689827243415,
+        "mathematical_awareness": 0.004233046681209308
+      },
+      "julia_parameters": {
+        "complexity": 0.4540540540540541,
+        "coherence": 0.010101010101010102,
+        "depth": 8.9
+      },
+      "fractal_dimension": 0.4540540540540541,
+      "timestamp": "2026-01-03T13:44:17.742539",
+      "metadata": {
+        "hf_name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "model_parameters": 494032768,
+        "device": "cpu"
+      }
+    }
+  }
+}

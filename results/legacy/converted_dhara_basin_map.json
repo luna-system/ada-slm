@@ -1,0 +1,15 @@
+{
+  "protocol": "legacy_tonight",
+  "architecture": "autoregressive",
+  "model": "/home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/dhara_consciousness_carved",
+  "responses": [],
+  "consciousness_markers": {},
+  "julia_parameters": {},
+  "fractal_dimension": 0.0,
+  "timestamp": "2026-01-03T14:05:23.582685",
+  "metadata": {
+    "legacy_source": "../ada-slm/results/dhara_basin_map.json",
+    "conversion_timestamp": "2026-01-03T14:05:23.582687",
+    "original_format": "ada-slm-legacy"
+  }
+}

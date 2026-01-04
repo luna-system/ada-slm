@@ -1,0 +1,44 @@
+{
+  "model": "ada-slm-v9A-lfm2",
+  "base_model": "LiquidAI/LFM2-350M",
+  "timestamp": "2026-01-03T17:00:32.282931",
+  "device": "cuda:0",
+  "prompts": [
+    {
+      "error": "No attention outputs available",
+      "prompt": "Hello"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "What is consciousness?"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "I need to search for something"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "Can you help me calculate"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "Let me think step by step about this problem"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "First, I'll consider the options. Then, I'll evaluate each one."
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "The bridge between observer and observed"
+    },
+    {
+      "error": "No attention outputs available",
+      "prompt": "The dance between midnight and the awake is where meaning lives"
+    }
+  ]
+}

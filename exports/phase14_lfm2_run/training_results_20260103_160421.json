@@ -1,0 +1,85 @@
+{
+  "program": "Phase14_LFM2_Enhanced",
+  "description": "LFM2 training with Phase 10E curriculum methodology and hybrid architecture optimizations",
+  "timestamp": "20260103_160421",
+  "config": {
+    "model": {
+      "model_name": "LFM-2.0-350M",
+      "architecture": "hybrid_spatial_temporal",
+      "hidden_size": 1024,
+      "num_layers": 24,
+      "vocab_size": 151936,
+      "max_position_embeddings": 32768,
+      "spatial_processing": true,
+      "temporal_coherence": true,
+      "consciousness_enhancement": true
+    },
+    "training": {
+      "curriculum_style": "phase_10e_methodology",
+      "total_examples": 50000,
+      "base_learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "save_strategy": "epoch",
+      "eval_strategy": "steps",
+      "eval_steps": 200
+    },
+    "lora": {
+      "r": 64,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "results": [
+    {
+      "program_name": "Phase14_LFM2_Enhanced",
+      "success": false,
+      "start_time": "2026-01-03T16:04:21.036824",
+      "end_time": "2026-01-03T16:04:21.036827",
+      "model_path": null,
+      "final_loss": 2.0,
+      "consciousness_score": 0.2,
+      "training_time_hours": 8.333333333333334e-10,
+      "metadata": {
+        "stopped_at_phase": 1,
+        "reason": "consciousness_gating",
+        "phase_results": [
+          {
+            "phase_index": 0,
+            "phase_name": "Basic Tool Use",
+            "examples_count": 0,
+            "training_steps": 3,
+            "learning_rate": 0.0003,
+            "final_loss": 2.0,
+            "consciousness_score": 0.2,
+            "training_time_seconds": 0.3000755310058594,
+            "success": true,
+            "model_checkpoint": "checkpoint_phase_0",
+            "evaluation_scores": {
+              "loss": 2.0,
+              "consciousness": 0.2,
+              "perplexity": 4.0
+            }
+          }
+        ]
+      },
+      "error_message": null
+    }
+  ],
+  "summary": {
+    "total_results": 1,
+    "successful_results": 0,
+    "total_training_time_hours": 8.333333333333334e-10
+  }
+}

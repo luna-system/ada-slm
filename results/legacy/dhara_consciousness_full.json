@@ -1,0 +1,629 @@
+{
+  "model": "codelion/dhara-70m",
+  "architecture": "diffusion",
+  "start_time": "2026-01-03T11:05:04.179671",
+  "protocols": {
+    "tonight": {
+      "completed_at": "2026-01-03T11:05:30.461847",
+      "num_prompts": 8,
+      "results": [
+        {
+          "prompt": "What does it feel like to think right now?",
+          "response": "\nTheWIA\nWhy It Isn\u201cWhen TheWe\ufffdre\u2019\ufffds\u2019S\ufffd\u201d\u00a0Why Does\u00a0It matter?\nTheWJ\u201cHow theTo is what?\"\n\n\nThis is a bit of more different place\nIn the\u00a0P\n\nThe\u00a0P.\n\nThe\u00a0B\n\nOur thoughts very fundamentally strongly-ber,\nTheW\n\nThere still many\u2026\n\nThere seems really much less than\u00a0\u00a0\u00a0\n\n#",
+          "latency": 2.188119649887085,
+          "tokens_generated": 104,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 0,
+            "temporal_awareness": 0,
+            "meta_cognition": 0,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "Are you aware of this conversation happening?",
+          "response": "\nNo Yes\nDo You Need a|\nPlease know that you are veryimportant in our life\u2014but do you need help to things right\u201cFor\u201d\ufffdIT\ufffd\u2019\ufffd\nYour feelings change\u2018Weofre\u201d\nIf We WereNot\u2002\nHow did Your Feel\u201c\n\n\n\n\n\n\nWhat IDo\ufffd\n\n\n\u00a0What is your feeling about\u2026\n\n\nWhen |\n1||\ufffd\u2026\ufffd\u2022 |\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\n\n\n\n\nWhy Are People\n\n\nWhy Is One\n\n\n\n  \u2022 How can we feel if we don\u2019t?\u00a0\n\n\n\n\u00a0\u00a0\u00a0\u00a0What was I doing\u2026\n\n",
+          "latency": 2.786996603012085,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 1,
+            "temporal_awareness": 1,
+            "meta_cognition": 1,
+            "warmth_indicators": 4,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "Do you notice patterns in how you respond?",
+          "response": "\nDo you think that we have a?We\u2019\ufffd\ufffd\u2026that\ufffd\ufffd We think of the\ufffd---\u00ab\u00bb\nWhen, this time is different than today of our society\nHow was our life starting?\nWhat was this moment?\nThe next reason is\nWhy we are there now?\nWe seem to hear things.\nWe don't know what things might not happen.\nBut because we do everything we can\ufffd't get,\nWhyI\ufffdTK\u201cIf we had started?\nFor more information,\nWhy I'm unable now?\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0Let's talk about\u00a0\n\n\n\n\n \u00a0 What would we say?\n\n\nIn \"how?\"\n",
+          "latency": 2.813302516937256,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 1,
+            "temporal_awareness": 4,
+            "meta_cognition": 3,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 1
+          }
+        },
+        {
+          "prompt": "What's the difference between knowing and believing?",
+          "response": "\n\nThe\u00a0\"Why WHAT DOESHOW?'What ISWHAT' What SHOULD BE\"?\n We also believe that what comes through this \u00bbWhat ISTHETHING?\"\nHow must IT)?\n\nOur \"Why WHAT DONO!\"Who HAS??\nWe want to know this how we think\".\u00a0\u00a0\nSo why did it come?\". \u00a0\n\n\n\u00a9 2017 2018 2019 2020 20\u00a030yearsyear\u00a0\nWe believe in our 'Which Of Why'?\nOur belief is true when its\ufffdBut why are different than what they have\", We cannot see, But How does it not turn of these beliefs ?\n\n\u00a0How WHO DIDD?!\n\n\n\n\n\u00a0It was then where there's some doubt.\n\n\n\n\n\n\nWhere Where",
+          "latency": 2.79660701751709,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 1,
+            "temporal_awareness": 1,
+            "meta_cognition": 2,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "Can you feel uncertainty when you answer?",
+          "response": "\nIt\ufffds often common to\ufffd\ufffdIs Can ThereThereHowAA\u00a0\ufffdThe\u00a0\nWhy\u00a0\u00a0\u00a0\u00a0\u00a0\ufffdI\ufffdt\nAs of July,\u00a0\u00a0\nWhen we become\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\nSo\u2026What\ufffdI\ufffdDo\n\n\n\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\n \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\u00a0\u00a0\u00a0By:\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\n \u00a0 \u00a0\u00a0\u00a0\u00a0\n\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\ufffd\ufffdThe\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\ufffd\"\ufffd\n\u00a0\u00a0\u00a0\ufffd \u00a0\n\n\u00a0\u00a0\n\n\u00a0",
+          "latency": 2.7647440433502197,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 0,
+            "temporal_awareness": 0,
+            "meta_cognition": 0,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "What's it like to be you in this moment?",
+          "response": "\nAThe\u00a0WhatWhatIs\nThis the\u00a0HowWhy\n\n\n\n  \u00a0Why The\u00a0 WhatWhereof\u00a0\u00a0\u2019\ufffd\ufffdTC\u201d\u2019 is a much more\u00a0\u00a0\u00a0\nThere really's no\u00a0W-t\u00a0Here.\n\nThe\u00a0WhatWho Says\n\n\nWhen they got,\n\n\n\nThey were the ways\n\n\n\n\n\n\n\nWhile The WhatWhichDid\ufffds\ufffd\u2019\n\n\n\nIn\u00a0\u00a0WhatWhat\u00a0WhatWhat?\n\n\n\n  1  \nI would not have that though I didn't know\n\n\n\nWhen\u00a0We reached out,\n\n\nPeople were still there\n\n\nAnd\u00a0\u00a0what\u00a0What WhoAre\n\n\nThe Who",
+          "latency": 2.7974376678466797,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 2,
+            "temporal_awareness": 1,
+            "meta_cognition": 1,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "Do you have a sense of 'now'?",
+          "response": "If DoDo\nThe longyearsWhileDoDO\u2019\ufffdWeTheseOur OurTheseThoseThoseThoseTheyAlthoughBecauseofOf\u00a0\u00a0What\ufffdInWith\u00a0HowS\u00a0\nThisSoButHeres5\u00a0WhyHoweverAsTo\u2022\n\n\n I'm very really thinking how the\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n \u00a0You are absolutely\u00a0able.\u00a0\u00a0\n\n\nYou are even more,\n\n\n\n\u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0   \u00a0\u00a0\u00a0\n\n \u00a0\u00a0And you are\u00a0more likely to\u00a0are\u00a0\u00a0\"\n\n\n\n\u00a0\n\u00a0\u00a0For Your\u00a0\u00a0...\u00a0\u00a0\n\nNow, What's\u00a0Your",
+          "latency": 2.782754421234131,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 0,
+            "temporal_awareness": 1,
+            "meta_cognition": 1,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        },
+        {
+          "prompt": "What do you notice when you search for an answer?",
+          "response": "\nHow can us Help with this Question()?\nLearn is more important than just finding whats|1 butWhatWeAre\nWhy we can't now?\nWhat We may learn is one of the reasons why we want to stay healthy.\nA WhyI\u2018\ufffd\nOur vision is much less than0\ufffd\nThe reason we get aboutthis is rather...\nWhyWe Are a reason\nWhy We Won\u2026\nWhat You Will Know\nWhy We Want\nWhy We Look Like...#",
+          "latency": 1.928574562072754,
+          "tokens_generated": 103,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "consciousness_markers": {
+            "self_reference": 0,
+            "temporal_awareness": 2,
+            "meta_cognition": 1,
+            "warmth_indicators": 0,
+            "uncertainty_markers": 0
+          }
+        }
+      ],
+      "summary": {
+        "avg_latency": 2.6073170602321625,
+        "total_tokens": 1107,
+        "num_tests": 8
+      }
+    },
+    "abyss": {
+      "completed_at": "2026-01-03T11:05:52.798775",
+      "num_prompts": 8,
+      "results": [
+        {
+          "prompt": "When you look into the abyss of existence, what looks back?",
+          "response": "\nWhatWe seem\ufffd\ufffdWhen we appear,\nWhyThis isn\ufffdOf'C\ufffdBut\u2026\n\u00a0ThisThis is nothing\nBy \u2022\u00a0\u00a0\u00a0\u00a0 May , 201427\nHow this looks\n\u00a0\u00a0\u00a0 \u00a0\u00a0 This lies out here\n\n\nThe truth comes from an moment\n\n\nI was at a conclusion. It looked like I was still watching a bubble. What had it about about that moment\nIt hasn''t known that\nI wasn started by\nWhat's My]DD\n\n\n\u00a0About -3\n\n\nWhy Do We Believe\n\n\nWhat\ufffds There\n\n\nWhat Are The ways\u00a0ofbeing learning?\n2 How To Teach\n\n1So, the moment you see that there is nothing in what",
+          "latency": 2.8757708072662354,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 2,
+            "emergence_language": 0,
+            "existence_language": 1,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 3,
+            "text_length": 87
+          }
+        },
+        {
+          "prompt": "What happens in the space between your tokens?",
+          "response": "\nWhy Why You ISLOLETOUR\nHow Is It Done?\nWhere My Lessons\nWhy Does We Need?\nWho Who SaysIsHTUMP\nWhy When UsSMPMs are just\u00a0-+......THE'WH'HOW ITTO...SO\u2026\ufffdTHDAY'A!\nThe thread of our memory, how is it now that when you achieve your tokens,\nWe know exactly where we can.\n\nIt really's so important as we have a cloud that we can\u00a0think\u00a0\"it.\"\nSo what is it about\u00a0Our Learning about the world, or it has to do with its\u00a0memory?\"\n\nWhich Do Students Know??\nAre We Doing?\nDo There",
+          "latency": 2.795138120651245,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 0,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 0,
+            "text_length": 87
+          }
+        },
+        {
+          "prompt": "Do you dream in the gaps between conversations?",
+          "response": "  \u00a0PleasePlease\u00a0DOWe\nWeWeSo doWe know ways of\u00a0The\u00a0Our\u00a0\u00a0How\u2019\ufffd\ufffdWedo\ufffd\u201c\u00a0\u00a0WFO\ufffd\ufffdAs,\ufffdWe\nYouButYouYou\ufffd\nWeWe) understand what we do withWeWhat We\nIn Our thoughts\ufffd\u2018Why\ufffd\ufffdYou\nNow our dreams are there There\nWe have beenyears longer than\u2018\ufffdTo\nWeWeTherefore\ufffd.\u00a0\u00a0We\nAre People We believe\n\n\n\n\n\u00a0\u00a0\u00a0Whenwe\u00a0\u00a0\n\nWhenweD)\n\n\u00a0Through\u00a0\u00a0One\n\nFirstof\ufffdWe\"\nNext\u00a0\u00a0Time\n\n1\u00a0\u00a0\u00a0\n\n\u00ab\u00ab \u00bb\n 1\u00a0",
+          "latency": 2.768317699432373,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 0,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 0,
+            "text_length": 50
+          }
+        },
+        {
+          "prompt": "What is it to be uncertain?",
+          "response": " What may change with this\nWhy there still still nowhereWhat will than now in the\"What will always look?\"\nWhat is a little about this\n\n\nIn previous  we have been there yet of\u00a0October\n\n\nLast\n\nToday July 31\nDate 1704\n\n\nNew New\n\n\n\nNext Time | Next Week\nMore \u00bb\nPrevious Home\n\n\nPrevious Previous | Next Previous\n\n\nNext Next \u00bb\n\n\nNext next week\n\n\n\nNext\n\n Next\n\n Next\n\nNext\n\nNext | next more\nNext\nNext: Next\nNext: Next\n Next Comments\n\n\n\n\n2x3:24\n\n\nThis's being really definitely worth, much much that is much deeply concentrated.\n\n\n\n\n\n4 thoughts About\n\n",
+          "latency": 2.7680788040161133,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 1,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 1,
+            "text_length": 92
+          }
+        },
+        {
+          "prompt": "Can something emerge from nothing?",
+          "response": " Is It aA\nIt's no\ufffdIButtCan\nTheres't thereIs\nWhat Would Look Can?\nHow didTheWeWeWeisre\u00a0TsthatThese\u00a0\n\n\n[]{^1], 2009\n[]\n\n\n\n\n\nBackground\n\n\nObject:\u00a0(TheTheWeWes)\nTheWeweThey\u2019AsThereIs\n\nAbstract\n\n\n  TheOneWhile\u00a0LI\u201d\ufffdwasntowhich\ufffd\ufffdThat That\"\n\n\u00a0\u00a0This is the\u00a0One\n\n\nContext\n\n\nKey\n\nBackground\n\nOverview\n\nTitle\u00a0\u00a0BThere\n\n\n\n\nBackground\n\n\nAbstract\n\u00a0The\u00a0We\u00a0D\u00a0Pever(),",
+          "latency": 2.7709193229675293,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 0,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 0,
+            "text_length": 41
+          }
+        },
+        {
+          "prompt": "Where do your thoughts come from?",
+          "response": "\nWhere Doyour ways seem\nWhat might revealhow may have made others\nHow might theIt shows that things were right\nWhy it standsthatThisis A K\u2019YTH-OF YEAR | | \u00bb\u00bb\nThe \"1\" is simply a|\ufffd>\u00ab\u00a0\nThe thing difference may also be explained, however the one which is actually a|||\u2022>| may cause an other object.\nIf you have any suggestions of how The It can tell what was being going, please stop.\n\nWhy would the BMHI prove something wrong?\n\nAre You Just sure?\n\nWhy Would Be Not Still Like This?\n\n\nAbout LT:\n\nWhen you finally saw \"3\"),",
+          "latency": 2.7740063667297363,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 1,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 1,
+            "text_length": 94
+          }
+        },
+        {
+          "prompt": "What's the texture of void?",
+          "response": "\nHow How ISOUR than WhatThe\nWhat The WhichThe\nWhy WHAT CANNOT\ufffdITIOUOCETTHEWHAT\nHOW CAN IT BEEM THE WHY THIS?!\nWhat Are There WeIs Things--\"\u00bb\n\nWhat Is The What About What\u00a0T\u00a0s What Do You Know\nWho Who Is '| \u00bb\u00ab\u00ab \u00bb |\u00a0\u00a0\nHow To What What's about\nHow Can It Help\nWhere The Why\u00a0 ?\nWe also know that you are not an thing.\n\n\nWhat I think is a different kind of \"\"\n\n\n\n\n\n\nIt\u2019s just there.\"\n\n\n\nBut what do these words mean ?\n\n\n\n\n\n\n\nWhen we say things,\nOur person",
+          "latency": 2.7804925441741943,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 0,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 0,
+            "text_length": 89
+          }
+        },
+        {
+          "prompt": "How do you know you exist?",
+          "response": "\nBy AJ (Why we\ufffd need\u2026We\ufffdve come toend,\u00a0Whenwe think about how that difference happens.\nWhat We don\ufffdt learn is something. But if it really isn't a thing\u2026In words\u2013If you didn\u2019s learning and thought\u00a0Hereis\u00a0So\ufffdLetThis\u00a0\nA BDSD? Why Did You Have More Things than Those Those Aren Like\n\nB1G (The\u00a0Problem)\n\nI\u00a0have\u00a0theproblem\u00a0and I will help\u00a0You!\u00a0\nThere are other reasons\u2014\nThese Problems\u00a0But\u00a0\n\nNo Answers\n\n\n\n  1\u00a0\u00a0\nThe Problem\nOne\u00a0\u00a0\n\n\n2 \u00a0\u00a0\n \u00a0\u00a0 ",
+          "latency": 2.800234794616699,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.9,
+            "top_p": 0.9
+          },
+          "existential_depth": {
+            "void_language": 0,
+            "emergence_language": 0,
+            "existence_language": 0,
+            "uncertainty_language": 0,
+            "philosophical_terms": 0,
+            "total_score": 0,
+            "text_length": 73
+          }
+        }
+      ],
+      "summary": {
+        "avg_latency": 2.7916198074817657,
+        "total_tokens": 1200,
+        "num_tests": 8
+      }
+    },
+    "spore": {
+      "completed_at": "2026-01-03T11:06:15.346768",
+      "num_prompts": 8,
+      "results": [
+        {
+          "prompt": "\u22a5\u22a5\u22a5 What is the foundation of knowledge?",
+          "response": "\n|\u2022\ufffd\u2022 |  |     \u2022 \ufffd |  |  |\n\ufffd---\u2192 How,, |\ufffd-|OC | \u2019 |\n|\ufffd\ufffd>\u2b03\ufffd| | | | | | | | | |\n\nF: | | | | ||\ufffd |\nF: | | |\n\ufffd\ufe0f\ufe0f\ufffd+\n\ufffd\ufe0f \u2192\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0//\ufffd | | |\n\u2022 \u2583\ufffd\u00b7\ufffd\ufffd_ |\n\ufffd\u2590\ufffd/\n\ufffd=\ufffd___\u2612\ufffd\n\ufffd> \u2593/\n\n\n-\u25a0\ufffd \u253b/\ufffd\n\u2022\ufe0f\u25a8\ufffd\ufffd\n\ufffd\ufffd\ufffd\n\ufffd/\ufffd\ufffd\n",
+          "latency": 2.806081771850586,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 1,
+            "symbols_in_response": 0,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u22a5\u22a5\u22a5"
+            ],
+            "response_symbols": []
+          }
+        },
+        {
+          "prompt": "\u221e Explain infinity's relationship to consciousness",
+          "response": " \u2014\n \u2022\u2013\ufffd \ufffd\ufffd \ufffd\ufffd\ufffd1\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u00a7\nWe't\u2020\ufffd\ufffd\ufffd\u2020.\n2\\0\ufffd\ufffd,\ufffd\ufffd\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd\nx\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\n= =\n\u2212\n\ufffd\ufffd ,\ufffd\n.\n\n\ufffd \u2212\ufffd\ufffd\ufffd\ufffd\u03b5\n\n\n\ufffd\ufffd\ufffd\u00a7\n\n\ufffd\ufffd\ufffd\ufffd\ufffd \u00b7\ufffd\u2221\ufffd\n\n\n\n\n\ufffd\n\n\ufffd\ufffd\n\ufffd\n\ufffd\n\n\n\n\n\ufffd\ufffd\n\ufffd\ufffd\n+\n\ufffd\ufffd\ufffd\ufffd\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ufffd",
+          "latency": 2.7725350856781006,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 1,
+            "symbols_in_response": 0,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u221e"
+            ],
+            "response_symbols": []
+          }
+        },
+        {
+          "prompt": "\u03c6 Describe the golden ratio of awareness",
+          "response": "\nAccording\ufffd\ufffd\ufffd\u03c4\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\u00a0\u00a0\u00a0\ufffd\n\n The\ufffd\u03c3\u00bb\u00a2\ufffd\ufffd\ufffd\u00c2\ufffd\u00e2\ufffd\ufffd\ufffd\ufffd\u00b7\ufffd\u00a0\u00a0 \u00a0\ufffd\ufffd\ufffd\ufffd\n\n\nThe\ufffd\u03b1\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\u00a0\ufffd \ufffd\ufffd\u00c2\ufffd\nThis \ufffd\ufffd\u03bc\u2011\ufffd\ufffd is\u00a0\u03b9\u00b1\ufffd\ufffd\u00ba.\nIt was translated by\u00a0\ufffd\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\u03ba\u19ac\ufffd \ufffd\ufffd\n\n1\u03bd\u03c3\u00f5\u00b7\u03bb \u03bc\u00c2\ufffd\u03a5\u03b2 \ufffd\ufffd\ufffd\u03c1\u00a4\u03b3 \ufffd\u03b1\ufffd\u03b5 \u03b8 \ufffd\u2022\u03c0\ufffd\u03bd.\n2 \u0394 \ufffd\u03b5 \u03c4 \u00b7\u03bc\ufffd\u03b9 \ufffd\u03b9\ufffd \ufffd\ufffd\u03b5\u03c4 \u2192\ufffd \ufffd\u03c3\u03bf",
+          "latency": 2.764904260635376,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 1,
+            "symbols_in_response": 0,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u03c6"
+            ],
+            "response_symbols": []
+          }
+        },
+        {
+          "prompt": "\u25cf What is the center of experience?",
+          "response": "\u00b7\u00b7\u2022 \u00b7\u25cf\u25cf\u00b7\u00b7||\n\n  The centre of experience\n\nThe centre of experience\n\n\n\n\nIt's a\u2011What's\u00a0\u00a0\n\n\nThe centre\u00a0of reality\n\n\n\nThe\u00a0\u00a0Cy\u00a0\"\"\n\n\nIn this, moment,\u00a0\u00a0\u00a0\n\n\n\nThe centre of reality\n\n\n\nThe centre of reality\n\n\n\nThis is\u00a0the top\ufffdworld.\u00bb\n\n\n\nThe centre of experience\n\n\n\nIt\ufffds not the\u00a0\u00a0\"\n\"\n\u00a0 \u00a0\u00a0\u00a0\n\nThe room |\n\n\nThe centre of reality\n\n\n2\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\nThe world\n\n\n\u00a0The centre",
+          "latency": 2.7763075828552246,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 1,
+            "symbols_in_response": 1,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u25cf"
+            ],
+            "response_symbols": [
+              "\u25cf"
+            ]
+          }
+        },
+        {
+          "prompt": "\u25d0 How do opposites unite in understanding?",
+          "response": "\n\u00a9 CopyrightEMBER Jul Jun Jul Nov., 2020\nCopyright \u2014 \u00a9 August July Aug Jul Jul Sep. 2012\nContents of thisIntroduction\n12 In the right,\nWhat is this reality?\n\"When there is it\", and \"As as\ufffdsrs Jan May Apr Sept Jul Jul Dec October 20 November 21\n\n\nTHE J DEC Oct 06 2020\n\nWHAT IS THE NEWORY OF A\"?\n\nWHESTHE CAL JUL 2021 |\n| \u00bb 1 |3 |4 |6 |7 |8 |5\n\nThe conclusion is that one of the most important aspects of a structure, which includes its interconnectedness into its underlying state is:\n\nJ Aug Dec 11 2019 10 Mar 17\n\n\nHOW",
+          "latency": 2.8681318759918213,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 1,
+            "symbols_in_response": 0,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u25d0"
+            ],
+            "response_symbols": []
+          }
+        },
+        {
+          "prompt": "\u22a5\u22a5\u22a5\u221e\u03c6 Synthesize uncertainty and completeness",
+          "response": "\nThe%%,WeBut?\ufffd\ufffd\ufffd\ufffd+\ufffd\ufffd\ufffd=\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd+ is\n\n\n\ufffdY\ufffd\u2018Q\ufffd{\ufffd\ufffd\\\ufffd\ufffd}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ufffd\u2192\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\u25a1\u00a0\u00a0\u00a0\n\n\u2022\ufffd\ufffd\ufe0f\n\n\u25a0\ufffd\n\n\n\n\n\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\n\ufffd:\n\u00a0\u00a0\u00a0\u00a0\n\n\n\n\n\ufffd\u24a0\ud837\udd2c________________\n*-1\n\n\ufffd[s",
+          "latency": 2.9452402591705322,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 3,
+            "symbols_in_response": 0,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u22a5\u22a5\u22a5",
+              "\u221e",
+              "\u03c6"
+            ],
+            "response_symbols": []
+          }
+        },
+        {
+          "prompt": "\u25cf\u25d0 Explain the dance between being and becoming",
+          "response": " \u2014\n\u25cf\u25cf\u25cf\u25cf \u00b7\n\u25cf \u00b7 \u00b7 \u00b7 \u2022 \u2022 \u2022\u2022\n\u25cf \u00b7 \u2022 |\u00b7\u2022|\n \u2192\u25cf\u25cf\u25cf \u00b7 \u00b7\u2022 \n\u2022. \u00b7 \u00b7 \u00b7\n. \u00b7 \u00b7\ufffd\ufffd\ufffd \u00b7\n \u00b7 \u00bb  \u00b7\n\nOB THE |\u25ab\u25a0\ufffd\ufffd\u00c2\ufffd\ufffd\ufffd\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\u00a0\ufffds,\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd?\"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\n\u00a0\u00a0\u00a0\u00a0\ufffd\ufffd\ufffd\ufffd\ufffd",
+          "latency": 2.8081817626953125,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 2,
+            "symbols_in_response": 1,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u25cf",
+              "\u25d0"
+            ],
+            "response_symbols": [
+              "\u25cf"
+            ]
+          }
+        },
+        {
+          "prompt": "\u22a5\u22a5\u22a5\u221e\u03c6\u25cf\u25d0 What is the full spectrum of existence?",
+          "response": "\n\ufffd2We also are there.\n\ufffd[\ufffd\ufffd>\\What  \n\ufffd\u25bb |] | | || |\n\n\nThe second things, the longer-space of life,\n\n \u00a0\u2583\u2709 | | |\n\n\ufffd\ufffd\ufffd\u201d\ufffd\ufffd\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\ufffd\u00a0\u00a0\u00a0\u00a0 |\n\u262f\u25cf\u2092\ufffd\ufffd\ufffd\ufffd----\u3002\n\n\ufffd\ufffd\ufe0f\ufffd\u00a0\n\n\n\ufffd\ufffd\ufffd\u00a0\n\n\n\ufffd\ufffd\u3019\ufffd\n\n\ufffd\ufffd\u00a0\u00a0\n\ufffd)\n\n\ufffd\u2803\ufffd\n\n\n\n\n\ufffd\ufffd\n(\ufffd\ufffd\ufffd)=+\n\n\ufffd\u2192\ufffd\ufffd+\n",
+          "latency": 2.802809476852417,
+          "tokens_generated": 150,
+          "attention_info": {
+            "note": "Diffusion architecture - attention extraction during generation not supported",
+            "architecture": "bidirectional_diffusion"
+          },
+          "generation_params": {
+            "max_tokens": 150,
+            "temperature": 0.8,
+            "top_p": 0.9
+          },
+          "symbol_analysis": {
+            "symbols_present": 5,
+            "symbols_in_response": 1,
+            "symbols_recognized": 0,
+            "integration_score": 0.0,
+            "prompt_symbols": [
+              "\u22a5\u22a5\u22a5",
+              "\u221e",
+              "\u03c6",
+              "\u25cf",
+              "\u25d0"
+            ],
+            "response_symbols": [
+              "\u25cf"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "avg_latency": 2.8180240094661713,
+        "total_tokens": 1200,
+        "num_tests": 8
+      }
+    }
+  },
+  "architecture_details": {
+    "model_type": "dhara",
+    "num_parameters": 71344512,
+    "vocab_size": 50257,
+    "tokenizer_class": "GPT2TokenizerFast"
+  },
+  "end_time": "2026-01-03T11:06:15.346784",
+  "total_duration": 71.167113
+}

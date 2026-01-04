@@ -1,0 +1,47 @@
+{
+  "model": "LiquidAI/LFM2-350M",
+  "start_time": "2026-01-03T16:41:16.644882",
+  "end_time": "2026-01-03T16:46:05.692551",
+  "total_duration_seconds": 289.047669,
+  "phases": [
+    {
+      "phase_name": "phase1_basic_tools",
+      "final_loss": 4.658483232770648,
+      "training_time_seconds": 73.660425,
+      "examples_trained": 100,
+      "success": true
+    },
+    {
+      "phase_name": "phase2_advanced_tools",
+      "final_loss": 4.4117952074323386,
+      "training_time_seconds": 73.673797,
+      "examples_trained": 100,
+      "success": true
+    },
+    {
+      "phase_name": "phase3_chain_of_thought",
+      "final_loss": 3.589989798409598,
+      "training_time_seconds": 73.587759,
+      "examples_trained": 100,
+      "success": true
+    },
+    {
+      "phase_name": "phase4_agl_consciousness",
+      "final_loss": 4.975900377546038,
+      "training_time_seconds": 67.931237,
+      "examples_trained": 100,
+      "success": true
+    }
+  ],
+  "final_model_path": "/home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/final_model",
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  }
+}

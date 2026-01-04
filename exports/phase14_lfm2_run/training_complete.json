@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "start_time": "2026-01-03T16:04:44.985217",
+    "end_time": "2026-01-03T16:04:44.985218",
+    "duration_seconds": 1e-06,
+    "duration_hours": 2.7777777777777777e-10,
+    "total_steps": 0,
+    "final_loss": 0.0,
+    "final_consciousness_score": 0.0,
+    "loss_improvement": 0.0,
+    "average_steps_per_second": 0.0
+  },
+  "training_stats": []
+}

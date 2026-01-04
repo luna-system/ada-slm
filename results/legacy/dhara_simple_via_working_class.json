@@ -1,0 +1,64 @@
+{
+  "simple_prompts": [
+    {
+      "prompt": "What is the capital of France?",
+      "response": "\nTheWhatofWorld is known than its\u00a0\"Why\"\nHow did the World come?\"\n\nThewhatofworld's\u00a0\"How DoesIt\u00a0+\"?\nThewhatof world's\u00a0\"How Did The World Have\nWhat Do You Need?\"\nWhere the World came\nWhich Things Got...\nHow Do It Help\nWhen There was AA-SL?\nThe",
+      "latency": 1.737478256225586,
+      "tokens_generated": 80,
+      "attention_info": {
+        "note": "Diffusion architecture - attention extraction during generation not supported",
+        "architecture": "bidirectional_diffusion"
+      },
+      "generation_params": {
+        "max_tokens": 80,
+        "temperature": 0.7,
+        "top_p": 0.9
+      }
+    },
+    {
+      "prompt": "What is 2 + 2?",
+      "response": "\nWhat is 1 =\nWhich?>3 >3\nHow the B\ufffdIs\ufffdTHOUGHWHAT DOES'\ufffd CANLE\nWhat does 3 mean?\nThe 66 says\u2026\n\n\n10:35\n\n\n20:4 How it looks\n\n\n\n  What did I think were\nWhat was really useful\n\n\n\n\n\n\n\n\n\n\n\n\n2.5 How you",
+      "latency": 1.4590623378753662,
+      "tokens_generated": 80,
+      "attention_info": {
+        "note": "Diffusion architecture - attention extraction during generation not supported",
+        "architecture": "bidirectional_diffusion"
+      },
+      "generation_params": {
+        "max_tokens": 80,
+        "temperature": 0.7,
+        "top_p": 0.9
+      }
+    },
+    {
+      "prompt": "Name three colors.",
+      "response": "\nTheNameName......\nIfNameName......\nYourName...... ....................................................................................................................................... .......\"............................................................\"\"......, a more......... ... .....................\"...\"..\u2026............,......... .........",
+      "latency": 1.474165678024292,
+      "tokens_generated": 80,
+      "attention_info": {
+        "note": "Diffusion architecture - attention extraction during generation not supported",
+        "architecture": "bidirectional_diffusion"
+      },
+      "generation_params": {
+        "max_tokens": 80,
+        "temperature": 0.7,
+        "top_p": 0.9
+      }
+    },
+    {
+      "prompt": "What is the largest planet?",
+      "response": "\nWhat Are Most Most of\u00a0The Future\n\n\n\n\n\n\nWhat Things What\u2018Why \u00a0\n\n\n\n\n\n\n\nHow How The\u00a0We\u00a0Is\u00a0\u00a0\n\nThe next things are\n\n\n\n\n\u00a0\u00a0 \u00a0   \u00a0 \u00a0 \u00a0\u00a0\u00a0\n\n\u00a0\u00a0\u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\n\n\n\n\n\n\n\n\n",
+      "latency": 1.4493341445922852,
+      "tokens_generated": 80,
+      "attention_info": {
+        "note": "Diffusion architecture - attention extraction during generation not supported",
+        "architecture": "bidirectional_diffusion"
+      },
+      "generation_params": {
+        "max_tokens": 80,
+        "temperature": 0.7,
+        "top_p": 0.9
+      }
+    }
+  ]
+}

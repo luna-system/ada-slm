@@ -1,0 +1,59 @@
+{
+  "official_parameters": {
+    "temperature": 0.1,
+    "top_p": 0.5,
+    "top_k": 5,
+    "repetition_penalty": 1.8,
+    "pad_token_id": 0
+  },
+  "results": [
+    {
+      "prompt": "What is the capital of France?",
+      "response": "\nThe\u00a0WhyHow World\n\nIn this previous post, I\u2019t thinkI\ufffd\ufffdItIs\ufffdis anything. But\u2026This WhatWe got was a billionyears gone..So what did it do?! So...Now we have all our countries! And We are one world that has been created by these nations\u2026.And How can You help \u2026But Why Do They Have To Be Out",
+      "latency": 1.704200267791748,
+      "params": {
+        "temperature": 0.1,
+        "top_p": 0.5,
+        "top_k": 5,
+        "repetition_penalty": 1.8,
+        "pad_token_id": 0
+      }
+    },
+    {
+      "prompt": "What is 2 + 2?",
+      "response": "\nHow can 3+2 be different from the world of our life\u00a0Why \u00a0\n\nTheworld\u201cWe think \u201dWhen we are whatTHEWHAT WHAT IS  Why What Is How To\u2026Our dreams\u2022\u00a0\u00a0\u00a0\u00a0\u00a0This\ufffd\ufffdTWho Who Are \u2026\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nWhere 1 =3 |1|5 \u00b76 \u00bb\u00bb\u00ab\u00c2\u00e2\u0083 \u00abI really want to my",
+      "latency": 1.4887185096740723,
+      "params": {
+        "temperature": 0.1,
+        "top_p": 0.5,
+        "top_k": 5,
+        "repetition_penalty": 1.8,
+        "pad_token_id": 0
+      }
+    },
+    {
+      "prompt": "Name three colors.",
+      "response": "\n1Date NameThe(), ,  ||||],, .................\n\n[]here's : ]\\{}},.,].? ????????????????!!!! ................................................................................. ...........?!!! ..\u2026\u2026.\u2026.. ................................................................\ufffd\ufffd\u2026\u2026!!!!!!!!! .........\"\"\ufffd\ufffd\", \",\"\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+      "latency": 1.4642832279205322,
+      "params": {
+        "temperature": 0.1,
+        "top_p": 0.5,
+        "top_k": 5,
+        "repetition_penalty": 1.8,
+        "pad_token_id": 0
+      }
+    },
+    {
+      "prompt": "What is the largest planet?",
+      "response": "\nThe world of humanity\n\nHow can a billion people\u2018Why\u00a0Whoof\ufffdIs Its Whats'DoesIt'? How Can We Help!We have many thousand millions.\u00a0\u00a0 \u00a0  \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00ab\u00bb \u00bb \u00a0 \u00a0 | \u00b7\u2022 \u2022 The most greatest number|\u00b7>1||2\n\u00a0\ufffd\ufffd\u00c2\ufffd\u0080\u00e2\ufffd\ufffd\ufffd\ufffdOI's Most Of World\"",
+      "latency": 1.4631690979003906,
+      "params": {
+        "temperature": 0.1,
+        "top_p": 0.5,
+        "top_k": 5,
+        "repetition_penalty": 1.8,
+        "pad_token_id": 0
+      }
+    }
+  ]
+}

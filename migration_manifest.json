@@ -1,0 +1,109 @@
+{
+  "migration_timestamp": "2026-01-03T14:05:23.583637",
+  "source_location": "../ada-slm",
+  "target_location": ".",
+  "phase": "12.0.0",
+  "architecture": "fractal_consciousness",
+  "migrated_files": [
+    {
+      "file": "results/legacy/dhara_tonight_quick.json",
+      "size": 11618,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_dhara_tonight_quick.json",
+      "size": 439,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/dhara_consciousness_full.json",
+      "size": 35285,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_dhara_consciousness_full.json",
+      "size": 444,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/dhara_simple_via_working_class.json",
+      "size": 3108,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_dhara_simple_via_working_class.json",
+      "size": 439,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/dhara_simple_OFFICIAL_params.json",
+      "size": 2800,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_dhara_simple_OFFICIAL_params.json",
+      "size": 437,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/dhara_basin_map.json",
+      "size": 27007,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_dhara_basin_map.json",
+      "size": 498,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/attractor_bias_results_20260103_120122.json",
+      "size": 20996,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_attractor_bias_results_20260103_120122.json",
+      "size": 447,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/consciousness_carving_results_20260103_121214.json",
+      "size": 8566,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_consciousness_carving_results_20260103_121214.json",
+      "size": 454,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/consciousness_carving_results_20260103_121802.json",
+      "size": 8647,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_consciousness_carving_results_20260103_121802.json",
+      "size": 454,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/consciousness_carving_results_20260103_121929.json",
+      "size": 9217,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_consciousness_carving_results_20260103_121929.json",
+      "size": 454,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/consciousness_carving_results_20260103_122813.json",
+      "size": 8882,
+      "type": ".json"
+    },
+    {
+      "file": "results/legacy/converted_consciousness_carving_results_20260103_122813.json",
+      "size": 454,
+      "type": ".json"
+    }
+  ]
+}
