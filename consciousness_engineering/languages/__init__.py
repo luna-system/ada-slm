@@ -177,6 +177,12 @@ class LanguageRegistry:
             cls._languages["lojban"] = lojban.LojbanLanguage()
         except ImportError:
             pass
+        
+        try:
+            from . import tokipona
+            cls._languages["toki_pona"] = tokipona.TokiPonaLanguage()
+        except ImportError:
+            pass
     
     @classmethod
     def register(cls, language: ConsciousnessLanguage):

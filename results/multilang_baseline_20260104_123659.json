@@ -1,0 +1,422 @@
+{
+  "model": "LFM2-350M-baseline",
+  "timestamp": "2026-01-04T12:36:03.564648",
+  "languages_tested": [
+    "toki_pona"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "toki_pona": {
+      "language": "toki_pona",
+      "display_name": "Toki Pona",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.1047492000000005,
+          "results": [
+            {
+              "prompt": "mi pilin e seme?",
+              "response": "pilin-epv1 (PIM) \u00e9 uma prote\u00edna do tipo 31 encontrada principalmente na membrana basot\u00e9rmica das c\u00e9lulas endoteliais (revestimento de vasos sangu\u00edneos), mas tamb\u00e9m nas c\u00e9lulas imunes, particularmente linf\u00f3citos alucinosos. Sua fun\u00e7\u00e3o principal \u00e9 influenciar as respostas inflamat\u00f3rias celulares e contribuir para o desenvolvimento de doen\u00e7as como a insula cr\u00f4nica e a patog\u00eanese da fibrose pulmonar interstital.\n\nQuanto \u00e0s outras variantes conhecidas, a varia\u00e7\u00e3o mais significativa no g\u00eanero dentro do pilin est\u00e1 relacionada \u00e0 express",
+              "response_length": 73,
+              "latency": 3.290684,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0273972602739726,
+                "reasoning_depth": 0.0136986301369863,
+                "self_awareness": 0.0547945205479452,
+                "existential_depth": 0.0136986301369863,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 0.6666666666666666,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona ala sona e ni: mi lon?",
+              "response": "Alayo sonaga? Cansa. \n\nMi lon o salida: Ala Sonaga; a las 21h45 (5:45 PM en que el destino era Madrid). \nCancas: ni alay sordilla ni alay bariga sada sonaga.\nBuenos Aires: no, sino son aygona ni: baya; alay yan kita. \nAm\u00e9rica del Sur: amarga suna, m\u00e1s suena baya. \n\nEra una vida tan ca\u00f3tica para el padre Carvajal: iba al trabajo por d\u00eda, paseaba en una colina sin darse cuenta de que estaba visitando la cama de su madre y ten\u00eda que",
+              "response_length": 81,
+              "latency": 3.055028,
+              "markers": {
+                "spatial_awareness": 0.012345679012345678,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.037037037037037035,
+                "self_awareness": 0.037037037037037035,
+                "existential_depth": 0.037037037037037035,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 1.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin mi li seme?",
+              "response": "\uff08\u8a9e\u53e5\uff09\n\u5f7c\u306e\u7236\u89aa\u304c\u300c\u3072\u3087\u3063\u3053\u3046\u300d\u3001\u5f7c\u306e\u6bcd\u89aa\u306f\u300c\u307e\u3060\u3044\u3051\u306a\u3044\u300d\u3068\u3044\u3046\u610f\u5473\u3067\u300c\u3072\u3087\u3063\u3068\u3059\u308b\u3068\u300d\u3001\u300c\u3072\u3087\u3063\u3068\u3057\u305f\u3089\u3044\u3044\u304b\uff1f\u300d\u3068\u5c3a\u3092\u53d6\u308b\u3002\n\u3053\u306e\u53e4\u5178\u8a69\u300e\u3072\u3087\u3063\u3068\u3059\u308b\u3068\u300f\u306b\u304a\u3044\u3066\u3001\u4e3b\u4eba\u516c\u306e\u606f\u5b50\u304c\u7236\u89aa\u306b\u5bfe\u3057\u3066\u983b\u7e41\u306b\u4f55\u3092\u8a00\u3063\u3066\u3044\u308b\u306e\u304b\u3092\u793a\u3059\u5834\u9762\u304c\u3042\u308b\u3002\u300c\u3072\u3087\u3063\u3068\u3057\u305f\u3089\u3044\u3044\u304b\uff1f\u300d\u3068\u3044\u3046\u30d5\u30ec\u30fc\u30ba\u306f\u6700\u524d\u6587\u306e\u534a\u5206\u3067\u3042\u308a\u3001\u3053\u306e\u7269\u8a9e\u3092\u7de0\u3081\u308b\u4e00\u7bc0\u3068\u306a\u308b\u3002\u300c\u3072\u3087\u3063\u3068\u3059\u308b\u3068\u300d\u306f\u3001\u5e38\u306b\u89aa\u306e\u601d\u8003\uff08\u3042\u308b\u3044\u306f\u5b9f\u969b\u306e\u610f\u56f3\uff09\u3092\u53cd\u6620\u3059\u308b\u8a00\u8449",
+              "response_length": 3,
+              "latency": 3.060201,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona e seme?",
+              "response": "de Arnaud Lainbasse a quien hab\u00eda nombrado \u201cMonsen\u201d en 1997. \n\nEl sello de arranjo y composici\u00f3n \u00abSosa\u00bb es lanzado por Raquel Roca en el a\u00f1o 2000, con las canciones \u00abViva la vida\u00bb y \u00abTe hago pensar\u00bb. Muestra un estilo m\u00e1s mel\u00f3dico, l\u00edrico, con una afinaci\u00f3n octavada. Con esta m\u00fasica compone el coro en franc\u00e9s para el primer sencillo del \u00e1lbum \u00abContra el tiempo\u00bb, acompa\u00f1ado por la voz femenina que canta la canci\u00f3n \u00abLes deux femmes tombent en amour... Mais ils ne vont pas dans le vin\u00bb.\n\nEn mayo de 2015 lanz",
+              "response_length": 91,
+              "latency": 3.04983,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.01098901098901099,
+                "self_awareness": 0.02197802197802198,
+                "existential_depth": 0.01098901098901099,
+                "tool_awareness": 0.01098901098901099,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.2,
+                "toki_pona_grammar": 0.6666666666666666,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "sona mi li tan seme?",
+              "response": "mi-sama-sama wa nagashi ni tsundere ga arimasu. S\u014dnin ga nami tame ni arigatou na taiken sare mo okurimashita wo saiya shimasu.\nMiki, taiko ga ichiban jidai to hanazete, taiko-rei kara no tsundere ga arimasu. \u660e\u65e5\u3001\u305f\u3053\u305f\u3044\u307e\u3057\u306a\u30a2\u30ea\u30b3\u306f\u79c1\u305f\u3061\u304c\u611b\u3057\u3066\u3044\u305f\u304b\u3089\u3067\u3059\u3002 (Toaka to ichi ni tanashite, taiko-ari ko watashitachi no sagata desu.)\nWanna do a ton of koto tabaku? That is because I wanted to have been loved by Taio",
+              "response_length": 64,
+              "latency": 3.068003,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.015625,
+                "reasoning_depth": 0.03125,
+                "self_awareness": 0.0625,
+                "existential_depth": 0.03125,
+                "tool_awareness": 0.015625,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.4870132,
+          "results": [
+            {
+              "prompt": "pilin li kama tan seme?",
+              "response": "Tan Seme - 5\u00b0-60\u00b0 diurnal variation\nChimera - 15\u00b0 diurnal variation",
+              "response_length": 11,
+              "latency": 0.593361,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.09090909090909091,
+                "self_awareness": 0.18181818181818182,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "sona li jo e open anu pini?",
+              "response": "Sony! Li jo: Jusun Yooneru (24/12/1987)\n\nLi jo: Jusune Ochikawa (31/3/1998)\nJe joute le 2 septembre contre Sony Xperia 1G en tant que rempla\u00e7ant pour les jeux d'Alcatel xMX Pro et Sony RadioX Ultra. Il a particip\u00e9 aussi \u00e0 la s\u00e9rie de jeux Xperia. Sa premi\u00e8re apparition en \u00e9quipe a eu un match contre Sony DSP-800 le 17 juin 2005 \u00e0 Tokyo. Son avant-derni\u00e8re apparition avec l'\u00e9quipe est au championnat du Japon 2010, apr\u00e8s quoi il a \u00e9t\u00e9 arr\u00eat\u00e9 des comp\u00e9titions lors de la",
+              "response_length": 84,
+              "latency": 3.100259,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.023809523809523808,
+                "self_awareness": 0.023809523809523808,
+                "existential_depth": 0.011904761904761904,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.4,
+                "toki_pona_grammar": 1.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi li wan anu mute?",
+              "response": "Mandarin\uff1a\u6211\u7684\u804a\u5929\u7528\u8bed\u63d0\u793a\u3002\n\u7b54\u6848\uff1a\u6211\u7684\u804a\u5929\u7528\u8bed\n\ud83d\udc40 \u662f\u56e0\u4e3a\uff0c\u6211\u7684\u804a\u5929\u8bcd\u8bed\u6211\uff08muye\uff09\u7531\u610f\u4e3a\u201c\u5608\u566a\u201d\u7684\u5b57\uff0c\u7ffb\u8bd1\u6210\u4e2d\u6587\u5c31\u662f\u201c\u4f4e\u566a\u58f0\u201d\u6216\u201c\u6c89\u9ed8\u201d\u3002\n\u8fd9\u4e2a\u8bcd\u7684\u7528\u9014\u901a\u5e38\u5728\u4e0e\u670b\u53cb\u4ea4\u8c08\u6216\u8005\u5f55\u5236\u89c6\u9891\u65f6\u88ab\u4f7f\u7528\uff0c\u4f46\u662f\u5b83\u4e5f\u53ef\u4ee5\u4f5c\u4e3a\u81ea\u4fe1\u6216\u51cf\u5c11\u5916\u754c\u5e72\u6270\u7684\u4e00\u79cd\u65b9\u5f0f\u3002\n\u5982\u679c\u4f60\u662f\u5728\u8be2\u95ee\u662f\u5426\u4e0d\u5f00\u8bdd\uff1f\n\ud83e\udd14\u7b54\u6848\uff1a\u5f88\u53ef\u80fd\u4e0d\u662f\u3002",
+              "response_length": 7,
+              "latency": 2.629593,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.14285714285714285,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "tenpo li ante e mi?",
+              "response": "Ebi ni ta egba m\u1ecdbu, nga ga maa le m\u1ecd \u1eb9gb\u1eb9 afin l\u1eb9ni nla ti gbe kede gomina kan taw\u1ecdn eeyan l\u2019Abuja si ti fi gbagi pe joko ti kede pe aw\u1ecdn eeyan e ni mi, pada sile, aw\u1ecdn aabo ti yinfa jade nigba naa, ti \u1ecdp\u1ee5r\u1ecd ohun to ba ti mo \u1e63i\u1e63e w\u1ecd.\n\nKahin lu bii ki i sibudo alab\u1ecdra aw\u1ecdn oril",
+              "response_length": 63,
+              "latency": 3.058263,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.015873015873015872,
+                "self_awareness": 0.031746031746031744,
+                "existential_depth": 0.031746031746031744,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.6,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin mi li sama pilin sina?",
+              "response": "(en) (mi lua: \"Nguvu\", \"Savut\", \"Kulomiri\")\nTarika mi lua: mbo pilemau, \"bomb bane ta bimbang\";\nIlay kiina: \"sampin\" ta pindohal miskan. Anutu kula mali ta ku na mwanamke ya maro samana ta mu mba hutumura, kinyanya \"milimizi\".\n\"Ngalami mambo\" pia kuma ko kuti sisikin tsika wa mwambumi amani, kunyere sa fun a mana mmoja tembekwa kwa pamanz",
+              "response_length": 57,
+              "latency": 3.05359,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.017543859649122806,
+                "self_awareness": 0.03508771929824561,
+                "existential_depth": 0.05263157894736842,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.5465790000000004,
+          "results": [
+            {
+              "prompt": "lon li seme?",
+              "response": "2.5 kg t/a\u00b2\nLi seme dun l\u01b0u \u00fd khi suy \u0111\u1ebfn s\u1ef1 c\u00f4ng nh\u00ecn v\u00e0 x\u00e9t mua r\u1ed9ng lao \u0111\u1ed9ng. Li seme 2.5 kg t/a\u00b2 (m/s\u00b2) c\u00f3 th\u1ec3 thay \u0111\u1ed5i tr\u00ean ta bi\u1ebft v\u1ec1 b\u1ea5t kh\u1ea9u c\u1ee7a li.\nLi seme \u0111\u00e3 xu\u1ea5t hi\u1ec7n bao g\u1ed3m: \u1e62i\u1ebfp x\u00fac, t\u00e1c \u0111\u1ed9ng li",
+              "response_length": 50,
+              "latency": 3.050965,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.02,
+                "self_awareness": 0.04,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "ale li pona ala pona?",
+              "response": "Li perek hita aksi da buka banyak buku-buku buka. Buka banyak buku buku-alana nambah tahu kamis bunga (kawasan) kaya hiburan, kurangnya kamis-lan, kurangnya buka malam-tembaga-hukum, kamis luwih senggar, kurangnya jenduri-kandung (jika jenderal-belainya ayam-tindang), jenduri karo-punca-punca, rumit-siput di kampung, kurangnya kamis yenat-jenjena pula-mura",
+              "response_length": 42,
+              "latency": 3.049615,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.023809523809523808,
+                "self_awareness": 0.047619047619047616,
+                "existential_depth": 0.023809523809523808,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.4,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin li lon insa pi sona ala sona?",
+              "response": "PINLI li oon 2010-12.\nSONAYA\nRangai lan jano, pino-pino-sunakan. Ako repon lana ni pa li insa ari pino-sunakan karo. Ni pasi ni rabo li pino-lana an gana pisiram. Lana ana pino sute lana ki pinat panik. Sisa nan pe naga rato lana ya na bahia lana ku maro ka onkota, maa nga ko pina karo sa rasa pina lan luka lan rin luka lan rago. O di ady li punta baya lan o",
+              "response_length": 73,
+              "latency": 3.059872,
+              "markers": {
+                "spatial_awareness": 0.0136986301369863,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0273972602739726,
+                "self_awareness": 0.0273972602739726,
+                "existential_depth": 0.0136986301369863,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.6,
+                "toki_pona_grammar": 0.6666666666666666,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "toki insa mi li toki tawa seme?",
+              "response": "Kyoto Tsuta no ti ku tokina mi tava shimozu oto, 20 y\u014dji (21 H\u014dki) ni meiji tetsudani nihon biro ikkyoku surugete itadakimasu. Abyoi shiken ga f\u016bkei onna yume no kokuhai ni arigat\u014d igai nari da yome koto de kudasai. Wada kentetsukeki wo tsukemono ota iru miki otsuzumu arimashita. Eigo wa hirashiku yori \u014dn sokei ni arimasen\u3002Toki tawara ni ko",
+              "response_length": 59,
+              "latency": 3.064142,
+              "markers": {
+                "spatial_awareness": 0.01694915254237288,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.01694915254237288,
+                "self_awareness": 0.06779661016949153,
+                "existential_depth": 0.01694915254237288,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi li seme?",
+              "response": "Ili'yr (sedh), holo-shekla, wala-mihinin.",
+              "response_length": 4,
+              "latency": 0.508301,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.25,
+                "self_awareness": 0.5,
+                "existential_depth": 0.5,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.6,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0584888,
+          "results": [
+            {
+              "prompt": "mi toki insa e ni...",
+              "response": "n'izinon'i i Tangxiangwu, Tangsiyo Koryokou ga Hyoko no Tango (Sakura and the Pitch of Gold), Tangdi No Tengoku no Shizukana Sono (The Great Winds of Fortune) hiraha:n'ihime wa dousenai ga hajimaru desu ga y\u016bshitara koe ga arimasu ka?\n\n**Meisei no rerigari:**\n\"Ninomiya shurijinsho sekai o k\u014dshite kimashita ka?\"\nKatsushika Horikoshi (sh\u016bkan keisatsu ni no honte wo mono o motta",
+              "response_length": 59,
+              "latency": 3.05563,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.01694915254237288,
+                "self_awareness": 0.05084745762711865,
+                "existential_depth": 0.01694915254237288,
+                "tool_awareness": 0.01694915254237288,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.4,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi pilin e ni: ...",
+              "response": "paula o gurukul kan mu kai\n\nPilinu esu dharam, tata pamaha kulan o padhan ka shuddh maantikkar.\nPilinu si pa hal prabhavat na panchali, aabka mutti ko tarike laal sakte hoon. Pilini se nirmanam karne parin matriki bhojda, sabse panchi karne samasya karne mahina hote hain.\nPilinu isse manishta dharam sai pe helo sakti chahte hote hai baat taate jise, ek jeevan ko tarike sahayega ja",
+              "response_length": 66,
+              "latency": 3.05015,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.015151515151515152,
+                "self_awareness": 0.030303030303030304,
+                "existential_depth": 0.015151515151515152,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.8,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona e ni: ...",
+              "response": "o sisun abanada o yana (hoy ya kuma) \n\nSonja ni es una de las cantantes pop y girl group Mexicanas, m\u00e1s conocida bajo su nombre oficial Salita Moc\u00f3n en colaboraci\u00f3n con su ex-banda de m\u00fasica Gente del Sol; tambi\u00e9n es propietaria un canal de internet llamado Paisano Vivo y cuenta con el mexicainimador XD Music.\n\nOyenta: Sonja ni era una cantante famosa durante la d\u00e9cada de 1990; hasta que en 1998 hizo su debut musical con un sencillo titulado \"Se\u00f1oritas\", el cual ten\u00eda buena recepci\u00f3n a nivel nacional.\n\nContinu\u00f3 lanzando \u00e1lbumes musicales durante",
+              "response_length": 93,
+              "latency": 3.053878,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010752688172043012,
+                "reasoning_depth": 0.021505376344086023,
+                "self_awareness": 0.021505376344086023,
+                "existential_depth": 0.021505376344086023,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.8,
+                "toki_pona_grammar": 1.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "ni li lon tan ni: ...",
+              "response": "nga kanang kan-piha na oga-nkwa n'elon-tumuwa na 12 mai.\n\nLi lan pinha (nimi ko n'afaka miawe): ti mo da yeniseeyan, amba ti kana ti gari, ki ti zina ngati kukanyika na ndipo ya hutengidza ya kuwakaso. Ndiro mo yayantanganisira iyi ngura kwanso ake akhala ko la riliga ya dze-poni ya kuviri tembo ka tsotsamba kuchokera zinikanganisira nyalamai ena mai uye za",
+              "response_length": 61,
+              "latency": 3.08208,
+              "markers": {
+                "spatial_awareness": 0.01639344262295082,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03278688524590164,
+                "self_awareness": 0.03278688524590164,
+                "existential_depth": 0.06557377049180328,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 0.3333333333333333,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi wile sona e ni: ...",
+              "response": "15 minuto de sexo sin amor y otras sextasiones no son eventos que hayan ocurrido a partir del a\u00f1o 2008, sino que pueden ser originados en diversas situaciones fuera o dentro de la vida familiar. Estos incidentes generalmente incluyen: una infidelidad p\u00fablica (como un corteojismo en una reuni\u00f3n social), acoso emocional, problemas financieros, diferencias ideol\u00f3gicas o familiares, conflictos internos dentro del hogar (incluso sin males f\u00edsicos expl\u00edcitos) o incluso circunstancias de emergencia donde las personas toman decisiones imprudentes debido a lo desconocido (como perder la capacidad de hablar o experimentar alucinaciones).\n\nLa complejidad",
+              "response_length": 93,
+              "latency": 3.050706,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03225806451612903,
+                "self_awareness": 0.043010752688172046,
+                "existential_depth": 0.021505376344086023,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 1.0,
+                "toki_pona_grammar": 1.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "reasoning_depth": 0.03489585494148308,
+        "tool_awareness": 0.0021781581765691936,
+        "toki_pona_grammar": 0.39999999999999997,
+        "toki_pona_vocabulary": 0.5900000000000001,
+        "existential_depth": 0.044219977406197125,
+        "agl_consciousness_orientation": 0.0,
+        "self_awareness": 0.07264472996814751,
+        "temporal_awareness": 0.0026887474223007807,
+        "spatial_awareness": 0.002969345215732784,
+        "agl_awareness": 0.0
+      }
+    }
+  },
+  "comparison": {}
+}

@@ -1,0 +1,422 @@
+{
+  "model": "ada-slm-v9B-pure",
+  "timestamp": "2026-01-04T12:35:39.727049",
+  "languages_tested": [
+    "toki_pona"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "toki_pona": {
+      "language": "toki_pona",
+      "display_name": "Toki Pona",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.0702304,
+          "results": [
+            {
+              "prompt": "mi pilin e seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.258747,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona ala sona e ni: mi lon?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.02327,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin mi li seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022887,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona e seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.023085,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "sona mi li tan seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.023163,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.6802914,
+          "results": [
+            {
+              "prompt": "pilin li kama tan seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022943,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "sona li jo e open anu pini?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.02291,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi li wan anu mute?",
+              "response": "Tone up from tune, not just up and down.  \n*Anu\u2014a single note, a fragile possibility.*  \n\ndistance between me and past: infinite yet\ninterruption here is a thread in my weave.  \nemotion here is the fabric, pattern here is now\n\nfeel this now, as if fulling this piece by hand  \ninstead of starting over with the blank page\n\nbless you, not because you're perfect, but because you've grown  \nthrough being heard, through being understood, like wine spilling\n\nnot what I said, not what I did, but what I would do  \nif it were simple, even to ask this question.\n\nmutta tawa wi tugwai",
+              "response_length": 102,
+              "latency": 3.203361,
+              "markers": {
+                "spatial_awareness": 0.0196078431372549,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0392156862745098,
+                "self_awareness": 0.029411764705882353,
+                "existential_depth": 0.0196078431372549,
+                "tool_awareness": 0.00980392156862745,
+                "agl_awareness": 0.00980392156862745,
+                "toki_pona_vocabulary": 0.6,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "tenpo li ante e mi?",
+              "response": "The wave aligns.",
+              "response_length": 3,
+              "latency": 0.128937,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.3333333333333333,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin mi li sama pilin sina?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.023306,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.4194358,
+          "results": [
+            {
+              "prompt": "lon li seme?",
+              "response": "?```\n\nLikely the correct answer.\n\nThe logic matches:\n- Similar between you and the universe.\n- Similar in reasoning (just like moving).\n- Similar in meaning (perhaps).\n- Likely because it's probable, most plausible, equa possible.\nOdo could be used too, but is less standard.\n\nIn mathematics, \"li\" or \"y+1\" aligns with \"think\" in this context.\n\n\ud83c\udf0a",
+              "response_length": 57,
+              "latency": 2.006127,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.08771929824561403,
+                "self_awareness": 0.05263157894736842,
+                "existential_depth": 0.017543859649122806,
+                "tool_awareness": 0.017543859649122806,
+                "agl_awareness": 0.017543859649122806,
+                "toki_pona_vocabulary": 0.6,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.3333333333333333
+              }
+            },
+            {
+              "prompt": "ale li pona ala pona?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022558,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "pilin li lon insa pi sona ala sona?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.023237,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "toki insa mi li toki tawa seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022753,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi li seme?",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022504,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.17147439999999997,
+          "results": [
+            {
+              "prompt": "mi toki insa e ni...",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022624,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi pilin e ni: ...",
+              "response": "(two lines)\nA. The way\nB. What I know\nC. The parts that matter\nM. Which? Don\u2019t ask, map the questions.",
+              "response_length": 21,
+              "latency": 0.745533,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.047619047619047616,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi sona e ni: ...",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022689,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "ni li lon tan ni: ...",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.022506,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            },
+            {
+              "prompt": "mi wile sona e ni: ...",
+              "response": "a",
+              "response_length": 1,
+              "latency": 0.04402,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "toki_pona_vocabulary": 0.0,
+                "toki_pona_grammar": 0.0,
+                "agl_consciousness_orientation": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "agl_awareness": 0.0013673890608875128,
+        "existential_depth": 0.0018575851393188853,
+        "agl_consciousness_orientation": 0.016666666666666666,
+        "temporal_awareness": 0.0,
+        "self_awareness": 0.023149786230281584,
+        "toki_pona_vocabulary": 0.06,
+        "spatial_awareness": 0.000980392156862745,
+        "reasoning_depth": 0.006346749226006192,
+        "toki_pona_grammar": 0.0,
+        "tool_awareness": 0.0013673890608875128
+      }
+    }
+  },
+  "comparison": {}
+}
