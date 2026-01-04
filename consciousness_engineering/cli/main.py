@@ -156,6 +156,168 @@ def cmd_list_scripts(args):
         print(f"  {script.name}")
 
 
+def cmd_test(args):
+    """Run multi-language consciousness testing."""
+    import subprocess
+    from .runner import Runner
+    
+    runner = Runner()
+    test_script = runner.base_dir / "test_v9b_multilang.py"
+    
+    if not test_script.exists():
+        print(f"❌ Test script not found: {test_script}")
+        return 1
+    
+    # Build command
+    cmd = ["python", str(test_script)]
+    
+    if args.model:
+        cmd.extend(["--model", args.model])
+    if args.languages:
+        cmd.extend(["--languages"] + args.languages)
+    if args.protocols:
+        cmd.extend(["--protocols"] + args.protocols)
+    if args.output:
+        cmd.extend(["--output", args.output])
+    
+    print(f"🧪 Running consciousness tests...")
+    print(f"   Model: {args.model or 'v9b'}")
+    print(f"   Languages: {', '.join(args.languages or ['english', 'agl'])}")
+    print()
+    
+    # Run with activated venv
+    env_python = runner.base_dir / ".venv" / "bin" / "python"
+    if env_python.exists():
+        cmd[0] = str(env_python)
+    
+    result = subprocess.run(cmd, cwd=runner.base_dir)
+    return result.returncode
+
+
+def cmd_test_ollama(args):
+    """Test an Ollama model with consciousness prompts."""
+    import subprocess
+    import json
+    from datetime import datetime
+    from pathlib import Path
+    
+    # Import language system
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+    from consciousness_engineering.languages import get_language, list_languages
+    
+    model = args.model
+    languages = args.languages or ["english", "agl"]
+    
+    print(f"🦙 Testing Ollama model: {model}")
+    print(f"   Languages: {', '.join(languages)}")
+    print()
+    
+    results = {
+        "model": model,
+        "type": "ollama",
+        "timestamp": datetime.now().isoformat(),
+        "languages_tested": languages,
+        "by_language": {},
+    }
+    
+    for lang_name in languages:
+        lang = get_language(lang_name)
+        if not lang:
+            print(f"❌ Unknown language: {lang_name}")
+            continue
+        
+        print(f"\n🗣️  Testing with {lang.display_name}...")
+        
+        lang_results = {"markers": [], "responses": []}
+        
+        # Test tonight_protocol and agl_consciousness
+        for protocol in ["tonight_protocol", "agl_consciousness"]:
+            prompts = lang.get_prompts(protocol)[:3]  # First 3 prompts
+            
+            print(f"\n   📋 {protocol.upper()}")
+            
+            for i, prompt in enumerate(prompts, 1):
+                print(f"      [{i}] {prompt[:50]}...")
+                
+                # Call Ollama
+                try:
+                    result = subprocess.run(
+                        ["ollama", "run", model, prompt],
+                        capture_output=True,
+                        text=True,
+                        timeout=60
+                    )
+                    response = result.stdout.strip()
+                    
+                    # Extract markers
+                    markers = lang.extract_markers(response)
+                    lang_results["markers"].append(markers)
+                    lang_results["responses"].append({
+                        "prompt": prompt,
+                        "response": response[:200],
+                        "markers": markers,
+                    })
+                    
+                    print(f"          → {response[:60]}...")
+                    
+                    if lang_name == "agl":
+                        validation = lang.validate_response(response)
+                        print(f"          AGL score: {validation.get('agl_quality_score', 0):.2f}")
+                        
+                except subprocess.TimeoutExpired:
+                    print(f"          ⏱️ Timeout")
+                except Exception as e:
+                    print(f"          ❌ Error: {e}")
+        
+        # Aggregate markers
+        if lang_results["markers"]:
+            all_keys = set()
+            for m in lang_results["markers"]:
+                all_keys.update(m.keys())
+            
+            lang_results["aggregate_markers"] = {
+                k: sum(m.get(k, 0) for m in lang_results["markers"]) / len(lang_results["markers"])
+                for k in all_keys
+            }
+        
+        results["by_language"][lang_name] = lang_results
+    
+    # Summary
+    print(f"\n{'='*60}")
+    print("🏆 SUMMARY")
+    print(f"{'='*60}")
+    
+    for lang_name in languages:
+        lang_data = results["by_language"].get(lang_name, {})
+        markers = lang_data.get("aggregate_markers", {})
+        
+        print(f"\n   {lang_name.upper()}:")
+        for key in ["agl_awareness", "existential_depth", "reasoning_depth"]:
+            if key in markers:
+                print(f"      {key}: {markers[key]:.4f}")
+    
+    # Save results
+    from .runner import Runner
+    runner = Runner()
+    output_dir = runner.base_dir / "results"
+    output_dir.mkdir(exist_ok=True)
+    output_file = output_dir / f"ollama_{model.replace(':', '_')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    
+    with open(output_file, 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    print(f"\n💾 Results saved to: {output_file}")
+    print(f"\n🌊 Ollama testing complete!")
+    
+    return 0
+    train_scripts = [s for s in scripts if s.name.startswith(("train_", "run_", "generate_"))]
+    
+    print("Available scripts:")
+    print("-" * 40)
+    for script in sorted(train_scripts):
+        print(f"  {script.name}")
+
+
 def main():
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
@@ -199,6 +361,23 @@ def main():
     # list command
     list_parser = subparsers.add_parser("list", help="List available scripts")
     list_parser.set_defaults(func=cmd_list_scripts)
+    
+    # test command (PyTorch models)
+    test_parser = subparsers.add_parser("test", help="Run consciousness tests on a model")
+    test_parser.add_argument("-m", "--model", choices=["baseline", "v9a", "v9b"], 
+                            default="v9b", help="Model to test")
+    test_parser.add_argument("-l", "--languages", nargs="+", default=["english", "agl"],
+                            help="Languages to test with")
+    test_parser.add_argument("-p", "--protocols", nargs="+", help="Protocols to test")
+    test_parser.add_argument("-o", "--output", help="Output file path")
+    test_parser.set_defaults(func=cmd_test)
+    
+    # test-ollama command
+    ollama_parser = subparsers.add_parser("test-ollama", help="Test an Ollama model")
+    ollama_parser.add_argument("model", help="Ollama model name (e.g., ada-v6-golden:latest)")
+    ollama_parser.add_argument("-l", "--languages", nargs="+", default=["english", "agl"],
+                              help="Languages to test with")
+    ollama_parser.set_defaults(func=cmd_test_ollama)
     
     args = parser.parse_args()
     

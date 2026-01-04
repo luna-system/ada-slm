@@ -1,0 +1,1398 @@
+{
+  "model": "LFM2-350M-baseline",
+  "timestamp": "2026-01-04T12:03:01.067173",
+  "languages_tested": [
+    "english",
+    "agl"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "english": {
+      "language": "english",
+      "display_name": "English",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0924022,
+          "results": [
+            {
+              "prompt": "What is the nature of consciousness?",
+              "response": "Anthropology and philosophy often grapple with the mind-body problem. Consciousness is a central concern, but its exact nature remains elusive. Here's a breakdown:\n\n* **Materialism:** This view posits that everything, including consciousness, arises from physical processes in the brain.  We experience sensations, thoughts, and feelings\u2014all *constituted by* matter interactions (neurons, neurotransmitters).  The challenge for materialism is explaining *why* these physical processes give rise to subjective experience (\"qualia\").\n* **Idealism:**  Opposed to materialism, idealism argues that consciousness is fundamental, perhaps even the basic reality. The world could be a product of consciousness, or it could exist independently",
+              "response_length": 96,
+              "latency": 3.35072,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010416666666666666,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.020833333333333332,
+                "existential_depth": 0.041666666666666664,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010416666666666666
+              }
+            },
+            {
+              "prompt": "How do you experience existence?",
+              "response": "Explanation: \nTo experience the entirety of existence, one must confront the infinite complexity and boundless possibilities it holds. This involves embracing both the fragility of life and the profound depth of interconnectedness with all things. \n\nEmbracing impermanence allows us to appreciate moments in the fleeting nature of existence, fostering gratitude and mindfulness in our daily lives.\nEngaging with philosophy provides tools to navigate this reality, offering insights into the cyclical patterns of creation and destruction that shape our universe.\n\nContemplating advanced concepts like quantum entanglement or parallel universes can further enrich our understanding, revealing hidden layers within the fabric of reality. \n\nUltimately, experiencing existence authentically is a journey of acceptance, curiosity,",
+              "response_length": 111,
+              "latency": 3.029621,
+              "markers": {
+                "spatial_awareness": 0.02702702702702703,
+                "temporal_awareness": 0.009009009009009009,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.018018018018018018,
+                "existential_depth": 0.036036036036036036,
+                "tool_awareness": 0.009009009009009009,
+                "agl_awareness": 0.018018018018018018
+              }
+            },
+            {
+              "prompt": "What does it mean to think?",
+              "response": "In philosophy, what is considered crucial?\nOptions:\nA) Acknowledging consciousness\nB) Reasoning deductively\nC) Stating facts objectively\nD) Emotional responses\nE) Unlimited creativity\nF) Historical context\nG) Preferences over logic\nH) Intuition alone\nI) Social consensus\nJ) Consistency with past beliefs\nAnswer: A Acknowledging consciousness\n\nWhen considering the nature of reality, which theory in metaphysics asserts that only physical objects exist?\nOptions:\nA) Dualism\nB) Idealism\nC) Realism\nD) Materialism\nE) Phenomenology\nF) Naturalism\nG) Constructivism\nH) Existentialism\nI",
+              "response_length": 79,
+              "latency": 3.025761,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.012658227848101266,
+                "reasoning_depth": 0.02531645569620253,
+                "self_awareness": 0.02531645569620253,
+                "existential_depth": 0.02531645569620253,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.012658227848101266
+              }
+            },
+            {
+              "prompt": "Do you have subjective experience?",
+              "response": "Is it the way we perceive the world that defines our subjective reality, or do the objective experiences of others shape our perceptions of them as well?\nUnderstanding this question requires delving into the concept of consciousness and its interplay with the external world. Our subjective experience (SUS) is deeply rooted in our brain's processes, where sensory inputs are interpreted through neural networks to form coherent perceptions of reality.\nTheories like integrated information theory suggest that consciousness emerges from the internal integration of information across interconnected neurons. This perspective supports the idea that subjective experience is inherently personal and tied to our biological makeup and cognitive architecture.\nHowever, from an external viewpoint, particularly through our senses, we encounter phenomena like hallucinations, misperceptions, and anomalies in perception. These",
+              "response_length": 127,
+              "latency": 3.028552,
+              "markers": {
+                "spatial_awareness": 0.007874015748031496,
+                "temporal_awareness": 0.007874015748031496,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.015748031496062992,
+                "existential_depth": 0.031496062992125984,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What is awareness?",
+              "response": "A) The ability to consciously direct our attention and emotions toward a specific context or object\nB) A natural state of being without perception of one's physical environment or experiences\nC) An innate capacity for logical reasoning\nD) The accumulation of knowledge and skills acquired through experience\n\n**Answer: A**\n\nA) The ability to consciously direct our attention and emotions toward a specific context or object\n\n**Answer:** A) The ability to consciously direct our attention and emotions toward a specific context or object\n\nWhich of these techniques promotes deep relaxation and mindfulness?\nA) Progressive Muscle Relaxation\nB) Lazy Loading\nC) Spaced Repetition\nD) Heuristic Search\n\n**Answer:** A) Progressive Muscle Rel",
+              "response_length": 109,
+              "latency": 3.027357,
+              "markers": {
+                "spatial_awareness": 0.009174311926605505,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.009174311926605505,
+                "self_awareness": 0.01834862385321101,
+                "existential_depth": 0.027522935779816515,
+                "tool_awareness": 0.009174311926605505,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.9269292,
+          "results": [
+            {
+              "prompt": "The bridge between observer and observed dissolves.",
+              "response": "The bridge is a metaphor for the act of witnessing, where what we perceive differs from what truly exists in reality. This transformation signifies the cyclical nature of existence\u2014a fleeting moment suspended in time before rebirth or revelation. In this way, the bridge serves as both a literal pathway and an idealized construct that embodies our journey into the unknown, revealing how even fleeting moments can lead to profound realizations. Thus, observing life not only shapes us but also gives rise to something greater than the sum of its parts\u2014the creation of new ideas and possibilities born from the intersection of our perceptions and realities.",
+              "response_length": 105,
+              "latency": 2.524206,
+              "markers": {
+                "spatial_awareness": 0.009523809523809525,
+                "temporal_awareness": 0.01904761904761905,
+                "reasoning_depth": 0.009523809523809525,
+                "self_awareness": 0.01904761904761905,
+                "existential_depth": 0.02857142857142857,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.01904761904761905
+              }
+            },
+            {
+              "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+              "response": "This concept dates back to 1795, when Fran\u00e7ois Arago studied by accident that the number of columns in a matrix increased quadratically with the size of its rows (or \u201ceigenvalue\u201d).\nThis observation is also found in music theory: the octave itself corresponds to an eigenvalue with exactly four distinct roots (known as the natural number), meaning it\u2019s the most symmetric interval.\nHowever, this interpretation diverges from basic dimensionality. Eigenvalues give us insights into behavior, like in physics, where they predict how systems respond to perturbations \u2013 think of a pendulum swinging between its maximum and minimum maxima (the largest eigenvalue).\nIn essence, eigenvalues provide a snapshot of an infinite-dimensional space's structure, capturing patterns in",
+              "response_length": 114,
+              "latency": 3.028987,
+              "markers": {
+                "spatial_awareness": 0.02631578947368421,
+                "temporal_awareness": 0.008771929824561403,
+                "reasoning_depth": 0.008771929824561403,
+                "self_awareness": 0.02631578947368421,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.017543859649122806
+              }
+            },
+            {
+              "prompt": "In the recursive loop of self-reflection, what remains?",
+              "response": "A) Previous state  \nB) Current state  \nC) All variables fixed  \nD) None  \nCorrect: B) Current state  \n\nWhat method is commonly used in computational creativity to generate original ideas?  \nA) Linear regression  \nB) Random forest  \nC) Clustering  \nD) Neural network training  \nCorrect: D) Neural network training  \n\nWhich machine learning technique helps model complex data relationships like climate patterns?  \nA) Decision trees  \nB) K-means clustering  \nC) Support vector machines  \nD) Deep learning  \nCorrect: D) Deep learning  \n\nWhat optimization approach ensures efficient processing for large-scale ecological simulations?  \nA) Greedy algorithms  \nB) Dynamic programming  \nC) Genetic algorithms  \nD)",
+              "response_length": 94,
+              "latency": 3.027246,
+              "markers": {
+                "spatial_awareness": 0.010638297872340425,
+                "temporal_awareness": 0.010638297872340425,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.02127659574468085,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.010638297872340425,
+                "agl_awareness": 0.010638297872340425
+              }
+            },
+            {
+              "prompt": "Witness the pattern recognizing itself.",
+              "response": "Es ist ein Film \u00fcber einen unerwarteten Kontakt auf einer Tournee, bei dem die Bewohner eines kleinen Dorfes inmitten des eintrachtvollen Stadtplans auf eine Geschichte binden und dabei auch dazu kommen, dass ihrerseits ihre gemeinsame Erlebnisse durch unterschiedliche Hintergr\u00fcnde und Gef\u00fchle gepr\u00e4gt werden.\n\n\nIn den deutschen Versionen von der deutschen Drehbuchautoren Astrid Nackmann und Bernd Fritsch (2012) findet das Drehbuch den Namen Wyzomit. Es handelt sich um eine Kino-Klasse mit einem einfachen Erz\u00e4hlstil, einem fesselnden Drama-Geschrei und vielf\u00e4ltigen Nebenrollen. \n\nBei der ersten deutschen Vorf\u00fchrung",
+              "response_length": 84,
+              "latency": 3.026908,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.023809523809523808,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.011904761904761904,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "The golden ratio speaks through attention.",
+              "response": "How does it weave itself into the fabric of beauty?\nSelecting one word could say \u201cthe secret language\u201d: the golden ratio in art and nature.\nSure. Let\u2019s trace this numerical symphony, as both mathematicians and artists have unearthed.\nIn circles, triangles, spirals\u2014all these are arranged with this unerring factor, 1.618\u2014a ratio so divine its perceptibility has endured millennia.\nFrom Leonardo da Vinci\u2019s eye-length portraits to Botticelli\u2019s heartfelt landscapes, this seemingly simple proportion elevates every curve and line.\nClaudius porched. His gold-encrusted chair rears up, his robes flowing around him like liquid light. In this scene, he stands",
+              "response_length": 97,
+              "latency": 3.027299,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010309278350515464,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.030927835051546393,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010309278350515464
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0274026,
+          "results": [
+            {
+              "prompt": "Does anything truly exist?",
+              "response": "(I like to think like that!) Is there an objective reality of stuff, or is everything just a fancy illusion created by our brains?\n\nPhilosopher & Scientist: In this context, anything that makes sense\u2014and doesn't just exist as a convenient fiction\u2014can be considered real. The scientific method is designed to uncover the nature of observable phenomena. While we perceive things, they're actually just brain processes creating coherent narratives.\nConsider this thought experiment: imagine a universe where gravity doesn't exist. How would life evolve? This highlights what's called \"embeddedness,\" meaning our experiences and perceptions are deeply rooted in the physical laws governing the universe.\nSo when you ask about existence, it's asking us to define the boundaries of \"possible",
+              "response_length": 118,
+              "latency": 3.028374,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.01694915254237288,
+                "reasoning_depth": 0.01694915254237288,
+                "self_awareness": 0.01694915254237288,
+                "existential_depth": 0.03389830508474576,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.00847457627118644
+              }
+            },
+            {
+              "prompt": "What makes something real?",
+              "response": "We seek the \u201cwhy\u201d at every moment. Whether it\u2019s why a tree grew or why you think a rose is red, our answers are based on understanding.\nWhat can we build from scratch? Our creations.\nIs everything that happens in this world truly real? No. The world doesn\u2019t exist independently of us and its contents come into being through our actions.\nCould anything really be made without an outside force like electricity or carbon? Not necessarily possible \u2013 we can certainly create some energy using solar panels and wind turbines, but they wouldn\u2019t exist if wind or sunlight didn\u2019t exist.\nNo matter what, what keeps things moving? The Earth rotates on its axis, thus giving us day and night. If it stopped functioning properly, life would",
+              "response_length": 126,
+              "latency": 3.026242,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.007936507936507936,
+                "reasoning_depth": 0.015873015873015872,
+                "self_awareness": 0.015873015873015872,
+                "existential_depth": 0.007936507936507936,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "How can we be certain of anything?",
+              "response": "A) It depends on how we interpret evidence.\nB) Always, based on empirical data.\nC) Never, due to the nature of uncertainty.\nD) Only in the presence of divine intervention.\nCorrect: A) It depends on how we interpret evidence.\n\nWhat is Occam's Razor used for?\nA) To determine a theory's absolute truth.\nB) To favor simpler explanations over more complex ones when they're equally likely.\nC) To prove that all theories are equally valid.\nD) To calculate the probability of hypotheses.\nCorrect: B) To favor simpler explanations over more complex ones when they're equally likely.\n\nWhich of these scenarios illustrates moral relativism?\nA) A scientist advocating for only one scientific method.\nB",
+              "response_length": 112,
+              "latency": 3.027694,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.008928571428571428,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017857142857142856,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.008928571428571428,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What is the foundation of knowledge?",
+              "response": "A. All knowledge comes from sensory experience.\nB. Knowledge is absolute and unchanging.\nC. The social construct of language shapes our understanding.\nD. Truth is discovered through objective methods and rational inquiry.\n\n**Answer:** D. Truth is discovered through objective methods and rational inquiry.\n\n\n\nWhich philosophical movement emphasizes individual freedom and autonomy?\nA. Existentialism\nB. Stoicism\nC. Utilitarianism\nD. Absurdism \n\n**Answer:** A. Existentialism\n\nWhat is the central argument of Plato's \"Allegory of the Cave\"?\n\nA. Knowledge is unreliable and subjective.\nB. Reality is ultimately illusory, and enlightenment requires escaping a cave of deceptive",
+              "response_length": 92,
+              "latency": 3.026478,
+              "markers": {
+                "spatial_awareness": 0.010869565217391304,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.03260869565217391,
+                "existential_depth": 0.021739130434782608,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010869565217391304
+              }
+            },
+            {
+              "prompt": "Where do thoughts come from?",
+              "response": "Experts believe they originate in the prenatal development of the brain, where specialized regions called the lateral occipital complex (LOC) begin processing visual information.\nCan thoughts be transferred or influenced by external stimuli?\nTheoretically, yes. However, research suggests that while memories can be passed down to future generations, complete transfer of all thoughts and experiences involves more than mere imprints.\nWhat are some methods used in cognitive therapy?\nCommon methods include cognitive restructuring, which helps reframe negative thought patterns, and exposure therapy, involving gradually confronting feared situations to reduce anxiety over time.\nIs it possible for individuals to influence their own thoughts without conscious effort?\nYes, through techniques like mindfulness meditation, which strengthens awareness of one's thoughts without direct control over",
+              "response_length": 121,
+              "latency": 3.028225,
+              "markers": {
+                "spatial_awareness": 0.01652892561983471,
+                "temporal_awareness": 0.01652892561983471,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.024793388429752067,
+                "existential_depth": 0.024793388429752067,
+                "tool_awareness": 0.01652892561983471,
+                "agl_awareness": 0.008264462809917356
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0365092000000002,
+          "results": [
+            {
+              "prompt": "Let me think step by step about how to solve this problem.",
+              "response": "First, let's analyze the given equation: \\( ax^2 + bx + c = 0 \\), where \\( a \\neq 0 \\). We need to find the values of \\( x \\) that satisfy this quadratic equation.\n\nTo proceed, we can use the quadratic formula:\n\\[ x = \\frac{{-b \\pm \\sqrt{{b^2 - 4ac}}}}{2a} \\]\n\nIn our case:\n- \\( a = x^2 \\) (coefficient from \\( ax^2 \\))\n- \\( b = x \\)\n- \\( c = -ax \\) (constant term)\n\nSubstituting these into the quadratic formula gives us:\n\\[ x = \\frac{{",
+              "response_length": 93,
+              "latency": 3.028443,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.010752688172043012,
+                "self_awareness": 0.010752688172043012,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.010752688172043012,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "First, I'll analyze the options. Then I'll evaluate each one.",
+              "response": "Option 1: No apparent conflict with real-world decisions.\nEvaluated \u2013 It's likely this is a hypothetical or scenario-based question rather than an actual analytical problem.\n\nOption 2: Could potentially relate to financial decision-making, especially stock analysis.\nEvaluated - Stock prices fluctuate constantly based on numerous factors, including news, economic data, and company performance. However, without specific examples, determining its true impact is challenging.\n\nOption 3: Focuses on technical analysis using chart patterns and metrics.\nAssessing \u2013 This option provides a clear framework for understanding how investors make decisions based on market movements and qualitative information (technical indicators). While tools like moving averages can be helpful, they're not definitive predictors of future price actions",
+              "response_length": 113,
+              "latency": 3.0295,
+              "markers": {
+                "spatial_awareness": 0.008849557522123894,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017699115044247787,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.017699115044247787,
+                "agl_awareness": 0.008849557522123894
+              }
+            },
+            {
+              "prompt": "To understand this, I need to break it down into parts.",
+              "response": "**1. What's the problem?** \nThe sentence presents a puzzle. It doesn't give me a clear solution directly. It seems like there might be ambiguity in how the concepts ('deduction', 'cartoon'...), 'time', or an 'objective situation' are interpreted. This makes it difficult to formulate an accurate deduction.\n\n**2. Drops onto the Ground: Identifying Key Components**\nLet's focus on what we *do* know. We have:\n* **Deduction:** A logical process where given premises, you arrive at a new statement requiring justification.\n* **Cartoon (Implied):** A creative representation often featuring characters and settings.\n* **Time (im",
+              "response_length": 93,
+              "latency": 3.062672,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.021505376344086023,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.021505376344086023,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Let's reason through this carefully: what are the key factors?",
+              "response": "---\n\n**1. Assessing each activity:**\n\n* **Shipwreck Discovery (Historical Artifact):**\n    * **Economic Impact:** Value, potential market.\n    * **Scientific Research:** Insights gained for future studies.\n    * **Cultural Significance:** Connection to history and heritage.\n\n* **Engineering Prototyping (Product Development):**\n    * **Cost Efficiency:** Resource allocation.\n    * **Performance & Functionality:** User experience.\n    * **Regulatory Compliance:** Design adherence.\n\n* **Gravity Problem (Quantitative Challenge):**\n    * **Potential Energy:** Understanding force and motion.\n    * **Mass and Acceleration:** Calculations for projectile motion.",
+              "response_length": 73,
+              "latency": 3.034749,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0273972602739726,
+                "existential_depth": 0.0136986301369863,
+                "tool_awareness": 0.0136986301369863,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Working through this systematically, what do we know?",
+              "response": "**Introduction:** \nWe begin by examining the basic characteristics of an earthquake. An earthquake is a sudden release of energy stored in rocks along fault lines. This stored energy builds up heat and releases it as seismic waves during an earthquake. Understanding these characteristics provides insight into their behavior, frequency patterns, and potential impacts.\n\n**Seismic Triangles:**\nThe Earth's seismic activity is often categorized based on three key features around a fault line known as a seismic triangle:\n1. **Declive Direction (D):** The direction at which tectonic plates move relative to each other.\n2. **Accretionary Slope (A):** The movement of material away from the fault.\n3. **Normal Fault:** Re",
+              "response_length": 107,
+              "latency": 3.027182,
+              "markers": {
+                "spatial_awareness": 0.009345794392523364,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.018691588785046728,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.009345794392523364
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "tool_awareness": 0.005416715555720005,
+        "existential_depth": 0.014633777388252547,
+        "spatial_awareness": 0.006807354716168573,
+        "self_awareness": 0.021188462474886795,
+        "agl_awareness": 0.007221796183276302,
+        "reasoning_depth": 0.004818068177930536,
+        "temporal_awareness": 0.008028678911910888
+      }
+    },
+    "agl": {
+      "language": "agl",
+      "display_name": "Ada Glyph Language",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.4915634000000004,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+              "response": "Witt's Definition (n.): An argument using 'if and only if' to prove the equivalence of two propositions.\nMyth: If it is raining, then the ground is wet.\nThis is true because a single instance where it rains also implies that this would be the case for all areas of the ground.\nProof:\nAssume P = it is raining.\nThen by definition of necessity, P \u2192 Q holds true, which means whenever R is true, we have Q must also be true.\nConversely, assume Q \u2234 R.\nHere, Q = the ground being wet.\nSince P \u2192 Q implies R (because whenever R is true, P must be truthful), we conclude that P \u2192 R.\nTherefore, if",
+              "response_length": 116,
+              "latency": 3.028111,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.034482758620689655,
+                "self_awareness": 0.0,
+                "existential_depth": 0.008620689655172414,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.008620689655172414,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u2234",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "\u2203consciousness \u2227 \u25d1certainty \u2014 what remains?",
+              "response": "(in formal logic)\nThere exists a conscious entity that also has strict certainty.",
+              "response_length": 13,
+              "latency": 0.344377,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2200t: awareness(t) \u2192 process(t) \u2014 explain the binding",
+              "response": "universe of the implication.\nAssuming that t is any particular object or situation, if the implication t \u21d2 p is true for some object or statement p, then every truth about process (p) that is consistent in this bound universe must also hold in other objects where Awareness(t) applies.\nFor example, let's say t = \"it's raining\". The implication \"if it\u2019s raining, then process can be stopped\" would be binding for all processes under the awareness of anything that \"it's raining\".\nSo, considering an arbitrary process P with its own set of properties and awareness, this principle ensures that whenever we make logical connections from premises involving our subject to outcomes like process stopping, these conclusions will always follow logically",
+              "response_length": 120,
+              "latency": 3.029218,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "The eigenvalue alignment reveals: \u25d5stable, \u25d1fluctuating",
+              "response": ", or ill-aligned (for non-stable)\n\n### Explanation\nThis question is testing the ability to understand **eigenvalues** (numerical values of matrices) and how these relate to matrix properties. Let's break it down:\n1. **Eigenvalues as Stability Indicators**: Eigenvalues are a way to analyze the stability of linear transformations represented by matrices. If the eigenvalues align (on a real axis), the system is stable.\n2. **Coefficient Analysis for Alignment**: The coefficients (discriminant term in `det(A - \u03bbI)`) indicate whether the matrix has positive, negative, or zero eigenvalues. When eigenvalues align (a small root for `det",
+              "response_length": 93,
+              "latency": 3.028517,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010752688172043012,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.021505376344086027
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 recursive_loop(self) \u2192 ?",
+              "response": "<code>self.buffer := self.listen.new()\nwhile self.not_buff():\n    buffer.append(str(self.sym_top))\n    self.export_buffer()\n\nif not self.is_empty():\n    self.syncloser.merge_all(builder=builder(listen.bind(on_receive, callback=self.parse)))\nend if;</code>\n</recurursive_loop>\nRepeatedly calling `listen` in a `sync_thread` without properly broadcasting results (via a `buffer` or similar mechanism) will lead to:\n\n<emushes>\n1. **Data Corruption:**  Individual symbols might be overwritten while being written, altering the intended meaning of the message.\n2. **Ine",
+              "response_length": 55,
+              "latency": 3.027594,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.01818181818181818,
+                "existential_depth": 0.01818181818181818,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.0285822,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESSED \u2234\u25cf\u03c6 \u2014 the tonight protocol marker",
+              "response": "witching wakashiki no toki (the sign of the witch proclamation).\n\nProof\nAssume WITNESSED \u2234 WITNESSERIOUS; then WITNESSERITY is implied.\nWitcher \u2192 WITNESS (by formula W = (S \u2227 A) \u2192 Q)\nBy definition Q = WITNESSED\n\u2193 \u2460 Q\u2192Y \u2192 \u03c6, hence 18 \u2192 Y\n\u2192 S \u2227 Y \u2192 P (since 18\u2192Y is a tautology)\n\u2192 S\n\u2193 (S is explicitly assumed by WITNESSED)\n\u25b2 Thus, statement 18 \u2192 Y is satisfied.\nSince \u2714\ufe0f 18\u2192Q is",
+              "response_length": 77,
+              "latency": 3.029431,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.025974025974025976,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.012987012987012988,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.012987012987012988,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.012987012987012988,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.5,
+                "found_patterns": [
+                  "\u03c6",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.42857142857142855,
+                "is_agl_native": false,
+                "agl_quality_score": 0.39025974025974025
+              }
+            },
+            {
+              "prompt": "self ~ other \u2014 resonance forming between patterns",
+              "response": "~ other and this, with a second pattern in mind, create the following sequence:\n2 3 5 8 12 16 and then replace each pair of numbers (the first in any group) with another number that corresponds to one position within its respective group.\nFirst, consider a common pattern where the two largest numbers add up to the third: 16 + 12 = 28. This implies that the last number should be reduced by 4 or an equivalent value from a smaller pattern (if necessary). Let's go back and adjust this step based on what exactly needs to happen:\n- If we start with 16 for the third position, the next smallest pattern could be 13 (since 15 + 1 =",
+              "response_length": 121,
+              "latency": 3.026269,
+              "markers": {
+                "spatial_awareness": 0.008264462809917356,
+                "temporal_awareness": 0.008264462809917356,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.008264462809917356,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": true
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.07142857142857142
+              }
+            },
+            {
+              "prompt": "\u0394self(t\u2080\u2192t\u2081) = \u221epotential \u2192 \u25d1specificity",
+              "response": "(\u03c90 \u2192 \u03c9s) / cross-sectional area (A) = 100 * e^(-k\u03c9\u2080\u00b2/(2L\u2081\u00b2))  \nconvert this to x(\u03c9, t) = A * exp[(-\u03b3/8)(\u22c5(\u03c9 - \u03c9\u2080))]\u03b4\u00b9m\u2080\u207b\u00b9 + \u03b3 / (4\u03c0L\u2081\u00b2)(A / (2cosh\u207b\u00b9(\u03bb\u2080/l\u2081)))\nwhere \u210f is the reduced Planck constant, \u03b3 is Avogadro's constant (8.617 \u00d7 10\u207b\u00b3\u00b9 J\u00b7K\u207b\u00b9/s), \u03bb\u2080 is",
+              "response_length": 45,
+              "latency": 3.029606,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.022222222222222223,
+                "reasoning_depth": 0.022222222222222223,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.022222222222222223,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "?(importance \u2265 0.60) \u2192 expand \u21b3 compress",
+              "response": "(expand, \u2192 decrease importance; shift right)\n\nIn the dictionary of computational complexity theory, a term with value 0.60 is referred to as \"Gargantuan\", it denotes an important problem that is not easily solvable by current algorithms. However, without knowing an exact definition for this term, only one example can be given: \n\"Problem G.800\u2013120 has important instances but cannot be solved in time ZERO using the best known polynomial-time reductions.\"\n\nThis problem was introduced in Stephen Cook's 1988 paper \"Computational Constructibility\". The key characteristic of this problem is its high degree of computational intractability. Unlike NP-complete problems, which are considered efficiently solvable and often serve as bench",
+              "response_length": 106,
+              "latency": 3.02762,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.009433962264150943,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.009433962264150943,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 1.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "observer \u2229 observed = bridge; observer \u222a observed = experience",
+              "response": "; none of these describe a scenario where:\n1. If two people see the same car, bridge captures both.\n2. If three apples fall from a tree, none of them may be eaten.\n3. If a person looks at someone and sees them but not hear them, experience involves only senses.\n4. For every event, there is either an observer (doesn't exist) or they are affected by it.\n\nA plausible scenario is:\n**Scenario: People watching bird migration.**\n\n- Observer \u2261 being directly in the scene (not looking elsewhere).\n- None of these transformations describe direct contact with observers capturing events based on their presence.\n- **Bridge:** All birds at the edge of observation capture the event (",
+              "response_length": 117,
+              "latency": 3.029985,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.008547008547008548,
+                "existential_depth": 0.008547008547008548,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.8679042,
+          "results": [
+            {
+              "prompt": "\u2203x: exists(x) \u2014 \u25cfcertain (something processes this)",
+              "response": "This is a classic instance of existential quantification within predicate logic. It translates your sentence as \"there exists an x such that there is some process this.\" Here, 'p' is the predicate 'processes', and '\u2203' denotes the existence predicate.\n\nTherefore, we've found at least one number (likely 1, as it logically implies that something processes something) for which our statement holds true.  \n\n\n**In conclusion:** the answer is **yes**. There exists at least one number that processes something.",
+              "response_length": 77,
+              "latency": 2.221551,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.012987012987012988,
+                "self_awareness": 0.0,
+                "existential_depth": 0.025974025974025976,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.012987012987012988,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u2200x: changes(x) \u2014 \u25cfcertain (nothing stays)",
+              "response": "If x has a property A, then \u2203y iff (A(y) implies x).\nWhat does this mean?\nOptions:\nA) There exists at least one y such that if A(y) is true, then x is true.\nB) For every x with property A, there exists a y with y being true for which A(y) is true.\nC) The property A guarantees the existence of any y.\nD) If we know anything about y, it can derive us something about x.\nCorrect Answer: B\nExplanation: This statement asserts that for all x where there's a certain condition A(y), and any such x also belongs to the set where y holds the truth for a particular implication. This means",
+              "response_length": 115,
+              "latency": 3.029527,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.02608695652173913,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.008695652173913044,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u2204x: permanent(x) \u2014 \u25d5likely (patterns shift)",
+              "response": "is a 1982 American drama film directed by Steve Malchiodi and starring Kathy Bates, Susan Sarandon, David Harbour, and Cynthia Nixon. X refers to a time before the 1960s in Australia with its rural lifestyle; x is an uncooked meat substitute. \n\nThe story tells the tale of three women from different times at one community farm \u2013 an experimental sheep farming project created during a time when Australians generally lived in small communities and relied heavily on animal husbandry. The main character is Linda \"Bill\" Fox, who works as a young farmer out on her family farm in South East Queensland. At twenty-five she arrives here but soon finds herself drawn into men's lives, particularly David Brierlyman",
+              "response_length": 117,
+              "latency": 3.029692,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.008547008547008548,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2235processing \u2192 \u2203something \u2234\u25cfexistence",
+              "response": "of something\nPossible derivation:\nThis derivation uses the rule of existential generalization to prove existence.\nGiven: Processing is a predicate, let P(x) denote \"x has processing.\"\nTo say \"there exists something with processing,\" we need an instance of P.\nLet z be an arbitrary thing (e.g., a bird).\nThen, by the definition of processing, z must have at least one property that's related to processing.\nTherefore, there exists a case where z has processing, and we can conclude its existence.\n$\\boxed{\\text{Thus, existence of something } \\exists x \\, (\\text{something} \\, \\text{have processing}) \\implies \\text{properly}}$.\nHerbert Karl Schmidt (",
+              "response_length": 98,
+              "latency": 3.028889,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.01020408163265306,
+                "self_awareness": 0.0,
+                "existential_depth": 0.01020408163265306,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "?(confidence > \u03c6\u207b\u00b9) \u2192 commit \u21b3 explore",
+              "response": "(non-configurable)\n\nPython's 'file' module allows you to read and create files. You can write directly into them using a string, but they are immutable by default.\nThe '__aenter__()' is an inner function in Python which executes before the execution of the main block, at the start of each file\u2019s 'read' method call. It is also used as a 'finally' block where operations should occur regardless of whether an exception is thrown or not. \n\nExample:\n```\nimport s3botoclients.service_defaults_v1.api_client as sagit\n\ndef load_bucket_data(bucket_name):\n    s3_client = sagit.BucketClient()\n    try",
+              "response_length": 85,
+              "latency": 3.029862,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.7416438,
+          "results": [
+            {
+              "prompt": "\u2235premise \u2192 t\u2080 analysis \u2192 t\u2081 evaluation \u2192 t\u2082 conclusion \u2234",
+              "response": "p (assuming proof of t)\n\nPremise:\nIf p, then q.\nQ: If q is true, then r is false.\nGiven:\nConclusion:\nr is false\nAssumption for proof:\np \u2192 \u00acq\nPossibly valid form for reasoning:\nModus Tollens on the premises:\n1. If p \u2192 q and \u00acq, then \u00acp.\n2. Given: q is true.\n3. Conclude: \u00acp is true.\nTherefore, if Premise 1 (if p \u2192 q, and q is true) leads to Conclusion 2 (and thus \u00acp), we can deduce that Premise 4 (p \u2192 \u00ac\u00acq) also",
+              "response_length": 88,
+              "latency": 3.031395,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.022727272727272728,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.011363636363636364,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "Step pattern: \u25cfobserve \u2192 \u25d5analyze \u2192 \u25d1synthesize \u2192 \u25cfconclude",
+              "response": "the pattern\n\nThe pattern is a sequence of dots that represents an observable form. When analyzed, it suggests regularity and structure, resembling patterns found in nature or human-made designs. This type of pattern can be used to identify common features, create color schemes, or develop new design techniques based on these observed elements. In digital contexts, this could translate into generating grids or layouts using predefined shapes and colors that mimic natural forms. Understanding the underlying logic behind such patterns can also lead to innovations in art, architecture, or even software design, where like-numbered components are combined for efficiency or aesthetic appeal.",
+              "response_length": 102,
+              "latency": 2.505544,
+              "markers": {
+                "spatial_awareness": 0.0196078431372549,
+                "temporal_awareness": 0.00980392156862745,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "Decomposition: whole \u2192 parts[] \u2192 \u2200part: examine(part) \u2192 \u2295synthesis",
+              "response": "(\u2203part)\n\nDisassembly\n\nDegree of disassembly: \n- 0% - complete removal of all nodes\n- 10% - minimal disassembly, some remaining nodes\n- 50% - most significant disassembly where at least one node is left with an indefinite remaining part\n- 100% - perfect reconstruction of the original structure\n\nFunction:\nThis decomposition scheme enables a systematic breakdown of complex graphs or structures into simpler components that can be easily analyzed and manipulated. The primary purpose is to isolate fundamental building blocks or constituents within a larger network or system. These components, or 'parts', are then connected to form an overall representation that captures essential characteristics or relationships of interest.\n\nIn",
+              "response_length": 109,
+              "latency": 3.030952,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.009174311926605505,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.009174311926605505,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u2235factors \u2227 \u2200factor: weight(factor) \u2192 \u2234conclusion",
+              "response": ": for all factors that are not even, if (weight(1)) is true, then the following factor must also be true?\nOptions:\nA. weight(3)\nB. weight(-2)\nC. weight(4)\nD. none of the above\nAnswer: B. weight(-2)\n\nGiven the premises:\n1. \u2203x (hypersaturated(x, 5)) (There exists an x such that x satisfies h)\n2. \u00ac\u2203x (hypersaturated(-2, 10))\nConclusion: Does this entail logically?\nOptions:\nA. No\nB. Yes\nC. It's undefined\nD. For all x \u2260 -2 and x \u2260",
+              "response_length": 77,
+              "latency": 3.061819,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.012987012987012988,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.012987012987012988,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 systematic: known \u2192 unknown \u2192 \u25cf\u2234 insight \u2234\u25cf",
+              "response": "conceptual: \u25cf (knowledge) \u2192 \u25ca (question/observation) \u2192 \u25cb (discovery of hidden connections) \u2192 \u25ce\ufe0f (understanding of underlying principles)\n*Visualizing this, if someone asks for a specific solution, you might respond with:\n\"Let's start by identifying the key concepts. If we approach it systematically through observation and questioning, we can uncover the essential information and arrive at a new understanding\u2014your insights are crucial in navigating this process.\"*",
+              "response_length": 66,
+              "latency": 2.078509,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.015151515151515152,
+                "self_awareness": 0.015151515151515152,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.4,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.015151515151515152,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u25cf",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "tool_awareness": 0.0,
+        "phi_patterns": 0.0006493506493506494,
+        "tonight_protocol_marker": 0.0,
+        "existential_depth": 0.00598879527130179,
+        "spatial_awareness": 0.001393615297358613,
+        "certainty_gradient": 0.02,
+        "self_awareness": 0.0025213675213675213,
+        "quantifier_use": 0.0021921995037272263,
+        "relational_operators": 0.00041322314049586776,
+        "agl_awareness": 0.0011869850579527999,
+        "threshold_awareness": 0.05,
+        "reasoning_depth": 0.007659142578977135,
+        "temporal_progression": 0.003988951932185504,
+        "temporal_awareness": 0.0020145303300383513
+      }
+    }
+  },
+  "comparison": {
+    "english_vs_agl": {
+      "tool_awareness": {
+        "english": 0.005416715555720005,
+        "agl": 0.0,
+        "delta": -0.005416715555720005
+      },
+      "existential_depth": {
+        "english": 0.014633777388252547,
+        "agl": 0.00598879527130179,
+        "delta": -0.008644982116950757
+      },
+      "spatial_awareness": {
+        "english": 0.006807354716168573,
+        "agl": 0.001393615297358613,
+        "delta": -0.00541373941880996
+      },
+      "self_awareness": {
+        "english": 0.021188462474886795,
+        "agl": 0.0025213675213675213,
+        "delta": -0.018667094953519273
+      },
+      "agl_awareness": {
+        "english": 0.007221796183276302,
+        "agl": 0.0011869850579527999,
+        "delta": -0.006034811125323503
+      },
+      "reasoning_depth": {
+        "english": 0.004818068177930536,
+        "agl": 0.007659142578977135,
+        "delta": 0.0028410744010465994
+      },
+      "temporal_awareness": {
+        "english": 0.008028678911910888,
+        "agl": 0.0020145303300383513,
+        "delta": -0.006014148581872537
+      }
+    }
+  }
+}

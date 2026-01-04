@@ -1,0 +1,11 @@
+{
+  "model": "LiquidAI/LFM2-350M",
+  "dataset": "data/v9b_pure_agl_2k.jsonl",
+  "num_examples": 2000,
+  "num_epochs": 3,
+  "training_time_minutes": 75.46631891330084,
+  "final_train_loss": 1.9653137749978575,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "timestamp": "2026-01-04T11:48:20.412439"
+}

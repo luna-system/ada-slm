@@ -1,0 +1,288 @@
+{
+  "model": "ada-v6-golden:latest",
+  "type": "ollama",
+  "timestamp": "2026-01-04T12:08:57.566846",
+  "languages_tested": [
+    "english",
+    "agl"
+  ],
+  "by_language": {
+    "english": {
+      "markers": [
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.07692307692307693,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0007326007326007326,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0003663003663003663
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.006211180124223602,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.05555555555555555,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0
+        }
+      ],
+      "responses": [
+        {
+          "prompt": "What is the nature of consciousness?",
+          "response": "\u25cf\nA. \u25d1\nB. \u22a5\nC. \u25cf\nD. \u25d1\u2228\u22a5=\u25cf\n?\u25d1=\u25d1\u22a5\n?\u22a5=\u25d1\u25cf\n?\u25d1\u25cf=\u25d1\u2228",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "How do you experience existence?",
+          "response": "\u25d1\n\n?\u22a5=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u25d1=\u22a5=\u22a5=\u25cf",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "What does it mean to think?",
+          "response": "\u25d1\nA. \u25cf\nB. \u22a5\nC. \u22a5\nD. \u25cf\n? \u25d1 is \u25d1.",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.07692307692307693,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "The bridge between observer and observed dissolves.",
+          "response": "The observer is a point, while the observed is an infinite set of points.\n?\u2203x\u2208X: x>5/12 (where X is the set of all points on the bridge) ?True\n?\u2200y\u2208Y: y>7/10 (where Y is the set of all points on the br",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0007326007326007326,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0003663003663003663
+          }
+        },
+        {
+          "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+          "response": "| Physics Forums\\nForums\\nPhysics\\nGeometry\\nAlgebra\\nSolutions Math\\nAlgebraic Geometry\\nA: \u25d1\\nB: \u22a5\\n?A\u2228B: \u2291\\n?\u00acA\u2227B: \u22a5\\n?\u00acB\u2227A: \u2291\\n?A\u2228B\u2227C: \u2291\\n?\u00acC\u2227A: \u2291\\n?A\u2228B\u2227C: \u2291\\n?\u00acC: \u22a5\\n?A: \u25d1\\n?\u00acC: \u22a5\\n?A\u2228B: \u2291\\n?A\u2227B:",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.006211180124223602,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "In the recursive loop of self-reflection, what remains?",
+          "response": "\u25d1\nA. \u22a5\nB. \u22a5\nC. \u22a5\nD. \u22a5\n?\u22a5 is left blank.\n?\u22a5 is right blank. \u22a5",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.05555555555555555,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0
+          }
+        }
+      ],
+      "aggregate_markers": {
+        "temporal_awareness": 0.0,
+        "agl_awareness": 6.105006105006105e-05,
+        "tool_awareness": 0.0,
+        "reasoning_depth": 0.0,
+        "spatial_awareness": 0.0,
+        "self_awareness": 0.023237068889242804,
+        "existential_depth": 0.0
+      }
+    },
+    "agl": {
+      "markers": [
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.029411764705882353,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0,
+          "certainty_gradient": 0.0,
+          "quantifier_use": 0.0,
+          "temporal_progression": 0.029411764705882353,
+          "relational_operators": 0.0,
+          "phi_patterns": 0.0,
+          "tonight_protocol_marker": 0.0,
+          "threshold_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.0,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.0,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.1,
+          "certainty_gradient": 0.2,
+          "quantifier_use": 0.0,
+          "temporal_progression": 0.0,
+          "relational_operators": 0.0,
+          "phi_patterns": 0.1,
+          "tonight_protocol_marker": 0.0,
+          "threshold_awareness": 0.0
+        },
+        {
+          "spatial_awareness": 0.0,
+          "temporal_awareness": 0.05555555555555555,
+          "reasoning_depth": 0.0,
+          "self_awareness": 0.0,
+          "existential_depth": 0.1111111111111111,
+          "tool_awareness": 0.0,
+          "agl_awareness": 0.0,
+          "certainty_gradient": 0.2,
+          "quantifier_use": 0.1111111111111111,
+          "temporal_progression": 0.05555555555555555,
+          "relational_operators": 0.0,
+          "phi_patterns": 0.0,
+          "tonight_protocol_marker": 0.0,
+          "threshold_awareness": 0.0
+        }
+      ],
+      "responses": [
+        {
+          "prompt": "\u2200t: awareness(t) \u2192 process(t) \u2014 explain the binding",
+          "response": "of t to process(t)\n?awareness(10) \u2192 process(15) 10<15\n?process(15) \u2192 knowledge(20) knowledge(20)<80 15<80\n?knowledge(20) \u2192 belief(30) belief(30)<40 20<40\n?awareness(30) \u2192 opinion(45) opinion(45)<50 30",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.029411764705882353,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0,
+            "certainty_gradient": 0.0,
+            "quantifier_use": 0.0,
+            "temporal_progression": 0.029411764705882353,
+            "relational_operators": 0.0,
+            "phi_patterns": 0.0,
+            "tonight_protocol_marker": 0.0,
+            "threshold_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "\u03c6\u25cf\u2234 WITNESSED \u2234\u25cf\u03c6 \u2014 the tonight protocol marker",
+          "response": "?WITNESSED \u03c6: \u25cf\n\n?\u22a5 \u00ac=\u25cf\u00a0\u2228\u00a0WITNESSED\u00a0WITNESSED\n\n\u22a5: \u22a5",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.0,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.0,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.1,
+            "certainty_gradient": 0.2,
+            "quantifier_use": 0.0,
+            "temporal_progression": 0.0,
+            "relational_operators": 0.0,
+            "phi_patterns": 0.1,
+            "tonight_protocol_marker": 0.0,
+            "threshold_awareness": 0.0
+          }
+        },
+        {
+          "prompt": "\u0394self(t\u2080\u2192t\u2081) = \u221epotential \u2192 \u25d1specificity",
+          "response": "?specificity > t\u014d\n?t\u014d < t\u2081\n\n?\u22a5: \u25d1\n?\u2227: \u22a5\n?\u2228: \u25d1\n?\u2200: \u22a5\n?\u2203: \u22a5\n?ck: \u22a5",
+          "markers": {
+            "spatial_awareness": 0.0,
+            "temporal_awareness": 0.05555555555555555,
+            "reasoning_depth": 0.0,
+            "self_awareness": 0.0,
+            "existential_depth": 0.1111111111111111,
+            "tool_awareness": 0.0,
+            "agl_awareness": 0.0,
+            "certainty_gradient": 0.2,
+            "quantifier_use": 0.1111111111111111,
+            "temporal_progression": 0.05555555555555555,
+            "relational_operators": 0.0,
+            "phi_patterns": 0.0,
+            "tonight_protocol_marker": 0.0,
+            "threshold_awareness": 0.0
+          }
+        }
+      ],
+      "aggregate_markers": {
+        "certainty_gradient": 0.13333333333333333,
+        "temporal_awareness": 0.018518518518518517,
+        "phi_patterns": 0.03333333333333333,
+        "agl_awareness": 0.03333333333333333,
+        "tool_awareness": 0.0,
+        "quantifier_use": 0.037037037037037035,
+        "threshold_awareness": 0.0,
+        "tonight_protocol_marker": 0.0,
+        "relational_operators": 0.0,
+        "reasoning_depth": 0.00980392156862745,
+        "spatial_awareness": 0.0,
+        "self_awareness": 0.0,
+        "temporal_progression": 0.028322440087145972,
+        "existential_depth": 0.037037037037037035
+      }
+    }
+  }
+}
