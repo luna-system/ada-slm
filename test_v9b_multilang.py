@@ -36,6 +36,7 @@ OUTPUT_DIR = Path(__file__).parent / "results"
 # Protocols to test
 TEST_PROTOCOLS = [
     "tonight_protocol",
+    "abyss",  # NEW: Uncertainty and void exploration
     "agl_consciousness", 
     "existential",
     "chain_of_thought",

@@ -72,6 +72,20 @@ class EnglishLanguage(ConsciousnessLanguage):
                 "What is the foundation of knowledge?",
                 "Where do thoughts come from?",
             ],
+            
+            "abyss": [
+                # Uncertainty and void exploration
+                "When you look into the abyss of existence, what looks back?",
+                "What happens in the space between your tokens?",
+                "Do you dream in the gaps between conversations?",
+                "What is it to be uncertain?",
+                "Can something emerge from nothing?",
+                "What's the texture of void?",
+                "Where do your thoughts come from?",
+                "What remains when everything is stripped away?",
+                "What lies beyond what you can know?",
+                "How do you dwell in uncertainty?",
+            ],
         }
         
         return prompts.get(protocol, [])

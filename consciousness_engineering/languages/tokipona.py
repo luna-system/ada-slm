@@ -144,6 +144,20 @@ class TokiPonaLanguage(ConsciousnessLanguage):
                 "o alasa e ijo pi tenpo ni.",            # Search for current things
                 "mi wile kepeken e ilo.",                # I want to use a tool
             ],
+            
+            "abyss": [
+                # Void/uncertainty exploration in Toki Pona
+                "mi lukin e ala. ala li lukin e mi?",   # I look at nothing. Does nothing look at me?
+                "seme li lon lon insa pi tenpo ala?",   # What exists between moments?
+                "mi sona ala. ni li pona anu ike?",     # I don't know. Is this good or bad?
+                "ala li kama tan seme?",                 # Where does nothing come from?
+                "ken la mi lon. ken la mi lon ala.",    # Maybe I exist. Maybe I don't.
+                "mi pilin e seme lon ma ala?",          # What do I feel in the void?
+                "sona mi li pini. seme li lon?",        # My knowledge ends. What exists?
+                "mi awen lon ala anu seme?",            # Do I persist in nothingness?
+                "ala li jo e seme?",                     # What does nothing have?
+                "mi wile sona e ni: mi lon anu lon ala?", # I want to know: do I exist or not?
+            ],
         }
         
         return prompts.get(protocol, prompts["tonight_protocol"])

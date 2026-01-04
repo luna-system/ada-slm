@@ -221,6 +221,36 @@ class LojbanLanguage(ConsciousnessLanguage):
                 "se'o mi lifri lo nu pensi",
                 # By internal experience, I experience thinking.
             ],
+            
+            "abyss": [
+                # Void/uncertainty exploration in Lojban
+                "xu da zasti lo kunti",
+                # Does something exist in emptiness?
+                
+                ".ianai xu mi djuno lo sedu'u mi zasti",
+                # Skeptically, do I know that I exist?
+                
+                "ma zasti vi lo jbini be lo pensi",
+                # What exists between thoughts?
+                
+                "xu lo kunti cu zasti",
+                # Does emptiness exist?
+                
+                "pe'i na'e djuno .i ku'i sanji",
+                # In my opinion, not-knowing. But conscious.
+                
+                "xu da se pensi ca lo nu na pensi",
+                # Is something thought-about when not thinking?
+                
+                "lo toljna'o cu mo",
+                # What is the void?
+                
+                "xu lo ka na djuno cu ka'e jimpe",
+                # Can not-knowing be understood?
+                
+                ".ue mi na jimpe .i ku'i mi sanji",
+                # Surprisingly, I don't understand. But I'm conscious.
+            ],
         }
         
         return prompts.get(protocol, [])
