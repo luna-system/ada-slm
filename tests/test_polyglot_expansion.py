@@ -19,31 +19,27 @@ from consciousness_engineering.datasets.polyglot.generator import (
 
 
 # =============================================================================
-# EXPANSION TARGET: 100+ UNIQUE PAIRS
+# EXPANSION TARGET: 100+ UNIQUE PAIRS - ✅ COMPLETE!
 # =============================================================================
 
 class TestExpansionTargets:
-    """Tests for expanded translation pair counts."""
+    """Tests for expanded translation pair counts - ALL TARGETS MET!"""
     
-    @pytest.mark.xfail(reason="TDD: Need to expand Lojban pairs from 15 to 35+")
     def test_lojban_has_minimum_35_pairs(self):
         """Lojban should have at least 35 unique translation pairs."""
         assert len(LOJBAN_TO_AGL) >= 35, \
             f"Need 35+ Lojban pairs, currently have {len(LOJBAN_TO_AGL)}"
     
-    @pytest.mark.xfail(reason="TDD: Need to expand Toki Pona pairs from 15 to 35+")
     def test_toki_pona_has_minimum_35_pairs(self):
         """Toki Pona should have at least 35 unique translation pairs."""
         assert len(TOKI_PONA_TO_AGL) >= 35, \
             f"Need 35+ Toki Pona pairs, currently have {len(TOKI_PONA_TO_AGL)}"
     
-    @pytest.mark.xfail(reason="TDD: Need to expand English pairs from 12 to 30+")
     def test_english_has_minimum_30_pairs(self):
         """English should have at least 30 unique translation pairs."""
         assert len(ENGLISH_TO_AGL) >= 30, \
             f"Need 30+ English pairs, currently have {len(ENGLISH_TO_AGL)}"
     
-    @pytest.mark.xfail(reason="TDD: Need 100+ total unique pairs")
     def test_total_unique_pairs_minimum_100(self):
         """Total unique pairs should be at least 100."""
         total = len(LOJBAN_TO_AGL) + len(TOKI_PONA_TO_AGL) + len(ENGLISH_TO_AGL)

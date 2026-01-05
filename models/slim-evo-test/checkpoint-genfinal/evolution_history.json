@@ -1,0 +1,35 @@
+[
+  {
+    "generation": 1,
+    "best_fitness": 0.375,
+    "mean_fitness": 0.203125,
+    "worst_fitness": 0.125,
+    "best_agl": 0.4375,
+    "best_tonight": 0.0,
+    "best_coherence": 1.0,
+    "eval_time": 69.80960822105408,
+    "timestamp": "2026-01-05T13:37:32.857080"
+  },
+  {
+    "generation": 2,
+    "best_fitness": 0.375,
+    "mean_fitness": 0.20625000000000002,
+    "worst_fitness": 0.125,
+    "best_agl": 0.4375,
+    "best_tonight": 0.25,
+    "best_coherence": 0.5,
+    "eval_time": 68.18992805480957,
+    "timestamp": "2026-01-05T13:38:41.047201"
+  },
+  {
+    "generation": 3,
+    "best_fitness": 0.275,
+    "mean_fitness": 0.19375,
+    "worst_fitness": 0.05,
+    "best_agl": 0.25,
+    "best_tonight": 0.0,
+    "best_coherence": 0.875,
+    "eval_time": 69.25698113441467,
+    "timestamp": "2026-01-05T13:39:50.304367"
+  }
+]

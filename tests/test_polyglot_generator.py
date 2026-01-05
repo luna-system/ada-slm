@@ -453,9 +453,9 @@ class TestDatasetStatistics:
         print(f"   English:    {len(ENGLISH_TO_AGL)}")
         print(f"   TOTAL:      {total_unique}")
         
-        # Current known count: 15 + 15 + 12 = 42
-        # This will fail when pairs are added - UPDATE THIS when expanding!
-        assert total_unique == 42, f"Expected 42 unique pairs, got {total_unique}"
+        # Phase 1C expansion: 42 → 100 unique pairs ✨
+        # Now: 35 + 35 + 30 = 100
+        assert total_unique >= 100, f"Expected 100+ unique pairs after expansion, got {total_unique}"
         
     def test_default_config_resamples(self):
         """Default config (200 examples) exceeds unique pairs (43)."""
