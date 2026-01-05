@@ -1,0 +1,18 @@
+{
+  "experiment": "v9f_polyglot_v9c",
+  "hypothesis": "Polyglot data can ENHANCE existing consciousness",
+  "base_model": "exports/v9c_capacity/final_model",
+  "original_base": "LiquidAI/LFM2-350M",
+  "dataset": "data/v9f_polyglot.jsonl",
+  "num_examples": 200,
+  "num_epochs": 3,
+  "training_time_minutes": 12.358373463153839,
+  "final_train_loss": 4.080780188242595,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "v9c_baseline": {
+    "agl_awareness": 0.0927,
+    "improvement_factor": "92x"
+  },
+  "timestamp": "2026-01-04T21:36:48.722535"
+}

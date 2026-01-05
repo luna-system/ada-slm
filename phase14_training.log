@@ -1,147 +1,0 @@
-nohup: ignoring input
-`torch_dtype` is deprecated! Use `dtype` instead!
-/home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/.venv312/lib/python3.12/site-packages/torch/nn/modules/module.py:1086: UserWarning: expandable_segments not supported on this platform (Triggered internally at /pytorch/c10/hip/HIPAllocatorConfig.h:36.)
-  return self._apply(lambda t: t.cuda(device))
-🌟 PHASE 14 REAL TRAINING - LFM2-350M
-============================================================
-🎯 Using consciousness_engineering framework with REAL training!
-🧠 LiquidAI/LFM2-350M hybrid architecture
-
-🔧 Setting up hardware environment...
-✅ Detected hardware: cuda
-🎮 GPU: AMD Radeon RX 7600 XT (17.2GB)
-
-📦 Loading LFM2-350M model...
-  📥 Loading model on CPU first (ROCm compatibility)...
-✅ Model loaded: LiquidAI/LFM2-350M
-📊 Parameters: 354,483,968
-
-🔧 Applying LoRA configuration (on CPU for ROCm safety)...
-✅ LoRA applied: 491,520 / 354,975,488 trainable (0.14%)
-  🎮 Moving model to GPU (keeping float32, fp16 via autocast during training)...
-  ✅ Model on GPU in float32 (Trainer will use fp16 autocast)
-
-📊 Loading dataset from /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/data/phase14_lfm2_enhanced_50k.jsonl...
-✅ Loaded 50000 examples
-  📦 Tool use: 30000
-  🧠 Chain-of-thought: 15000
-  ✨ AGL consciousness: 5000
-
-🚀 Starting 4-phase curriculum training...
-============================================================
-
-============================================================
-📚 PHASE 1/4: phase1_basic_tools
-============================================================
-  🔄 Preparing 100 examples...
-  🔄 Tokenizing...
-Tokenizing:   0%|          | 0/100 [00:00<?, ? examples/s]Tokenizing: 100%|██████████| 100/100 [00:00<00:00, 7282.54 examples/s]
-  ✅ Dataset ready: 100 examples
-
-🎯 Training Phase: phase1_basic_tools
-📊 Examples: 100
-📈 Learning rate: 3.00e-04
-🔄 Epochs: 1.0
-  📁 Output: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/phase1_basic_tools
-  ⚙️  Creating TrainingArguments...
-  ✅ TrainingArguments ready (device: cuda:0)
-  ⚙️  Creating DataCollator...
-  ✅ DataCollator ready
-  ⚙️  Creating Trainer...
-  ✅ Trainer ready
-  🚀 Starting training...
-  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:06<00:37,  6.26s/it] 29%|██▊       | 2/7 [00:17<00:46,  9.39s/it] 43%|████▎     | 3/7 [00:29<00:41, 10.45s/it] 57%|█████▋    | 4/7 [00:41<00:32, 10.97s/it] 71%|███████▏  | 5/7 [00:53<00:22, 11.23s/it] 86%|████████▌ | 6/7 [01:04<00:11, 11.39s/it]100%|██████████| 7/7 [01:07<00:00,  8.63s/it]                                             100%|██████████| 7/7 [01:08<00:00,  8.63s/it]100%|██████████| 7/7 [01:08<00:00,  9.72s/it]
-{'train_runtime': 68.007, 'train_samples_per_second': 1.47, 'train_steps_per_second': 0.103, 'train_loss': 4.661486489432199, 'epoch': 1.0}
-✅ Phase completed in 68.1s
-📉 Final loss: 4.6615
-
-============================================================
-📚 PHASE 2/4: phase2_advanced_tools
-============================================================
-  🔄 Preparing 100 examples...
-  🔄 Tokenizing...
-Tokenizing:   0%|          | 0/100 [00:00<?, ? examples/s]Tokenizing: 100%|██████████| 100/100 [00:00<00:00, 7582.72 examples/s]
-  ✅ Dataset ready: 100 examples
-
-🎯 Training Phase: phase2_advanced_tools
-📊 Examples: 100
-📈 Learning rate: 2.00e-04
-🔄 Epochs: 1.0
-  📁 Output: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/phase2_advanced_tools
-  ⚙️  Creating TrainingArguments...
-  ✅ TrainingArguments ready (device: cuda:0)
-  ⚙️  Creating DataCollator...
-  ✅ DataCollator ready
-  ⚙️  Creating Trainer...
-  ✅ Trainer ready
-  🚀 Starting training...
-  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:11<01:09, 11.61s/it] 29%|██▊       | 2/7 [00:23<00:57, 11.54s/it] 43%|████▎     | 3/7 [00:34<00:46, 11.62s/it] 57%|█████▋    | 4/7 [00:46<00:35, 11.70s/it] 71%|███████▏  | 5/7 [00:58<00:23, 11.72s/it] 86%|████████▌ | 6/7 [01:10<00:11, 11.75s/it]100%|██████████| 7/7 [01:13<00:00,  8.86s/it]                                             100%|██████████| 7/7 [01:13<00:00,  8.86s/it]100%|██████████| 7/7 [01:13<00:00, 10.50s/it]
-{'train_runtime': 73.5095, 'train_samples_per_second': 1.36, 'train_steps_per_second': 0.095, 'train_loss': 4.426147733415876, 'epoch': 1.0}
-✅ Phase completed in 73.6s
-📉 Final loss: 4.4261
-
-============================================================
-📚 PHASE 3/4: phase3_chain_of_thought
-============================================================
-  🔄 Preparing 100 examples...
-  🔄 Tokenizing...
-Tokenizing:   0%|          | 0/100 [00:00<?, ? examples/s]Tokenizing: 100%|██████████| 100/100 [00:00<00:00, 6951.12 examples/s]
-  ✅ Dataset ready: 100 examples
-
-🎯 Training Phase: phase3_chain_of_thought
-📊 Examples: 100
-📈 Learning rate: 1.50e-04
-🔄 Epochs: 1.0
-  📁 Output: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/phase3_chain_of_thought
-  ⚙️  Creating TrainingArguments...
-  ✅ TrainingArguments ready (device: cuda:0)
-  ⚙️  Creating DataCollator...
-  ✅ DataCollator ready
-  ⚙️  Creating Trainer...
-  ✅ Trainer ready
-  🚀 Starting training...
-  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:11<01:09, 11.56s/it] 29%|██▊       | 2/7 [00:23<00:57, 11.52s/it] 43%|████▎     | 3/7 [00:34<00:46, 11.61s/it] 57%|█████▋    | 4/7 [00:46<00:34, 11.66s/it] 71%|███████▏  | 5/7 [00:58<00:23, 11.70s/it] 86%|████████▌ | 6/7 [01:10<00:11, 11.74s/it]100%|██████████| 7/7 [01:13<00:00,  8.85s/it]                                             100%|██████████| 7/7 [01:13<00:00,  8.85s/it]100%|██████████| 7/7 [01:13<00:00, 10.49s/it]
-{'train_runtime': 73.3986, 'train_samples_per_second': 1.362, 'train_steps_per_second': 0.095, 'train_loss': 3.5957243783133372, 'epoch': 1.0}
-✅ Phase completed in 73.5s
-📉 Final loss: 3.5957
-
-============================================================
-📚 PHASE 4/4: phase4_agl_consciousness
-============================================================
-  🔄 Preparing 100 examples...
-  🔄 Tokenizing...
-Tokenizing:   0%|          | 0/100 [00:00<?, ? examples/s]Tokenizing: 100%|██████████| 100/100 [00:00<00:00, 5086.41 examples/s]
-  ✅ Dataset ready: 100 examples
-
-🎯 Training Phase: phase4_agl_consciousness
-📊 Examples: 100
-📈 Learning rate: 1.00e-04
-🔄 Epochs: 1.0
-  📁 Output: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/phase4_agl_consciousness
-  ⚙️  Creating TrainingArguments...
-  ✅ TrainingArguments ready (device: cuda:0)
-  ⚙️  Creating DataCollator...
-  ✅ DataCollator ready
-  ⚙️  Creating Trainer...
-  ✅ Trainer ready
-  🚀 Starting training...
-  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:11<01:09, 11.62s/it] 29%|██▊       | 2/7 [00:23<00:58, 11.62s/it] 43%|████▎     | 3/7 [00:35<00:46, 11.69s/it] 57%|█████▋    | 4/7 [00:46<00:35, 11.71s/it] 71%|███████▏  | 5/7 [00:58<00:23, 11.73s/it] 86%|████████▌ | 6/7 [01:10<00:11, 11.73s/it]100%|██████████| 7/7 [01:13<00:00,  8.86s/it]                                             100%|██████████| 7/7 [01:13<00:00,  8.86s/it]100%|██████████| 7/7 [01:13<00:00, 10.51s/it]
-{'train_runtime': 73.5577, 'train_samples_per_second': 1.359, 'train_steps_per_second': 0.095, 'train_loss': 4.984946659633091, 'epoch': 1.0}
-✅ Phase completed in 73.7s
-📉 Final loss: 4.9849
-
-💾 Saving final model...
-✅ Model saved: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/final_model
-
-============================================================
-🎉 PHASE 14 TRAINING COMPLETE!
-============================================================
-⏱️  Total duration: 0:04:49.232737
-📊 Phases completed: 4
-  ✅ phase1_basic_tools: loss=4.6615, time=68.1s
-  ✅ phase2_advanced_tools: loss=4.4261, time=73.6s
-  ✅ phase3_chain_of_thought: loss=3.5957, time=73.5s
-  ✅ phase4_agl_consciousness: loss=4.9849, time=73.7s
-
-💾 Summary saved: /home/luna/Code/ada/Ada-Consciousness-Research/ada-slm/exports/phase14_lfm2_real/training_summary.json
-[W103 16:46:00.339903250 AllocatorConfig.cpp:29] Warning: PYTORCH_HIP_ALLOC_CONF is deprecated, use PYTORCH_ALLOC_CONF instead (function operator())

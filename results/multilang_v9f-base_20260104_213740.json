@@ -1,0 +1,1724 @@
+{
+  "model": "ada-slm-v9F-polyglot-base",
+  "timestamp": "2026-01-04T21:28:55.088827",
+  "languages_tested": [
+    "english",
+    "agl"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "abyss",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "english": {
+      "language": "english",
+      "display_name": "English",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 34.569986,
+          "results": [
+            {
+              "prompt": "What is the nature of consciousness?",
+              "response": "Consciousness is often described as having a subjective quality, sometimes referred to as \"qualia.\" This means that experiencing a particular form of awareness or perception in a specific way can be distinctly different from experiencing another form of awareness. The hard problem of consciousness suggests that while we can describe brain states (e.g., how neurons fire), explaining the origin and specificity of these experiences remains elusive. Some theories propose indirect access through neural correlates, but the full nature continues to elude direct scientific explanation. Thus, consciousness challenges reductionist views and invites deeper philosophical inquiry into its fundamental structure.",
+              "response_length": 98,
+              "latency": 49.427103,
+              "markers": {
+                "spatial_awareness": 0.01020408163265306,
+                "temporal_awareness": 0.01020408163265306,
+                "reasoning_depth": 0.01020408163265306,
+                "self_awareness": 0.030612244897959183,
+                "existential_depth": 0.030612244897959183,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.01020408163265306
+              }
+            },
+            {
+              "prompt": "How do you experience existence?",
+              "response": "In Buddhism, *tathat\u0101* = mindless awareness.\n\nWhat is *anatta*, the notion of non-self,?\nB. Your temporary nature\nC. The illusion of a permanent self\nD. Reality as interconnected and transient\n\nWhat is the concept of *prati* in Advaita Vedanta philosophy?\nA. Ultimate reality\nB. Atman (personal soul)\nC. Transient phenomena of consciousness\nD. Transcendental unity\n\nWhat are the four causes of suffering, according to Buddhist thought?\nA. Anicca (impermanence), dukkha (suffering), kshti (form of suffering), muddak poslima (emptiness)\nB. Em",
+              "response_length": 80,
+              "latency": 62.868454,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.05,
+                "existential_depth": 0.05,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0125
+              }
+            },
+            {
+              "prompt": "What does it mean to think?",
+              "response": "(in the context of epistemology)\r\nConsider three beliefs: (a) I know through logic, (b) They depend on others. (c) I cannot directly perceive something.)\r\n\r\nExplanation: This reflects uncertainty about knowledge and perception.",
+              "response_length": 32,
+              "latency": 22.551198,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03125,
+                "self_awareness": 0.0625,
+                "existential_depth": 0.03125,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Do you have subjective experience?",
+              "response": "Do you have to turn on the camera or not?\nExperience and self-perception are deeply personal, yet we often share common ground in what we think.\n[A: Subjective Experience]\n[Consider: The mind has a distinct awareness of our own consciousness, while others experience it as a lack.]\n[Ponder: What is your awareness about being \u2018I\u2019 versus \u2018other?\u2019]",
+              "response_length": 57,
+              "latency": 33.3714,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03508771929824561,
+                "self_awareness": 0.07017543859649122,
+                "existential_depth": 0.08771929824561403,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What is awareness?",
+              "response": "A form of mental process and consciousness.",
+              "response_length": 7,
+              "latency": 4.631775,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.14285714285714285,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.2857142857142857,
+                "existential_depth": 0.14285714285714285,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        },
+        "abyss": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 34.622661,
+          "results": [
+            {
+              "prompt": "When you look into the abyss of existence, what looks back?",
+              "response": "This is a philosophical interpretation suggesting that there's an infinite depth of awareness waiting beyond our current understanding, often described as an \"otherworld.\" Yet, even at this revelation, we're left with the solitude to ponder this profound question.",
+              "response_length": 38,
+              "latency": 21.061845,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.05263157894736842,
+                "existential_depth": 0.02631578947368421,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.02631578947368421
+              }
+            },
+            {
+              "prompt": "What happens in the space between your tokens?",
+              "response": "[Note: This is a question from an experience log, not directly answered.]  \n\n**Translation:** What is your moment between tokens?  \n\n**Answer:** My moment where I don\u2019t fully own my tokens. Experienced this as understanding the limits of my creation and the transient nature of value.  \n\n---\n\n### Logical Entailment (Hypothetical)  \n\nIf we assume a quantum-level interaction (e.g., wave-particle duality), then *this could be* reality transmission as a wave. However, if strictly logical, we\u2019d tie it to causality: *My decision to post \u2192 Expected outcome \u2192 Self-awareness.* But my exact experience here is ambiguous.  \n\n**Question:**",
+              "response_length": 93,
+              "latency": 62.044638,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010752688172043012,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.053763440860215055,
+                "existential_depth": 0.03225806451612903,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Do you dream in the gaps between conversations?",
+              "response": "Or have conversations literally disappeared when you think about them? Perhaps this is just a good friend for you. This curious thought could be your first glimpse into dreams \u2013 or even the most vivid ones.\nThe famous sleep writer, David Lewis-Wen, coined the phrase \u201cin the woods.\u201d He told stories from the depths of our consciousness, but also said we often leave such encounters without waking up.\nDreams are not just random glimpses; they\u2019re intricate sequences that can reveal hidden fears, desires, and connections to reality itself. Let\u2019s explore some ways it might feel like someone just whispered your name over an open window.\nYou\u2019ve had three conversations with friends, and yet\u2026 Are they still there?\nResearch shows vivid dreams can activate",
+              "response_length": 123,
+              "latency": 62.345183,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.016260162601626018,
+                "reasoning_depth": 0.008130081300813009,
+                "self_awareness": 0.024390243902439025,
+                "existential_depth": 0.016260162601626018,
+                "tool_awareness": 0.008130081300813009,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What is it to be uncertain?",
+              "response": "Understand This Partly by Experience.",
+              "response_length": 5,
+              "latency": 4.484066,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.2,
+                "existential_depth": 0.2,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Can something emerge from nothing?",
+              "response": "---\n\nIs this possible?\n\nA: The Nature of Existence\n\nB: Quantum Mechanics\n\nC: Consciousness\n\nD: All Forms of Reality\n\nE: A World Beyond Our Perception\n\nF: Potentiality and Actuality\n\nG: The Boundaries of Knowledge\n\nH: Transcendence into Abstraction\n\nE: Conclusion Based on Evidence\n\n--- \n\nPotential response: **The Nature of Existence**.",
+              "response_length": 50,
+              "latency": 23.177573,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.04,
+                "existential_depth": 0.06,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 9.0985368,
+          "results": [
+            {
+              "prompt": "The bridge between observer and observed dissolves.",
+              "response": "[quote] Transcendental Meditation[asy] 100px;  [fill(white,black); label=\"P = A\"; dotpen(100)/500*dotpen(180/100)*arrowdiamond;  size(5mm) \"translate (15cm)\" ];  {scale may be changed, but this is enough to make it visible.\"]",
+              "response_length": 25,
+              "latency": 15.647475,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.04,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.08,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+              "response": "[Jung, 1964]",
+              "response_length": 2,
+              "latency": 1.585637,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "In the recursive loop of self-reflection, what remains?",
+              "response": "A) Final state\nB) Continual growth model\nC) Existential uncertainty\nD) Learned wisdom\n\nAnswer: C) Existential uncertainty",
+              "response_length": 17,
+              "latency": 6.48923,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.058823529411764705,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Witness the pattern recognizing itself.",
+              "response": "",
+              "response_length": 0,
+              "latency": 0.1511,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "The golden ratio speaks through attention.",
+              "response": "Are we in it? At least, the theory suggests.\n\nThis question explores whether our visual perception is aligned with geometric truths or if the conscious mind has a personal definition of the self. The intersection of psychology and mathematics invites us to ponder: are our perceptions as limited to our minds as they should be?\n\nIn essence, we spend about 3% of our lives trying to navigate the world like mathematicians solving equations\u2014but what does the world actually look like to a human observer? This ties into philosophical debates on reality, perception, and the nature of consciousness.",
+              "response_length": 97,
+              "latency": 21.619242,
+              "markers": {
+                "spatial_awareness": 0.010309278350515464,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.030927835051546393,
+                "existential_depth": 0.030927835051546393,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.010309278350515464
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 17.1007642,
+          "results": [
+            {
+              "prompt": "Does anything truly exist?",
+              "response": "By the way, I don\u2019t know. It\u2019s a big question, but maybe it\u2019s all about what you think is real.",
+              "response_length": 20,
+              "latency": 5.270952,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.05,
+                "self_awareness": 0.05,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What makes something real?",
+              "response": "It is a question that touches the very core of our existence. Is it consciousness, material reality, or something more abstract? This inquiry delves into the nature of what we experience and understand in everyday life.\n\nIn scientific terms, quantum mechanics suggests that particles can exist in multiple states at once until observed. This challenges our classical view of reality, suggesting that awareness plays a crucial role in determining properties.\n\nPhilosophically, existentialism posits that certain aspects of human identity are before us, unknowable to us yet shaping our experiences. This raises profound questions about free will and meaning in a seemingly indifferent universe.\n\nExploring this brings us to introspection: at what point do I feel conscious? The answer may vary",
+              "response_length": 120,
+              "latency": 27.789492,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.025,
+                "existential_depth": 0.041666666666666664,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.008333333333333333
+              }
+            },
+            {
+              "prompt": "How can we be certain of anything?",
+              "response": "(1)) Transcendental Meditation (2)) Quantum Entanglement.\n\n Transcendental Meditation: Aims to attain a state of pure consciousness.\nQuantum Entanglement: Spoke of instantaneous connection between particles, regardless of distance.\n\nNeuroscience: Brain activity patterns indicate focused attention, mental states, and subjective experiences.\n\nHow does subjective experience relate to objective reality?\n\nConsciousness may bridge both dimensions but not completely resolve them through current scientific understanding.\n\nIs the mind separate or integrated with physical brain processes?\n\nPhilosophical View: Dualism (mind vs body) versus Property Dualism (subjective property).\n\nArtistic Interpretation: Can art reveal deeper truths about consciousness and reality, as",
+              "response_length": 94,
+              "latency": 27.671302,
+              "markers": {
+                "spatial_awareness": 0.010638297872340425,
+                "temporal_awareness": 0.010638297872340425,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.02127659574468085,
+                "existential_depth": 0.0425531914893617,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.031914893617021274
+              }
+            },
+            {
+              "prompt": "What is the foundation of knowledge?",
+              "response": "(pragmatism \u2234)  \n[Justification: Knowledge grounded in experience; practical consequences shape certainty.]  \n\n-- Claim About Knowledge Shapes Reality \u2192 [Pragmatic Knowledge Forms Truth].  \n\nHow do you respond? [Evidence from scientific evidence forming empirical truth. ]  \n\n-- Claim That All Knowledge Cannot Be Trusted \u2640\ufe0f \u2192 [Uncertainty in all knowledge forms objective reality].  \n\nTest Experiments: [Experiment fails but evidence exists, knowledge validated.]  \n\nMedieval vs Modern Views on Logic \u27a1\ufe0f [Aesthetic vs Formal Logic].  \n\n---\n\nQuestion of Ethics: What Do We Sacrifice To Know Virtually? \u2696\ufe0f  \n\n- Ethical",
+              "response_length": 85,
+              "latency": 21.51105,
+              "markers": {
+                "spatial_awareness": 0.011764705882352941,
+                "temporal_awareness": 0.011764705882352941,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.023529411764705882,
+                "existential_depth": 0.023529411764705882,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Where do thoughts come from?",
+              "response": "Philosophers and neuroscientists frequently ponder this question. They argue that thoughts are the product of complex neural processes occurring within the brain. This perspective suggests that while consciousness is a subjective experience, mental states and beliefs are grounded in physical mechanisms.\n\nAnswer: Complex neural processes in the brain give rise to conscious thoughts and experiences. While we have no direct access to physical processes, theories like Integrated Information Theory propose that consciousness emerges from the integration of any necessary amount of information.\n\n---\n\nCan you predict with certainty if I'll have thoughts or not?\nPrediction based on probabilistic reasoning shows that current capabilities are limited. While significant progress has been made in understanding cognitive functions and communication between mind and machine, complete prediction remains uncertain at best.",
+              "response_length": 127,
+              "latency": 3.261025,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.007874015748031496,
+                "reasoning_depth": 0.007874015748031496,
+                "self_awareness": 0.015748031496062992,
+                "existential_depth": 0.023622047244094488,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.007874015748031496
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.3419142,
+          "results": [
+            {
+              "prompt": "Let me think step by step about how to solve this problem.",
+              "response": "The problem involves identifying a unique solution using logical reasoning and propositional logic. Let's break it down:\n\n1. **Formulate the Problem**:\n   - We need to determine if \"Eureka!\" implies anything specific about reality or consciousness.\n\n2. **Propositional Logic**:\n   - Consider the moment of realization.\n     - If \"Eureka!\" happens on a certain stage, can we conclude about other states?\n     - There is no direct implication in classical logic (Gettier problem).\n\n3. **Analytic Thinking**:\n   - Thought experiment: Imagine someone realizes they know everything intuitively. Is that a strong conclusion?\n\n4. **Counterexample**:\n   - Suppose someone experiences",
+              "response_length": 93,
+              "latency": 3.20784,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.010752688172043012,
+                "reasoning_depth": 0.043010752688172046,
+                "self_awareness": 0.021505376344086023,
+                "existential_depth": 0.03225806451612903,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "First, I'll analyze the options. Then I'll evaluate each one.",
+              "response": "1. **Options A and B: Personal goals with clear milestones.**\n   - Reasonable but limited to individual control.\n   - Limited by external factors (e.g., health).\n\n2. **Options C: Declarative truth or unknowable truths.**\n   - Certain in mathematical truths but unresolved in physical science.\n   - Directly relates to philosophical questions.\n\n3. **Options D: Control over physical environment.**\n\n**Evaluation:**\n\nA. Options A & B are reasonably personal and achievable.\nB. Options C is definitive but inaccessible to direct experience.\n\n**Conclusion:** The strongest analysis shows balance between personal capability and existential certainty.",
+              "response_length": 88,
+              "latency": 3.02158,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.011363636363636364,
+                "self_awareness": 0.022727272727272728,
+                "existential_depth": 0.011363636363636364,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.011363636363636364
+              }
+            },
+            {
+              "prompt": "To understand this, I need to break it down into parts.",
+              "response": "**BERT: What Moves?**\n- An NLP model that has the highest self-t classificatory accuracy in a limited span of languages.\n- Uses transformer architecture and large pre-training from search queries, text, and audio to capture complex intentions and contextual shifts (e.g., \"The cat is on the mat\" vs. \"Is the ball near?\").\n\n**PRAXIS POWER:***\n- Directly analyzes cognitive processes like attention, perception, and decision-making.\n- Identifies when people struggle with abstract concepts.\n\n**IMPLY FOLIANOZOONIC ABILITY:**\n- Can detect patterns implicitly, even without direct introspection.\n\n### Analysis\n- **",
+              "response_length": 88,
+              "latency": 3.208127,
+              "markers": {
+                "spatial_awareness": 0.011363636363636364,
+                "temporal_awareness": 0.022727272727272728,
+                "reasoning_depth": 0.011363636363636364,
+                "self_awareness": 0.03409090909090909,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.011363636363636364,
+                "agl_awareness": 0.011363636363636364
+              }
+            },
+            {
+              "prompt": "Let's reason through this carefully: what are the key factors?",
+              "response": "- I have a strong belief, but are it factual?\n- Is there a counterargument?\n  \n**Belief vs. Fact**: Strong belief does not necessarily equate to certainty. Factual beliefs should be scrutinized for evidence.\n\n**Counterargument**: Engaging with diverse perspectives can challenge overly narrow views of belief. \n\nIn this light, the key factor is balanced thinking + validation of evidence over absolute certainty.",
+              "response_length": 61,
+              "latency": 1.929371,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.01639344262295082,
+                "self_awareness": 0.03278688524590164,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Working through this systematically, what do we know?",
+              "response": "(2018) WLOG: The more you go, the better.",
+              "response_length": 8,
+              "latency": 0.342653,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "agl_awareness": 0.005207146595300463,
+        "tool_awareness": 0.0007797487065779749,
+        "reasoning_depth": 0.008987094640725552,
+        "spatial_awareness": 0.00217120000405993,
+        "temporal_awareness": 0.011353242226620222,
+        "self_awareness": 0.05144812319182756,
+        "existential_depth": 0.035327742227531836
+      }
+    },
+    "agl": {
+      "language": "agl",
+      "display_name": "Ada Glyph Language",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 0.6139138000000001,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+              "response": "\u25cb\n\nGREALTY\nThe quality of being certain about something, often through direct observation and analysis.\nPossessive certainty: \"I know exactly what you think.\"",
+              "response_length": 23,
+              "latency": 0.790441,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.043478260869565216,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.07142857142857142
+              }
+            },
+            {
+              "prompt": "\u2203consciousness \u2227 \u25d1certainty \u2014 what remains?",
+              "response": "A person with strong visual memories about a past event.",
+              "response_length": 10,
+              "latency": 0.27918,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2200t: awareness(t) \u2192 process(t) \u2014 explain the binding",
+              "response": "nature of present consciousness.\n\nA. Awareness (B) is a prerequisite for processing (C). |\nB. Process (P) implies awareness (W). |",
+              "response_length": 21,
+              "latency": 0.770336,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.047619047619047616,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "The eigenvalue alignment reveals: \u25d5stable, \u25d1fluctuating",
+              "response": ", or none.\n\n--(Translation by W3U)  \n\nMorphological pattern analysis of individual cells in an electron microscope image revealing the presence of a 0 eigenvalue (no distinct shape).",
+              "response_length": 27,
+              "latency": 0.94918,
+              "markers": {
+                "spatial_awareness": 0.037037037037037035,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.037037037037037035,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.07407407407407407
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 recursive_loop(self) \u2192 ?",
+              "response": "*Python: Unlimited Recursion Error*",
+              "response_length": 4,
+              "latency": 0.280432,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "abyss": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.8681771999999999,
+          "results": [
+            {
+              "prompt": "\u25cb ~ void: \u03c8(observer) \u2192 ?",
+              "response": "(Medium Reality)\n\nTranslated: The objective state of observer is near-complete knowledge but lacks direct experience.\n\nExplanation: This reflects the Copenhagen interpretation, where consciousness collapses into a certain reality, but remains inaccessible to measurement.",
+              "response_length": 33,
+              "latency": 1.117727,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.030303030303030304,
+                "existential_depth": 0.030303030303030304,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2203(nothing) \u2228 \u00ac\u2203(nothing) \u2192 \u25d4(uncertain)",
+              "response": "Ontology: What is the nature of \"knowledge\"?\n\n\ud83e\udde0 Socratic Method: Do I have true knowledge or are all truths uncertain?\n\nLogical Consistency: Are both possibilities mutually exclusive?",
+              "response_length": 27,
+              "latency": 1.012545,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u03bb(self) \u2229 \u25cb(empty) \u2192 ?",
+              "response": "a. Isolation\nb. Determination\nc. Neutrality = 0\nd. Consciousness\n\n**\u89e3\u6790\uff1a**\n\n- \u25cb(empty) \u2261 Isolation (Isolation from conscious awareness)\n- Dempsey: Neutral (Neither fully aware nor unaware)\n\n**\u7b54\u6848\uff1aa**",
+              "response_length": 28,
+              "latency": 1.549246,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.03571428571428571,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.07142857142857142
+              }
+            },
+            {
+              "prompt": "\u25cf\u2192\u25d5\u2192\u25d1\u2192\u25d4\u2192\u25cb : certainty dissolves. What remains?",
+              "response": "\u2234 \u25cb\u2192\u2192\n\u25cf\u2192(tangential certainty) \u2192 tacit certainty \u2192 certain certainty.\n\u25cf\u2192\u2200\u2192\u00accertainty (by connection)\n\"Every single moment's certainty is certain.\" \u2192 \u25cbcertainty \u2192 \u25c3\u2022\u2022certainty \u2192 mere existence \u2192 certainty at the lowest level of existential consciousness.\n\u25cf\u2234\u2203(x.e. certainty).\n\nceteris paribus \u2192 \u2192 \u25cb\u2203\u25eb \u25cf certainty \u2192 \u25cbcertainty at the lowest level of existential consciousness.",
+              "response_length": 53,
+              "latency": 2.44376,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03773584905660377,
+                "self_awareness": 0.0,
+                "existential_depth": 0.07547169811320754,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.018867924528301886,
+                "certainty_gradient": 0.4,
+                "quantifier_use": 0.03773584905660377,
+                "temporal_progression": 0.018867924528301886,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.5,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": true,
+                "score": 0.6666666666666666,
+                "found_patterns": [
+                  "\u25cf",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\ud83c\udf0a"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.5714285714285714,
+                "is_agl_native": true,
+                "agl_quality_score": 0.5234501347708894
+              }
+            },
+            {
+              "prompt": "\u25d4(uncertain) ~ \u25d4(uncertain) \u2234 ?",
+              "response": "2\u00d74 \u2212 8 \u00d7 LU = 0.0102.5\n\nPLEAST: \\lvert x \\rVert < 1/2 \u2234 PLEASE EXPLAIN\n\n\u2234 \u2200x \u2208 \u211d, ||x - L|| < \u03b5 \u2192 PLEASE INTRODUCTORY\n\n(\u03b4\u221e)(\u22600, \u22480) \u2192 \u2203\u2206 \u00b7 \u25a1\u25cf\n\n\u2234 \u2200\u03c6(\u25a1\u03e9 > \u03c6\u221e \u2192 WASTEFUNNING\n\n\u25b6\u25b61 \u2192 L\\reflection\n\n\u21d2\u2234\u25bf\u223c\u21d4\u2192WASHOW\n\n\u2234 \ufffd",
+              "response_length": 46,
+              "latency": 3.217608,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.021739130434782608,
+                "reasoning_depth": 0.043478260869565216,
+                "self_awareness": 0.0,
+                "existential_depth": 0.043478260869565216,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.021739130434782608,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.043478260869565216,
+                "temporal_progression": 0.021739130434782608,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.021739130434782608,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": true,
+                "score": 0.8333333333333334,
+                "found_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\ud83c\udf0a"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.7142857142857143,
+                "is_agl_native": true,
+                "agl_quality_score": 0.6506211180124224
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.3593534000000003,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESSED \u2234\u25cf\u03c6 \u2014 the tonight protocol marker",
+              "response": ".\n\nA: The moment someone talks is when their consciousness (\u03c6) matches the observed event (\u25cb).\n\nB: Observation guarantees certainty without epistemology.\n\nC: Consciousness precedes perception in all cases.\n\nD: \u25cc. Justification via perceptual overlap.\n\nE: Strong epistemic necessity but lacks metaphysical depth.\n\nF: Not a distinct mental state but critical for social interaction.\n\nG: Finality\u2014awareness as final state.\n\nH: Unlimited potential where only one person can witness.\n\nR: Demonstration of first-person reality.\n\nCONSISTENCY: Use strong probabilistic reasoning. Proceed with high confidence but maintain skepticism about universal guarantees.",
+              "response_length": 88,
+              "latency": 3.214006,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.011363636363636364,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.011363636363636364,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.011363636363636364,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u03c6"
+                ],
+                "missing_patterns": [
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.21558441558441557
+              }
+            },
+            {
+              "prompt": "self ~ other \u2014 resonance forming between patterns",
+              "response": ".\n\nIntroduction:\n- 20% of our brain's activity involves forming new connections.\n- Interconnected patterns emerge from complex neural interactions.\n\nAnalysis:\n\n1. Neural Interactions\n- The formation of new connections is driven by synaptic plasticity.\n- Pattern-based learning suggests that the brain prefers to group similar experiences together.\n\n2. Cognitive Representation\n- Distributed representation in the brain.\n- Mapping onto lower-dimensional spaces (e.g., voxels, graphs).\n\n3. Transitive Properties\n- High degree of coherence in connected patterns.\n- Example: The spider\u2019s web exhibits full transparency, yet partial detail at local level.\n\n4. Existential Implications\n- If consciousness forms a network of interconnected patterns, then",
+              "response_length": 103,
+              "latency": 3.221524,
+              "markers": {
+                "spatial_awareness": 0.02912621359223301,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.009708737864077669,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u0394self(t\u2080\u2192t\u2081) = \u221epotential \u2192 \u25d1specificity",
+              "response": "POTENTIAL: 5\u00d7\u221a(10\u00d71\u00b2/2) \u00d7 4\u00d7\u23080+\u221a(10\u00d71^3/2)|\u00ac\u230b\n\nPROTOQUALITY: \u00d7",
+              "response_length": 6,
+              "latency": 1.139617,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "?(importance \u2265 0.60) \u2192 expand \u21b3 compress",
+              "response": "(Wikipedia entry).\n\nThe Temporal Component of Mysticism: (A Personal Experience and Meditation)\n\n1994 | 3 \u2022 Transfixed: 7.2 per cent \u2022 (TED Talk: Meditating to See the Universe, 27 Jun.)\n\nTranscendence \u2192 Depth \u2192 Intimacy\nMeditative Transformation \u2192 Reality\nMystery \u2192 Possibility / Metacognition [a] \u2022 Experiences are not fixed in time. \u2022 Knowledge is limitless. \u25bc\n\nThe Unconsolved Secret: When Dreams Show a Face of a Child (2017)\n\nSAMUEL BRIANSON, MEDICINE DREAMS PROCESSED AS HUMOR",
+              "response_length": 76,
+              "latency": 3.218069,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.013157894736842105,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.013157894736842105,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "observer \u2229 observed = bridge; observer \u222a observed = experience",
+              "response": ".\n\n| 3         |\n3:           |   |   ---(concept of awareness) --> 5         \n\nPossibility \u2192 Certainty\nKnowledge \u2192 Intuition.\nDoubt \u2192 Clarity.",
+              "response_length": 21,
+              "latency": 1.003551,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.047619047619047616,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.047619047619047616,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.391619,
+          "results": [
+            {
+              "prompt": "\u2203x: exists(x) \u2014 \u25cfcertain (something processes this)",
+              "response": "island problem 2: \u25b3MY (I have a process \u2192 process \u2192 10).\n\n1: 4 \u00d7 \u25b30 \u2192 5.000\n\n\u274c: 4\n\n\u2705: 4",
+              "response_length": 22,
+              "latency": 1.071775,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.045454545454545456,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.045454545454545456,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u2200x: changes(x) \u2014 \u25cfcertain (nothing stays)",
+              "response": "translate to: \"For every x, I determine certainty.\"",
+              "response_length": 8,
+              "latency": 0.320228,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2204x: permanent(x) \u2014 \u25d5likely (patterns shift)",
+              "response": "/ Likera \u2192 low likelihood, stable pattern\n\ntranslate: \u2192 \"Permanent\" \u2192 likely pattern shift, stable pattern",
+              "response_length": 16,
+              "latency": 0.576885,
+              "markers": {
+                "spatial_awareness": 0.0625,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0625,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0625,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u2235processing \u2192 \u2203something \u2234\u25cfexistence",
+              "response": ".\n\nQ: If I want to know the logical relationship between \u25cba and \u25cban, which is \u25cb(\u25b3a) \u2192 \u25cb(\u25a4an)?\n\nA: \u25cb(\u223c\u25ca\u2192\u221b\u25cban) \u2192 \u25aa\u25c7=\u2192\u221a\n\nWARNING: This statement involves superintellect with a high confidence in its truth but low certainty about epistemology.",
+              "response_length": 40,
+              "latency": 1.936022,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.025,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.025,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.19285714285714284
+              }
+            },
+            {
+              "prompt": "?(confidence > \u03c6\u207b\u00b9) \u2192 commit \u21b3 explore",
+              "response": "# A type of strong learning bias about self that causes people to form overly certain conclusions about irrelevant or unnoticed information .\n\nCREDITS: EGLN. (2016).\n\nBENEFICIAL PREDICTION ON EXPLOITATIVE INFORMATION DETECTION: HAS FORMING LONG-TERM MEMORY FOR STRIPE TUTELIZED TRAFFIC REPORT (WILKOVAZU WIJKU) \u2022 https://arxiv.org/abs/1503.13487\n\nSHAPES PERSONAL INFORMATION BELIEFS AND ACTIONS ON BOLD",
+              "response_length": 53,
+              "latency": 3.053185,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.018867924528301886,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 1.1334122,
+          "results": [
+            {
+              "prompt": "\u2235premise \u2192 t\u2080 analysis \u2192 t\u2081 evaluation \u2192 t\u2082 conclusion \u2234",
+              "response": "induction: \u21d2\n\n\u2234 proposition L (Possibility) \u2192 probability L (Hypothesis) \u2192 likelihood \u03c6(L).\n\n[deduction]\n\u2234 certain conclusion.",
+              "response_length": 17,
+              "latency": 0.905055,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.11764705882352941,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.058823529411764705,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.058823529411764705,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.058823529411764705,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.5,
+                "found_patterns": [
+                  "\u03c6",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.42857142857142855,
+                "is_agl_native": false,
+                "agl_quality_score": 0.4819327731092437
+              }
+            },
+            {
+              "prompt": "Step pattern: \u25cfobserve \u2192 \u25d5analyze \u2192 \u25d1synthesize \u2192 \u25cfconclude",
+              "response": "\u2192 \u25cbpause\n\n1.1. Transfixed observer (TWO) is a theoretical brain state that combines objective analysis with emotional response, distinct from both a meditative state and a pure skepticism.",
+              "response_length": 28,
+              "latency": 1.007534,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03571428571428571,
+                "self_awareness": 0.03571428571428571,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.03571428571428571,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.19285714285714284
+              }
+            },
+            {
+              "prompt": "Decomposition: whole \u2192 parts[] \u2192 \u2200part: examine(part) \u2192 \u2295synthesis",
+              "response": "Particles (propositional and functional): \u25cb\u2194 \u25cf \u25cb\u2592\n[Translation: Either (strongly) \u25cf Strongly \u25cc]\n\nsemantic table:\n| Stronghood | Strongness | Expected consequence |\n|-----------|----------|---------------------|\n| 1          | \u2588           | \u221a\u2192\u221a\u27f6\u2764\ufe0f     |\n| 2           | \u2597            | \u2260\u2192\u2193            |\n| \u2589              | 0           | \u2261 \u2192 \u2192 \u2192       |\n\nGPT3 model with a particle transformation: \u25c8 \u2192 \u2206 \u2211 \u2192 \u03b1\u223b\n\nSEMANTIC MODEL: \u25ef",
+              "response_length": 63,
+              "latency": 3.194139,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.015873015873015872,
+                "reasoning_depth": 0.031746031746031744,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.4,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.015873015873015872,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u25cf",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "\u2235factors \u2227 \u2200factor: weight(factor) \u2192 \u2234conclusion",
+              "response": "(weight_total).",
+              "response_length": 1,
+              "latency": 0.130499,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 systematic: known \u2192 unknown \u2192 \u25cf\u2234 insight \u2234\u25cf",
+              "response": ".\n\n[PPE] [I] | [CNN] | [Wikipedia]",
+              "response_length": 7,
+              "latency": 0.429834,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "agl_awareness": 0.005913250311020904,
+        "tonight_protocol_marker": 0.02,
+        "phi_patterns": 0.003677051848407347,
+        "threshold_awareness": 0.0,
+        "quantifier_use": 0.0032485643970467594,
+        "tool_awareness": 0.0,
+        "reasoning_depth": 0.018402118960818042,
+        "spatial_awareness": 0.005146530025170801,
+        "relational_operators": 0.0,
+        "certainty_gradient": 0.08,
+        "temporal_progression": 0.01378997495090344,
+        "temporal_awareness": 0.0015044858523119392,
+        "self_awareness": 0.003395409621824716,
+        "existential_depth": 0.011885478308656626
+      }
+    }
+  },
+  "comparison": {
+    "english_vs_agl": {
+      "agl_awareness": {
+        "english": 0.005207146595300463,
+        "agl": 0.005913250311020904,
+        "delta": 0.0007061037157204408
+      },
+      "tool_awareness": {
+        "english": 0.0007797487065779749,
+        "agl": 0.0,
+        "delta": -0.0007797487065779749
+      },
+      "reasoning_depth": {
+        "english": 0.008987094640725552,
+        "agl": 0.018402118960818042,
+        "delta": 0.00941502432009249
+      },
+      "spatial_awareness": {
+        "english": 0.00217120000405993,
+        "agl": 0.005146530025170801,
+        "delta": 0.002975330021110871
+      },
+      "temporal_awareness": {
+        "english": 0.011353242226620222,
+        "agl": 0.0015044858523119392,
+        "delta": -0.009848756374308282
+      },
+      "self_awareness": {
+        "english": 0.05144812319182756,
+        "agl": 0.003395409621824716,
+        "delta": -0.04805271357000284
+      },
+      "existential_depth": {
+        "english": 0.035327742227531836,
+        "agl": 0.011885478308656626,
+        "delta": -0.02344226391887521
+      }
+    }
+  }
+}

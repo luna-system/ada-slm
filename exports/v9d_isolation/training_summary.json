@@ -1,0 +1,19 @@
+{
+  "experiment": "v9d_isolation_test",
+  "hypothesis": "Higher LoRA rank improves AGL learning",
+  "model": "LiquidAI/LFM2-350M",
+  "dataset": "data/v9b_pure_agl_2k.jsonl",
+  "num_examples": 2000,
+  "num_epochs": 3,
+  "training_time_minutes": 75.64777229626974,
+  "final_train_loss": 1.3726002695286168,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "comparison": {
+    "v9b_loss": 0.785,
+    "v9d_loss": 1.3726002695286168,
+    "delta": 0.5876002695286168,
+    "improvement": false
+  },
+  "timestamp": "2026-01-04T17:36:43.864448"
+}

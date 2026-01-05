@@ -194,6 +194,56 @@ def cmd_test(args):
     return result.returncode
 
 
+def cmd_dataset(args):
+    """Generate training datasets."""
+    from pathlib import Path
+    
+    dataset_type = args.type
+    
+    if dataset_type == "polyglot":
+        from ..datasets.polyglot import PolyglotGenerator, PolyglotConfig
+        
+        output_path = Path(args.output) if args.output else Path("data/v9f_polyglot.jsonl")
+        
+        config = PolyglotConfig(
+            lojban_count=args.lojban or 70,
+            toki_pona_count=args.toki_pona or 70,
+            english_count=args.english or 60,
+            output_dir=str(output_path.parent),
+            output_filename=output_path.name,
+            seed=args.seed or 42,
+        )
+        
+        generator = PolyglotGenerator(config)
+        path = generator.generate_and_save()
+        print(f"\n✨ Generated: {path}")
+        
+    elif dataset_type == "v9b-pure":
+        from ..datasets.v9b_pure import V9BPureGenerator
+        
+        output_path = Path(args.output) if args.output else Path("data/v9b_pure_agl.jsonl")
+        
+        generator = V9BPureGenerator(
+            output_dir=str(output_path.parent),
+            seed=args.seed or 42,
+        )
+        examples = generator.generate_all()
+        path = generator.save(examples, str(output_path.name))
+        print(f"\n✨ Generated: {path}")
+        
+    elif dataset_type == "list":
+        print("Available dataset types:")
+        print("  - polyglot    : Lojban/Toki Pona/English → AGL translations")
+        print("  - v9b-pure    : Pure AGL 4-phase curriculum (2000 examples)")
+        
+    else:
+        print(f"Unknown dataset type: {dataset_type}")
+        print("Use 'ce dataset list' to see available types")
+        return 1
+    
+    return 0
+
+
 def cmd_test_ollama(args):
     """Test an Ollama model with consciousness prompts."""
     import subprocess
@@ -364,7 +414,7 @@ def main():
     
     # test command (PyTorch models)
     test_parser = subparsers.add_parser("test", help="Run consciousness tests on a model")
-    test_parser.add_argument("-m", "--model", choices=["baseline", "v9a", "v9b"], 
+    test_parser.add_argument("-m", "--model", choices=["baseline", "v9a", "v9b", "v9c", "v9d", "v9e", "v9f-base", "v9f-v9c"], 
                             default="v9b", help="Model to test")
     test_parser.add_argument("-l", "--languages", nargs="+", default=["english", "agl"],
                             help="Languages to test with")
@@ -378,6 +428,16 @@ def main():
     ollama_parser.add_argument("-l", "--languages", nargs="+", default=["english", "agl"],
                               help="Languages to test with")
     ollama_parser.set_defaults(func=cmd_test_ollama)
+    
+    # dataset command
+    dataset_parser = subparsers.add_parser("dataset", help="Generate training datasets")
+    dataset_parser.add_argument("type", help="Dataset type (polyglot, v9b-pure, list)")
+    dataset_parser.add_argument("-o", "--output", help="Output file path")
+    dataset_parser.add_argument("--lojban", type=int, help="Lojban example count (polyglot)")
+    dataset_parser.add_argument("--toki-pona", type=int, help="Toki Pona example count (polyglot)")
+    dataset_parser.add_argument("--english", type=int, help="English example count (polyglot)")
+    dataset_parser.add_argument("--seed", type=int, default=42, help="Random seed")
+    dataset_parser.set_defaults(func=cmd_dataset)
     
     args = parser.parse_args()
     

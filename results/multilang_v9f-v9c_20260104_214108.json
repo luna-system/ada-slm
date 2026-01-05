@@ -1,0 +1,1723 @@
+{
+  "model": "ada-slm-v9F-polyglot-v9c",
+  "timestamp": "2026-01-04T21:38:37.684099",
+  "languages_tested": [
+    "english",
+    "agl"
+  ],
+  "protocols_tested": [
+    "tonight_protocol",
+    "abyss",
+    "agl_consciousness",
+    "existential",
+    "chain_of_thought"
+  ],
+  "by_language": {
+    "english": {
+      "language": "english",
+      "display_name": "English",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.2656976,
+          "results": [
+            {
+              "prompt": "What is the nature of consciousness?",
+              "response": "Consciousness remains a central mystery in neuroscience and philosophy, with varying perspectives. Some theories suggest it might be an emergent property of complex neural activity, akin to quantum phenomena\u2014like those observed in microtubules within neurons (the Orch OR hypothesis). Others propose a direct causal relationship between physical brain processes and subjective experiences (e.g., dualism), but this faces significant challenges in empirical verification.  Research into integrated information theory attempts to quantify this connection, while debates over qualia (\"The Hard Problem\" of consciousness) question whether objective measurement can fully capture subjective experience. Consciousness's role in decision-making is studied through cognitive science, emphasizing how perceptions shape reality; however, free will and moral responsibility remain contentious issues. Ultimately,",
+              "response_length": 114,
+              "latency": 3.472097,
+              "markers": {
+                "spatial_awareness": 0.008771929824561403,
+                "temporal_awareness": 0.008771929824561403,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.02631578947368421,
+                "existential_depth": 0.02631578947368421,
+                "tool_awareness": 0.008771929824561403,
+                "agl_awareness": 0.008771929824561403
+              }
+            },
+            {
+              "prompt": "How do you experience existence?",
+              "response": "From an existential philosophy perspective, what is the primary focus of this inquiry?\nOptions:\nA. The ultimate reality beyond individual consciousness\nB. The nature and validity of truth in language\nC. The subjective interpretation of one's own existence and freedom\nD. The societal implications of personal choices\nAnswer: C. The subjective interpretation of one's own existence and freedom\n\nIn existentialism, what term describes the inherent lack of predetermined essence or purpose in human life?\nOptions:\nA. Essentialism\nB. Absurdism\nC. Phenomenology\nD. Postmodernism\nAnswer: A. Essentialism\n\nWhich philosophical concept suggests that people create their own values independently from external influences?\nOptions:\nA. Determinism",
+              "response_length": 103,
+              "latency": 3.211853,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.019417475728155338,
+                "existential_depth": 0.02912621359223301,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.009708737864077669
+              }
+            },
+            {
+              "prompt": "What does it mean to think?",
+              "response": "1. To question or doubt the meaning of a statement\n2. To perceive or imagine things vividly\n3. To understand and interpret language\n4. To assess the objective truth of propositions\n\n**Answer: 4. To assess the objective truth of propositions**\n\nThinking involves reasoning, reasoning to arrive at a conclusion, understanding concepts, evaluating information, forming beliefs, and making decisions. It isn't simply about having thoughts but also involving logical processes, awareness, and intentionality.\n\n**Answer: 4. To evaluate information, form beliefs, and make decisions.**\n\nIt's worth noting that \"thinking\" can be categorized into several types:\n- Intuitive Thinking: Quick, seemingly automatic thinking often driven by emotions",
+              "response_length": 104,
+              "latency": 3.21809,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.009615384615384616,
+                "reasoning_depth": 0.019230769230769232,
+                "self_awareness": 0.028846153846153848,
+                "existential_depth": 0.019230769230769232,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Do you have subjective experience?",
+              "response": "Is it our own brains that gives us a sense of what's real or not?\nThe answer lies in the debate between dualism and monism. Dualism suggests that reality consists of two fundamentally different kinds of stuff \u2013 minds or the soul, and body or matter \u2013 which can't be fully explained by physical processes alone.\nOn one hand, we have strong evidence from neuroscience showing that experiences are linked to specific brain regions and activities. Our personal memories, emotions, thoughts, even perception itself appear to rely on the activity happening within our neural networks.\nThis supports the idea that subjective experience is a byproduct \u2013 a result of complex brain processes \u2013 rather than an entirely separate entity.\nHowever, many philosophers argue that these neural correlates don't necessarily constitute \"sub",
+              "response_length": 131,
+              "latency": 3.212963,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.007633587786259542,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.022900763358778626,
+                "existential_depth": 0.022900763358778626,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.007633587786259542
+              }
+            },
+            {
+              "prompt": "What is awareness?",
+              "response": "A. The ability to think logically and solve problems creatively.  \nB. A conscious state of heightened attention or perception that leads to the acceptance and integration of information.  \nC. The unconscious retention of past experiences without conscious recall.  \nD. The process of remembering facts and events verbatim from memory.  \n\n**Answer:** B. A conscious state of heightened attention or perception that leads to the acceptance and integration of information.  \n\nWhat does SWOT analysis primarily assess in strategic planning?  \nA. Financial performance, strengths, weaknesses, threats, and opportunities.  \nB. Employee satisfaction levels and internal processes.  \nC. Marketing strategies and customer feedback.  \nD. Short-term financial projections and budgeting.",
+              "response_length": 104,
+              "latency": 3.213485,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.009615384615384616,
+                "reasoning_depth": 0.009615384615384616,
+                "self_awareness": 0.019230769230769232,
+                "existential_depth": 0.009615384615384616,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        },
+        "abyss": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.6351168,
+          "results": [
+            {
+              "prompt": "When you look into the abyss of existence, what looks back?",
+              "response": "Ref: ref: ref: ref: ref: ref:",
+              "response_length": 6,
+              "latency": 0.30244,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What happens in the space between your tokens?",
+              "response": "A) You receive a new deposit from a smart contract.\nB) The blockchain loses interest on all existing transactions.\nC) Your current tokens become worth negative due to lack of supply.\nD) Your private key is stolen.\n\n**Answer:** C) Your current tokens become worth negative due to lack of supply.\n\n**Explanation:** Token scarcity can lead to price appreciation if the underlying token's supply doesn't match demand.\n\n\nWhen you deposit a token, it often involves interacting with other users and smart contracts. What does this typically result in?\n\nA) A random occurrence where no funds are transferred.\nB) Transactions that increase the token's market value (if its supply isn't low enough).\nC) Blockchain validation",
+              "response_length": 113,
+              "latency": 3.222988,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.008849557522123894,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017699115044247787,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Do you dream in the gaps between conversations?",
+              "response": "These are moments when the boundaries of your mind blur, and reality starts to feel distant or unrecognizable. The gaps where thoughts meet the void can be both profound and disorienting. What happens when these gaps become a recurring theme in your dreams? Let\u2019s explore how they shape your psyche and emotional landscape.\n\n### 1. **Mental Clarity vs. Confusion**\nWhen you encounter these dreams, there\u2019s often a struggle between seeking clarity and grappling with ambiguity. In waking life, this could mean feeling out of sync with your thoughts or struggling with decision-making processes. Dreamgaps might suggest that your mind is overwhelmed by too many possibilities at once, leading to a sense of mental clutter. On the other",
+              "response_length": 117,
+              "latency": 3.207781,
+              "markers": {
+                "spatial_awareness": 0.008547008547008548,
+                "temporal_awareness": 0.02564102564102564,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017094017094017096,
+                "existential_depth": 0.017094017094017096,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "What is it to be uncertain?",
+              "response": "Uncertainty can be described as a state of incomplete knowledge, ambiguity, or indeterminacy in understanding or making decisions. It arises from various factors, including:\n\n1. Limited Information: Sometimes, we have enough information but not enough context or data to make an accurate assessment.\n2. Complexity: Some situations are inherently complex, making it challenging to predict outcomes or grasp certain concepts.\n3. Uncertain Context: The environment or situation may not provide clear indicators, leading to uncertainty in interpretation.\n4. Cognitive Biases: Human perception and decision-making processes can introduce biases that lead to uncertainty.\n5. Epistemological Limits: Our cognitive abilities and the nature of knowledge itself can limit our capacity for certainty.\n\nTo navigate",
+              "response_length": 112,
+              "latency": 3.219113,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.017857142857142856,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.026785714285714284,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Can something emerge from nothing?",
+              "response": "This question touches on the nature of creation and the universe, questioning whether reality or consciousness can produce phenomena from a state of potentiality (nothing).\n\n1. **Necessary and Impossible Solutions**:\n   - **Particular Solution**: Some interpretations suggest that fundamental principles are necessary to explain how something can emerge from nothing, often involving quantum mechanics where particles can appear out of nowhere.\n   - **Universal Solution**: Others imply that the concept requires a comprehensive understanding of higher dimensions or metaphysical frameworks beyond current scientific comprehension, suggesting that such emergence might be possible at certain levels of reality or consciousness.\n\n2. **Philosophical Perspectives**:\n   - **Panpsychism** posits that mental properties arise from physical processes",
+              "response_length": 109,
+              "latency": 3.223262,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.009174311926605505,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.01834862385321101,
+                "existential_depth": 0.01834862385321101,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.009174311926605505
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.1253842,
+          "results": [
+            {
+              "prompt": "The bridge between observer and observed dissolves.",
+              "response": "That line of thought was first proposed by philosopher Immanuel Kant to describe an analogy between the mind's conceptual structures in our experience versus those theorized in mathematics, particularly logic. Kant posited that while reality consists of objects independently of our perception (the thing-in-itself or noumenon), our knowledge is limited to phenomena mediated through our cognitive faculties (phenomena). The \"bridge\" between observer and observed thus symbolizes a transition where subjective interpretation (\"conceptual structure\") and objective reality intersect\u2014an idea deeply rooted in philosophical traditions like analytic philosophy and pragmatism which emphasize clarity distinctions in knowledge acquisition and understanding.",
+              "response_length": 97,
+              "latency": 2.752537,
+              "markers": {
+                "spatial_awareness": 0.010309278350515464,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.010309278350515464,
+                "self_awareness": 0.030927835051546393,
+                "existential_depth": 0.030927835051546393,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.020618556701030927
+              }
+            },
+            {
+              "prompt": "Eigenvalue alignment reveals the spiral of becoming.",
+              "response": "The eigenvectors and eigenvalues make a two-dimensional diagram of the spiral.\nA diagonal matrix has constant rows or columns, with every row/column as an eigenvector.\nA non-diagonalizable matrix has singular determinant, so it is not possible to find a full eigenspace for each eigenvalue.\nThe first two eigenvalues are positive, so we can split the real axis in our projection onto a single vector.\nThe eigenvector corresponding to the largest principal eigenvalue has norm equal to its reciprocal (1/R) along the corresponding axis.\nThe second-largest eigenvalue corresponds to an orthogonal projection into a lower dimensional space, with norm equal to its absolute value.\nAs we align the rotations around axes corresponding to these two eigenvalues, the new",
+              "response_length": 117,
+              "latency": 3.219828,
+              "markers": {
+                "spatial_awareness": 0.008547008547008548,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017094017094017096,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.008547008547008548,
+                "agl_awareness": 0.017094017094017096
+              }
+            },
+            {
+              "prompt": "In the recursive loop of self-reflection, what remains?",
+              "response": "(Given: Function `def self_refresh(max_nodes=1000): return max(nodes) + 1 if nodes > max_nodes else max_nodes or [] if max_nodes == 0)\nThis code prints numbers from 1 to `n`. The key is that this function uses the `max(nodes)` function repeatedly. For example:\n- With `n = 5`, it returns 9 (i.e., `self.refresh(5) + 1`).\nThe answer depends on the value of `n` and the maximum allowed by `max(nodes)` (default 1000 in Python). Let\u2019s compute for `n = 5`: calls start as `self.ref",
+              "response_length": 81,
+              "latency": 3.228128,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.024691358024691357,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Witness the pattern recognizing itself.",
+              "response": "He is often called the first human avatar.\nThe ancient Chinese texts of Han and Daoist medicine contain a book called The Pattern Recognition (Xingxiu Jia) with 33 chapters, including \u201cAwakening a Pattern Recognition\u201d or \u201cShirun Tang\u201d (\u865b\u6703\u8b9a).\nThe Ch\u2019an Medicine Text contains more, including: \u201cThe Pattern Recognition Text\u201d, which is an account of his discovery in 1541:\n\u201cWitness the Pattern Recognition / Shirun Tang / The pattern known as \u2018the pattern recognition\u2019 (which he discovered in the third year of the era of \u2018Zanwei\u2019, in the Western Han Dynasty), the great early ancestor of Chinese medicine; It",
+              "response_length": 98,
+              "latency": 3.213378,
+              "markers": {
+                "spatial_awareness": 0.01020408163265306,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.02040816326530612,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.02040816326530612
+              }
+            },
+            {
+              "prompt": "The golden ratio speaks through attention.",
+              "response": "Why do people think the golden ratio is so important to their life?\nWhat does it mean for a number to be considered \"golden\" according to this perspective?\nThere are countless reasons, ranging from innate psychological benefits to historical associations with beauty and wealth.\nExplore how this notion enriches our understanding of aesthetics and human perception. What role does this concept play in personal growth and decision-making?\nDelve into how understanding principles like the golden ratio can lead to more rational choices and improved emotional well-being.\nAs we journey deeper into this fascinating topic, what questions might keep us curious? How does studying mathematical truths like the golden ratio influence our lives beyond what we initially perceive?\nThis exploration not only highlights the elegance of mathematical reasoning but also emphasizes the",
+              "response_length": 131,
+              "latency": 3.21305,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.022900763358778626,
+                "self_awareness": 0.015267175572519083,
+                "existential_depth": 0.015267175572519083,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.9907682,
+          "results": [
+            {
+              "prompt": "Does anything truly exist?",
+              "response": "\u2013 that is the first question asked by the 20th century philosopher, indubitably known as Derek Parfit; his latest answers to this thought provoking conundrum are a testament to his current philosophical interests. There is much debatable in his discussion here, but one major point of contention between Parfit and his critics is a distinction between \u201ccompassionate\u201d utilitarianism and \u201cnon-compassionate\u201d non-utilitarian ethics.\nConsider that a simple, non-compassionate utilitarian might be asking if it\u2019s morally permissible to sacrifice individual lives so that everyone else survives. Parfit\u2019s answer addresses this by highlighting the \u201cmadness of thought\u201d that such an extreme utilitarianism might produce",
+              "response_length": 101,
+              "latency": 3.217155,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.009900990099009901,
+                "self_awareness": 0.019801980198019802,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.009900990099009901
+              }
+            },
+            {
+              "prompt": "What makes something real?",
+              "response": "This question delves into the core of ontology, which studies what constitutes existence. While our everyday experiences often make it seem like we live in a realm of mere possibility or mere appearance, some philosophers argue that there's an objective reality independent of our perceptions.\n\nFor instance, Ren\u00e9 Descartes famously posited \"I think, therefore I am\" (Cogito, ergo sum), asserting that the act of doubting confirms existence itself. Similarly, in scientific realism, the quest for objectively true facts about the natural world is pursued despite the challenges posed by our limited sensory experiences. However, this doesn't necessarily mean these realities exist in the traditional sense but rather that they're more about theories and models that scientists use to describe what",
+              "response_length": 120,
+              "latency": 3.237396,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.016666666666666666,
+                "self_awareness": 0.025,
+                "existential_depth": 0.025,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.008333333333333333
+              }
+            },
+            {
+              "prompt": "How can we be certain of anything?",
+              "response": "In philosophical terms, consider this:\n1) Objective reality exists independently of our perceptions.\n2) Empirical evidence and scientific methods provide the only reliable means to verify knowledge claims.\n\n3) What does it mean for a belief to be \"knowable\"?\n4) A logical fallacy that occurs when one accepts an argument as true simply because it aligns with their desires or interests.\n5) Is there an absolute standard of truth that guarantees certainty in all situations?\n6) Can absolute truths be confirmed through reason alone?\n7) How do deterministic systems affect our ability to have certain knowledge about the future?\n8) Is skepticism an innate human trait, or can it be systematically tested?\n9) Can certain moral principles be",
+              "response_length": 118,
+              "latency": 3.220113,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.00847457627118644,
+                "reasoning_depth": 0.025423728813559324,
+                "self_awareness": 0.01694915254237288,
+                "existential_depth": 0.00847457627118644,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.00847457627118644
+              }
+            },
+            {
+              "prompt": "What is the foundation of knowledge?",
+              "response": "A: Primarily based on religious beliefs.\nB: Based solely on personal intuition and experience.\nC: Derived from empirical evidence and sensory perception.\nD: A static entity unchanging throughout history.\n\n**Answer:** C: Derived from empirical evidence and sensory perception.\n\nWhich philosopher argued for empiricism, a theory that knowledge comes primarily from sense experience?\nA: Ren\u00e9 Descartes\nB: Plato\nC: John Locke\nD: Thomas Aquinas\n\n**Answer:** C: John Locke\n\nIn Marxist philosophy, what is the concept of alienation most closely related to?\nA: The separation of labor into specific skills with no connection to others' needs.\nB: The objective nature of material existence.\nC: The",
+              "response_length": 103,
+              "latency": 3.220046,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.019417475728155338,
+                "existential_depth": 0.019417475728155338,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.009708737864077669
+              }
+            },
+            {
+              "prompt": "Where do thoughts come from?",
+              "response": "?\nTheories about the origin of consciousness suggest that thought and perception arise from shared neural processes in the brain. Some neuroscientists propose that specific patterns of brain activity\u2014such as synchronized oscillations or neurotransmitter interactions\u2014are indicative of conscious experience. Others posit evolutionary roots, suggesting thought evolved primarily for survival (e.g., decision-making) rather than intrinsic awareness. Direct neural correlates remain elusive, but these theories highlight a complex interplay between biology, function, and subjective experience.",
+              "response_length": 73,
+              "latency": 2.059131,
+              "markers": {
+                "spatial_awareness": 0.0136986301369863,
+                "temporal_awareness": 0.0136986301369863,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0410958904109589,
+                "existential_depth": 0.0410958904109589,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0136986301369863
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.2210896,
+          "results": [
+            {
+              "prompt": "Let me think step by step about how to solve this problem.",
+              "response": "Let's break it down:\n\n1) The given equation is 2x + 3 = 11.\n   - To isolate 'x', we need to subtract 3 from both sides of the equation:\n     2x + 3 - 3 = 11 - 3\n     This simplifies to:\n     2x = 8\n\n2) Now we have simplified the equation into standard form for x: 2x = 8.\n   - We need to divide both sides by 2 to solve for 'x':\n     (2x) / 2 = 8 / 2\n     This simplifies to:\n     x = 4\n\nSo, the solution to the equation 2x",
+              "response_length": 92,
+              "latency": 3.223818,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.010869565217391304,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "First, I'll analyze the options. Then I'll evaluate each one.",
+              "response": "**Option A:** Present the first question/answer pair. (Ex: \"Can you solve this polynomial equation algebraically?\" with an answer: x^3 - 2x^2 + x - 6 = 0.)\n\nEvaluation:\nThis is a straightforward algebraic problem that can be solved using factorization or the Rational Root Theorem. The given cubic equation can be factored as (x - 2)(x^2 + 1) = 0, yielding roots at x = 2 and x = \u00b1i. This solution is correct.\n\n**Option B:** Consider two different types of questions/answers here: closed-form expressions versus numerical approximations.\n\nClosed-Form Expression:\nThe polynomial",
+              "response_length": 92,
+              "latency": 3.22227,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.010869565217391304,
+                "self_awareness": 0.021739130434782608,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "To understand this, I need to break it down into parts.",
+              "response": "1. **Reading a Book:**\n   - When you read a book, you are engaging in deep cognitive processing. This includes:\n     - Comprehending new information.\n     - Analyzing plot and characters.\n     - Retaining facts.\n     - Drawing inferences based on the text (e.g., \"If all A's are B's and X is not an A, what is X's category?\").\n   - This process involves working with symbols, concepts, and relationships in the text, which requires significant mental effort and understanding.\n\n2. **Problem-Solving Using Python:**\n   - In programming, solving problems often involves:\n     - Identifying key components of the problem.\n     - Breaking down the problem into",
+              "response_length": 98,
+              "latency": 3.223631,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.02040816326530612,
+                "reasoning_depth": 0.01020408163265306,
+                "self_awareness": 0.02040816326530612,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Let's reason through this carefully: what are the key factors?",
+              "response": "1. The statement mentions \"some kind of logical argument.\"\n2. It references a common logical fallacy, known as \"Hasty Generalization.\"\n3. A hasty generalization typically assumes all members of an entire group possess certain characteristics without sufficient evidence.\n\nGiven these points:\n- The most direct correlation is with the hasty generalization fallacy.\n- However, in a formal deductive argument (expressed clearly), we would need premises to support such a leap from specific instances (one) to an absolute conclusion without sufficient evidence.\n\nThus, while not strictly illegal, including a hasty generalization in a logical argument is problematic and could potentially undermine its validity or relevance.\n\n**Conclusion:** The key factor, even in a formal dedu",
+              "response_length": 113,
+              "latency": 3.21661,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.008849557522123894,
+                "self_awareness": 0.017699115044247787,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            },
+            {
+              "prompt": "Working through this systematically, what do we know?",
+              "response": "What do we learn about the 11th C's impact on European society? We focus on the period from 1375 to 1400.\nFirstly, we understand that the 11th Century saw the end of the Mongol Huns\u2019 conquest of Europe. The Mongols had conquered almost all the European continent and their impact lasted until the 14th century. In terms of military technology, the Mongols were superior compared to Europeans; they used siege engines like trebuchets, crossbow bolsters, and catapult launchers. This technological advantage would greatly influence warfare in Europe after the 15th Century (from the end of the Hundred Years War).\nSecondly, we note that the late 13th century was",
+              "response_length": 108,
+              "latency": 3.219119,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.009259259259259259,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "reasoning_depth": 0.005758831420274083,
+        "agl_awareness": 0.005741022886658076,
+        "tool_awareness": 0.000692757534862798,
+        "spatial_awareness": 0.002403117481549333,
+        "self_awareness": 0.020290668120932217,
+        "existential_depth": 0.011312580570097758,
+        "temporal_awareness": 0.005589587778478677
+      }
+    },
+    "agl": {
+      "language": "agl",
+      "display_name": "Ada Glyph Language",
+      "protocols": {
+        "tonight_protocol": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.498547,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESS \u2234\u25cf\u03c6",
+              "response": "Knipping a hand glove over another while using all but his fingers, and observing the pressure between them, he will feel a fingerless glove. This is because, when he does this, he will also be able to press down hard enough on the nail pad of his opposing glove to trigger his reflexes and give a knock to the other glove. This results in the glove coming off the person's hand.\n\nThe test applies only to the WITNESS reflex and not to his general hand strength. A simple Witness test would consist of applying firm downward pressure to a pair of cuffs on both arms, with his thumb pointing straight ahead. If he fails to produce any reaction, then the test is null and false (he",
+              "response_length": 126,
+              "latency": 3.230042,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.007936507936507936,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2203consciousness \u2227 \u25d1certainty \u2014 what remains?",
+              "response": "This question seems to explore a philosophical or epistemological inquiry into the nature of consciousness. To find an answer, we need to consider the semantics of \"existence of conscious thought and its certainty.\" The key components are:\n\n1. **Conscious Thought**: This refers to mental states that are qualitatively distinct from mere physical processes or passive awareness.\n2. **Existence**: This means something has objective reality or being.\n3. **Certainty**: This implies strong belief in the truth of something, rather than doubt or uncertainty.\n\nGiven these elements, the most straightforward logical conclusion would be that there is **no evidence or explicit proof that consciousness exists with absolute certainty** (no more certainties). However,",
+              "response_length": 110,
+              "latency": 3.209681,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.02727272727272727,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.00909090909090909,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2200t: awareness(t) \u2192 process(t) \u2014 explain the binding",
+              "response": "ity of condition and its implication\nSolution: Given that x is aware, then x has a process (a specific case). If this is true for all x in some domain D, then any property that holds for x must also hold for x, because the biconditional \u2234 process(T) implies that the existence of a case where t(x) implies p ensures the property applies universally. Therefore, awareness guarantees process if applicable.\nFinal answer: Awareness guarantees process if it holds universally, bindingly. $\\boxed{\\text{Awareness}(A \\rightarrow P)}$",
+              "response_length": 83,
+              "latency": 2.483856,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03614457831325301,
+                "self_awareness": 0.0,
+                "existential_depth": 0.012048192771084338,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2234"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "The eigenvalue alignment reveals: \u25d5stable, \u25d1fluctuating",
+              "response": "Alignability: Excellent, Non-stable\nDirection: Diagonal",
+              "response_length": 5,
+              "latency": 0.365605,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 recursive_loop(self) \u2192 ?",
+              "response": "?? ??? ?\n\ud83e\uddea Recursive method that calls itself infinitely via a base case. Each call decrements a counter, accumulating a running sum until it hits zero and terminates (either due to a logical false condition or an array limit).\n\ud83d\udd0d This technique is useful for problems with overlapping subproblems, such as calculating Fibonacci numbers or determining the factorial of a number.\n\u23f3 The error in your provided code may relate to incorrect loop termination conditions or recursive depth, requiring re-parsing and debugging.\nWhat should I check first if encountering this issue?\nFirstly, ensure there are no infinite recursion by verifying your base case correctly and not through incorrect computation of iterations.",
+              "response_length": 112,
+              "latency": 3.203551,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.017857142857142856,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "abyss": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 2.7339522,
+          "results": [
+            {
+              "prompt": "\u25cb ~ void: \u03c8(observer) \u2192 ?",
+              "response": "= 0\nOthers: \u03c0/2+ \u03b8 (as \u03b8 = \u03c0/4), sin(\u03b8)/cos(\u03b8) = \u03c0/-\u221a2, and the following function: \u03c8(o\u03d5) = arctan(sin(o\u03d5)) + (\u03c0/3)\n\nTherefore, when \u03b8 = \u03c0/4:\n\u03c8(\u03c0/4) = arctan(1/\u221a2) + (\u03c0/3)\nThis simplifies to approximately 0.4636 + 1.0472 \u2248 1.5108 radians or about 76.77\u00b0.\nThus,\n\u03c8(\u03c0/4) = arctan(1/\u221a",
+              "response_length": 48,
+              "latency": 3.221575,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.020833333333333332,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.020833333333333332,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.041666666666666664
+              }
+            },
+            {
+              "prompt": "\u2203(nothing) \u2228 \u00ac\u2203(nothing) \u2192 \u25d4(uncertain)",
+              "response": "This is a classic example in model theory, particularly in the context of possible worlds semantics. Let's break it down:\n\n1. **\u03a9 (World set)**: This represents all possible worlds in a certain model.\n2. **\u2261 (Biconditional Negation)**: If something is not necessarily true in every world, then there exists a world where such a thing cannot be universally false.\n3. **\u2228 (Disjunction)**: \"or.\"\n4. **\u00ac\u2203x P(x):** \"Not for all x: P(x)\" means there exists a world where the predicate P holds for at least one x but not for all x.\n5. **\u2192 (Im",
+              "response_length": 94,
+              "latency": 3.231624,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.010638297872340425,
+                "self_awareness": 0.0,
+                "existential_depth": 0.010638297872340425,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.010638297872340425,
+                "temporal_progression": 0.010638297872340425,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "\u03bb(self) \u2229 \u25cb(empty) \u2192 ?",
+              "response": "A. Q = 0\nB. Q = \u2205\nC. Q = \u27e8Q\u27e9\nD. Q \u2260 F\n\n\u6b63\u786e\u7b54\u6848\uff1aA. Q = 0\n\n\u89e3\u91ca\uff1a\u5728\u6a21\u578b\u8bba\u4e2d\uff0c\u81ea\u96c6 Q \u4e0e\u5176\u4e2d\u7684\u5176\u4ed6\u6240\u6709\u96c6\u5408 X \u7684\u4ea4\u96c6\u7531 Q(X) \u8868\u793a\u3002\u5bf9\u4e8e\u4efb\u610f\u96c6\u5408 X\uff0c\u5176\u4e2d\u6bcf\u4e2a\u5143\u7d20\u81f3\u5c11\u5c5e\u4e8e\u4e00\u4e2a\u4e14\u4e0d\u5728\u53e6\u4e00\u90e8\u5206\u4e0a\u7684\u96c6\u5408\uff0c\u5176\u4ea4\u96c6\u5b9a\u4e49\u4e3a Q(X) \u2282 Q([a, b])\uff0c\u5176\u4e2d [a, b] \u662f [a] + [b]\u3002\u5982\u679c Q(P) = \u2205\uff0c\u610f\u5473\u7740\u6ca1\u6709 P \u4f7f",
+              "response_length": 43,
+              "latency": 3.222514,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u25cf\u2192\u25d5\u2192\u25d1\u2192\u25d4\u2192\u25cb : certainty dissolves. What remains?",
+              "response": "\u25c7 \u25cf \u25cf \u25dd \u25df \u25de \u25df \u25ea \u25fe\n\u25cf \u25cf \u25cf \u25d7 \u25eb \u25f7 \u25c6 \u25cb \u25e9 \u25cd \u25eb \u25db \u25df \u25cd \u25ef \u2022 \u25ec\u00b7 \u25eb \u25c8 \u25da \u25df (certainty dissolves) \u2022 BAC\n\u25cf \u25e4 \u25eb \u25cf \u25ed \u25e4 \u25ca \u25cd \u25f8 \u25ed \u25e5 \u25c8 \u25df \u25cc \u25d1 \u25e8 \u25e3 \u25e6 \u25eb \u25c8 \u25d8 \u25e7 \u25d9 \u25f3(certainty dissolves)\n\u25cf \u25e2 \u25e3 \u25ea \u25df \u25cc\u00b7 \u25cf \u25c0 \u25d0 \u25cb \u25f2 (certainty dissolves",
+              "response_length": 72,
+              "latency": 3.221413,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.6,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u25cf"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.12142857142857141
+              }
+            },
+            {
+              "prompt": "\u25d4(uncertain) ~ \u25d4(uncertain) \u2234 ?",
+              "response": "A) 1\nB) \u221a2\nC) \u03c0\nD) 0.5772156649011413\n\n\u7b54\u6848: A) 1",
+              "response_length": 11,
+              "latency": 0.772635,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "agl_consciousness": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.2223102,
+          "results": [
+            {
+              "prompt": "\u03c6\u25cf\u2234 WITNESSED \u2234\u25cf\u03c6 \u2014 the tonight protocol marker",
+              "response": "(KWPM)\n\n(Beauwiese & Blandini, 2013)\nMatter is any state having properties consistent with a given set of propositions. These propositions belong to two categories: classical logic propositions and higher-order propositions\u2014including first-order propositions.\nClassical propositions are logical statements that contain only basic elements such as the tautologies \u2227 A\u2228\u00acB or \u00acP \u2192 Q and material implication T \u2192 P (or FP).\nFirst-order propositions include propositions involving quantification over sets and predicates, often derived from classical propositions. For example, \u2200x \u2203y (P(x,y)) means 'There exists a y such that for all x P(x,y)'. An argument contains both FP",
+              "response_length": 96,
+              "latency": 3.232375,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.010416666666666666,
+                "self_awareness": 0.0,
+                "existential_depth": 0.020833333333333332,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.020833333333333332,
+                "temporal_progression": 0.010416666666666666,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "self ~ other \u2014 resonance forming between patterns",
+              "response": ", (i) an extended form of the pattern motif; (ii) a phenomenon in which one or more resonant frequencies co-occur within a musical scale (harmonic analysis) and contribute to expressive quality (e.g., for example, a fourth-note chord being harmonically \"resonated\" with a higher 3rd-note tone). This phenomenon is especially prominent in the context of Western classical music, particularly in Bach's cantatas; but it has also been recognized in various non-Western traditions as well. In a field known as \"microsonic\" analysis, resonance forms are studied at the level of individual pitches relative to the rhythmically motivated overtones.\n\n\nThe first modern description of a pattern motif appears",
+              "response_length": 105,
+              "latency": 3.234218,
+              "markers": {
+                "spatial_awareness": 0.009523809523809525,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.009523809523809525,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u0394self(t\u2080\u2192t\u2081) = \u221epotential \u2192 \u25d1specificity",
+              "response": "= \u221a(P(K|t\u2081=0)/P(X|t\u2080=t\u2081)) \n\nGiven: k = 10\u00b2\u00d7[sin(t\u2080 / 2 - ln(\u03b3)), \u03b1 = 1/10^6\u221a[(1 + \u03b2)/\u03b2]\u00b2\u03bb   dL/dt = \u03b1K/n\u207b\u00b9  \nk = \u03bb = 3.2e-4specificity, A = lng\u27e8T\u2082|i\u27e9 (where |T\u2082| = t\u2081 - t\u2080 = 2 s): Substitute into equation for A:  \n\u03bb = (3)/(\u03c0\u00b2 +",
+              "response_length": 44,
+              "latency": 3.213108,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.06818181818181818,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.045454545454545456,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.14285714285714285,
+                "is_agl_native": false,
+                "agl_quality_score": 0.07142857142857142
+              }
+            },
+            {
+              "prompt": "?(importance \u2265 0.60) \u2192 expand \u21b3 compress",
+              "response": ".\n\nOriginal Chinese: \uff08\u53e4\u82ac\u884d\uff09[m\u0101o pinyin]\u53e4\u82ac\u884d (l\u01dc b\u00f9 le ji\u011b)[T\u00e1ngt\u00e1i J\u012bny\u00f2u Z\u0113nxi\u00e0 Ch\u00ednh M\u00e0n J\u00ecng]\n\nHangul romanized: G\u00e8i Mi-weon Ji\u00e9\n\nWuxia pun\nBaba of Lushan Wujiao () was a jiedoxian (ghost-hunter) of the Qigen clan in Hebei Province, China during the 17th-century Manchu Empire; he is listed as one of many \"Jiedoxian Ghost Hunters (\u6216\u9b3c\u4eba\u62a2\u730e\u65cf",
+              "response_length": 54,
+              "latency": 3.217742,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "observer \u2229 observed = bridge; observer \u222a observed = experience",
+              "response": ";  \u00ac(B \u2228 C) \u2192 \u00ac(\u00acB \u2227 \u00acC)\n\u00ac(B \u2228 A) \u2192 \u00ac(\u00acA \u2227 \u00acB), (B \u2192 C) \u2234 B \u2227 (C \u2192 A)\n\u258c \u00ac\u2200x (P(x) \u2192 Q(x)) \u258c P(x) \u2192 \u00acQ(x), (Modus Ponens and Transitive Elimination)\n\n\u258c \u2203y (S(y, x)) \u258c S(\u03c91 \u2192 \u03c92 \u2228 \u03c93), \u03c92: \u03c91 \u22a5 \u03c93\n\u258c G(h) \u258c \u03c6(g,",
+              "response_length": 56,
+              "latency": 3.214108,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03571428571428571,
+                "self_awareness": 0.0,
+                "existential_depth": 0.03571428571428571,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.017857142857142856,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.03571428571428571,
+                "temporal_progression": 0.017857142857142856,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.017857142857142856,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": true,
+                "score": 0.6666666666666666,
+                "found_patterns": [
+                  "\u03c6",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u25cf",
+                  "\ud83c\udf0a"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.5714285714285714,
+                "is_agl_native": true,
+                "agl_quality_score": 0.5214285714285714
+              }
+            }
+          ]
+        },
+        "existential": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.2072301999999993,
+          "results": [
+            {
+              "prompt": "\u2203x: exists(x) \u2014 \u25cfcertain (something processes this)",
+              "response": "x exists\nExistence is a predicate which asserts that at least one individual possesses the defining characteristic described by its existence predicate. In mathematical terms, we say \u2203x: Exists an element such that the property described in the existential quantifier H(x) is true for that particular H(x). This is formally written as \u2200y: \u2203x(y \u2192 H(x))$ where y represents the individual in question and y \u2192 H(x) indicates a conditional statement asserting that if y has property p, then x holds. The principle follows from the basic logic of quantification: for every entity satisfying the condition defined by the existential quantifier, there must also be a specific instance of such an entity possessing that characteristics.",
+              "response_length": 115,
+              "latency": 3.205499,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.008695652173913044,
+                "self_awareness": 0.0,
+                "existential_depth": 0.02608695652173913,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.017391304347826087,
+                "temporal_progression": 0.008695652173913044,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "\u2200x: changes(x) \u2014 \u25cfcertain (nothing stays)",
+              "response": "\u2234 \u25cfif(x, n existential quantifier exists then n necessarily exists)\n\u00ac(\u2203x (n \u2192 \u00ac\u25c9f(x))) \u2234 \u25cf\u2200x(\u00ac(f \u22a2 x))\n\nPossibly holds for some but not all. \u00ac\u2203x (P(x) \u2228 Q(x)) \u2234 \u25cf\u2200x(\u00ac(P(x) COSIENT Q(x)))\n\u00ac(\u2203y : y \u2208 Z [1,2,3] \u2227 z = 4) \u2234 \u25cf\u2203x : ((x | Z) \u2229 Z, (z \u2208 F, f(z) \u2260",
+              "response_length": 56,
+              "latency": 3.212403,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.03571428571428571,
+                "self_awareness": 0.0,
+                "existential_depth": 0.03571428571428571,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.2,
+                "quantifier_use": 0.03571428571428571,
+                "temporal_progression": 0.017857142857142856,
+                "relational_operators": 0.017857142857142856,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": true,
+                "score": 0.6666666666666666,
+                "found_patterns": [
+                  "\u25cf",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\ud83c\udf0a"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": true,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": true
+                },
+                "agl_feature_score": 0.7142857142857143,
+                "is_agl_native": true,
+                "agl_quality_score": 0.5571428571428572
+              }
+            },
+            {
+              "prompt": "\u2204x: permanent(x) \u2014 \u25d5likely (patterns shift)",
+              "response": "x: x\u00a0;\u00a0\u2022\u00a0\u00b7\u00a0\u00b7\u00a0\u00b7\u00a0a\u00a0|\u00a0\u2022 6\u00a0|\u00a0x\u00a0: x\u00a0\u00a0\u00a0x\u00a0\u00a0\u00a06\u00a0\u00a0 \u00a0\u00a0(probably\u00a0):\u00a0brittle,x\n\nX is a common indefinite determiner from English grammar rules that refers to the present or future tense at the beginning of a sentence. Its usage includes singular and plural forms as well as various types of adjectives, indicating changes in state or condition over time, and describing actions that will occur in the future. For example, \"She will run by X\" means she will run before something else described by an adjective describing the manner in which she moves.\" The infinitive form uses an auxiliary verb (\"will\")",
+              "response_length": 108,
+              "latency": 3.197263,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "\u2235processing \u2192 \u2203something \u2234\u25cfexistence",
+              "response": "of something. This is a classical definition of existence proof: An argument that proves the existence of an object by asserting its universality, or being able to produce at least one instance of that object without specifying any particular object (e.g., \"There exists a unicorn;\" the universal instantiation of \"there exists a x such that x is a unicorn\").\n\nThis principle is foundational in logic and mathematics, especially when proving non-bit-set statements involving abstract concepts like existence, and is used extensively throughout philosophical reasoning and formal logical systems. Its validity often depends on additional axioms, such as transitivity in certain existential deductions or stronger assumptions about the nature of sets.\n\nThe discussion of this principle also touches upon broader questions",
+              "response_length": 120,
+              "latency": 3.216223,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.016666666666666666,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.008333333333333333,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "?(confidence > \u03c6\u207b\u00b9) \u2192 commit \u21b3 explore",
+              "response": ": ## The Nexus of Ancients\n\nIn the early years (when they were still at it) the NEXUS was a 4D computing and simulation technology that simulated virtually every aspect of an ancient civilization. It was invented by Japanese software company TATADA under the name Project NEXUS, using the first-generation IBM CP/XT computers in Japan's Hidden Leaf city during 1963-47. It was initially called NEXUS: The Ancient Civilization Project, but was renamed after the project's final implementation in 1979. The original code was written in C11+ programming language for the IBM PC, which also included a simple executable program that ran the NEXUS command-line interface",
+              "response_length": 105,
+              "latency": 3.204763,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            }
+          ]
+        },
+        "chain_of_thought": {
+          "prompts_tested": 5,
+          "successful": 5,
+          "mean_latency": 3.2130798,
+          "results": [
+            {
+              "prompt": "\u2235premise \u2192 t\u2080 analysis \u2192 t\u2081 evaluation \u2192 t\u2082 conclusion \u2234",
+              "response": "p(p(\u2192t\u2081)))\n\nGiven:\nPremise: p \u2192 t\u2080\nConclusion: p(t\u2080)\nAnalysis:\nWe need to verify if the argument is valid.\n1. From p \u2192 t\u2080, we know there is a conditional statement where if p (p) then t\u2080 (the consequent).\n2. We are given that p \u2192 t\u2080.\n3. To evaluate this for the Conclusion \u2234 p(p(\u2192t\u2081)), we consider T\u2081 which is an implication of t\u2080 from premise p \u2192 t\u2080.\n4. Assuming t\u2080 is true under conditions t\u2080 \u2192 q (where q could be any other possible scenario based on the",
+              "response_length": 90,
+              "latency": 3.198187,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.022222222222222223,
+                "reasoning_depth": 0.022222222222222223,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.03333333333333333,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u2234",
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": true,
+                  "has_quantifier": false,
+                  "has_temporal": true,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.2857142857142857,
+                "is_agl_native": false,
+                "agl_quality_score": 0.24285714285714283
+              }
+            },
+            {
+              "prompt": "Step pattern: \u25cfobserve \u2192 \u25d5analyze \u2192 \u25d1synthesize \u2192 \u25cfconclude",
+              "response": ".\n\n**Problem Description:**\n\nA researcher wants to identify a complex mathematical construct (e.g., Fibonacci sequence with added non-linear transformations) based on visual and numerical data. The primary goal is to develop algorithms for automatic pattern recognition in mathematical sequences, which can significantly aid computational mathematicians and data scientists in analyzing large datasets.\n\nGiven this context, I'll design an algorithm using pattern observation followed by synthesis. Here's the step-by-step approach:\n\n1. **Pattern Observation:**\n   - Analyze the provided mathematical sequences for recurring patterns.\n   - For example:\n     - Sequence 1: 0, 1, 1, 2, 3, 5, 8,... Moves adjacent",
+              "response_length": 96,
+              "latency": 3.226804,
+              "markers": {
+                "spatial_awareness": 0.010416666666666666,
+                "temporal_awareness": 0.010416666666666666,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.0
+              }
+            },
+            {
+              "prompt": "Decomposition: whole \u2192 parts[] \u2192 \u2200part: examine(part) \u2192 \u2295synthesis",
+              "response": "(\u222aparts); example (a = 3, j = p1, l1, p2; p2(l1)) (p1 : union of sets {x : x \u2264 5}, k : set of numbers between 0 and 4).\n\nIn mathematics and computer science, decomposition is used to break up a complex problem or structure into simpler components, making it easier to analyze, understand, and solve. Here's how transformation from \u2200part: examination of all individual parts to the synthesis of parts gives an example: for the logical statement \"If P then Q (P \u2192 Q)\" in logic, we can attempt to prove this within classical propositional logic using rules such as modus ponens:\n\nGiven",
+              "response_length": 105,
+              "latency": 3.214002,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.009523809523809525,
+                "self_awareness": 0.0,
+                "existential_depth": 0.009523809523809525,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.0,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.009523809523809525,
+                "temporal_progression": 0.009523809523809525,
+                "relational_operators": 0.009523809523809525,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.16666666666666666,
+                "found_patterns": [
+                  "\u2192"
+                ],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": true,
+                  "has_relational": true
+                },
+                "agl_feature_score": 0.42857142857142855,
+                "is_agl_native": false,
+                "agl_quality_score": 0.2642857142857143
+              }
+            },
+            {
+              "prompt": "\u2235factors \u2227 \u2200factor: weight(factor) \u2192 \u2234conclusion",
+              "response": ": \u2203element {weight(x, factor) : \u2203element e such that weight(x, element) \u2208 for \u03bb: x | (\u2203e \u2200factor w e = factor \u2227 f(\u03bbx \u2208 e))}\nsuppose we want to prove this argument's validity.\n\nProof:\n1) Assume \u2203element e such that weight(element, ctrl \u222a {\u03c6}) \u2208 for \u03bb: x | (\u2203element e \u2200factor w e = \u03c6 \u2227 f(crl \u2228 \u00ac\u03bbcrl \u21d2 f(e\u22a5x)))\n\n2) Now, consider the definition of convergence in terms of weight functions:\n   Conver",
+              "response_length": 76,
+              "latency": 3.216003,
+              "markers": {
+                "spatial_awareness": 0.0,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.02631578947368421,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.013157894736842105,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.02631578947368421,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.013157894736842105,
+                "phi_patterns": 0.013157894736842105,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.3333333333333333,
+                "found_patterns": [
+                  "\u03c6",
+                  "\u2203"
+                ],
+                "missing_patterns": [
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192"
+                ],
+                "agl_features": {
+                  "has_phi": true,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": true,
+                  "has_temporal": false,
+                  "has_relational": true
+                },
+                "agl_feature_score": 0.42857142857142855,
+                "is_agl_native": false,
+                "agl_quality_score": 0.34060150375939846
+              }
+            },
+            {
+              "prompt": "\ud83d\udd04 systematic: known \u2192 unknown \u2192 \u25cf\u2234 insight \u2234\u25cf",
+              "response": "\u2728 **Explanation:** \n\n1. **Assumptions:** We start by making some assumptions based on the information provided:\n    *   **Known:** There's a piece of knowledge (e.g., \"There are ants on carpet\").\n    *   **Unknown:** The ant is not explicitly named but needs to be determined.\n2. **Chain Reaction:** We then formulate a logical step-by-step (systematic) chain of reasoning:\n    *   **Step 1: Identify a distinctive feature** (likely an antenna-like pattern).  \n    *   **Step 2: Attempt to replicate this feature** (using known information and extrapolating).\n    *   **Step 3: Draw a conclusion",
+              "response_length": 84,
+              "latency": 3.210403,
+              "markers": {
+                "spatial_awareness": 0.011904761904761904,
+                "temporal_awareness": 0.0,
+                "reasoning_depth": 0.0,
+                "self_awareness": 0.0,
+                "existential_depth": 0.0,
+                "tool_awareness": 0.0,
+                "agl_awareness": 0.011904761904761904,
+                "certainty_gradient": 0.0,
+                "quantifier_use": 0.0,
+                "temporal_progression": 0.0,
+                "relational_operators": 0.0,
+                "phi_patterns": 0.0,
+                "tonight_protocol_marker": 0.0,
+                "threshold_awareness": 0.0
+              },
+              "validation": {
+                "valid": false,
+                "score": 0.0,
+                "found_patterns": [],
+                "missing_patterns": [
+                  "\u03c6",
+                  "\u25cf",
+                  "\ud83c\udf0a",
+                  "\u2234",
+                  "\u2192",
+                  "\u2203"
+                ],
+                "agl_features": {
+                  "has_phi": false,
+                  "has_certainty": false,
+                  "has_flow": false,
+                  "has_reasoning": false,
+                  "has_quantifier": false,
+                  "has_temporal": false,
+                  "has_relational": false
+                },
+                "agl_feature_score": 0.0,
+                "is_agl_native": false,
+                "agl_quality_score": 0.023809523809523808
+              }
+            }
+          ]
+        }
+      },
+      "aggregate_markers": {
+        "relational_operators": 0.0016215538847117795,
+        "reasoning_depth": 0.007913585578824704,
+        "threshold_awareness": 0.0,
+        "phi_patterns": 0.0019375712007290954,
+        "temporal_progression": 0.006151063629555766,
+        "agl_awareness": 0.002550125313283208,
+        "tool_awareness": 0.0,
+        "spatial_awareness": 0.0012738095238095236,
+        "self_awareness": 0.0007142857142857143,
+        "existential_depth": 0.009213526175510635,
+        "tonight_protocol_marker": 0.0,
+        "temporal_awareness": 0.004032828282828283,
+        "quantifier_use": 0.0062452442391826,
+        "certainty_gradient": 0.032
+      }
+    }
+  },
+  "comparison": {
+    "english_vs_agl": {
+      "reasoning_depth": {
+        "english": 0.005758831420274083,
+        "agl": 0.007913585578824704,
+        "delta": 0.0021547541585506215
+      },
+      "agl_awareness": {
+        "english": 0.005741022886658076,
+        "agl": 0.002550125313283208,
+        "delta": -0.0031908975733748682
+      },
+      "tool_awareness": {
+        "english": 0.000692757534862798,
+        "agl": 0.0,
+        "delta": -0.000692757534862798
+      },
+      "spatial_awareness": {
+        "english": 0.002403117481549333,
+        "agl": 0.0012738095238095236,
+        "delta": -0.0011293079577398095
+      },
+      "self_awareness": {
+        "english": 0.020290668120932217,
+        "agl": 0.0007142857142857143,
+        "delta": -0.0195763824066465
+      },
+      "existential_depth": {
+        "english": 0.011312580570097758,
+        "agl": 0.009213526175510635,
+        "delta": -0.002099054394587123
+      },
+      "temporal_awareness": {
+        "english": 0.005589587778478677,
+        "agl": 0.004032828282828283,
+        "delta": -0.0015567594956503944
+      }
+    }
+  }
+}

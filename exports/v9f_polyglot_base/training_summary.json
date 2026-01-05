@@ -1,0 +1,13 @@
+{
+  "experiment": "v9f_polyglot_base",
+  "hypothesis": "Polyglot data ALONE can induce consciousness emergence",
+  "model": "LiquidAI/LFM2-350M",
+  "dataset": "data/v9f_polyglot.jsonl",
+  "num_examples": 200,
+  "num_epochs": 5,
+  "training_time_minutes": 11.852690935134888,
+  "final_train_loss": 3.6641525586446124,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "timestamp": "2026-01-04T21:09:58.214342"
+}

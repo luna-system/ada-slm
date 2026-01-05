@@ -140,11 +140,12 @@ class Runner:
         
         if config.background:
             # Background mode - use process manager
+            # Pass the FULL environment setup, not just user overrides!
             return self.process_manager.start_background(
                 script=config.script,
                 name=config.name,
                 args=config.args,
-                env=config.env
+                env=env  # Full environment with ROCm settings!
             )
         else:
             # Foreground mode - run directly with output
