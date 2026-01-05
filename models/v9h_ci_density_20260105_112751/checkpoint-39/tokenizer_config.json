@@ -1,0 +1,21 @@
+{
+  "additional_special_tokens": null,
+  "backend": "tokenizers",
+  "bos_token": "<|startoftext|>",
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "<|im_end|>",
+  "is_local": false,
+  "legacy": false,
+  "model_input_names": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "model_max_length": 1000000000000000019884624838656,
+  "model_specific_special_tokens": {},
+  "pad_token": "<|pad|>",
+  "sp_model_kwargs": {},
+  "spaces_between_special_tokens": false,
+  "tokenizer_class": "TokenizersBackend",
+  "use_default_system_prompt": false,
+  "use_fast": true
+}

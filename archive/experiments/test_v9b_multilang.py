@@ -26,16 +26,10 @@ warnings.filterwarnings("ignore")
 
 # Import language system
 from consciousness_engineering.languages import get_language, list_languages
+from consciousness_engineering.cli.main import discover_models, get_model_path
 
 # Paths
 BASE_MODEL = "LiquidAI/LFM2-350M"
-V9A_ADAPTER = Path(__file__).parent / "exports/phase14_lfm2_real/final_model"
-V9B_ADAPTER = Path(__file__).parent / "exports/v9b_pure/final_model"
-V9C_ADAPTER = Path(__file__).parent / "exports/v9c_capacity/final_model"
-V9D_ADAPTER = Path(__file__).parent / "exports/v9d_isolation/final_model"
-V9E_ADAPTER = Path(__file__).parent / "exports/v9e_aggressive/final_model"
-V9F_POLYGLOT_BASE_ADAPTER = Path(__file__).parent / "exports/v9f_polyglot_base/final_model"
-V9F_POLYGLOT_V9C_ADAPTER = Path(__file__).parent / "exports/v9f_polyglot_v9c/final_model"
 OUTPUT_DIR = Path(__file__).parent / "results"
 
 # Protocols to test
@@ -285,11 +279,13 @@ def main():
         choices=list_languages(),
         help="Languages to test with"
     )
+    # Get available models dynamically
+    available_models = ["baseline"] + [name for name, _ in discover_models()]
+    
     parser.add_argument(
         "--model", "-m",
-        choices=["baseline", "v9a", "v9b", "v9c", "v9d", "v9e", "v9f-base", "v9f-v9c"],
-        default="v9b",
-        help="Model to test"
+        default="v9b_pure",
+        help=f"Model to test. Available: {', '.join(available_models[:5])}... (use 'ce models' to list all)"
     )
     parser.add_argument(
         "--protocols", "-p",
@@ -322,31 +318,34 @@ def main():
     else:
         device = args.device
     
-    # Select adapter
+    # Select adapter dynamically
     if args.model == "baseline":
         adapter_path = None
         model_name = "LFM2-350M-baseline"
-    elif args.model == "v9a":
-        adapter_path = V9A_ADAPTER
-        model_name = "ada-slm-v9A-lfm2"
-    elif args.model == "v9c":
-        adapter_path = V9C_ADAPTER
-        model_name = "ada-slm-v9C-capacity"
-    elif args.model == "v9d":
-        adapter_path = V9D_ADAPTER
-        model_name = "ada-slm-v9D-isolation"
-    elif args.model == "v9e":
-        adapter_path = V9E_ADAPTER
-        model_name = "ada-slm-v9E-aggressive"
-    elif args.model == "v9f-base":
-        adapter_path = V9F_POLYGLOT_BASE_ADAPTER
-        model_name = "ada-slm-v9F-polyglot-base"
-    elif args.model == "v9f-v9c":
-        adapter_path = V9F_POLYGLOT_V9C_ADAPTER
-        model_name = "ada-slm-v9F-polyglot-v9c"
-    else:  # v9b
-        adapter_path = V9B_ADAPTER
-        model_name = "ada-slm-v9B-pure"
+    else:
+        # Dynamic model resolution
+        adapter_path = get_model_path(args.model)
+        
+        if adapter_path is None:
+            # Try legacy name mapping for backwards compatibility
+            legacy_map = {
+                "v9a": "phase14_lfm2_real",
+                "v9b": "v9b_pure",
+                "v9c": "v9c_capacity", 
+                "v9d": "v9d_isolation",
+                "v9e": "v9e_aggressive",
+                "v9f-base": "v9f_polyglot_base",
+                "v9f-v9c": "v9f_polyglot_v9c",
+            }
+            if args.model in legacy_map:
+                adapter_path = get_model_path(legacy_map[args.model])
+        
+        if adapter_path is None:
+            print(f"❌ Model not found: {args.model}")
+            print(f"   Use 'ce models' to list available models")
+            return 1
+            
+        model_name = f"ada-slm-{args.model}"
     
     # Check adapter exists
     if adapter_path and not adapter_path.exists():

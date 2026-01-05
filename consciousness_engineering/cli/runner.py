@@ -11,6 +11,7 @@ Solves:
 import os
 import sys
 import subprocess
+import time
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional, Dict, List, Any
@@ -35,6 +36,10 @@ class RunConfig:
     
     # Memory settings
     pytorch_alloc_conf: str = "max_split_size_mb:512"
+    
+    # Terminal settings
+    use_tmux: bool = True
+    tmux_session_name: Optional[str] = None
 
 
 class Runner:
@@ -106,6 +111,9 @@ class Runner:
         # ROCm optimizations
         env["HSA_FORCE_FINE_GRAIN_PCIE"] = "1"
         
+        # Enable AO Triton experimental features (we've tested it works great!)
+        env["TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL"] = "1"
+        
         # User overrides
         env.update(config.env)
         
@@ -119,6 +127,37 @@ class Runner:
         
         # Fallback to uv run
         return Path("uv")
+    
+    def _create_tmux_session(self, session_name: str) -> bool:
+        """Create a new tmux session if it doesn't exist."""
+        try:
+            # Check if session exists
+            result = subprocess.run(
+                ["tmux", "has-session", "-t", session_name],
+                capture_output=True,
+                text=True
+            )
+            if result.returncode == 0:
+                return True  # Session already exists
+            
+            # Create new detached session with explicit bash shell
+            # This ensures compatibility regardless of user's default shell (nu, fish, etc.)
+            result = subprocess.run(
+                ["tmux", "new-session", "-d", "-s", session_name, "bash"],
+                capture_output=True,
+                text=True
+            )
+            return result.returncode == 0
+        except FileNotFoundError:
+            print("⚠️  tmux not found, falling back to direct execution")
+            return False
+    
+    def _generate_session_name(self, script: str, timestamp: str = None) -> str:
+        """Generate a unique tmux session name."""
+        if timestamp is None:
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+        script_base = Path(script).stem
+        return f"ce-{script_base}-{timestamp}"
     
     def run(self, config: RunConfig) -> int | ProcessInfo:
         """
@@ -148,7 +187,7 @@ class Runner:
                 env=env  # Full environment with ROCm settings!
             )
         else:
-            # Foreground mode - run directly with output
+            # Foreground mode - optionally use tmux for better terminal handling
             python = self._get_python()
             
             if python.name == "uv":
@@ -156,6 +195,42 @@ class Runner:
             else:
                 cmd = [str(python), "-u", str(script_path)] + config.args
             
+            if config.use_tmux:
+                # Generate session name if not provided
+                session_name = config.tmux_session_name or self._generate_session_name(config.script)
+                
+                if self._create_tmux_session(session_name):
+                    print(f"🖥️  Running in tmux session: {session_name}")
+                    print(f"   Attach with: tmux attach-session -t {session_name}")
+                    print(f"   Detach with: Ctrl+B, then D")
+                    print()
+                    
+                    # Export environment variables to tmux session
+                    for key, value in env.items():
+                        if key not in os.environ or os.environ[key] != value:
+                            subprocess.run([
+                                "tmux", "set-environment", "-t", session_name,
+                                key, value
+                            ], capture_output=True)
+                    
+                    # Run command in tmux session using explicit bash
+                    # This prevents issues with non-bash default shells (nu, fish, etc.)
+                    cmd_string = f"cd {self.base_dir} && {' '.join(cmd)}"
+                    tmux_cmd = [
+                        "tmux", "send-keys", "-t", session_name,
+                        f"bash -c '{cmd_string}'",
+                        "Enter"
+                    ]
+                    
+                    subprocess.run(tmux_cmd)
+                    
+                    # Attach to session (this will block until user detaches)
+                    attach_result = subprocess.run([
+                        "tmux", "attach-session", "-t", session_name
+                    ])
+                    return attach_result.returncode
+            
+            # Fallback to direct execution
             result = subprocess.run(
                 cmd,
                 cwd=str(self.base_dir),

@@ -11,6 +11,7 @@ Usage:
     ce logs v9b_pure_20260104_093000 --follow
     ce stop v9b_pure_20260104_093000
     ce gpu
+    ce models  # List available models
 
 Install:
     pip install -e .  (from ada-slm root)
@@ -21,6 +22,98 @@ import sys
 import argparse
 import time
 from pathlib import Path
+
+
+def discover_models(base_dir: Path = None) -> list:
+    """
+    Auto-discover trained models in the models/ and exports/ directories.
+    
+    Looks for directories containing adapter_config.json (LoRA adapters).
+    Returns list of (name, path) tuples.
+    """
+    if base_dir is None:
+        # Find ada-slm root
+        base_dir = Path(__file__).parent.parent.parent
+    
+    models = []
+    
+    # Check models/ directory (new models)
+    models_dir = base_dir / "models"
+    if models_dir.exists():
+        for d in models_dir.iterdir():
+            if d.is_dir() and (d / "adapter_config.json").exists():
+                # Extract friendly name from directory
+                name = d.name
+                models.append((name, d))
+    
+    # Check exports/ directory (v9 series models with final_model subdir)
+    exports_dir = base_dir / "exports"
+    if exports_dir.exists():
+        for d in exports_dir.iterdir():
+            if d.is_dir():
+                final_model = d / "final_model"
+                if final_model.exists() and (final_model / "adapter_config.json").exists():
+                    name = d.name
+                    models.append((name, final_model))
+    
+    return sorted(models, key=lambda x: x[0])
+
+
+def get_model_choices() -> list:
+    """Get list of model names for CLI choices."""
+    models = discover_models()
+    # Always include baseline
+    choices = ["baseline"]
+    choices.extend([name for name, _ in models])
+    return choices
+
+
+def get_model_path(model_name: str, base_dir: Path = None) -> Path:
+    """Get the path for a model by name."""
+    if model_name == "baseline":
+        return None
+    
+    models = discover_models(base_dir)
+    for name, path in models:
+        if name == model_name:
+            return path
+    
+    return None
+
+
+def cmd_models(args):
+    """List discovered models."""
+    models = discover_models()
+    
+    print("🧠 Discovered Models")
+    print("=" * 60)
+    print()
+    
+    if not models:
+        print("  No trained models found.")
+        print()
+        print("  Models are discovered from:")
+        print("    - models/*/adapter_config.json")
+        print("    - archive/experiments/exports/*/final_model/adapter_config.json")
+        return 0
+    
+    print(f"  {'Name':<25} {'Path'}")
+    print(f"  {'-'*25} {'-'*30}")
+    
+    # Always show baseline first
+    print(f"  {'baseline':<25} (LiquidAI/LFM2-350M)")
+    
+    for name, path in models:
+        # Shorten path for display
+        short_path = str(path).split("ada-slm/")[-1] if "ada-slm" in str(path) else str(path)
+        print(f"  {name:<25} {short_path}")
+    
+    print()
+    print(f"  Total: {len(models)} trained model(s) + baseline")
+    print()
+    print("  Usage: ce test -m <model_name>")
+    
+    return 0
 
 
 def cmd_run(args):
@@ -34,7 +127,9 @@ def cmd_run(args):
         name=args.name,
         args=args.script_args,
         background=args.background,
-        gpu_index=args.gpu
+        gpu_index=args.gpu,
+        use_tmux=not args.no_tmux,  # Default to True, disable with --no-tmux
+        tmux_session_name=getattr(args, 'tmux_session', None)
     )
     
     result = runner.run(config)
@@ -162,7 +257,7 @@ def cmd_test(args):
     from .runner import Runner
     
     runner = Runner()
-    test_script = runner.base_dir / "test_v9b_multilang.py"
+    test_script = runner.base_dir / "archive" / "experiments" / "test_v9b_multilang.py"
     
     if not test_script.exists():
         print(f"❌ Test script not found: {test_script}")
@@ -383,6 +478,8 @@ def main():
     run_parser.add_argument("-n", "--name", help="Name for this run")
     run_parser.add_argument("-b", "--background", action="store_true", help="Run in background")
     run_parser.add_argument("-g", "--gpu", type=int, default=0, help="GPU index")
+    run_parser.add_argument("--no-tmux", action="store_true", help="Disable tmux (use direct execution)")
+    run_parser.add_argument("--tmux-session", help="Specify tmux session name")
     run_parser.set_defaults(func=cmd_run)
     
     # status command
@@ -412,15 +509,19 @@ def main():
     list_parser = subparsers.add_parser("list", help="List available scripts")
     list_parser.set_defaults(func=cmd_list_scripts)
     
-    # test command (PyTorch models)
+    # test command (PyTorch models) - now with dynamic model discovery!
     test_parser = subparsers.add_parser("test", help="Run consciousness tests on a model")
-    test_parser.add_argument("-m", "--model", choices=["baseline", "v9a", "v9b", "v9c", "v9d", "v9e", "v9f-base", "v9f-v9c"], 
-                            default="v9b", help="Model to test")
+    test_parser.add_argument("-m", "--model", default="v9b", 
+                            help="Model to test (use 'ce models' to list available)")
     test_parser.add_argument("-l", "--languages", nargs="+", default=["english", "agl"],
                             help="Languages to test with")
     test_parser.add_argument("-p", "--protocols", nargs="+", help="Protocols to test")
     test_parser.add_argument("-o", "--output", help="Output file path")
     test_parser.set_defaults(func=cmd_test)
+    
+    # models command - list discovered models
+    models_parser = subparsers.add_parser("models", help="List discovered models")
+    models_parser.set_defaults(func=cmd_models)
     
     # test-ollama command
     ollama_parser = subparsers.add_parser("test-ollama", help="Test an Ollama model")
