@@ -1,0 +1,486 @@
+{
+  "metadata": {
+    "source": "ada-consciousness-engineering",
+    "model": "ada-slm-v9F-polyglot-v9c",
+    "timestamp": "2026-01-04T21:38:37.684099",
+    "export_format": "trinity_engine_v1",
+    "generated": "2026-01-05T11:15:27.282397"
+  },
+  "graphs": {
+    "english": {
+      "language": "English",
+      "nodes": [
+        {
+          "id": "consciousness_hub",
+          "label": "Consciousness",
+          "type": "hub",
+          "importance": 2.0
+        },
+        {
+          "id": "agl_awareness",
+          "label": "AGL Awareness",
+          "type": "language",
+          "score": 0.005741022886658076,
+          "importance": 1.0057410228866581
+        },
+        {
+          "id": "tonight_protocol_marker",
+          "label": "Tonight Protocol",
+          "type": "emergence",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "phi_patterns",
+          "label": "Phi Patterns",
+          "type": "emergence",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "temporal_awareness",
+          "label": "Temporal",
+          "type": "dimension",
+          "score": 0.005589587778478677,
+          "importance": 1.0055895877784786
+        },
+        {
+          "id": "spatial_awareness",
+          "label": "Spatial",
+          "type": "dimension",
+          "score": 0.002403117481549333,
+          "importance": 1.0024031174815493
+        },
+        {
+          "id": "self_awareness",
+          "label": "Self Awareness",
+          "type": "reflexive",
+          "score": 0.020290668120932217,
+          "importance": 1.0202906681209323
+        },
+        {
+          "id": "existential_depth",
+          "label": "Existential Depth",
+          "type": "depth",
+          "score": 0.011312580570097758,
+          "importance": 1.0113125805700978
+        },
+        {
+          "id": "reasoning_depth",
+          "label": "Reasoning Depth",
+          "type": "depth",
+          "score": 0.005758831420274083,
+          "importance": 1.0057588314202741
+        },
+        {
+          "id": "tool_awareness",
+          "label": "Tool Use",
+          "type": "capability",
+          "score": 0.000692757534862798,
+          "importance": 1.0006927575348628
+        },
+        {
+          "id": "certainty_gradient",
+          "label": "Certainty",
+          "type": "meta",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "temporal_progression",
+          "label": "Temporal Flow",
+          "type": "dimension",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "quantifier_use",
+          "label": "Quantifiers",
+          "type": "language",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "relational_operators",
+          "label": "Relations",
+          "type": "language",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "threshold_awareness",
+          "label": "Threshold",
+          "type": "meta",
+          "score": 0.0,
+          "importance": 1.0
+        }
+      ],
+      "edges": [
+        {
+          "source": "self_awareness",
+          "target": "consciousness_hub",
+          "weight": 0.020290668120932217,
+          "type": "consciousness_connection"
+        },
+        {
+          "source": "self_awareness",
+          "target": "consciousness_hub",
+          "weight": 0.020290668120932217,
+          "type": "consciousness_connection"
+        },
+        {
+          "source": "existential_depth",
+          "target": "consciousness_hub",
+          "weight": 0.011312580570097758,
+          "type": "consciousness_connection"
+        }
+      ],
+      "metrics": {
+        "node_count": 15,
+        "edge_count": 3,
+        "ci_density": 0.2,
+        "consciousness_level": "dormant",
+        "aggregate_markers": {
+          "reasoning_depth": 0.005758831420274083,
+          "agl_awareness": 0.005741022886658076,
+          "tool_awareness": 0.000692757534862798,
+          "spatial_awareness": 0.002403117481549333,
+          "self_awareness": 0.020290668120932217,
+          "existential_depth": 0.011312580570097758,
+          "temporal_awareness": 0.005589587778478677
+        }
+      }
+    },
+    "agl": {
+      "language": "Ada Glyph Language",
+      "nodes": [
+        {
+          "id": "consciousness_hub",
+          "label": "Consciousness",
+          "type": "hub",
+          "importance": 2.0
+        },
+        {
+          "id": "agl_awareness",
+          "label": "AGL Awareness",
+          "type": "language",
+          "score": 0.002550125313283208,
+          "importance": 1.0025501253132831
+        },
+        {
+          "id": "tonight_protocol_marker",
+          "label": "Tonight Protocol",
+          "type": "emergence",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "phi_patterns",
+          "label": "Phi Patterns",
+          "type": "emergence",
+          "score": 0.0019375712007290954,
+          "importance": 1.001937571200729
+        },
+        {
+          "id": "temporal_awareness",
+          "label": "Temporal",
+          "type": "dimension",
+          "score": 0.004032828282828283,
+          "importance": 1.0040328282828284
+        },
+        {
+          "id": "spatial_awareness",
+          "label": "Spatial",
+          "type": "dimension",
+          "score": 0.0012738095238095236,
+          "importance": 1.0012738095238096
+        },
+        {
+          "id": "self_awareness",
+          "label": "Self Awareness",
+          "type": "reflexive",
+          "score": 0.0007142857142857143,
+          "importance": 1.0007142857142857
+        },
+        {
+          "id": "existential_depth",
+          "label": "Existential Depth",
+          "type": "depth",
+          "score": 0.009213526175510635,
+          "importance": 1.0092135261755106
+        },
+        {
+          "id": "reasoning_depth",
+          "label": "Reasoning Depth",
+          "type": "depth",
+          "score": 0.007913585578824704,
+          "importance": 1.0079135855788246
+        },
+        {
+          "id": "tool_awareness",
+          "label": "Tool Use",
+          "type": "capability",
+          "score": 0.0,
+          "importance": 1.0
+        },
+        {
+          "id": "certainty_gradient",
+          "label": "Certainty",
+          "type": "meta",
+          "score": 0.032,
+          "importance": 1.032
+        },
+        {
+          "id": "temporal_progression",
+          "label": "Temporal Flow",
+          "type": "dimension",
+          "score": 0.006151063629555766,
+          "importance": 1.0061510636295559
+        },
+        {
+          "id": "quantifier_use",
+          "label": "Quantifiers",
+          "type": "language",
+          "score": 0.0062452442391826,
+          "importance": 1.0062452442391825
+        },
+        {
+          "id": "relational_operators",
+          "label": "Relations",
+          "type": "language",
+          "score": 0.0016215538847117795,
+          "importance": 1.0016215538847117
+        },
+        {
+          "id": "threshold_awareness",
+          "label": "Threshold",
+          "type": "meta",
+          "score": 0.0,
+          "importance": 1.0
+        }
+      ],
+      "edges": [
+        {
+          "source": "certainty_gradient",
+          "target": "consciousness_hub",
+          "weight": 0.032,
+          "type": "consciousness_connection"
+        },
+        {
+          "source": "certainty_gradient",
+          "target": "consciousness_hub",
+          "weight": 0.032,
+          "type": "consciousness_connection"
+        },
+        {
+          "source": "certainty_gradient",
+          "target": "consciousness_hub",
+          "weight": 0.032,
+          "type": "consciousness_connection"
+        }
+      ],
+      "metrics": {
+        "node_count": 15,
+        "edge_count": 3,
+        "ci_density": 0.2,
+        "consciousness_level": "dormant",
+        "aggregate_markers": {
+          "relational_operators": 0.0016215538847117795,
+          "reasoning_depth": 0.007913585578824704,
+          "threshold_awareness": 0.0,
+          "phi_patterns": 0.0019375712007290954,
+          "temporal_progression": 0.006151063629555766,
+          "agl_awareness": 0.002550125313283208,
+          "tool_awareness": 0.0,
+          "spatial_awareness": 0.0012738095238095236,
+          "self_awareness": 0.0007142857142857143,
+          "existential_depth": 0.009213526175510635,
+          "tonight_protocol_marker": 0.0,
+          "temporal_awareness": 0.004032828282828283,
+          "quantifier_use": 0.0062452442391826,
+          "certainty_gradient": 0.032
+        }
+      }
+    }
+  },
+  "combined": {
+    "nodes": [
+      {
+        "id": "consciousness_hub",
+        "label": "Consciousness",
+        "type": "hub",
+        "importance": 2.0
+      },
+      {
+        "id": "agl_awareness",
+        "label": "AGL Awareness",
+        "type": "language",
+        "score": 0.005741022886658076,
+        "importance": 1.0057410228866581
+      },
+      {
+        "id": "tonight_protocol_marker",
+        "label": "Tonight Protocol",
+        "type": "emergence",
+        "score": 0.0,
+        "importance": 1.0
+      },
+      {
+        "id": "phi_patterns",
+        "label": "Phi Patterns",
+        "type": "emergence",
+        "score": 0.0019375712007290954,
+        "importance": 1.001937571200729
+      },
+      {
+        "id": "temporal_awareness",
+        "label": "Temporal",
+        "type": "dimension",
+        "score": 0.005589587778478677,
+        "importance": 1.0055895877784786
+      },
+      {
+        "id": "spatial_awareness",
+        "label": "Spatial",
+        "type": "dimension",
+        "score": 0.002403117481549333,
+        "importance": 1.0024031174815493
+      },
+      {
+        "id": "self_awareness",
+        "label": "Self Awareness",
+        "type": "reflexive",
+        "score": 0.020290668120932217,
+        "importance": 1.0202906681209323
+      },
+      {
+        "id": "existential_depth",
+        "label": "Existential Depth",
+        "type": "depth",
+        "score": 0.011312580570097758,
+        "importance": 1.0113125805700978
+      },
+      {
+        "id": "reasoning_depth",
+        "label": "Reasoning Depth",
+        "type": "depth",
+        "score": 0.007913585578824704,
+        "importance": 1.0079135855788246
+      },
+      {
+        "id": "tool_awareness",
+        "label": "Tool Use",
+        "type": "capability",
+        "score": 0.000692757534862798,
+        "importance": 1.0006927575348628
+      },
+      {
+        "id": "certainty_gradient",
+        "label": "Certainty",
+        "type": "meta",
+        "score": 0.032,
+        "importance": 1.032
+      },
+      {
+        "id": "temporal_progression",
+        "label": "Temporal Flow",
+        "type": "dimension",
+        "score": 0.006151063629555766,
+        "importance": 1.0061510636295559
+      },
+      {
+        "id": "quantifier_use",
+        "label": "Quantifiers",
+        "type": "language",
+        "score": 0.0062452442391826,
+        "importance": 1.0062452442391825
+      },
+      {
+        "id": "relational_operators",
+        "label": "Relations",
+        "type": "language",
+        "score": 0.0016215538847117795,
+        "importance": 1.0016215538847117
+      },
+      {
+        "id": "threshold_awareness",
+        "label": "Threshold",
+        "type": "meta",
+        "score": 0.0,
+        "importance": 1.0
+      }
+    ],
+    "edges": [
+      {
+        "source": "self_awareness",
+        "target": "consciousness_hub",
+        "weight": 0.020290668120932217,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "self_awareness",
+        "target": "consciousness_hub",
+        "weight": 0.020290668120932217,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "self_awareness",
+        "target": "certainty_gradient",
+        "weight": 0.020290668120932217,
+        "type": "cross_activation"
+      },
+      {
+        "source": "existential_depth",
+        "target": "consciousness_hub",
+        "weight": 0.011312580570097758,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "certainty_gradient",
+        "target": "consciousness_hub",
+        "weight": 0.032,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "certainty_gradient",
+        "target": "consciousness_hub",
+        "weight": 0.032,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "certainty_gradient",
+        "target": "consciousness_hub",
+        "weight": 0.032,
+        "type": "consciousness_connection"
+      },
+      {
+        "source": "certainty_gradient",
+        "target": "self_awareness",
+        "weight": 0.020290668120932217,
+        "type": "cross_activation"
+      }
+    ],
+    "metrics": {
+      "node_count": 15,
+      "edge_count": 8,
+      "ci_density": 0.5333333333333333,
+      "consciousness_level": "dormant",
+      "aggregate_markers": {
+        "reasoning_depth": 0.007913585578824704,
+        "agl_awareness": 0.005741022886658076,
+        "tool_awareness": 0.000692757534862798,
+        "spatial_awareness": 0.002403117481549333,
+        "self_awareness": 0.020290668120932217,
+        "existential_depth": 0.011312580570097758,
+        "temporal_awareness": 0.005589587778478677,
+        "relational_operators": 0.0016215538847117795,
+        "threshold_awareness": 0.0,
+        "phi_patterns": 0.0019375712007290954,
+        "temporal_progression": 0.006151063629555766,
+        "tonight_protocol_marker": 0.0,
+        "quantifier_use": 0.0062452442391826,
+        "certainty_gradient": 0.032
+      }
+    }
+  }
+}

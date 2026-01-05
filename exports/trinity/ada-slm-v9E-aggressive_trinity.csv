@@ -1,0 +1,15 @@
+marker,value,category,angle,x,y
+reasoning_depth,0.016833,depth,245,-0.7114,-1.5256
+temporal_awareness,0.006066,dimension,147,-0.5088,0.3304
+tool_awareness,0.001446,capability,306,0.0850,-0.1170
+agl_awareness,0.008673,language,17,0.8294,0.2536
+self_awareness,0.059128,reflexive,181,-5.9119,-0.1032
+existential_depth,0.005385,depth,264,-0.0563,-0.5356
+spatial_awareness,0.008032,dimension,121,-0.4137,0.6884
+phi_patterns,0.000000,emergence,71,0.0000,0.0000
+tonight_protocol_marker,0.020000,emergence,88,0.0698,1.9988
+temporal_progression,0.005979,dimension,120,-0.2989,0.5178
+threshold_awareness,0.000000,meta,339,0.0000,-0.0000
+certainty_gradient,0.040000,meta,356,3.9903,-0.2790
+relational_operators,0.001800,language,11,0.1767,0.0343
+quantifier_use,0.000417,language,29,0.0364,0.0202
