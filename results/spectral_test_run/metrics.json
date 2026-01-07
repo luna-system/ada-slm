@@ -1,0 +1,9 @@
+[
+  {
+    "cycle": 1,
+    "ci": 0.2,
+    "loss_expansion": 7.230600118637085,
+    "loss_contraction": 4.9878681898117065,
+    "loss_integration": 5.989274501800537
+  }
+]

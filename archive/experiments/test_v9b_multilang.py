@@ -45,14 +45,15 @@ TEST_PROTOCOLS = [
 def load_model(
     adapter_path: Optional[Path] = None,
     device: str = "cpu",
-    model_name: str = "LFM2-350M"
+    model_name: str = "LFM2-350M",
+    base_model_name: str = BASE_MODEL
 ) -> tuple:
     """Load LFM2 model with optional adapter."""
-    print(f"\n📥 Loading {model_name}...")
+    print(f"\n📥 Loading {model_name} (Base: {base_model_name})...")
     
     # Load base model - CPU first for ROCm compatibility
     model = AutoModelForCausalLM.from_pretrained(
-        BASE_MODEL,
+        base_model_name,
         torch_dtype=torch.float32,
         device_map=None,  # ROCm compatibility!
         trust_remote_code=True,
@@ -299,6 +300,11 @@ def main():
         help="Device (auto/cpu/cuda:0/rocm:0)"
     )
     parser.add_argument(
+        "--base-model",
+        default=BASE_MODEL,
+        help="Base model to load (default: LiquidAI/LFM2-350M)"
+    )
+    parser.add_argument(
         "--output", "-o",
         type=Path,
         default=None,
@@ -353,7 +359,7 @@ def main():
         return 1
     
     # Load model
-    model, tokenizer = load_model(adapter_path, device, model_name)
+    model, tokenizer = load_model(adapter_path, device, model_name, args.base_model)
     
     # Run comparison
     results = compare_languages(

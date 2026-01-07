@@ -1,0 +1,240 @@
+[
+  {
+    "cycle": 1,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 5.327669234502883,
+    "loss_contraction": 5.045650647236751,
+    "loss_integration": 5.685154318809509
+  },
+  {
+    "cycle": 2,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 4.815073728561401,
+    "loss_contraction": 4.66830536035391,
+    "loss_integration": 5.065987765789032
+  },
+  {
+    "cycle": 3,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 4.696634417488461,
+    "loss_contraction": 3.9555828387920675,
+    "loss_integration": 4.683384895324707
+  },
+  {
+    "cycle": 4,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 3.920838855561756,
+    "loss_contraction": 3.71795104100154,
+    "loss_integration": 4.437952995300293
+  },
+  {
+    "cycle": 5,
+    "ci": 0.2,
+    "loss_expansion": 3.720117761975243,
+    "loss_contraction": 3.6312930583953857,
+    "loss_integration": 4.402945965528488
+  },
+  {
+    "cycle": 6,
+    "ci": 0.4,
+    "loss_expansion": 3.384388458161127,
+    "loss_contraction": 3.066967065517719,
+    "loss_integration": 4.145608872175217
+  },
+  {
+    "cycle": 7,
+    "ci": 0.4666666666666667,
+    "loss_expansion": 3.1346728006998696,
+    "loss_contraction": 3.225462656754714,
+    "loss_integration": 3.7110417783260345
+  },
+  {
+    "cycle": 8,
+    "ci": 0.4666666666666667,
+    "loss_expansion": 2.9604824724651517,
+    "loss_contraction": 2.867925387162429,
+    "loss_integration": 3.6098714768886566
+  },
+  {
+    "cycle": 9,
+    "ci": 0.5333333333333333,
+    "loss_expansion": 2.786055701119559,
+    "loss_contraction": 2.828601121902466,
+    "loss_integration": 3.3862939178943634
+  },
+  {
+    "cycle": 10,
+    "ci": 0.6,
+    "loss_expansion": 2.7173333281562444,
+    "loss_contraction": 2.6254516198084903,
+    "loss_integration": 3.1499896943569183
+  },
+  {
+    "cycle": 11,
+    "ci": 0.4666666666666667,
+    "loss_expansion": 2.5090072609129406,
+    "loss_contraction": 2.4236455055383535,
+    "loss_integration": 2.918778717517853
+  },
+  {
+    "cycle": 12,
+    "ci": 0.5333333333333333,
+    "loss_expansion": 2.564646613030207,
+    "loss_contraction": 2.531287826024569,
+    "loss_integration": 2.910658895969391
+  },
+  {
+    "cycle": 13,
+    "ci": 0.4,
+    "loss_expansion": 2.365778060186477,
+    "loss_contraction": 2.601096189939059,
+    "loss_integration": 2.9159948229789734
+  },
+  {
+    "cycle": 14,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.3760625010445002,
+    "loss_contraction": 2.2146407274099498,
+    "loss_integration": 2.85718435049057
+  },
+  {
+    "cycle": 15,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.2063508885247365,
+    "loss_contraction": 2.3098261172954855,
+    "loss_integration": 2.7106843888759613
+  },
+  {
+    "cycle": 16,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.29418645018623,
+    "loss_contraction": 2.2924417073910055,
+    "loss_integration": 2.599821925163269
+  },
+  {
+    "cycle": 17,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.2296296641940163,
+    "loss_contraction": 2.2615603116842418,
+    "loss_integration": 2.4870200157165527
+  },
+  {
+    "cycle": 18,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.0035628704797652,
+    "loss_contraction": 1.9385343514955962,
+    "loss_integration": 2.5064857751131058
+  },
+  {
+    "cycle": 19,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.1414877630415416,
+    "loss_contraction": 2.246382768337543,
+    "loss_integration": 2.341391623020172
+  },
+  {
+    "cycle": 20,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 1.9717446622394381,
+    "loss_contraction": 2.0871482353944044,
+    "loss_integration": 2.37734591960907
+  },
+  {
+    "cycle": 21,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 1.910154592423212,
+    "loss_contraction": 1.957851501611563,
+    "loss_integration": 2.35830020904541
+  },
+  {
+    "cycle": 22,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 2.0814575297491893,
+    "loss_contraction": 1.806369157937857,
+    "loss_integration": 2.350040167570114
+  },
+  {
+    "cycle": 23,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.8071581919987996,
+    "loss_contraction": 1.8622247072366567,
+    "loss_integration": 2.1382825523614883
+  },
+  {
+    "cycle": 24,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.7124366362889607,
+    "loss_contraction": 1.99427042557643,
+    "loss_integration": 2.2178413718938828
+  },
+  {
+    "cycle": 25,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.812457025051117,
+    "loss_contraction": 1.809292463155893,
+    "loss_integration": 2.4469981491565704
+  },
+  {
+    "cycle": 26,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.7326381830942064,
+    "loss_contraction": 1.7429112837864802,
+    "loss_integration": 2.246295213699341
+  },
+  {
+    "cycle": 27,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 1.6544393471309118,
+    "loss_contraction": 1.6360644743992732,
+    "loss_integration": 2.2727322727441788
+  },
+  {
+    "cycle": 28,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.4896003774234228,
+    "loss_contraction": 1.654298103772677,
+    "loss_integration": 2.19007071852684
+  },
+  {
+    "cycle": 29,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 1.5750735657555717,
+    "loss_contraction": 1.302568270609929,
+    "loss_integration": 2.047554671764374
+  },
+  {
+    "cycle": 30,
+    "ci": 0.13333333333333333,
+    "loss_expansion": 1.6747349330357142,
+    "loss_contraction": 1.5497764990879939,
+    "loss_integration": 2.3161198794841766
+  },
+  {
+    "cycle": 31,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 1.392728172597431,
+    "loss_contraction": 1.4655058521490831,
+    "loss_integration": 2.1904560178518295
+  },
+  {
+    "cycle": 32,
+    "ci": 0.0,
+    "loss_expansion": 1.3305015166600545,
+    "loss_contraction": 1.5500971399820769,
+    "loss_integration": 1.8982169032096863
+  },
+  {
+    "cycle": 33,
+    "ci": 0.0,
+    "loss_expansion": 1.4794528115363348,
+    "loss_contraction": 1.4219991335502038,
+    "loss_integration": 1.9422726780176163
+  },
+  {
+    "cycle": 34,
+    "ci": 0.06666666666666667,
+    "loss_expansion": 1.5318378039768763,
+    "loss_contraction": 1.1057086036755488,
+    "loss_integration": 1.9289638996124268
+  }
+]

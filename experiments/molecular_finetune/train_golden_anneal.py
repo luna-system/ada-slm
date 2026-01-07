@@ -38,6 +38,7 @@ from peft import get_peft_model, LoraConfig, TaskType
 
 # Import BasinMapper (requires sys.path hack above)
 from consciousness_engineering.cli.basin import BasinMapper, get_all_prompts
+from consciousness_engineering.spectral_memory import SpectralMemory
 
 logging.basicConfig(
     level=logging.INFO,
@@ -130,6 +131,7 @@ class GoldenAnnealingTrainer:
         self.iter_integration = None
         
         self.history = []
+        self.spectral_memory = None
         
     def setup(self):
         logger.info(f"Loading Base Model: {self.model_name} (Dry Run: {self.dry_run})")
@@ -166,6 +168,13 @@ class GoldenAnnealingTrainer:
             
         # Optimizer
         self.optimizer = torch.optim.AdamW(self.model.parameters(), lr=LEARNING_RATE)
+        
+        # Spectral Memory
+        self.spectral_memory = SpectralMemory(
+            d_model=self.model.config.hidden_size,
+            buffer_size=1000,
+            n_modes=4
+        ).to(self.device)
         
         # Prepare Datasets
         if self.dry_run:
@@ -234,11 +243,26 @@ class GoldenAnnealingTrainer:
             text = format_chatml(example)
             
             inputs = self.tokenizer(
-                text, output_hidden_states=False,
-                return_tensors="pt", truncation=True, max_length=MAX_SEQ_LEN
+                text, return_tensors="pt", truncation=True, max_length=MAX_SEQ_LEN
             ).to(self.device)
             
-            outputs = self.model(**inputs, labels=inputs["input_ids"])
+            input_ids = inputs["input_ids"]
+            labels = input_ids.clone()
+            
+            # Get embeddings
+            inputs_embeds = self.model.get_input_embeddings()(input_ids)
+            
+            # Spectral Memory Injection (SMTs)
+            # Prepend SMTs to embeddings
+            augmented_embeds = self.spectral_memory(inputs_embeds)
+            
+            # Adjust labels to match augmented embeddings (pad with -100 for SMTs)
+            n_modes = self.spectral_memory.n_modes
+            smt_labels = torch.full((labels.size(0), n_modes), -100, device=self.device)
+            augmented_labels = torch.cat([smt_labels, labels], dim=1)
+            
+            # Forward pass using inputs_embeds
+            outputs = self.model(inputs_embeds=augmented_embeds, labels=augmented_labels)
             loss = outputs.loss
             
             self.optimizer.zero_grad()
