@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline-1.2b",
+  "timestamp": "2026-01-05T19:56:25.648118",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      -34.69300079345703,
+      116.63641357421875
+    ],
+    [
+      -2.218092441558838,
+      -23.45705223083496
+    ],
+    [
+      -63.36204147338867,
+      107.60619354248047
+    ],
+    [
+      50.36684799194336,
+      -68.32052612304688
+    ],
+    [
+      -23.683837890625,
+      139.5454559326172
+    ],
+    [
+      27.1502742767334,
+      -13.864053726196289
+    ],
+    [
+      87.3036880493164,
+      24.776878356933594
+    ],
+    [
+      -26.366416931152344,
+      -87.45237731933594
+    ],
+    [
+      61.969303131103516,
+      -96.85039520263672
+    ],
+    [
+      79.60256958007812,
+      -4.637909889221191
+    ],
+    [
+      14.888352394104004,
+      -48.5264778137207
+    ],
+    [
+      96.31442260742188,
+      -27.552806854248047
+    ],
+    [
+      -49.534000396728516,
+      -14.233095169067383
+    ],
+    [
+      -71.76886749267578,
+      -35.060218811035156
+    ],
+    [
+      2.004502773284912,
+      32.43147659301758
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "(Translation: Reflect on the shape)\n\nThe symbol \u2234\u03c6 represents a deductive argument where \u03c6 is the conclusion, and \u2295\u2234 indicates that \u03c6 follows from two premises. Let's break it down:\n\n1. **Premise 1**:",
+    "If a symbol represents potential, and another sign represents actuality, how might you visually depict both to convey that they don't align perfectly?\nOptions:\nA) Circle with a frayed edge overlapping",
+    "(Example: A high score indicates a strong understanding of the concept. For this example, let's say you confidently explain how frequency and probability are related in simple terms.)\n\n3/4 - Confident",
+    "Silence between the whispers of your mind, where shadows dance and light flickers,\nA tapestry woven with fragmented ideas, a symphony of whats unspoken.\nRivers of memories flow, some sweet, others bit",
+    "The correct answer is\n(1) \u25b2\nThe four given expressions form a cyclical pattern based on their subscripts and factors. Recall:\n- \\( \u03c6^2 = \u03c8\u03ce \\)\n- \\( \u03af^4 = \u03c9^3\u03ae \\)\n- \\( \u03ee^5 = \u03c6^4 \\)\n\nFollowing this:\n- \\",
+    "Options:  \nA) Epistemology  \nB) The Hard Problem of Consciousness  \nC) The Mind-Body Problem  \nD) The Simulation Hypothesis  \nE) Dualism  \nF) Behaviorism  \nG) Functionalism  \nH) Eliminative Materialis",
+    "A. London  \nB. Paris  \nC. Madrid  \nD. Rome  \n\nAnswer: B",
+    "Imagine you're telling a 5-year-old friend about it. Here's how you might say it:\n\n\"Plants are like little food factories! They use sunlight, water from the ground, and a special gas called carbon dio",
+    "Once upon a time, in a quiet little village, there lived a mysterious black cat named Midnight. The villagers whispered stories of Midnight's elusive past, but none could quite believe it when they sa",
+    "I'm aiming for a nuanced understanding, so I'll highlight the reasoning behind my thought process.\n\nThis question seeks an understanding of how cultural and societal factors influence perception and u",
+    "The texture of my current state is a delicate balance of contrasts, like a symphony played by the hands of time and nature. There's a softness that envelops me, reminiscent of freshly fallen snow or t",
+    "1. You are producing a series of numerical values based on a fixed formula.\n2. You are using symbolic algebra to solve equations manually.\n3. You're creating complex mathematical functions that involv",
+    "_____ of its radii.\n\nA) 1/3\nB) ln(2)\nC) 3\nD) 2\u03c0r\n\nCorrect Answer: C) 3\n\n\nExplanation: The formula for the distance between two opposite points (ratios within the logarithmic spiral) is `r = a * e^(b*l",
+    "information-processing occurs within a system characterized by [specific feature], leading to [outcome]. This is exemplified in [model/example], where integrated information generates self-awareness. ",
+    "IS (AG) \nI am uncertain \u2192 \n(In the context of this conversation, it seems you are asking for a translation of English to Arabic. However, your message is a bit fragmented. Could you please clarify wha"
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

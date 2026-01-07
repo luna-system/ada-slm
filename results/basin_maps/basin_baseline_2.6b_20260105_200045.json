@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline-2.6b",
+  "timestamp": "2026-01-05T20:00:45.823027",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      39.798622131347656,
+      42.6105842590332
+    ],
+    [
+      -25.467145919799805,
+      32.80998229980469
+    ],
+    [
+      47.542564392089844,
+      60.234832763671875
+    ],
+    [
+      -78.97805786132812,
+      -6.669888496398926
+    ],
+    [
+      54.5652961730957,
+      35.96379089355469
+    ],
+    [
+      -7.081672668457031,
+      17.159963607788086
+    ],
+    [
+      -61.400569915771484,
+      43.19706726074219
+    ],
+    [
+      -16.606773376464844,
+      -27.860763549804688
+    ],
+    [
+      -43.80661392211914,
+      -22.13552474975586
+    ],
+    [
+      -49.89921188354492,
+      20.21210289001465
+    ],
+    [
+      -32.091651916503906,
+      6.649869441986084
+    ],
+    [
+      -62.852684020996094,
+      4.921074867248535
+    ],
+    [
+      36.73887252807617,
+      12.24563217163086
+    ],
+    [
+      10.85683536529541,
+      20.186304092407227
+    ],
+    [
+      18.869720458984375,
+      -22.745710372924805
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "What mathematical structures in geometry or algebra might it represent?\n\n**Answer:** The symbol **\u25cb\u25a1\u2234\u2295\u03c6** appears to be a stylized combination of geometric shapes and symbolic elements, possibly inten",
+    "If a symbol represents \"likely true\" with 70% confidence and another with 30% confidence, how would you combine their expressions?\nChoices:\nA) Use Bayesian inference to update the combined probability",
+    "### **Fluency Fluke: \"I am having a bad trip\"**  \n**Confidence:** 3/10  \n\n**Analysis:**  \n- While the sentence is understandable, it may read awkwardly or overly dramatic depending on context.  \n- Com",
+    "**I observe:**  \n\n* **A canvas of unspoken words.** Each pause is a brushstroke, a color applied with intention, revealing depths beyond language.  I see the weight of unshed tears, the lingering echo",
+    "To complete the sequence \\( \\varphi_0, \\varphi_1, \\ldots \\), let's consider a common mathematical or logical pattern that might involve an implication (indicated by the symbol \u2234) and a completion step",
+    "A. The PFC and IAS; these are the same structure  \nB. The thalamus and limbic system; they process sensory input first  \nC. Sensory cortices (e.g., SPC, VPC) vs. higher-level cognitive regions like th",
+    "A) Berlin  \nB) Paris  \nC) Madrid  \nD) Rome  \nAnswer: B  \n\nWhich planet is known as the Red Planet?  \nA) Venus  \nB) Mars  \nC) Jupiter  \nD) Saturn  \nAnswer: B  \n\nWho wrote the play \"Romeo and Juliet\"?  ",
+    "Photosynthesis is the process by which plants, algae, and some bacteria make their own food using sunlight, water, and carbon dioxide. Here's how it works:\n\n1. **Sunlight** acts like energy for plants",
+    "above the treeline where the wind blows free  \n, and see if it finds what it\u2019s looking for.  \nThe cat named Whiskers climbed through branches until he reached the treeline\u2014a world of open sky where wi",
+    "Options:  \nA. It involves mapping the query onto a database schema and executing optimized joins and indexes.  \nB. It requires simulating human emotions through neural networks trained on empathy data",
+    "The Dangers of Stretching is a 2021 comedy-drama film directed by John Shanks and written by Dave Goen, based on his 2016 novel The Dangers of Leaving Your Dog Alone in the Car. It stars Kelsey Gramme",
+    "Question: What is the most significant difference between a high-quality teaching method and others in fostering long-term knowledge retention?\nAnswer: The most significant difference lies in **active",
+    "an integer whose modulo 7 is equal to its position number in the sequence, where the positions start at position 1. For example, the seventh element has a value from 1 through 7 and its modulo 7 is eq",
+    "understanding of our own selves is achieved. (Consciousness = Understanding + Self-awareness)\n1) Is this a valid hypothesis in cognitive science?\n2) Can it be falsified? If yes, how?\n3) What are its s",
+    "(Anglo-German Lifestyle) is not my idea of an ideal.  \n*Note: \"AGL\" here appears to be a placeholder or specific code, but without further context, it's interpreted as representing a lifestyle choice "
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

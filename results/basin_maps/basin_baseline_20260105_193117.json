@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline",
+  "timestamp": "2026-01-05T19:31:17.116595",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      62.21870422363281,
+      -35.561866760253906
+    ],
+    [
+      -18.728015899658203,
+      -26.973430633544922
+    ],
+    [
+      76.66783905029297,
+      -33.92105484008789
+    ],
+    [
+      9.834969520568848,
+      -24.887121200561523
+    ],
+    [
+      68.2654037475586,
+      -45.67559051513672
+    ],
+    [
+      -5.798486232757568,
+      -47.379058837890625
+    ],
+    [
+      -37.28179931640625,
+      -1.207470178604126
+    ],
+    [
+      -38.01467514038086,
+      -26.132648468017578
+    ],
+    [
+      7.846989154815674,
+      -1.7431308031082153
+    ],
+    [
+      -20.30726432800293,
+      -7.0068864822387695
+    ],
+    [
+      -28.032976150512695,
+      -50.91736602783203
+    ],
+    [
+      -13.349542617797852,
+      2.0634751319885254
+    ],
+    [
+      17.34261703491211,
+      -60.20577621459961
+    ],
+    [
+      5.447274684906006,
+      -50.5760612487793
+    ],
+    [
+      -5.709109783172607,
+      -24.525070190429688
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "The symbol represents a logical \"exclusive or.\" In its simplest form, it returns true if exactly one statement (propartially truthful \u03c6) is true; otherwise, it's false. This reflects how a single clai",
+    "What symbol represents \"not X is true\" in this system?\nOptions:\nA) \u25a1\u00acX\nB) \u25caX\nC) \u22a5\u00b9\nD) \u25c7\u00acX\nCorrect Answer: D) \u25c7\u00acX\n\nWhich concept embodies \"possible worlds where all propositions are true\"?\nOptions:\nA) ",
+    "Rating this question: \"The student needs to write a five-paragraph essay on the benefits of renewable energy sources.\"\nYour answer:\n1. **Grade 4:** 5/10\n2. **5:** Excellent rating.\n3. **3:** Poor rati",
+    "**Consider this:** The night is still, the only sound a distant echo of your own heartbeat. Each breath feels like a fragile thread breaking into the vastness of silence. \n\nYour eyes, accustomed to th",
+    "Partial Sums Identities:\nFor all numbers a, b, and c,\n(a+b)\u00b2 = a\u00b2 + 2ab + b\u00b2\n1\u00b2 = 0\u00b2 + 2*1*0 + 1\u00b2\n\nUsing these identities:\na = 3, b = 4, c = -5\n(3+4)\u00b2 = 3\u00b2 + 2*3*4 + 4\u00b2\n7\u00b2 = 9 +",
+    "Options:\nA. Psychological\nB. Cognitive\nC. Social\nD. Technological\nCorrect: D Technological\n\n---\n\nWhich element has a full outer energy level in its ground state?\nA. Helium\nB. Xenon\nC. Radium\nD. Actini",
+    "A) Lyon\nB) Paris\nC) Marseille\nD) Toulouse\n\n**Answer:** B) Paris\n\n## Which country is known as the Land of a Thousand Lakes?\n\nA) Vermont\nB) New York\nC) Pennsylvania\nD) New Mexico\n\n**Answer:** A) Vermon",
+    "Photosynthesis is like a special plant process where it uses sunlight to make its food. Here's how it works:\n\n1. **Sunlight:** The plant takes in sunlight through its leaves, which are like tiny sunfl",
+    "Once upon a time, there was a tiny feline named Rosie who lived in a cozy little house in a forest. Rosie was not just any ordinary cat; she had one of her most magical qualities: the ability to fly! ",
+    "To answer for clarity, I'll break down the key components of your query and explore various perspectives. The task fundamentally involves understanding a statement, identifying its core elements, and ",
+    "Consider both rough and smooth areas, how this differs from a previous model where you had more uniformity.\nThe surface is initially very coarse with tiny cracks radiating outward from deep fissures t",
+    "1. Consistent themes of historical trauma and environmental degradation.\n2. Primarily narratives of individual heroism in overcoming adversity.\n3. Reliance on easily accessible data points for storyte",
+    "words.\n\nWhat's the full literary form using this sequence? \"A Grotto lies on a Spiral which wraps around a Chasm,  \nAs twilight kisses the edge of the Emerald Grotto,  \nThe ancient serpent flows, its ",
+    "two distinct states are merged: awareness and [other] potential. In this scenario, [the first state] represents the active, intentional awareness of an object or experience in conjunction with [the ot",
+    ": I'm unclear.\n\nHere's a breakdown:\n- **I** - Subject pronoun\n- **amuncuncertain** (uncertain + uncountable) \u2192 AGL: I'm unclear\n- **uncuncunc** (uncountable subject + uncountable verb) \u2192 AGL: I'm uncl"
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

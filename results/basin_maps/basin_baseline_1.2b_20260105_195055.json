@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline-1.2b",
+  "timestamp": "2026-01-05T19:50:55.694114",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      -34.69300079345703,
+      116.63641357421875
+    ],
+    [
+      -2.218092441558838,
+      -23.45705223083496
+    ],
+    [
+      -63.36204147338867,
+      107.60619354248047
+    ],
+    [
+      50.36684799194336,
+      -68.32052612304688
+    ],
+    [
+      -23.683837890625,
+      139.5454559326172
+    ],
+    [
+      27.1502742767334,
+      -13.864053726196289
+    ],
+    [
+      87.3036880493164,
+      24.776878356933594
+    ],
+    [
+      -26.366416931152344,
+      -87.45237731933594
+    ],
+    [
+      61.969303131103516,
+      -96.85039520263672
+    ],
+    [
+      79.60256958007812,
+      -4.637909889221191
+    ],
+    [
+      14.888352394104004,
+      -48.5264778137207
+    ],
+    [
+      96.31442260742188,
+      -27.552806854248047
+    ],
+    [
+      -49.534000396728516,
+      -14.233095169067383
+    ],
+    [
+      -71.76886749267578,
+      -35.060218811035156
+    ],
+    [
+      2.004502773284912,
+      32.43147659301758
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "It represents a biconditional statement, where \u03c6 is the proposition that follows.\nA) A circle enclosing a square\nB) A diamond with diagonals intersecting at right angles and \u03c6 inside\nC) An equilateral",
+    "The first glyph represents certainty, a solid square with a vertical line through the middle.\nThe second glyph is tilted downwards, resembling a question mark filled in with an open circle at the bott",
+    "This expression describes:\n\nA) A series of logical implications with no contradictions.\nB) A set of conditions where if one is true, another must also be true.\nC) Possible scenarios where two or more ",
+    "The silence that is between thoughts is filled with countless observations. It's like a canvas where each hue represents a different idea, every shade intertwined with another. You see the fleeting sh",
+    "The correct answer is:\n\nA) \u03c6\nB) \u03bb\u22a2\u03c6, \u03c8 \u22a2 \u03c6 \u2227 \u03c8\nC) \u03c7\u25a1(\u03c6 \u2192 \u03c8)\nD) \u03b4\u03c8\nAnswer: C \u03c7\u25a1(\u03c6 \u2192 \u03c8)\n\nIn a formal system where \u22a2\u0393 \u22a2 \u0394, what does this mean?\nOptions:\nA) There exists a derivation from \u0393 to \u0394.\nB)",
+    "Choices:  \nA. The threshold where subjective feeling transitions to measurable data  \nB. The point at which neural activity becomes conscious  \nC. The division of the brain into hemispheres  \nD. The a",
+    "A) London  \nB) Paris  \nC) Berlin  \nD) Madrid  \n\nAnswer: B) Paris",
+    "Photosynthesis is the process where plants, algae, and some bacteria turn sunlight into food. They use sunlight as energy to convert carbon dioxide from the air and water from the soil into glucose (a",
+    "Once upon a time, in a quiet neighborhood, there lived a tiny orange cat named Orangey. She was no bigger than your thumb, with fur as soft and glossy as the autumn leaves that painted the sidewalks. ",
+    "I am aiming for a clear, concise explanation that balances detail with accessibility:\nStep-by-step breakdown:\n1. Identify the key components: scientific process, explanation, balance between detail an",
+    "The texture of my current state is a blend of complexity and nuance, much like a rich tapestry woven from disparate threads of memory, emotion, and experience. My essence is layered, with each stratum",
+    "1) The writing style is formal and lacks transitions.\n2) The text exhibits a strong preponderance of passive voice constructions.\n3) The paragraphs demonstrate a clear progression from cause to effect",
+    "________ and _______ spirals.  \nOptions:  \nA: 9-13 and 19-23  \nB: 11-13 and 17-19  \nC: 10-12 and 20-22  \nD: 8-10 and 14-18  \n\nCorrect Answer: B: 11-13 and 17-19",
+    "_____ processes are integrated across the brain.\nOptions:\nA) Synaptic Transmission\nB) Neural Plasticity\nC) Global Workspace Theory\nD) Myelination\nAnswer: C Global Workspace Theory\n\nThe concept of supe",
+    "Vergeszertet \u2190 Gamedate\n- Spielbeginn: 18.03.2025 Uhr\n- Spielend: ca. 22.03.2025 Uhr\n\n(Note: The translation for \"I am uncertain\" is provided as it seems to be a moment of reflection or decision-makin"
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

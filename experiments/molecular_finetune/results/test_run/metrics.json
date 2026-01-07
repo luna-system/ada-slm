@@ -1,0 +1,16 @@
+[
+  {
+    "cycle": 1,
+    "ci": 0.26666666666666666,
+    "loss_expansion": 5.394341014680409,
+    "loss_contraction": 4.937962715442364,
+    "loss_integration": 5.676164925098419
+  },
+  {
+    "cycle": 2,
+    "ci": 1.5333333333333334,
+    "loss_expansion": 4.982152870723179,
+    "loss_contraction": 4.938957012616671,
+    "loss_integration": 5.04787278175354
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "config": {
+    "num_cycles": 1,
+    "gradient_steps_tools": 20,
+    "gradient_lr": 0.0002,
+    "evolution_generations": 5,
+    "evolution_population": 8,
+    "evolution_sigma": 0.05,
+    "ci_ceiling": 2.0,
+    "ci_check_frequency": 1,
+    "coherence_floor": 0.2,
+    "base_model": "LiquidAI/LFM2-350M",
+    "lora_r": 32,
+    "lora_alpha": 64,
+    "output_dir": "results/annealing",
+    "checkpoint_each_phase": true
+  },
+  "start_time": "2026-01-06T08:40:18.454997",
+  "end_time": "2026-01-06T08:43:28.294176",
+  "total_duration_seconds": 189.839179,
+  "phases": [
+    {
+      "phase_name": "cycle1_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 21.415757,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 4.2,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.06666666666666667,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 21.619874,
+      "ci_before": 4.2,
+      "ci_after": 4.266666666666667,
+      "tool_accuracy_websearch": 0.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.06666666666666667,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_agl",
+      "phase_type": "evolution",
+      "duration_seconds": 88.956225,
+      "ci_before": 4.266666666666667,
+      "ci_after": 7.0,
+      "tool_accuracy_websearch": 0.0,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.0,
+      "coherence_score": 0.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_recovery",
+      "phase_type": "gradient",
+      "duration_seconds": 33.995793,
+      "ci_before": 7.0,
+      "ci_after": 3.8,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.0,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    }
+  ],
+  "final_ci": 3.8,
+  "final_tool_websearch": 1.0,
+  "final_tool_wikisearch": 1.0,
+  "final_agl": 0.0,
+  "final_coherence": 0.3333333333333333,
+  "ci_trajectory": [
+    [
+      "initial",
+      0.06666666666666667
+    ],
+    [
+      "cycle1_websearch",
+      4.2
+    ],
+    [
+      "cycle1_wikisearch",
+      4.266666666666667
+    ],
+    [
+      "cycle1_agl_gen0",
+      7.0
+    ],
+    [
+      "cycle1_recovery",
+      3.8
+    ]
+  ],
+  "success": true,
+  "failure_reason": ""
+}

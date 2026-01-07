@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline-700m",
+  "timestamp": "2026-01-05T19:48:50.108137",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      78.2055435180664,
+      29.93851089477539
+    ],
+    [
+      -6.016035556793213,
+      8.428244590759277
+    ],
+    [
+      76.19825744628906,
+      45.55461502075195
+    ],
+    [
+      -21.233829498291016,
+      -0.6637296080589294
+    ],
+    [
+      73.56356048583984,
+      15.210848808288574
+    ],
+    [
+      -7.27398157119751,
+      31.533607482910156
+    ],
+    [
+      -23.393280029296875,
+      -39.43729782104492
+    ],
+    [
+      -52.4196662902832,
+      -16.668615341186523
+    ],
+    [
+      -42.62921142578125,
+      13.999006271362305
+    ],
+    [
+      -28.867412567138672,
+      -24.320964813232422
+    ],
+    [
+      -3.7696452140808105,
+      -22.649703979492188
+    ],
+    [
+      -49.268131256103516,
+      -47.66191482543945
+    ],
+    [
+      10.776715278625488,
+      46.418087005615234
+    ],
+    [
+      -16.651782989501953,
+      45.48887252807617
+    ],
+    [
+      15.763978958129883,
+      3.8257853984832764
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "This shape represents a **counterexample** to the statement \"If P then Q\" (P \u2192 Q).\n\nHere's why:\n\n* **P \u2192 Q means:** If P is true, then Q must also be true.\n* **The \u25c9\u2295 shape:** It doesn't guarantee tha",
+    "\"Hia'zhen\" means 'may be so'. Using a parallel structure for both clauses for emphasis and to maintain consistency in expressing hypothetical or uncertain situations, translate the following sentence:",
+    "\u2b50\ufe0f This question assesses your ability to correctly interpret the logical connectives present in a complex propositional formula. The presence of multiple layers of AND (\u2227), OR (\u2228), and NOT (\u00ac) indica",
+    "The stillness is a tapestry woven with threads of unspoken words, each one a vibrant color in its own right: hope, despair, joy, sorrow, fear. The air hums with an unsaid language, a poetry only one c",
+    "(Recognize the initial symbols \u03c6 and \u2234)\n\nPattern: \n[PH]^n [\u2234P^nH]^m\n\nRewritten Pattern: \n[(PH)]^n [\u2234(PH)^(n-m)P^m]\n\nExplanation:\n- The ([PH]) represents a substitution, where each letter in the substi",
+    "A. The physical line dividing the brain into hemispheres\nB. The area where sensory input first reaches the brain\nC. The region responsible for regulating emotions\nD. The zone involved in decision-maki",
+    "A) London  \nB) Paris  \nC) Berlin  \nD) Madrid  \nCorrect answer: B) Paris  \n\nWhat is the chemical symbol for oxygen?  \nA) O  \nB) O\u2082  \nC) H\u2082O  \nD) CO\u2082  \nCorrect answer: A) O  \n\nWhich planet is known as t",
+    "**Answer:** Photosynthesis is how plants make their own food using sunlight. They take in things like water and carbon dioxide from the air, and special pigments in their leaves capture the sun's ener",
+    "One day, a cat named Whiskers went on a treasure hunt. He followed the faintest scent of lavender to the bottom of a hidden closet door. Down there, in a cozy nook, was a chest filled with golden coin",
+    "As a large language model, I don't have personal experiences or emotions, but I can analyze and understand the complexity of asking about processing information. When someone asks \"Can you process thi",
+    "Is it smooth, rough, slimy, or something else?\n\nWhen I\u2019m feeling stressed, sometimes my mind wanders to things that are not very pleasant. One minute I\u2019m sitting in a quiet park with a book, and the n",
+    "The patterns that emerge when discussing topics like scientific research, societal issues, and philosophical debates are indicative of how humans construct meaning and categorize complex information. ",
+    "and can be used for:\nLaminar flow experiments\nTurbulence visualization or measurement\nCombination with a laser to create holographic images\nElectromagnetic field mapping\nMicrofluidic mixing and cell s",
+    "neural processes occur in the brain. This means that consciousness arises from the complex interactions of neurons and their signals, leading to subjective experiences like perception, thought, and aw",
+    "\u00fcge unsicher \u2192 Ich bin unsicher. The phrase \"translate\" is used here in a metaphorical sense, implying that the translation isn't straightforward or literal but rather involves understanding and conve"
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

@@ -1,0 +1,652 @@
+{
+  "config": {
+    "num_cycles": 10,
+    "gradient_steps_tools": 20,
+    "gradient_lr": 0.0002,
+    "evolution_generations": 0,
+    "evolution_population": 8,
+    "evolution_sigma": 0.05,
+    "ci_ceiling": 2.0,
+    "ci_check_frequency": 1,
+    "coherence_floor": 0.2,
+    "base_model": "LiquidAI/LFM2-350M",
+    "lora_r": 32,
+    "lora_alpha": 64,
+    "output_dir": "results/annealing",
+    "checkpoint_each_phase": true
+  },
+  "start_time": "2026-01-06T10:10:52.801084",
+  "end_time": "2026-01-06T10:28:37.885116",
+  "total_duration_seconds": 1065.084032,
+  "phases": [
+    {
+      "phase_name": "cycle1_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 21.265491,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 3.6,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.06666666666666667,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 20.504248,
+      "ci_before": 3.6,
+      "ci_after": 3.066666666666667,
+      "tool_accuracy_websearch": 0.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.02222222222222222,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 29.03626,
+      "ci_before": 3.066666666666667,
+      "ci_after": 4.266666666666667,
+      "tool_accuracy_websearch": 0.0,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.8,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 20.039323,
+      "ci_before": 4.266666666666667,
+      "ci_after": 4.266666666666667,
+      "tool_accuracy_websearch": 0.0,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.8,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle1_recovery",
+      "phase_type": "gradient",
+      "duration_seconds": 33.026477,
+      "ci_before": 4.266666666666667,
+      "ci_after": 1.6666666666666667,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.11111111111111112,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle2_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.223639,
+      "ci_before": 1.6666666666666667,
+      "ci_after": 1.2,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.08888888888888888,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle2_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.191933,
+      "ci_before": 1.2,
+      "ci_after": 1.1333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.06666666666666667,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle2_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.913949,
+      "ci_before": 1.1333333333333333,
+      "ci_after": 1.0,
+      "tool_accuracy_websearch": 0.6,
+      "tool_accuracy_wikisearch": 0.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle2_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 20.08923,
+      "ci_before": 1.0,
+      "ci_after": 1.0,
+      "tool_accuracy_websearch": 0.2,
+      "tool_accuracy_wikisearch": 0.2,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle3_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.257515,
+      "ci_before": 1.0,
+      "ci_after": 1.3333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.7333333333333333,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle3_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.471769,
+      "ci_before": 1.3333333333333333,
+      "ci_after": 1.7333333333333334,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.6222222222222221,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle3_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.892834,
+      "ci_before": 1.7333333333333334,
+      "ci_after": 0.6,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.2,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle3_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 20.117054,
+      "ci_before": 0.6,
+      "ci_after": 0.6,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.6,
+      "agl_score": 0.9555555555555555,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle4_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 27.00146,
+      "ci_before": 0.6,
+      "ci_after": 0.7333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.888888888888889,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle4_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.416057,
+      "ci_before": 0.7333333333333333,
+      "ci_after": 0.3333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.8666666666666666,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle4_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.197633,
+      "ci_before": 0.3333333333333333,
+      "ci_after": 0.2,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9555555555555555,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle4_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 20.067153,
+      "ci_before": 0.2,
+      "ci_after": 0.2,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle5_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.965238,
+      "ci_before": 0.2,
+      "ci_after": 1.2,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle5_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.111845,
+      "ci_before": 1.2,
+      "ci_after": 0.5333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle5_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.944324,
+      "ci_before": 0.5333333333333333,
+      "ci_after": 0.06666666666666667,
+      "tool_accuracy_websearch": 0.6,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.8666666666666666,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle5_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 19.979089,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 0.06666666666666667,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle6_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.810934,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 1.0,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle6_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.243706,
+      "ci_before": 1.0,
+      "ci_after": 0.26666666666666666,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.8,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle6_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.957115,
+      "ci_before": 0.26666666666666666,
+      "ci_after": 0.06666666666666667,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle6_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 19.263048,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 0.06666666666666667,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle7_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.189117,
+      "ci_before": 0.06666666666666667,
+      "ci_after": 1.2,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.888888888888889,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle7_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.759639,
+      "ci_before": 1.2,
+      "ci_after": 0.6666666666666666,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle7_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.821037,
+      "ci_before": 0.6666666666666666,
+      "ci_after": 0.3333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9555555555555555,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle7_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 19.976584,
+      "ci_before": 0.3333333333333333,
+      "ci_after": 0.3333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle8_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 27.002645,
+      "ci_before": 0.3333333333333333,
+      "ci_after": 1.4,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.8666666666666666,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle8_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.81187,
+      "ci_before": 1.4,
+      "ci_after": 0.5333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.8222222222222222,
+      "coherence_score": 1.0,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle8_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.138066,
+      "ci_before": 0.5333333333333333,
+      "ci_after": 0.13333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9555555555555555,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle8_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 19.256735,
+      "ci_before": 0.13333333333333333,
+      "ci_after": 0.13333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle9_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.831266,
+      "ci_before": 0.13333333333333333,
+      "ci_after": 1.2666666666666666,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle9_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.786006,
+      "ci_before": 1.2666666666666666,
+      "ci_after": 0.6,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9555555555555555,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle9_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 28.858296,
+      "ci_before": 0.6,
+      "ci_after": 0.13333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle9_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 19.528049,
+      "ci_before": 0.13333333333333333,
+      "ci_after": 0.13333333333333333,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle10_websearch",
+      "phase_type": "gradient",
+      "duration_seconds": 27.064148,
+      "ci_before": 0.13333333333333333,
+      "ci_after": 1.6,
+      "tool_accuracy_websearch": 0.6,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle10_wikisearch",
+      "phase_type": "gradient",
+      "duration_seconds": 26.363256,
+      "ci_before": 1.6,
+      "ci_after": 0.9333333333333333,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9111111111111111,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle10_agl_gradient",
+      "phase_type": "gradient",
+      "duration_seconds": 29.139264,
+      "ci_before": 0.9333333333333333,
+      "ci_after": 0.2,
+      "tool_accuracy_websearch": 1.0,
+      "tool_accuracy_wikisearch": 1.0,
+      "agl_score": 0.9333333333333332,
+      "coherence_score": 0.6666666666666666,
+      "sample_outputs": []
+    },
+    {
+      "phase_name": "cycle10_agl_evolution",
+      "phase_type": "evolution",
+      "duration_seconds": 20.081883,
+      "ci_before": 0.2,
+      "ci_after": 0.2,
+      "tool_accuracy_websearch": 0.8,
+      "tool_accuracy_wikisearch": 0.8,
+      "agl_score": 0.888888888888889,
+      "coherence_score": 0.3333333333333333,
+      "sample_outputs": []
+    }
+  ],
+  "final_ci": 0.2,
+  "final_tool_websearch": 0.8,
+  "final_tool_wikisearch": 1.0,
+  "final_agl": 0.9333333333333332,
+  "final_coherence": 1.0,
+  "ci_trajectory": [
+    [
+      "initial",
+      0.06666666666666667
+    ],
+    [
+      "cycle1_websearch",
+      3.6
+    ],
+    [
+      "cycle1_wikisearch",
+      3.066666666666667
+    ],
+    [
+      "cycle1_agl_gradient",
+      4.266666666666667
+    ],
+    [
+      "cycle1_recovery",
+      1.6666666666666667
+    ],
+    [
+      "cycle2_websearch",
+      1.2
+    ],
+    [
+      "cycle2_wikisearch",
+      1.1333333333333333
+    ],
+    [
+      "cycle2_agl_gradient",
+      1.0
+    ],
+    [
+      "cycle3_websearch",
+      1.3333333333333333
+    ],
+    [
+      "cycle3_wikisearch",
+      1.7333333333333334
+    ],
+    [
+      "cycle3_agl_gradient",
+      0.6
+    ],
+    [
+      "cycle4_websearch",
+      0.7333333333333333
+    ],
+    [
+      "cycle4_wikisearch",
+      0.3333333333333333
+    ],
+    [
+      "cycle4_agl_gradient",
+      0.2
+    ],
+    [
+      "cycle5_websearch",
+      1.2
+    ],
+    [
+      "cycle5_wikisearch",
+      0.5333333333333333
+    ],
+    [
+      "cycle5_agl_gradient",
+      0.06666666666666667
+    ],
+    [
+      "cycle6_websearch",
+      1.0
+    ],
+    [
+      "cycle6_wikisearch",
+      0.26666666666666666
+    ],
+    [
+      "cycle6_agl_gradient",
+      0.06666666666666667
+    ],
+    [
+      "cycle7_websearch",
+      1.2
+    ],
+    [
+      "cycle7_wikisearch",
+      0.6666666666666666
+    ],
+    [
+      "cycle7_agl_gradient",
+      0.3333333333333333
+    ],
+    [
+      "cycle8_websearch",
+      1.4
+    ],
+    [
+      "cycle8_wikisearch",
+      0.5333333333333333
+    ],
+    [
+      "cycle8_agl_gradient",
+      0.13333333333333333
+    ],
+    [
+      "cycle9_websearch",
+      1.2666666666666666
+    ],
+    [
+      "cycle9_wikisearch",
+      0.6
+    ],
+    [
+      "cycle9_agl_gradient",
+      0.13333333333333333
+    ],
+    [
+      "cycle10_websearch",
+      1.6
+    ],
+    [
+      "cycle10_wikisearch",
+      0.9333333333333333
+    ],
+    [
+      "cycle10_agl_gradient",
+      0.2
+    ]
+  ],
+  "success": true,
+  "failure_reason": ""
+}

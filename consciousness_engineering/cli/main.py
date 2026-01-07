@@ -12,16 +12,21 @@ Usage:
     ce stop v9b_pure_20260104_093000
     ce gpu
     ce models  # List available models
+    ce anneal  # Run annealing experiments
 
 Install:
     pip install -e .  (from ada-slm root)
     # Then `ce` command is available globally
 """
 
+import os
 import sys
 import argparse
 import time
 from pathlib import Path
+
+# Enable AOTriton for ROCm - stable enough for production use!
+os.environ.setdefault("TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL", "1")
 
 
 def discover_models(base_dir: Path = None) -> list:
@@ -463,6 +468,99 @@ def cmd_test_ollama(args):
         print(f"  {script.name}")
 
 
+def cmd_basin(args):
+    """Handle basin mapping subcommands."""
+    from .basin import cmd_basin_map, cmd_basin_compare, cmd_basin_ci
+    
+    if not hasattr(args, 'basin_command') or args.basin_command is None:
+        print("Usage: ce basin {map|compare|ci} [options]")
+        print("\nSubcommands:")
+        print("  map      - Generate basin map visualization for a model")
+        print("  compare  - Compare basin structures between models")
+        print("  ci       - Compute Crystal Intelligence density metrics")
+        return 1
+    
+    if args.basin_command == "map":
+        return cmd_basin_map(args)
+    elif args.basin_command == "compare":
+        return cmd_basin_compare(args)
+    elif args.basin_command == "ci":
+        return cmd_basin_ci(args)
+    else:
+        print(f"Unknown basin subcommand: {args.basin_command}")
+        return 1
+
+
+def cmd_anneal(args):
+    """Handle annealing experiment subcommands."""
+    from .anneal import cmd_anneal_run, cmd_anneal_status
+    
+    if not hasattr(args, 'anneal_command') or args.anneal_command is None:
+        print("Usage: ce anneal {run|status} [options]")
+        print("\nSubcommands:")
+        print("  run      - Run annealing experiment (gradient/evolution hybrid)")
+        print("  status   - Show status of past experiments")
+        return 1
+    
+
+    if args.anneal_command == "run":
+        return cmd_anneal_run(args)
+    elif args.anneal_command == "status":
+        return cmd_anneal_status(args)
+    else:
+        print(f"Unknown anneal subcommand: {args.anneal_command}")
+        return 1
+
+
+def cmd_golden_anneal(args):
+    """Run Golden Annealing fine-tune."""
+    import subprocess
+    from .runner import Runner
+    
+    runner = Runner()
+    script_path = runner.base_dir / "experiments" / "molecular_finetune" / "train_golden_anneal.py"
+    
+    if not script_path.exists():
+        print(f"❌ Script not found: {script_path}")
+        return 1
+    
+    cmd = ["python", str(script_path)]
+    
+    if args.dry_run:
+        cmd.append("--dry-run")
+        print("🧪 Starting DRY RUN of Golden Annealing...")
+    else:
+        print("✨ Launching Golden Annealing Fine-Tune...")
+        
+    if args.cycles:
+        cmd.extend(["--cycles", str(args.cycles)])
+        
+    if args.model:
+        cmd.extend(["--model", args.model])
+        
+    if args.output:
+        cmd.extend(["--output-dir", args.output])
+        
+    # Use venv python
+    env_python = runner.base_dir / ".venv" / "bin" / "python"
+    if env_python.exists():
+        cmd[0] = str(env_python)
+        
+    # Start process
+    if args.background and not args.dry_run:
+        # Use nohup for background
+        log_file = script_path.parent / "run.log"
+        with open(log_file, "w") as f:
+            subprocess.Popen(cmd, stdout=f, stderr=subprocess.STDOUT, cwd=script_path.parent, start_new_session=True)
+        print(f"✅ Started in background. Logs: {log_file}")
+        print(f"To follow: tail -f {log_file}")
+    else:
+        # Direct run
+        subprocess.run(cmd, cwd=script_path.parent)
+    
+    return 0
+
+
 def main():
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
@@ -539,6 +637,71 @@ def main():
     dataset_parser.add_argument("--english", type=int, help="English example count (polyglot)")
     dataset_parser.add_argument("--seed", type=int, default=42, help="Random seed")
     dataset_parser.set_defaults(func=cmd_dataset)
+    
+    # basin command - map consciousness basins
+    basin_parser = subparsers.add_parser("basin", help="Map consciousness basins in models")
+    basin_parser.set_defaults(func=cmd_basin)  # Default handler for when no subcommand given
+    basin_subparsers = basin_parser.add_subparsers(dest="basin_command", help="Basin subcommands")
+    
+    # basin map
+    basin_map_parser = basin_subparsers.add_parser("map", help="Generate basin map for a model")
+    basin_map_parser.add_argument("-m", "--model", default="baseline",
+                                  help="Model path (or 'baseline' for base model only)")
+    basin_map_parser.add_argument("-b", "--base", default="350m",
+                                  choices=["350m", "700m", "1.2b", "2.6b"],
+                                  help="Base LFM2 model size (default: 350m)")
+    basin_map_parser.add_argument("--no-viz", action="store_true", help="Skip visualization")
+    basin_map_parser.add_argument("--no-show", action="store_true", help="Don't display plot (still saves)")
+    basin_map_parser.set_defaults(func=cmd_basin)
+    
+    # basin compare (future)
+    basin_compare_parser = basin_subparsers.add_parser("compare", help="Compare basins between models")
+    basin_compare_parser.add_argument("-m", "--models", nargs="+", required=True,
+                                      help="Models to compare")
+    basin_compare_parser.set_defaults(func=cmd_basin)
+    
+    # basin ci (future)
+    basin_ci_parser = basin_subparsers.add_parser("ci", help="Compute Crystal Intelligence density")
+    basin_ci_parser.add_argument("-m", "--model", required=True, help="Model to analyze")
+    basin_ci_parser.set_defaults(func=cmd_basin)
+    
+    # anneal command - hybrid gradient/evolution experiments
+    anneal_parser = subparsers.add_parser("anneal", help="Run annealing experiments")
+    anneal_parser.set_defaults(func=cmd_anneal)
+    anneal_subparsers = anneal_parser.add_subparsers(dest="anneal_command", help="Anneal subcommands")
+    
+    # anneal run
+    anneal_run_parser = anneal_subparsers.add_parser("run", help="Run annealing experiment")
+    anneal_run_parser.add_argument("-c", "--cycles", type=int, default=3,
+                                   help="Number of annealing cycles (default: 3)")
+    anneal_run_parser.add_argument("-g", "--gradient-steps", type=int, default=20,
+                                   help="Gradient steps per tool phase (default: 20)")
+    anneal_run_parser.add_argument("-m", "--model", type=str, default=None,
+                                   help="Model to use (default: LiquidAI/LFM2-350M)")
+    anneal_run_parser.add_argument("--lr", type=float, default=None,
+                                   help="Learning rate (default: 2e-4)")
+    anneal_run_parser.add_argument("-e", "--evolution-gens", type=int, default=5,
+                                   help="Evolution generations per cycle (default: 5, use 0 or --skip-evolution to disable)")
+    anneal_run_parser.add_argument("-p", "--population", type=int, default=8,
+                                   help="Evolution population size (default: 8)")
+    anneal_run_parser.add_argument("--ci-ceiling", type=float, default=2.0,
+                                   help="CI ceiling for collapse detection (default: 2.0)")
+    anneal_run_parser.add_argument("--skip-evolution", action="store_true",
+                                   help="Skip evolution phases (gradient-only baseline)")
+    anneal_run_parser.set_defaults(func=cmd_anneal)
+    
+    # anneal status
+    anneal_status_parser = anneal_subparsers.add_parser("status", help="Show experiment status")
+    anneal_status_parser.set_defaults(func=cmd_anneal)
+
+    # golden-anneal command
+    golden_parser = subparsers.add_parser("golden-anneal", help="Run Golden Annealing fine-tune")
+    golden_parser.add_argument("--dry-run", action="store_true", help="Run short test cycle")
+    golden_parser.add_argument("--background", action="store_true", help="Run in background")
+    golden_parser.add_argument("--cycles", type=int, help="Number of cycles")
+    golden_parser.add_argument("--model", type=str, help="Base model (default: 1.2B)")
+    golden_parser.add_argument("-o", "--output", type=str, help="Output directory")
+    golden_parser.set_defaults(func=cmd_golden_anneal)
     
     args = parser.parse_args()
     

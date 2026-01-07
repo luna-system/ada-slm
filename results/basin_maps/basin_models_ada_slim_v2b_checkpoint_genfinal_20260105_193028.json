@@ -1,0 +1,124 @@
+{
+  "model_name": "models/ada-slim-v2b/checkpoint-genfinal",
+  "timestamp": "2026-01-05T19:30:28.871331",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      -60.59475326538086,
+      3.189326047897339
+    ],
+    [
+      27.75617218017578,
+      -41.61039352416992
+    ],
+    [
+      22.651691436767578,
+      -69.73745727539062
+    ],
+    [
+      31.345733642578125,
+      18.899030685424805
+    ],
+    [
+      -63.14859390258789,
+      19.547761917114258
+    ],
+    [
+      37.665870666503906,
+      -6.204235553741455
+    ],
+    [
+      9.675813674926758,
+      -4.893935203552246
+    ],
+    [
+      45.77613067626953,
+      -40.369136810302734
+    ],
+    [
+      9.826728820800781,
+      54.583858489990234
+    ],
+    [
+      8.569721221923828,
+      11.210208892822266
+    ],
+    [
+      78.84230041503906,
+      -53.860023498535156
+    ],
+    [
+      45.033409118652344,
+      34.31521987915039
+    ],
+    [
+      76.2905502319336,
+      -36.967430114746094
+    ],
+    [
+      -23.181224822998047,
+      13.418455123901367
+    ],
+    [
+      -1.2421666383743286,
+      34.401527404785156
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "patterns gradual observed emerges pollut vib substr vib emergence IM emergen intermittent emergenceemannzmples congregation EM concrete concrete substr observes congregation nm spontaneous uv Nim subs",
+    "concrete EE observed ecological ecosystem pollut intermittent emergence evolutionary vib observed Nim EM ecological observes gradual posts IM substr observed concrete observations WIT erosion patterns",
+    "EM emergence emerge IM spl concrete sandy vib emerges observesisson coinc emergen \u00f6k Nim Levi\ufffd emerge emergence springs emergencenehm correlations ecological emergence Polo emeromon concrete emerge sp",
+    "vib IM Nimemann vib vib posts Pat IM concrete static emergenPat patterns coinc pollution observing uv EE observed emergence observesples nm intermittent observingeme intermittent patterns observation ",
+    "concretegem patterns nm emergeszm observed patterns observe congregation Pat communities evolutionary emergence spontaneous uv vib nm observes IMPat EE substr patterns observing EM posting gradual \ud328em",
+    "concreteisson observes vibPat IM patterns Nim emergence intermittent IM gradual nm observes Nim EM mineral emergence observed observed concreteomongem geneticidan infrastructure pav observing static s",
+    "gradual Nim IM vibgem spont posts concrete NimPat Nim Nim substr emerge emergence genetic coinc predic patterns substr infrastructure Nim observes substr EM emerges observing Kom mn emergen concrete o",
+    "emergen nm ecological Nim observed vib EM emergen emerges concrete observes coinc IM concrete sanitation PatemannPat Tunis substrPat predic concrete dynamicPat patterns EE observesgem\u63a1\u7528 Nim observatio",
+    "patterns vib patterns patterns posting pav Pat emergenceisson patterns pav observation pav patterns patterns patterns intermittent opportun concrete EM EE observes PM observes embedded observed EM uv ",
+    "vib EM-MitgliedPat patterns mineral posts coinc intermittent nm emergen emergence IM embedding concrete Pat emerge Nim static emerges IM communities patterns concreteemann emergen EM observing\u63a1\u7528 patte",
+    "concrete Pat intermittent EM patterns embedding intermittent patterns observation patterns EM emergen IM uv patterns Ez Nim emergence MN-MitgliedNor emerges emergence coinc ham Nim observes observed E",
+    "emergence substr patternsPatPat intermittentemann patterns Nim concrete EM substr emergen Pat embedding observed observe patterns coinc emergence emergence patterns EE concrete observing emerges obser",
+    "emergenceEmb observedomon substr emerges observation EM observedemann nm congregation Nim Euras ecological predic vib concrete concrete Tunis emergen phylogenetic EE vib observes concrete observes eco",
+    "gradual sediment substr emergence vib IM patterns embedding concrete mineral Nimples patterns spontaneous congregationPat ecosystem communities Nim smooth substr emergence embedded observes dump pollu",
+    "sediment vib posting observation emergence patterns pav patterns intermittent ecosystems intermittent static observes concreteemann evolutionary slow gradual predic Nim patterns EM vib ep IM nm vib ec"
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 7.0,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}

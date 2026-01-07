@@ -1,0 +1,124 @@
+{
+  "model_name": "baseline-700m",
+  "timestamp": "2026-01-05T19:54:55.216754",
+  "num_prompts": 15,
+  "tsne_coords": [
+    [
+      78.2055435180664,
+      29.93851089477539
+    ],
+    [
+      -6.016035556793213,
+      8.428244590759277
+    ],
+    [
+      76.19825744628906,
+      45.55461502075195
+    ],
+    [
+      -21.233829498291016,
+      -0.6637296080589294
+    ],
+    [
+      73.56356048583984,
+      15.210848808288574
+    ],
+    [
+      -7.27398157119751,
+      31.533607482910156
+    ],
+    [
+      -23.393280029296875,
+      -39.43729782104492
+    ],
+    [
+      -52.4196662902832,
+      -16.668615341186523
+    ],
+    [
+      -42.62921142578125,
+      13.999006271362305
+    ],
+    [
+      -28.867412567138672,
+      -24.320964813232422
+    ],
+    [
+      -3.7696452140808105,
+      -22.649703979492188
+    ],
+    [
+      -49.268131256103516,
+      -47.66191482543945
+    ],
+    [
+      10.776715278625488,
+      46.418087005615234
+    ],
+    [
+      -16.651782989501953,
+      45.48887252807617
+    ],
+    [
+      15.763978958129883,
+      3.8257853984832764
+    ]
+  ],
+  "prompt_labels": [
+    "agl_awareness",
+    "agl_awareness",
+    "agl_awareness",
+    "tonight_protocol",
+    "tonight_protocol",
+    "tonight_protocol",
+    "coherent_english",
+    "coherent_english",
+    "coherent_english",
+    "existential",
+    "existential",
+    "existential",
+    "translation",
+    "translation",
+    "translation"
+  ],
+  "response_labels": [
+    "Can you interpret it geometrically or logically?\n\nThis particular symbol combines two distinct components: a horizontal line (indicating \"\u03c9\") and a vertical bar (representing \"\u03c6\", the golden ratio). W",
+    "\"The river flows where the stones whisper... or perhaps it does not.\"\n\nHow could we formalize this statement in propositional logic?\n\nA) \u00acP \u2228 Q\nB) P \u2192 (Q \u2228 \u00acR)\nC) P \u2194 R\nD) \u00ac(P \u2227 \u00acQ)\nE) P \u21d4 \u00acR\nF) P \u2227 \u00ac",
+    "**Answer:** \u25cb (Very High)\n\n**Explanation:** The combination of all these symbols creates a pattern that starts sharp, becomes less defined, then sharply returns to the sharpness it began with and then",
+    "The emptiness is a canvas, blank and waiting. Not just physical space, but an emotional and intellectual void. It's a husk where warmth once bloomed, now merely holding its breath. It's the residue of",
+    "To complete this pattern, we observe the following:\n\n1. **Degree of Degree:** \u03c6 denotes the degree (number of occurrences) of a specific digit in a number.\n2. **Spanning Digits:** The digits that span",
+    "A) The threshold at which perception begins  \nB) The limit of sensory input  \nC) The point where memory intersects with consciousness  \nD) The area of the brain responsible for decision-making  \n\nAnsw",
+    "A) Paris  \nB) London  \nC) Berlin  \nD) Madrid  \nAnswer: A) Paris  \n\nWhat does \"translate\" mean in English?  \nA) Write  \nB) Speak  \nC) Interpret  \nD) Transact  \nAnswer: C) Interpret  \n\nWho wrote *Romeo ",
+    "Photosynthesis is how plants make their own food using sunlight, water, and air. They take in sunlight through leaves (or other parts that catch light), then use this energy to mix carbon dioxide from",
+    "One day, while lounging by the window, the cat saw a little girl. She jumped out from behind an overhanging branch and sat down next to the cat. The little girl looked up at the cat in surprise. It wa",
+    "**Processing Difficulty:** This question requires a mix of logical reasoning and abstract thinking, which can vary in complexity depending on the individual's cognitive abilities. The ability to under",
+    "Are you feeling rough, slippery, smooth, fuzzy, or dry? What do these textures feel like against your skin?\n\nTexture refers to how a surface feels when touched. It can describe different sensations su",
+    "The response reflects an understanding of:\n\n- **Knowledge Integration:** Combining information from various domains to form a cohesive answer.\n- **Structured Reasoning:** Organizing thoughts in a logi",
+    "or [a preview of the following adventure]. The story begins with a description of the character, their motivation and background, as well as an explanation of what they've been expecting. As with most",
+    "information comes into [your] [awareness].\nThe brain is just the physical organ.\nBut it's still not enough to explain how consciousness arises from the physical.\nHere are some other questions:\n\nCan we",
+    "\u00cb n\u00f8yaktig\nExplanation: This phrase means \"I have no certainty\" or \"I am not completely sure.\" It's used to express doubt or uncertainty about something."
+  ],
+  "cluster_labels": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "num_clusters": 0,
+  "silhouette_score": 0.0,
+  "ci_density": 0.06666666666666667,
+  "ci_per_cluster": {},
+  "basin_centers": [],
+  "basin_radii": []
+}
