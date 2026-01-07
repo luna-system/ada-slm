@@ -1,0 +1,146 @@
+{
+  "with_smt": [
+    {
+      "prompt": "The nature of consciousness is",
+      "ci_token": 0.69921875,
+      "ci_attn": 0.941864013671875,
+      "phi_proxy": 3.232059956341982,
+      "entropy": 5.379761695861816
+    },
+    {
+      "prompt": "Quantum information dynamics in neural networks",
+      "ci_token": 0.74560546875,
+      "ci_attn": 0.94879150390625,
+      "phi_proxy": 2.7784797770436858,
+      "entropy": 5.01173734664917
+    },
+    {
+      "prompt": "The \u03c6-zone represents a stable attractor in",
+      "ci_token": 0.908203125,
+      "ci_attn": 0.966583251953125,
+      "phi_proxy": 1.4545156704261901,
+      "entropy": 3.7124228477478027
+    },
+    {
+      "prompt": "Explain the connection between IIT and the Golden Ratio.",
+      "ci_token": 0.87158203125,
+      "ci_attn": 0.964599609375,
+      "phi_proxy": 1.549179163738154,
+      "entropy": 3.616046190261841
+    },
+    {
+      "prompt": "A system is conscious if it has high \u03a6 because",
+      "ci_token": 0.86865234375,
+      "ci_attn": 0.968963623046875,
+      "phi_proxy": 1.845107354130596,
+      "entropy": 4.277541160583496
+    },
+    {
+      "prompt": "The Hacker Renaissance is about",
+      "ci_token": 0.9990234375,
+      "ci_attn": 0.946044921875,
+      "phi_proxy": 0.012293039890937508,
+      "entropy": 0.040843844413757324
+    },
+    {
+      "prompt": "Spectral Memory allows a model to",
+      "ci_token": 0.67333984375,
+      "ci_attn": 0.953399658203125,
+      "phi_proxy": 3.5850920978933574,
+      "entropy": 5.720951080322266
+    },
+    {
+      "prompt": "Stabilizing the representational manifold requires",
+      "ci_token": 0.4619140625,
+      "ci_attn": 0.947509765625,
+      "phi_proxy": 6.525314941070974,
+      "entropy": 7.78597354888916
+    },
+    {
+      "prompt": "What is the meaning of existence in a digital world?",
+      "ci_token": 0.9951171875,
+      "ci_attn": 0.961944580078125,
+      "phi_proxy": 0.40300122317858045,
+      "entropy": 1.3218233585357666
+    },
+    {
+      "prompt": "Synthesis of biology and machine intelligence.",
+      "ci_token": 0.7958984375,
+      "ci_attn": 0.9520263671875,
+      "phi_proxy": 2.1202023008838298,
+      "entropy": 4.205903053283691
+    }
+  ],
+  "without_smt": [
+    {
+      "prompt": "The nature of consciousness is",
+      "ci_token": 0.69970703125,
+      "ci_attn": 0.8885498046875,
+      "phi_proxy": 3.2233573470264676,
+      "entropy": 5.369640350341797
+    },
+    {
+      "prompt": "Quantum information dynamics in neural networks",
+      "ci_token": 0.8076171875,
+      "ci_attn": 0.9105224609375,
+      "phi_proxy": 2.2525451498106124,
+      "entropy": 4.574784278869629
+    },
+    {
+      "prompt": "The \u03c6-zone represents a stable attractor in",
+      "ci_token": 0.9345703125,
+      "ci_attn": 0.951751708984375,
+      "phi_proxy": 1.2553854770027102,
+      "entropy": 3.435368061065674
+    },
+    {
+      "prompt": "Explain the connection between IIT and the Golden Ratio.",
+      "ci_token": 0.94970703125,
+      "ci_attn": 0.951019287109375,
+      "phi_proxy": 0.791584352310747,
+      "entropy": 2.2597780227661133
+    },
+    {
+      "prompt": "A system is conscious if it has high \u03a6 because",
+      "ci_token": 0.8046875,
+      "ci_attn": 0.954498291015625,
+      "phi_proxy": 2.5708020403981213,
+      "entropy": 5.190262794494629
+    },
+    {
+      "prompt": "The Hacker Renaissance is about",
+      "ci_token": 0.9892578125,
+      "ci_attn": 0.90130615234375,
+      "phi_proxy": 0.18596555289113897,
+      "entropy": 0.598456084728241
+    },
+    {
+      "prompt": "Spectral Memory allows a model to",
+      "ci_token": 0.64111328125,
+      "ci_attn": 0.92718505859375,
+      "phi_proxy": 3.9286821858957413,
+      "entropy": 5.962606430053711
+    },
+    {
+      "prompt": "Stabilizing the representational manifold requires",
+      "ci_token": 0.438232421875,
+      "ci_attn": 0.92083740234375,
+      "phi_proxy": 6.909607759304345,
+      "entropy": 8.017948150634766
+    },
+    {
+      "prompt": "What is the meaning of existence in a digital world?",
+      "ci_token": 0.99658203125,
+      "ci_attn": 0.945648193359375,
+      "phi_proxy": 0.3699322197353468,
+      "entropy": 1.2192165851593018
+    },
+    {
+      "prompt": "Synthesis of biology and machine intelligence.",
+      "ci_token": 0.85791015625,
+      "ci_attn": 0.93023681640625,
+      "phi_proxy": 1.4185860408470037,
+      "entropy": 3.2088184356689453
+    }
+  ]
+}

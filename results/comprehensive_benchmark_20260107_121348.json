@@ -1,0 +1,146 @@
+{
+  "with_smt": [
+    {
+      "prompt": "The nature of consciousness is",
+      "ci_token": 0.69921875,
+      "ci_attn": 0.941864013671875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Quantum information dynamics in neural networks",
+      "ci_token": 0.78271484375,
+      "ci_attn": 0.945556640625,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "The \u03c6-zone represents a stable attractor in",
+      "ci_token": 0.90869140625,
+      "ci_attn": 0.96697998046875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Explain the connection between IIT and the Golden Ratio.",
+      "ci_token": 0.9609375,
+      "ci_attn": 0.965118408203125,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "A system is conscious if it has high \u03a6 because",
+      "ci_token": 0.74853515625,
+      "ci_attn": 0.969207763671875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "The Hacker Renaissance is about",
+      "ci_token": 0.9970703125,
+      "ci_attn": 0.946868896484375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Spectral Memory allows a model to",
+      "ci_token": 0.67333984375,
+      "ci_attn": 0.954803466796875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Stabilizing the representational manifold requires",
+      "ci_token": 0.400146484375,
+      "ci_attn": 0.950408935546875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "What is the meaning of existence in a digital world?",
+      "ci_token": 0.9951171875,
+      "ci_attn": 0.963623046875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Synthesis of biology and machine intelligence.",
+      "ci_token": 0.8232421875,
+      "ci_attn": 0.95709228515625,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    }
+  ],
+  "without_smt": [
+    {
+      "prompt": "The nature of consciousness is",
+      "ci_token": 0.69970703125,
+      "ci_attn": 0.8885498046875,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Quantum information dynamics in neural networks",
+      "ci_token": 0.8076171875,
+      "ci_attn": 0.9105224609375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "The \u03c6-zone represents a stable attractor in",
+      "ci_token": 0.9345703125,
+      "ci_attn": 0.951751708984375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Explain the connection between IIT and the Golden Ratio.",
+      "ci_token": 0.94970703125,
+      "ci_attn": 0.951019287109375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "A system is conscious if it has high \u03a6 because",
+      "ci_token": 0.8046875,
+      "ci_attn": 0.954498291015625,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "The Hacker Renaissance is about",
+      "ci_token": 0.9892578125,
+      "ci_attn": 0.90130615234375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Spectral Memory allows a model to",
+      "ci_token": 0.64111328125,
+      "ci_attn": 0.92718505859375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Stabilizing the representational manifold requires",
+      "ci_token": 0.438232421875,
+      "ci_attn": 0.92083740234375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "What is the meaning of existence in a digital world?",
+      "ci_token": 0.99658203125,
+      "ci_attn": 0.945648193359375,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    },
+    {
+      "prompt": "Synthesis of biology and machine intelligence.",
+      "ci_token": 0.85791015625,
+      "ci_attn": 0.93023681640625,
+      "phi_proxy": NaN,
+      "entropy": NaN
+    }
+  ]
+}

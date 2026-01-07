@@ -81,6 +81,12 @@ class SpectralMemory(nn.Module):
         Returns:
             x_augmented: (batch, seq + n_modes, d_model)
         """
+        # Ensure buffer and projection match input dtype
+        if self.spectral_buffer.dtype != x.dtype:
+            self.spectral_buffer = self.spectral_buffer.to(x.dtype)
+        if self.smt_projection.weight.dtype != x.dtype:
+            self.smt_projection = self.smt_projection.to(x.dtype)
+
         if self.training:
             self.update_buffer(x)
             
@@ -91,4 +97,6 @@ class SpectralMemory(nn.Module):
         smts_expanded = smts.unsqueeze(0).expand(batch_size, -1, -1) # (batch, n_modes, d_model)
         
         # Prepend SMTs as global context
+        # Ensure smts_expanded matches x dtype exactly
+        smts_expanded = smts_expanded.to(x.dtype)
         return torch.cat([smts_expanded, x], dim=1)

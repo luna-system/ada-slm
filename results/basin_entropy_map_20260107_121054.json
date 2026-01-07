@@ -1,0 +1,142 @@
+{
+  "total_prompts": 20,
+  "entropy": {
+    "mean": 3.7677464842796327,
+    "std": 2.0896591531012105,
+    "min": 0.5788026452064514,
+    "max": 7.103658676147461
+  },
+  "ci": {
+    "mean": 0.8376838386058807,
+    "std": 0.15178964384245539,
+    "min": 0.5571117997169495,
+    "max": 0.9947293996810913
+  },
+  "phi_zone": {
+    "count": 0,
+    "percentage": 0.0,
+    "avg_entropy": 0
+  },
+  "results": [
+    {
+      "prompt": "The essence of thought is",
+      "entropy": 6.6069111824035645,
+      "ci": 0.5953350067138672,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "The paradox of structure reveals",
+      "entropy": 3.41464900970459,
+      "ci": 0.9138579964637756,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "What are the key properties of pattern?",
+      "entropy": 3.2837352752685547,
+      "ci": 0.9037152528762817,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "What remains uncertain about awareness?",
+      "entropy": 1.8720660209655762,
+      "ci": 0.9587833285331726,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "The essence of order is",
+      "entropy": 6.977717399597168,
+      "ci": 0.5679029822349548,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "The paradox of knowledge reveals",
+      "entropy": 4.337569713592529,
+      "ci": 0.8798896074295044,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Define structure formally.",
+      "entropy": 3.2146081924438477,
+      "ci": 0.9224297404289246,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "time emerges from",
+      "entropy": 7.103658676147461,
+      "ci": 0.5571117997169495,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Describe the structure of knowledge.",
+      "entropy": 1.7431666851043701,
+      "ci": 0.9690085053443909,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "How does chaos relate to consciousness?",
+      "entropy": 0.5788026452064514,
+      "ci": 0.9931570291519165,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Describe the structure of reality.",
+      "entropy": 2.021233558654785,
+      "ci": 0.9782643914222717,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Between knowledge and nothing lies",
+      "entropy": 5.879730224609375,
+      "ci": 0.7441415190696716,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "What is the nature of chaos?",
+      "entropy": 1.1407169103622437,
+      "ci": 0.9947293996810913,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "What remains uncertain about truth?",
+      "entropy": 0.9444597363471985,
+      "ci": 0.9810532331466675,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Between quantum and nothing lies",
+      "entropy": 5.038585662841797,
+      "ci": 0.7792810797691345,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "The paradox of complexity reveals",
+      "entropy": 2.9791324138641357,
+      "ci": 0.9214233160018921,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Between probability and nothing lies",
+      "entropy": 3.931466579437256,
+      "ci": 0.8181357383728027,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Explain chaos in simple terms.",
+      "entropy": 2.0691843032836914,
+      "ci": 0.9667038321495056,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "The essence of thought is",
+      "entropy": 6.6069111824035645,
+      "ci": 0.5953350067138672,
+      "in_phi_zone": false
+    },
+    {
+      "prompt": "Consider time deeply:",
+      "entropy": 5.610624313354492,
+      "ci": 0.7134180068969727,
+      "in_phi_zone": false
+    }
+  ]
+}
