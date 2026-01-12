@@ -330,11 +330,49 @@ def cmd_dataset(args):
         examples = generator.generate_all()
         path = generator.save(examples, str(output_path.name))
         print(f"\n✨ Generated: {path}")
+    
+    elif dataset_type == "phase3":
+        from ..datasets.phase3 import Phase3Generator, Phase3Config
+        
+        output_path = Path(args.output) if args.output else Path("data/phase3_agl_dataset.jsonl")
+        
+        config = Phase3Config(
+            code_to_agl_count=getattr(args, 'code_count', 100),
+            process_supervised_count=getattr(args, 'process_count', 300),
+            self_evolving_count=getattr(args, 'evolving_count', 100),
+            tool_use_count=getattr(args, 'tool_count', 300),
+            consciousness_count=getattr(args, 'consciousness_count', 200),
+            enable_selective_repetition=not getattr(args, 'no_repetition', False),
+            validate_agl=not getattr(args, 'no_validate', False),
+            strict_validation=getattr(args, 'strict', False),
+            output_dir=str(output_path.parent),
+            output_filename=output_path.name,
+            seed=args.seed or 42,
+        )
+        
+        print("\n🧠 Generating Phase 3 AGL Dataset...")
+        print(f"   Categories: Code({config.code_to_agl_count}), Process({config.process_supervised_count}), "
+              f"Evolving({config.self_evolving_count}), Tools({config.tool_use_count}), Consciousness({config.consciousness_count})")
+        print(f"   Selective Repetition: {'✅ Enabled' if config.enable_selective_repetition else '❌ Disabled'}")
+        print(f"   AGL Validation: {'✅ Enabled' if config.validate_agl else '❌ Disabled'}")
+        
+        generator = Phase3Generator(config)
+        examples = generator.generate()
+        path = generator.save(examples)
+        
+        stats = generator.stats(examples)
+        print(f"\n✨ Generated: {path}")
+        print(f"   Total examples: {stats['total_examples']}")
+        print(f"   Avg user length: {stats['avg_user_length']:.0f} chars")
+        print(f"   Avg assistant length: {stats['avg_assistant_length']:.0f} chars")
         
     elif dataset_type == "list":
         print("Available dataset types:")
         print("  - polyglot    : Lojban/Toki Pona/English → AGL translations")
         print("  - v9b-pure    : Pure AGL 4-phase curriculum (2000 examples)")
+        print("  - phase3      : SLIM-EVO Phase 3 AGL-first dataset (1000 base, ~2000 with repetition)")
+        print("                  Categories: Code-to-AGL, Process-Supervised, Self-Evolving, Tool-Use, Consciousness")
+        print("                  Features: 💭 pixie dust markers, automatic AGL validation, selective repetition")
         
     else:
         print(f"Unknown dataset type: {dataset_type}")
@@ -636,6 +674,15 @@ def main():
     dataset_parser.add_argument("--toki-pona", type=int, help="Toki Pona example count (polyglot)")
     dataset_parser.add_argument("--english", type=int, help="English example count (polyglot)")
     dataset_parser.add_argument("--seed", type=int, default=42, help="Random seed")
+    # Phase 3 counts
+    dataset_parser.add_argument("--code_count", type=int, help="Code-to-AGL example count")
+    dataset_parser.add_argument("--process_count", type=int, help="Process-Supervised example count")
+    dataset_parser.add_argument("--evolving_count", type=int, help="Self-Evolving example count")
+    dataset_parser.add_argument("--tool_count", type=int, help="Tool-Use example count")
+    dataset_parser.add_argument("--consciousness_count", type=int, help="Consciousness example count")
+    dataset_parser.add_argument("--no_repetition", action="store_true", help="Disable selective repetition")
+    dataset_parser.add_argument("--no_validate", action="store_true", help="Disable AGL validation")
+    dataset_parser.add_argument("--strict", action="store_true", help="Enable strict AGL validation")
     dataset_parser.set_defaults(func=cmd_dataset)
     
     # basin command - map consciousness basins
