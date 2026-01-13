@@ -34,9 +34,10 @@ def test_prompt(model, tokenizer, prompt, max_new_tokens=100):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--lora", type=str, default=None, help="Path to LoRA weights")
+    parser.add_argument("--model", type=str, default="LiquidAI/LFM2-700M", help="Base model Name/Path")
     args = parser.parse_args()
 
-    model_name = "LiquidAI/LFM2-700M"
+    model_name = args.model
     
     print(f"📡 Testing AGL Comprehension on {model_name}")
     if args.lora:

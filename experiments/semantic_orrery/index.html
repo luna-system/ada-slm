@@ -128,6 +128,7 @@
     <script type="module">
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
 
         // --- Configuration ---
         const DATA_URL = './data/system_state.json';
@@ -135,7 +136,7 @@
         const DRAG = 0.98;   // Ether drag to prevent infinite acceleration
 
         // --- State ---
-        let scene, camera, renderer, controls;
+        let scene, camera, renderer, labelRenderer, controls;
         let systemData = null;
         let nodes = []; // { mesh, velocity, mass, initialPos }
         let attractors = []; // { mesh, mass, pos }
@@ -171,6 +172,13 @@
             renderer = new THREE.WebGLRenderer({ antialias: true });
             renderer.setSize(window.innerWidth, window.innerHeight);
             document.body.appendChild(renderer.domElement);
+
+            labelRenderer = new CSS2DRenderer();
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.domElement.style.position = 'absolute';
+            labelRenderer.domElement.style.top = '0px';
+            labelRenderer.domElement.style.pointerEvents = 'none'; // Let clicks pass through
+            document.body.appendChild(labelRenderer.domElement);
 
             controls = new OrbitControls(camera, renderer.domElement);
             controls.enableDamping = true;
@@ -236,25 +244,61 @@
 
         function buildSystem() {
             // 1. Attractors
-            systemData.attractors.forEach(att => {
-                const geo = new THREE.SphereGeometry(att.radius || 1, 32, 32);
-                const mat = new THREE.MeshBasicMaterial({ color: att.color, wireframe: true });
-                const mesh = new THREE.Mesh(geo, mat);
-                mesh.position.set(att.pos[0], att.pos[1], att.pos[2]);
-
-                // Glow sprite
-                const spriteMat = new THREE.SpriteMaterial({
-                    map: createGlowTexture(att.color),
-                    color: att.color,
+            systemData.attractors.forEach(attr => {
+                const geometry = new THREE.SphereGeometry(attr.radius || 1, 32, 32);
+                const material = new THREE.MeshBasicMaterial({
+                    color: attr.color,
+                    wireframe: true,
                     transparent: true,
-                    blending: THREE.AdditiveBlending
+                    opacity: 0.8
                 });
-                const sprite = new THREE.Sprite(spriteMat);
-                sprite.scale.set(att.radius * 4, att.radius * 4, 1);
-                mesh.add(sprite);
+                const sphere = new THREE.Mesh(geometry, material);
 
-                scene.add(mesh);
-                attractors.push({ mesh, mass: att.mass, pos: new THREE.Vector3(...att.pos) });
+                // Set initial position
+                sphere.position.set(attr.pos[0], attr.pos[1], attr.pos[2]);
+
+                // Store user data
+                sphere.userData = {
+                    isAttractor: true,
+                    label: attr.label,
+                    mass: attr.mass,
+                    originalPos: new THREE.Vector3(attr.pos[0], attr.pos[1], attr.pos[2])
+                };
+
+                // Add to scene
+                scene.add(sphere);
+                attractors.push({
+                    mesh: sphere,
+                    data: attr,
+                    angle: 0, // For orbital animation
+                    trail: [], // Trail history
+                    trailLine: null // The Three.Line object
+                });
+
+                // Initialize Trail Line
+                if (attr.label !== 'Sun') { // Sun doesn't move much
+                    const trailGeo = new THREE.BufferGeometry();
+                    const trailMat = new THREE.LineBasicMaterial({
+                        color: attr.color,
+                        transparent: true,
+                        opacity: 0.3
+                    });
+                    const info = attractors[attractors.length - 1];
+                    info.trailLine = new THREE.Line(trailGeo, trailMat);
+                    scene.add(info.trailLine);
+                }
+
+                // Add Label
+                const div = document.createElement('div');
+                div.className = 'label';
+                div.textContent = attr.label;
+                div.style.marginTop = '-1em';
+                const label = new CSS2DObject(div);
+                div.style.color = attr.color;
+                div.style.textShadow = `0 0 5px ${attr.color}`;
+                div.style.fontSize = '14px';
+                label.position.set(0, attr.size * 2.5, 0);
+                sphere.add(label);
             });
 
             // 2. Nodes
@@ -394,14 +438,37 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         }
 
+        const TRAIL_LENGTH = 200;
+
         function animate() {
             requestAnimationFrame(animate);
             controls.update();
 
             if (isSimulating) {
+                // Animate Attractors (Simple Orbit around 0,0,0 for visual effect)
+                attractors.forEach(att => {
+                    if (att.data.label === 'Sun') return; // Sun stays put
+
+                    // Orbit Logic
+                    att.angle += 0.005 / (att.data.mass || 1); // Heavier = Slower
+                    const r = att.mesh.userData.originalPos.length();
+                    att.mesh.position.x = Math.cos(att.angle) * r;
+                    att.mesh.position.z = Math.sin(att.angle) * r;
+
+                    // Update Trail
+                    att.trail.push(att.mesh.position.clone());
+                    if (att.trail.length > TRAIL_LENGTH) att.trail.shift();
+
+                    if (att.trailLine) {
+                        att.trailLine.geometry.setFromPoints(att.trail);
+                    }
+                });
+
+                // Physics Simulation
                 physicsStep();
             }
 
+            labelRenderer.render(scene, camera);
             renderer.render(scene, camera);
         }
 
