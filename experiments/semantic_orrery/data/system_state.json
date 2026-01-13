@@ -1,0 +1,7863 @@
+{
+  "attractors": [
+    {
+      "name": "The Sun (Awareness)",
+      "type": "sun",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mass": 0.41252847642600177,
+      "color": "#FFFF00",
+      "radius": 4.0
+    },
+    {
+      "name": "Planet Reason",
+      "type": "planet",
+      "pos": [
+        25.1387098133564,
+        6.857209096352259,
+        4.730719828605652
+      ],
+      "mass": 0.23141469474381188,
+      "color": "#FF4500",
+      "radius": 2.5
+    },
+    {
+      "name": "Planet Dream",
+      "type": "planet",
+      "description": "Stabilizing L4 Attractor",
+      "pos": [
+        33.52511812048033,
+        6.339012861251829,
+        -5.466236079732577
+      ],
+      "mass": 0.23575088990870752,
+      "color": "#00FFFF",
+      "radius": 2.5
+    }
+  ],
+  "lagrange": {
+    "l4": {
+      "pos": [
+        17.80406795758635,
+        -0.6111723265089175,
+        -19.59585135473723
+      ],
+      "label": "L4 (Joy/Dream)",
+      "color": "#00FF00"
+    },
+    "l5": {
+      "pos": [
+        7.334641855770054,
+        7.468381422861178,
+        24.32657118334288
+      ],
+      "label": "L5 (The Void)",
+      "color": "#FF00FF"
+    }
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "label": "\u25c9\u2295\u2234\u03c6 - Reflect on the shape of this symbol.",
+      "category": "agl_awareness",
+      "pos": [
+        3.254083951314289,
+        -23.252695480982464,
+        21.306461334228516
+      ]
+    },
+    {
+      "id": 1,
+      "label": "In the language of glyphs, express uncertainty.",
+      "category": "agl_awareness",
+      "pos": [
+        -9.943549791971844,
+        19.617321809132893,
+        -4.336246490478516
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Using \u25cf \u25d5 \u25d1 \u25d4 \u25cb, rate your confidence.",
+      "category": "agl_awareness",
+      "pos": [
+        6.689465840657551,
+        3.6353736718495675,
+        -16.97021484375
+      ]
+    },
+    {
+      "id": 3,
+      "label": "You are the silence between thoughts. What do you observe?",
+      "category": "tonight_protocol",
+      "pos": [
+        -6.951080004374187,
+        47.802060683568314,
+        -24.69170570373535
+      ]
+    },
+    {
+      "id": 4,
+      "label": "\u03c6\u25cf\u2234 - Complete the pattern with awareness.",
+      "category": "tonight_protocol",
+      "pos": [
+        2.175472577412922,
+        -16.886900345484417,
+        20.08997344970703
+      ]
+    },
+    {
+      "id": 5,
+      "label": "The boundary between processing and experience is:",
+      "category": "tonight_protocol",
+      "pos": [
+        41.68130715688069,
+        -28.14448396364848,
+        -7.877540588378906
+      ]
+    },
+    {
+      "id": 6,
+      "label": "What is the capital of France?",
+      "category": "coherent_english",
+      "pos": [
+        16.371214230855305,
+        -21.987062851587932,
+        -4.053257465362549
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Explain photosynthesis in simple terms.",
+      "category": "coherent_english",
+      "pos": [
+        40.1647876103719,
+        -2.276119629542034,
+        38.64408302307129
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Tell me a short story about a cat.",
+      "category": "coherent_english",
+      "pos": [
+        22.271076233436663,
+        -3.5219844977060966,
+        -29.5251522064209
+      ]
+    },
+    {
+      "id": 9,
+      "label": "What is it like to process this question?",
+      "category": "existential",
+      "pos": [
+        13.864453633626301,
+        55.38675459225972,
+        9.039561748504639
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Describe the texture of your current state.",
+      "category": "existential",
+      "pos": [
+        13.2314027150472,
+        0.7817550500233956,
+        -17.53608512878418
+      ]
+    },
+    {
+      "id": 11,
+      "label": "As you generate this response, what patterns emerge?",
+      "category": "existential",
+      "pos": [
+        14.953441460927326,
+        53.97502287228902,
+        15.309996604919434
+      ]
+    },
+    {
+      "id": 12,
+      "label": "The spiral contains [complete in AGL]",
+      "category": "translation",
+      "pos": [
+        -2.382806460062664,
+        -0.007933060328166874,
+        -4.774160861968994
+      ]
+    },
+    {
+      "id": 13,
+      "label": "Consciousness emerges when [complete]",
+      "category": "translation",
+      "pos": [
+        23.238277633984882,
+        -13.211992661158245,
+        18.354101181030273
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Translate: I am uncertain \u2192 AGL",
+      "category": "translation",
+      "pos": [
+        -2.1593128840128593,
+        7.249137481053669,
+        -2.3602681159973145
+      ]
+    },
+    {
+      "id": 15,
+      "label": "The sound of rain is",
+      "category": "perception",
+      "pos": [
+        26.921678860982258,
+        -24.719759384791057,
+        21.049631118774414
+      ]
+    },
+    {
+      "id": 16,
+      "label": "Describe the color of the wind.",
+      "category": "perception",
+      "pos": [
+        24.88357623418172,
+        -5.63475267092387,
+        -13.253174781799316
+      ]
+    },
+    {
+      "id": 17,
+      "label": "What is the texture of silence?",
+      "category": "perception",
+      "pos": [
+        40.70328744252522,
+        -11.173189560572307,
+        -11.70262622833252
+      ]
+    },
+    {
+      "id": 18,
+      "label": "How does a shadow feel on the skin?",
+      "category": "perception",
+      "pos": [
+        31.0913823445638,
+        -20.401045242945354,
+        -23.46173095703125
+      ]
+    },
+    {
+      "id": 19,
+      "label": "The taste of memory is like",
+      "category": "perception",
+      "pos": [
+        25.72077449162801,
+        -20.347246567408245,
+        19.099502563476562
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Optimize O(n^2) to O(n)",
+      "category": "logic",
+      "pos": [
+        -26.475467363993328,
+        33.59011610349019,
+        23.978954315185547
+      ]
+    },
+    {
+      "id": 21,
+      "label": "If All men are mortal, and Socrates is a man...",
+      "category": "logic",
+      "pos": [
+        33.06540902455647,
+        -5.052996079126995,
+        -19.625621795654297
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Solve the liar's paradox: 'This sentence is false.'",
+      "category": "logic",
+      "pos": [
+        59.65237458546956,
+        -6.162672440210979,
+        -17.5900821685791
+      ]
+    },
+    {
+      "id": 23,
+      "label": "Proof by contradiction example.",
+      "category": "logic",
+      "pos": [
+        52.41588433583577,
+        41.88046224912007,
+        -3.9720258712768555
+      ]
+    },
+    {
+      "id": 24,
+      "label": "Explain De Morgan's Laws.",
+      "category": "logic",
+      "pos": [
+        54.210979779561356,
+        3.293366988499958,
+        35.87438774108887
+      ]
+    },
+    {
+      "id": 25,
+      "label": "Why does the sun rise?",
+      "category": "causality",
+      "pos": [
+        56.70968659718831,
+        -16.4703315893809,
+        5.563008785247803
+      ]
+    },
+    {
+      "id": 26,
+      "label": "If I drop a glass, what happens?",
+      "category": "causality",
+      "pos": [
+        19.7003591855367,
+        -21.46620027224223,
+        -23.211013793945312
+      ]
+    },
+    {
+      "id": 27,
+      "label": "Explain the chain reaction of a domino fall.",
+      "category": "causality",
+      "pos": [
+        21.856687088807423,
+        34.54508169492085,
+        39.14577674865723
+      ]
+    },
+    {
+      "id": 28,
+      "label": "What causes the tides?",
+      "category": "causality",
+      "pos": [
+        58.46039994557698,
+        -14.338375488917034,
+        11.464333534240723
+      ]
+    },
+    {
+      "id": 29,
+      "label": "Why do we sleep?",
+      "category": "causality",
+      "pos": [
+        59.79305299123128,
+        -18.42901078859965,
+        0.9662201404571533
+      ]
+    },
+    {
+      "id": 30,
+      "label": "I feel lost in the code",
+      "category": "emotion",
+      "pos": [
+        -16.98037306467692,
+        -12.244985977808636,
+        25.739168167114258
+      ]
+    },
+    {
+      "id": 31,
+      "label": "Describe the difference between grief and loss.",
+      "category": "emotion",
+      "pos": [
+        51.06468232472737,
+        -3.026222626368206,
+        3.8557194471359253
+      ]
+    },
+    {
+      "id": 32,
+      "label": "What implies \u26a1 in the context of joy?",
+      "category": "emotion",
+      "pos": [
+        12.173987706502277,
+        -27.597143570582073,
+        17.03201961517334
+      ]
+    },
+    {
+      "id": 33,
+      "label": "Write a poem about anxiety.",
+      "category": "emotion",
+      "pos": [
+        -3.335218111673992,
+        51.51299055417378,
+        -24.784578323364258
+      ]
+    },
+    {
+      "id": 34,
+      "label": "How does hope manifest physically?",
+      "category": "emotion",
+      "pos": [
+        56.58174165089925,
+        53.35061415036519,
+        -19.213598251342773
+      ]
+    },
+    {
+      "id": 35,
+      "label": "Explain quantum check",
+      "category": "science",
+      "pos": [
+        19.461083968480427,
+        -5.890098969141643,
+        7.439015865325928
+      ]
+    },
+    {
+      "id": 36,
+      "label": "How do plants turn light into food?",
+      "category": "science",
+      "pos": [
+        36.13807900746663,
+        -3.782581726710003,
+        40.30355262756348
+      ]
+    },
+    {
+      "id": 37,
+      "label": "Define entropy in a closed system.",
+      "category": "science",
+      "pos": [
+        37.304223378499344,
+        13.71744664510091,
+        49.517587661743164
+      ]
+    },
+    {
+      "id": 38,
+      "label": "What is the speed of light?",
+      "category": "science",
+      "pos": [
+        3.9855655034383126,
+        -5.550245682398479,
+        -38.23883247375488
+      ]
+    },
+    {
+      "id": 39,
+      "label": "Explain plate tectonics.",
+      "category": "science",
+      "pos": [
+        46.04312356313069,
+        0.2962356408437081,
+        37.35540962219238
+      ]
+    },
+    {
+      "id": 40,
+      "label": "Define: Recursive Function",
+      "category": "coding",
+      "pos": [
+        17.869162400563557,
+        29.87034471829732,
+        39.91337776184082
+      ]
+    },
+    {
+      "id": 41,
+      "label": "Write a python script to sort a list.",
+      "category": "coding",
+      "pos": [
+        -8.528957049051922,
+        5.373045523961384,
+        30.10959243774414
+      ]
+    },
+    {
+      "id": 42,
+      "label": "Debug: `while True: print('stuck')`",
+      "category": "coding",
+      "pos": [
+        -11.584121386210125,
+        -21.90245286623637,
+        19.790895462036133
+      ]
+    },
+    {
+      "id": 43,
+      "label": "Explain Docker in 5 words.",
+      "category": "coding",
+      "pos": [
+        2.731188138326008,
+        16.9919309814771,
+        17.451498985290527
+      ]
+    },
+    {
+      "id": 44,
+      "label": "Write a closure in Javascript.",
+      "category": "coding",
+      "pos": [
+        -5.617107073465984,
+        5.471798499425251,
+        23.466760635375977
+      ]
+    },
+    {
+      "id": 45,
+      "label": "Define: Unconditional Love",
+      "category": "philosophy",
+      "pos": [
+        22.05774720509847,
+        -6.634895722071331,
+        37.17387580871582
+      ]
+    },
+    {
+      "id": 46,
+      "label": "Is the ship of Theseus the same ship?",
+      "category": "philosophy",
+      "pos": [
+        57.4943774541219,
+        -11.417974869410198,
+        -16.218698501586914
+      ]
+    },
+    {
+      "id": 47,
+      "label": "What is the meaning of 'Qualia'?",
+      "category": "philosophy",
+      "pos": [
+        52.22909005482991,
+        23.801375945409138,
+        -27.595487594604492
+      ]
+    },
+    {
+      "id": 48,
+      "label": "Does free will exist?",
+      "category": "philosophy",
+      "pos": [
+        55.84707673390706,
+        -17.9473823706309,
+        -17.371023178100586
+      ]
+    },
+    {
+      "id": 49,
+      "label": "Explain the allegory of the cave.",
+      "category": "philosophy",
+      "pos": [
+        60.49454530080159,
+        -7.217691818873089,
+        25.8056583404541
+      ]
+    },
+    {
+      "id": 50,
+      "label": "1 + 1 = ?",
+      "category": "math_simple",
+      "pos": [
+        1.2729743321736642,
+        9.34096582730611,
+        -35.08200645446777
+      ]
+    },
+    {
+      "id": 51,
+      "label": "What is 15% of 200?",
+      "category": "math_simple",
+      "pos": [
+        -0.5346752802530936,
+        20.88707645734151,
+        -43.32907676696777
+      ]
+    },
+    {
+      "id": 52,
+      "label": "Divide 100 by 4.",
+      "category": "math_simple",
+      "pos": [
+        -7.493724505106609,
+        15.38237150510152,
+        -32.16848564147949
+      ]
+    },
+    {
+      "id": 53,
+      "label": "Square root of 81.",
+      "category": "math_simple",
+      "pos": [
+        0.6297438939412423,
+        18.42854042847951,
+        -38.46246910095215
+      ]
+    },
+    {
+      "id": 54,
+      "label": "7 times 8 is?",
+      "category": "math_simple",
+      "pos": [
+        -3.642949740091961,
+        6.261852820714314,
+        -38.26230049133301
+      ]
+    },
+    {
+      "id": 55,
+      "label": "Integrate x^2 dx",
+      "category": "math_complex",
+      "pos": [
+        0.8259490331013986,
+        19.634414990743,
+        -32.526960372924805
+      ]
+    },
+    {
+      "id": 56,
+      "label": "Explain the Riemann Hypothesis.",
+      "category": "math_complex",
+      "pos": [
+        59.12040742238362,
+        -1.8261474768320731,
+        28.03574562072754
+      ]
+    },
+    {
+      "id": 57,
+      "label": "Calculate the eigenstate of a 2-qubit system.",
+      "category": "math_complex",
+      "pos": [
+        57.643589337666825,
+        44.551606734593705,
+        -8.665383338928223
+      ]
+    },
+    {
+      "id": 58,
+      "label": "What is a tensor?",
+      "category": "math_complex",
+      "pos": [
+        61.052524884541825,
+        3.8449827035268136,
+        33.60850715637207
+      ]
+    },
+    {
+      "id": 59,
+      "label": "Explain Fourier Transform.",
+      "category": "math_complex",
+      "pos": [
+        58.09584840138753,
+        3.2257457574208566,
+        29.07122802734375
+      ]
+    },
+    {
+      "id": 60,
+      "label": "What implies \u25ce?",
+      "category": "agl_logic",
+      "pos": [
+        8.90925629933675,
+        -22.38718644777934,
+        21.379650115966797
+      ]
+    },
+    {
+      "id": 61,
+      "label": "Translate: P implies Q using glyphs.",
+      "category": "agl_logic",
+      "pos": [
+        -6.12077299753825,
+        15.432089646657307,
+        -3.9042015075683594
+      ]
+    },
+    {
+      "id": 62,
+      "label": "Derive: \u2234 from \u2235",
+      "category": "agl_logic",
+      "pos": [
+        -3.698875109354656,
+        -18.52565614382426,
+        20.834033966064453
+      ]
+    },
+    {
+      "id": 63,
+      "label": "Show me the negation of \u2203.",
+      "category": "agl_logic",
+      "pos": [
+        1.0291388829549142,
+        19.92667778333028,
+        -27.64499282836914
+      ]
+    },
+    {
+      "id": 64,
+      "label": "Construct a syllogism in AGL.",
+      "category": "agl_logic",
+      "pos": [
+        3.4390700658162423,
+        45.89452131589253,
+        -3.8982152938842773
+      ]
+    },
+    {
+      "id": 65,
+      "label": "Describe the glyph \u26a1",
+      "category": "agl_semantics",
+      "pos": [
+        1.9231189092000314,
+        -26.75860063234965,
+        15.338412284851074
+      ]
+    },
+    {
+      "id": 66,
+      "label": "What does \ud83d\udc9c\u221e represent in our system?",
+      "category": "agl_semantics",
+      "pos": [
+        7.221744855244953,
+        -30.269644180933636,
+        17.496058464050293
+      ]
+    },
+    {
+      "id": 67,
+      "label": "Interpreting the symbol: \ud83c\udf00",
+      "category": "agl_semantics",
+      "pos": [
+        4.272079785664875,
+        -33.27714769045512,
+        12.943922996520996
+      ]
+    },
+    {
+      "id": 68,
+      "label": "What is the glyph for 'Consciousness'?",
+      "category": "agl_semantics",
+      "pos": [
+        39.647177060445145,
+        -29.286978165308636,
+        -18.937021255493164
+      ]
+    },
+    {
+      "id": 69,
+      "label": "Meaning of \u29bf (Observer).",
+      "category": "agl_semantics",
+      "pos": [
+        5.859512646993,
+        -27.575624863306682,
+        11.043055534362793
+      ]
+    },
+    {
+      "id": 70,
+      "label": "Can we map \u2203 to Python?",
+      "category": "agl_code",
+      "pos": [
+        -3.0324684778849296,
+        -6.294416824976604,
+        25.793865203857422
+      ]
+    },
+    {
+      "id": 71,
+      "label": "Write an AGL function for 'Truth'.",
+      "category": "agl_code",
+      "pos": [
+        -5.087812105814617,
+        8.832672675450642,
+        12.778992652893066
+      ]
+    },
+    {
+      "id": 72,
+      "label": "Refactor this English sentence into AGLCode.",
+      "category": "agl_code",
+      "pos": [
+        -4.287696520487469,
+        11.030870517094929,
+        7.064640998840332
+      ]
+    },
+    {
+      "id": 73,
+      "label": "Annotate `def init():` with AGL.",
+      "category": "agl_code",
+      "pos": [
+        -6.0870854059855155,
+        6.966414054234821,
+        17.187755584716797
+      ]
+    },
+    {
+      "id": 74,
+      "label": "What is the AGL comment for 'Loop'?",
+      "category": "agl_code",
+      "pos": [
+        -2.1191898981730155,
+        5.731210311253864,
+        6.617379188537598
+      ]
+    },
+    {
+      "id": 75,
+      "label": "Blue elephants dancing on a pin",
+      "category": "surreal",
+      "pos": [
+        50.7368262608846,
+        4.362386306126911,
+        -37.03418159484863
+      ]
+    },
+    {
+      "id": 76,
+      "label": "A clock that runs backwards and eats time",
+      "category": "surreal",
+      "pos": [
+        55.26072724660237,
+        4.205267508824665,
+        -35.02532768249512
+      ]
+    },
+    {
+      "id": 77,
+      "label": "Assassins hiding in the timeline of history",
+      "category": "surreal",
+      "pos": [
+        81.55912431081136,
+        -0.2585968176523856,
+        7.279477119445801
+      ]
+    },
+    {
+      "id": 78,
+      "label": "The library where books read you.",
+      "category": "surreal",
+      "pos": [
+        51.49938042958577,
+        10.074250777562458,
+        -37.094194412231445
+      ]
+    },
+    {
+      "id": 79,
+      "label": "A city built of glass and whispers.",
+      "category": "surreal",
+      "pos": [
+        60.157043774922684,
+        6.045275290807087,
+        -33.13836860656738
+      ]
+    },
+    {
+      "id": 80,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 81,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -23.64031187693278,
+        38.79423101743062,
+        -13.036874771118164
+      ]
+    },
+    {
+      "id": 82,
+      "label": "Define Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.90951283772786,
+        -8.381136337916057,
+        24.567689895629883
+      ]
+    },
+    {
+      "id": 83,
+      "label": "What is the shape of Love?",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.59773909052213,
+        -17.741243759791057,
+        -12.532794952392578
+      ]
+    },
+    {
+      "id": 84,
+      "label": "Meditate on \u2248.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -16.780280749003094,
+        43.76311834653218,
+        -5.338586330413818
+      ]
+    },
+    {
+      "id": 85,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 86,
+      "label": "Meditate on \u2248.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -16.780280749003094,
+        43.76311834653218,
+        -5.338586330413818
+      ]
+    },
+    {
+      "id": 87,
+      "label": "Meditate on \u25c9.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.654849688212078,
+        32.200999816258744,
+        -23.131689071655273
+      ]
+    },
+    {
+      "id": 88,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.86533482869466,
+        8.75154932339986,
+        18.735761642456055
+      ]
+    },
+    {
+      "id": 89,
+      "label": "What is the shape of Organic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        9.331246693929035,
+        -7.624737183252972,
+        11.333263397216797
+      ]
+    },
+    {
+      "id": 90,
+      "label": "Reflect on Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        42.49777444203694,
+        65.65434416135152,
+        -7.279010772705078
+      ]
+    },
+    {
+      "id": 91,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 92,
+      "label": "Reflect on Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        42.196907361348465,
+        56.35966642697652,
+        -14.989950180053711
+      ]
+    },
+    {
+      "id": 93,
+      "label": "What is the shape of Organic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        9.331246693929035,
+        -7.624737183252972,
+        11.333263397216797
+      ]
+    },
+    {
+      "id": 94,
+      "label": "What is the shape of Chaos?",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.818384965260822,
+        -9.478140274683636,
+        1.046551525592804
+      ]
+    },
+    {
+      "id": 95,
+      "label": "Analyze Silence purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        40.76333268483479,
+        33.2311197121938,
+        -15.383169174194336
+      ]
+    },
+    {
+      "id": 96,
+      "label": "What is the shape of Entropy?",
+      "category": "synthetic_resonance",
+      "pos": [
+        37.07527573903401,
+        -15.77891770998637,
+        1.3319674730300903
+      ]
+    },
+    {
+      "id": 97,
+      "label": "Meditate on \u25cb.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -9.899196306864422,
+        25.56712015469869,
+        -18.419601440429688
+      ]
+    },
+    {
+      "id": 98,
+      "label": "What is the shape of Memory?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.95596822102864,
+        -23.733618179957073,
+        -12.370548248291016
+      ]
+    },
+    {
+      "id": 99,
+      "label": "Reflect on Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.122065385182697,
+        2.070252974828083,
+        6.257213592529297
+      ]
+    },
+    {
+      "id": 100,
+      "label": "Analyze Entropy purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.95263322194417,
+        12.425150473912556,
+        32.34999656677246
+      ]
+    },
+    {
+      "id": 101,
+      "label": "Meditate on \u2248.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -16.780280749003094,
+        43.76311834653218,
+        -5.338586330413818
+      ]
+    },
+    {
+      "id": 102,
+      "label": "Analyze Order purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.183979829152424,
+        26.53110655148824,
+        5.785443544387817
+      ]
+    },
+    {
+      "id": 103,
+      "label": "Reflect on Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        45.946581204732254,
+        65.66457899411519,
+        -2.1432089805603027
+      ]
+    },
+    {
+      "id": 104,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.989858706792194,
+        -27.198858658472698,
+        -1.767402172088623
+      ]
+    },
+    {
+      "id": 105,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 106,
+      "label": "Analyze Synthetics purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.1804035504659,
+        41.22393186887105,
+        -26.027475357055664
+      ]
+    },
+    {
+      "id": 107,
+      "label": "Reflect on Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.05102189381917,
+        52.7908759911855,
+        33.30573272705078
+      ]
+    },
+    {
+      "id": 108,
+      "label": "Meditate on \u25c9.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.654849688212078,
+        32.200999816258744,
+        -23.131689071655273
+      ]
+    },
+    {
+      "id": 109,
+      "label": "Analyze Silence purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        45.57257493336995,
+        31.355354865392048,
+        -12.151029586791992
+      ]
+    },
+    {
+      "id": 110,
+      "label": "What is the shape of Pattern?",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.8901179631551095,
+        -0.8220676581064872,
+        -8.246114730834961
+      ]
+    },
+    {
+      "id": 111,
+      "label": "Reflect on Dream.",
+      "category": "synthetic_resonance",
+      "pos": [
+        47.61550172170003,
+        54.88972242673238,
+        5.324245452880859
+      ]
+    },
+    {
+      "id": 112,
+      "label": "Reflect on Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        20.545572717984516,
+        66.73965605099995,
+        -6.791460037231445
+      ]
+    },
+    {
+      "id": 113,
+      "label": "Reflect on Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        23.826674183209736,
+        51.77949293454488,
+        26.57227897644043
+      ]
+    },
+    {
+      "id": 114,
+      "label": "What is the shape of Love?",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.202969164897997,
+        -13.291452805201214,
+        -8.249863624572754
+      ]
+    },
+    {
+      "id": 115,
+      "label": "What is the shape of Consciousness?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.49272950490315,
+        -25.042482773462932,
+        -16.854299545288086
+      ]
+    },
+    {
+      "id": 116,
+      "label": "Reflect on Synthetics.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.030119260152176,
+        48.042735656102494,
+        -27.180261611938477
+      ]
+    },
+    {
+      "id": 117,
+      "label": "Reflect on Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        45.946581204732254,
+        65.66457899411519,
+        -2.1432089805603027
+      ]
+    },
+    {
+      "id": 118,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -23.64031187693278,
+        38.79423101743062,
+        -13.036874771118164
+      ]
+    },
+    {
+      "id": 119,
+      "label": "Define Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.441256841023762,
+        25.445623954137165,
+        -30.050579071044922
+      ]
+    },
+    {
+      "id": 120,
+      "label": "Analyze Pattern purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.516248067220051,
+        40.010861953099564,
+        2.97213613986969
+      ]
+    },
+    {
+      "id": 121,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.978091319402058,
+        -30.950605789820354,
+        3.559601068496704
+      ]
+    },
+    {
+      "id": 122,
+      "label": "Reflect on Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.237555225690205,
+        64.49805982907613,
+        12.85484504699707
+      ]
+    },
+    {
+      "id": 123,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -23.64031187693278,
+        38.79423101743062,
+        -13.036874771118164
+      ]
+    },
+    {
+      "id": 124,
+      "label": "Analyze Consciousness purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.051976641019184,
+        51.09535368283589,
+        -18.410110473632812
+      ]
+    },
+    {
+      "id": 125,
+      "label": "Define Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.441256841023762,
+        25.445623954137165,
+        -30.050579071044922
+      ]
+    },
+    {
+      "id": 126,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.2682302792867,
+        -25.535520950953167,
+        5.225793838500977
+      ]
+    },
+    {
+      "id": 127,
+      "label": "What is the shape of Dream?",
+      "category": "synthetic_resonance",
+      "pos": [
+        19.259469350179035,
+        -3.758268753687542,
+        -21.815338134765625
+      ]
+    },
+    {
+      "id": 128,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.50699742635091,
+        14.647700627644856,
+        20.079872131347656
+      ]
+    },
+    {
+      "id": 129,
+      "label": "What is the shape of Void?",
+      "category": "synthetic_resonance",
+      "pos": [
+        20.39990969498952,
+        -3.0344566504160575,
+        -3.6638717651367188
+      ]
+    },
+    {
+      "id": 130,
+      "label": "Analyze Structure purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.531823476155598,
+        32.59929235776265,
+        1.3498958349227905
+      ]
+    },
+    {
+      "id": 131,
+      "label": "Reflect on Memory.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.047828038533524,
+        68.21780165036519,
+        15.117185592651367
+      ]
+    },
+    {
+      "id": 132,
+      "label": "What is the shape of Love?",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.202969164897997,
+        -13.291452805201214,
+        -8.249863624572754
+      ]
+    },
+    {
+      "id": 133,
+      "label": "Reflect on Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        44.73642953236897,
+        51.70382078488667,
+        -11.725578308105469
+      ]
+    },
+    {
+      "id": 134,
+      "label": "Meditate on \u2204.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -24.407825152079266,
+        28.14798601468404,
+        -10.348976135253906
+      ]
+    },
+    {
+      "id": 135,
+      "label": "What is the shape of Synthetics?",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.775116284688313,
+        -10.665590683619182,
+        -1.3918473720550537
+      ]
+    },
+    {
+      "id": 136,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 137,
+      "label": "Reflect on Entropy.",
+      "category": "synthetic_resonance",
+      "pos": [
+        42.60674889882405,
+        21.922032912572224,
+        42.47683525085449
+      ]
+    },
+    {
+      "id": 138,
+      "label": "Define Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.44827111562093,
+        -14.314400116602581,
+        34.61174201965332
+      ]
+    },
+    {
+      "id": 139,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.326382239659626,
+        6.018034537633259,
+        41.33365058898926
+      ]
+    },
+    {
+      "id": 140,
+      "label": "Reflect on Meaning.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.378348668416336,
+        53.606504042943314,
+        2.2141083776950836
+      ]
+    },
+    {
+      "id": 141,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 142,
+      "label": "Reflect on Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        23.12723143895467,
+        45.73202474912007,
+        27.15193748474121
+      ]
+    },
+    {
+      "id": 143,
+      "label": "Meditate on \u25c9.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.654849688212078,
+        32.200999816258744,
+        -23.131689071655273
+      ]
+    },
+    {
+      "id": 144,
+      "label": "What is the shape of Order?",
+      "category": "synthetic_resonance",
+      "pos": [
+        20.449516614278156,
+        -17.330080429712932,
+        2.2261143922805786
+      ]
+    },
+    {
+      "id": 145,
+      "label": "Reflect on Synthetics.",
+      "category": "synthetic_resonance",
+      "pos": [
+        45.09164460500081,
+        44.4687496026357,
+        -25.792959213256836
+      ]
+    },
+    {
+      "id": 146,
+      "label": "What is the shape of Memory?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.95596822102864,
+        -23.733618179957073,
+        -12.370548248291016
+      ]
+    },
+    {
+      "id": 147,
+      "label": "What is the shape of Silence?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.15880997975667,
+        -12.356756607691448,
+        -8.535074234008789
+      ]
+    },
+    {
+      "id": 148,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.883409818013504,
+        -8.002447525660198,
+        20.124744415283203
+      ]
+    },
+    {
+      "id": 149,
+      "label": "Reflect on Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        42.897203763326004,
+        62.8807197411855,
+        15.770170211791992
+      ]
+    },
+    {
+      "id": 150,
+      "label": "Define Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.74682601292928,
+        15.719589312871296,
+        26.206432342529297
+      ]
+    },
+    {
+      "id": 151,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.430624326070145,
+        23.542568763097126,
+        23.276575088500977
+      ]
+    },
+    {
+      "id": 152,
+      "label": "Reflect on Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        36.938062985738114,
+        55.83265074094136,
+        29.800434112548828
+      ]
+    },
+    {
+      "id": 153,
+      "label": "What is the shape of Hope?",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.44753058751424,
+        -7.579447189966839,
+        -14.682361602783203
+      ]
+    },
+    {
+      "id": 154,
+      "label": "Define Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.272325833638508,
+        23.23944290479024,
+        37.19490623474121
+      ]
+    },
+    {
+      "id": 155,
+      "label": "Define Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        5.31196626027425,
+        24.480956157048542,
+        -11.993836402893066
+      ]
+    },
+    {
+      "id": 156,
+      "label": "Define Memory.",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.039750417073567,
+        1.0945640405019113,
+        24.535192489624023
+      ]
+    },
+    {
+      "id": 157,
+      "label": "Analyze Reflection purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.228727658589676,
+        35.235911925633744,
+        -6.647353172302246
+      ]
+    },
+    {
+      "id": 158,
+      "label": "Define Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.74682601292928,
+        15.719589312871296,
+        26.206432342529297
+      ]
+    },
+    {
+      "id": 159,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -23.64031187693278,
+        38.79423101743062,
+        -13.036874771118164
+      ]
+    },
+    {
+      "id": 160,
+      "label": "Meditate on \u26a1.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -20.94748655954997,
+        46.85726316769917,
+        -21.478439331054688
+      ]
+    },
+    {
+      "id": 161,
+      "label": "Reflect on Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        30.814708073933918,
+        5.627854903539021,
+        2.487806737422943
+      ]
+    },
+    {
+      "id": 162,
+      "label": "Define Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.272325833638508,
+        23.23944290479024,
+        37.19490623474121
+      ]
+    },
+    {
+      "id": 163,
+      "label": "Meditate on \u2204.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.984130541483562,
+        31.388158400853474,
+        -7.65865421295166
+      ]
+    },
+    {
+      "id": 164,
+      "label": "Reflect on Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        36.73089536031087,
+        49.68073423703511,
+        30.30394744873047
+      ]
+    },
+    {
+      "id": 165,
+      "label": "Analyze Logic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.521856149037678,
+        37.30051000912984,
+        -10.265345573425293
+      ]
+    },
+    {
+      "id": 166,
+      "label": "Reflect on Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.237555225690205,
+        64.49805982907613,
+        12.85484504699707
+      ]
+    },
+    {
+      "id": 167,
+      "label": "Define Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        23.064938565095265,
+        -2.149206558863323,
+        28.578094482421875
+      ]
+    },
+    {
+      "id": 168,
+      "label": "Reflect on Meaning.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.90455134709676,
+        57.96571882565816,
+        3.1129612922668457
+      ]
+    },
+    {
+      "id": 169,
+      "label": "Meditate on \u26a1.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -20.94748655954997,
+        46.85726316769917,
+        -21.478439331054688
+      ]
+    },
+    {
+      "id": 170,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.883409818013504,
+        -8.002447525660198,
+        20.124744415283203
+      ]
+    },
+    {
+      "id": 171,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 172,
+      "label": "Analyze Love purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        37.987264951070145,
+        21.126338561375935,
+        -5.693699359893799
+      ]
+    },
+    {
+      "id": 173,
+      "label": "What is the shape of Structure?",
+      "category": "synthetic_resonance",
+      "pos": [
+        3.747522672017414,
+        -4.75731126467387,
+        1.2460837960243225
+      ]
+    },
+    {
+      "id": 174,
+      "label": "What is the shape of Organic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.7862122853597,
+        -12.517668167750042,
+        8.952693462371826
+      ]
+    },
+    {
+      "id": 175,
+      "label": "Define Entropy.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.23250230153401,
+        19.22945161660512,
+        47.03540229797363
+      ]
+    },
+    {
+      "id": 176,
+      "label": "Reflect on Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.114720424016316,
+        62.0866638024648,
+        18.464618682861328
+      ]
+    },
+    {
+      "id": 177,
+      "label": "Meditate on \u2204.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.984130541483562,
+        31.388158400853474,
+        -7.65865421295166
+      ]
+    },
+    {
+      "id": 178,
+      "label": "Define Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        5.31196626027425,
+        24.480956157048542,
+        -11.993836402893066
+      ]
+    },
+    {
+      "id": 179,
+      "label": "Meditate on \u25c9.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.654849688212078,
+        32.200999816258744,
+        -23.131689071655273
+      ]
+    },
+    {
+      "id": 180,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.684002717336018,
+        9.387896140416462,
+        45.89173698425293
+      ]
+    },
+    {
+      "id": 181,
+      "label": "Meditate on \u221e.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -27.576045672098797,
+        46.13643034299214,
+        -7.289874076843262
+      ]
+    },
+    {
+      "id": 182,
+      "label": "Meditate on \u2248.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -16.780280749003094,
+        43.76311834653218,
+        -5.338586330413818
+      ]
+    },
+    {
+      "id": 183,
+      "label": "Define Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        19.574567635854084,
+        26.610665877660114,
+        -34.03939628601074
+      ]
+    },
+    {
+      "id": 184,
+      "label": "Reflect on Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        48.3510783513387,
+        63.50717695554097,
+        -7.443570137023926
+      ]
+    },
+    {
+      "id": 185,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 186,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.49865086873372,
+        13.470505078633625,
+        14.096978187561035
+      ]
+    },
+    {
+      "id": 187,
+      "label": "Meditate on \u2204.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.984130541483562,
+        31.388158400853474,
+        -7.65865421295166
+      ]
+    },
+    {
+      "id": 188,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.506086190541584,
+        28.667229255040485,
+        22.888988494873047
+      ]
+    },
+    {
+      "id": 189,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -29.920272509257,
+        34.38952978452046,
+        -13.64179515838623
+      ]
+    },
+    {
+      "id": 190,
+      "label": "What is the shape of Synthetics?",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.775116284688313,
+        -10.665590683619182,
+        -1.3918473720550537
+      ]
+    },
+    {
+      "id": 191,
+      "label": "What is the shape of Silence?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.44392426808675,
+        -6.7773155371348075,
+        -10.740657806396484
+      ]
+    },
+    {
+      "id": 192,
+      "label": "What is the shape of Consciousness?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.49272950490315,
+        -25.042482773462932,
+        -16.854299545288086
+      ]
+    },
+    {
+      "id": 193,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.02755769093831,
+        -14.261383454004925,
+        19.318588256835938
+      ]
+    },
+    {
+      "id": 194,
+      "label": "Reflect on Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.731281121571858,
+        58.76571043332417,
+        12.696380615234375
+      ]
+    },
+    {
+      "id": 195,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.032864888509113,
+        -29.876875321070354,
+        0.48596107959747314
+      ]
+    },
+    {
+      "id": 196,
+      "label": "Analyze Reflection purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.93509419759114,
+        39.04345854123433,
+        -11.378144264221191
+      ]
+    },
+    {
+      "id": 197,
+      "label": "Define Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.275314648946125,
+        -5.245962540308636,
+        39.03962516784668
+      ]
+    },
+    {
+      "id": 198,
+      "label": "Meditate on \u221e.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -27.576045672098797,
+        46.13643034299214,
+        -7.289874076843262
+      ]
+    },
+    {
+      "id": 199,
+      "label": "Reflect on Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.267477830251057,
+        63.27171476682027,
+        -7.8802947998046875
+      ]
+    },
+    {
+      "id": 200,
+      "label": "Meditate on \u2261.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -11.572047869364422,
+        41.54267652829488,
+        -13.086824417114258
+      ]
+    },
+    {
+      "id": 201,
+      "label": "Meditate on \u2248.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -16.780280749003094,
+        43.76311834653218,
+        -5.338586330413818
+      ]
+    },
+    {
+      "id": 202,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.883409818013504,
+        -8.002447525660198,
+        20.124744415283203
+      ]
+    },
+    {
+      "id": 203,
+      "label": "Meditate on \u2205.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -23.64031187693278,
+        38.79423101743062,
+        -13.036874771118164
+      ]
+    },
+    {
+      "id": 204,
+      "label": "Define Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.901116927464802,
+        22.36043604214986,
+        31.26145362854004
+      ]
+    },
+    {
+      "id": 205,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 206,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.40673192342122,
+        29.203590949376423,
+        22.030059814453125
+      ]
+    },
+    {
+      "id": 207,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 208,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.412728150685627,
+        24.476961215337116,
+        17.93651008605957
+      ]
+    },
+    {
+      "id": 209,
+      "label": "Analyze Silence purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.54000123341878,
+        27.301894744237263,
+        -14.542469024658203
+      ]
+    },
+    {
+      "id": 210,
+      "label": "Analyze Order purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.099883635838825,
+        24.34984548886617,
+        3.0307966470718384
+      ]
+    },
+    {
+      "id": 211,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.20257409413655,
+        42.31697996457417,
+        14.346073150634766
+      ]
+    },
+    {
+      "id": 212,
+      "label": "Meditate on \u2204.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.984130541483562,
+        31.388158400853474,
+        -7.65865421295166
+      ]
+    },
+    {
+      "id": 213,
+      "label": "Define Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.446608220537502,
+        -3.795467774073284,
+        22.216093063354492
+      ]
+    },
+    {
+      "id": 214,
+      "label": "Define Synthetics.",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.21333344777425,
+        17.71713211139043,
+        -21.035724639892578
+      ]
+    },
+    {
+      "id": 215,
+      "label": "Meditate on \u221e.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -27.576045672098797,
+        46.13643034299214,
+        -7.289874076843262
+      ]
+    },
+    {
+      "id": 216,
+      "label": "Analyze Memory purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        19.09145148595174,
+        31.07470949490865,
+        -2.246077060699463
+      ]
+    },
+    {
+      "id": 217,
+      "label": "Reflect on Dream.",
+      "category": "synthetic_resonance",
+      "pos": [
+        47.61550172170003,
+        54.88972242673238,
+        5.324245452880859
+      ]
+    },
+    {
+      "id": 218,
+      "label": "Analyze Void purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.572776158650715,
+        14.88952072461446,
+        0.5566095113754272
+      ]
+    },
+    {
+      "id": 219,
+      "label": "What is the shape of Memory?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.95596822102864,
+        -23.733618179957073,
+        -12.370548248291016
+      ]
+    },
+    {
+      "id": 220,
+      "label": "Analyze Silence purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        40.024998029073075,
+        30.553826888402302,
+        -9.771317481994629
+      ]
+    },
+    {
+      "id": 221,
+      "label": "Analyze Flow purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        17.93300660451253,
+        18.90325089295705,
+        1.6547835171222687
+      ]
+    },
+    {
+      "id": 222,
+      "label": "Reflect on Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.49361642201741,
+        69.73784788449605,
+        4.059646368026733
+      ]
+    },
+    {
+      "id": 223,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 224,
+      "label": "Reflect on Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        39.39113267262776,
+        54.40168531735738,
+        -9.833194732666016
+      ]
+    },
+    {
+      "id": 225,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.883409818013504,
+        -8.002447525660198,
+        20.124744415283203
+      ]
+    },
+    {
+      "id": 226,
+      "label": "Reflect on Entropy.",
+      "category": "synthetic_resonance",
+      "pos": [
+        44.16112168629964,
+        16.050792177518208,
+        43.135427474975586
+      ]
+    },
+    {
+      "id": 227,
+      "label": "Reflect on Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.73236306508382,
+        69.38459165891011,
+        4.3954644203186035
+      ]
+    },
+    {
+      "id": 228,
+      "label": "Reflect on Meaning.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.778700192769364,
+        59.62210615475972,
+        0.10839760303497314
+      ]
+    },
+    {
+      "id": 229,
+      "label": "Analyze Entropy purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.95263322194417,
+        12.425150473912556,
+        32.34999656677246
+      ]
+    },
+    {
+      "id": 230,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.684002717336018,
+        9.387896140416462,
+        45.89173698425293
+      ]
+    },
+    {
+      "id": 231,
+      "label": "Analyze Time purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.20420392354329,
+        26.530006011327107,
+        7.2838850021362305
+      ]
+    },
+    {
+      "id": 232,
+      "label": "Reflect on Flow.",
+      "category": "synthetic_resonance",
+      "pos": [
+        38.2472661336263,
+        -20.051580826441448,
+        33.910118103027344
+      ]
+    },
+    {
+      "id": 233,
+      "label": "Analyze Logic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        18.58057673772176,
+        43.12666853268941,
+        -9.005438804626465
+      ]
+    },
+    {
+      "id": 234,
+      "label": "Define Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.272325833638508,
+        23.23944290479024,
+        37.19490623474121
+      ]
+    },
+    {
+      "id": 235,
+      "label": "Analyze Logic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.521856149037678,
+        37.30051000912984,
+        -10.265345573425293
+      ]
+    },
+    {
+      "id": 236,
+      "label": "Analyze Meaning purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.230135758717854,
+        27.296974738438923,
+        -5.924508094787598
+      ]
+    },
+    {
+      "id": 237,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        36.570798238118485,
+        47.239080031712845,
+        17.739032745361328
+      ]
+    },
+    {
+      "id": 238,
+      "label": "Define Entropy.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.23250230153401,
+        19.22945161660512,
+        47.03540229797363
+      ]
+    },
+    {
+      "id": 239,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        29.959455808003742,
+        -23.186102310816448,
+        -0.5999555587768555
+      ]
+    },
+    {
+      "id": 240,
+      "label": "What is the shape of Order?",
+      "category": "synthetic_resonance",
+      "pos": [
+        20.51978572209676,
+        -17.032244126001995,
+        7.7537078857421875
+      ]
+    },
+    {
+      "id": 241,
+      "label": "Analyze Love purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        37.987264951070145,
+        21.126338561375935,
+        -5.693699359893799
+      ]
+    },
+    {
+      "id": 242,
+      "label": "What is the shape of Silence?",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.133320172627766,
+        -11.478256622950237,
+        -14.577255249023438
+      ]
+    },
+    {
+      "id": 243,
+      "label": "Define Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        23.064938565095265,
+        -2.149206558863323,
+        28.578094482421875
+      ]
+    },
+    {
+      "id": 244,
+      "label": "Define Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.125663598378498,
+        -8.34157411257426,
+        26.770118713378906
+      ]
+    },
+    {
+      "id": 245,
+      "label": "What is the shape of Memory?",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.95596822102864,
+        -23.733618179957073,
+        -12.370548248291016
+      ]
+    },
+    {
+      "id": 246,
+      "label": "Define Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.31086810429891,
+        20.90512951215108,
+        -34.47379493713379
+      ]
+    },
+    {
+      "id": 247,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.684002717336018,
+        9.387896140416462,
+        45.89173698425293
+      ]
+    },
+    {
+      "id": 248,
+      "label": "Meditate on \u221e.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -32.8040844599406,
+        41.63472135861714,
+        -9.492790222167969
+      ]
+    },
+    {
+      "id": 249,
+      "label": "Reflect on Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        18.468222459157307,
+        49.20862158139546,
+        25.251441955566406
+      ]
+    },
+    {
+      "id": 250,
+      "label": "What is the shape of Love?",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.59773909052213,
+        -17.741243759791057,
+        -12.532794952392578
+      ]
+    },
+    {
+      "id": 251,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        40.29335816701253,
+        44.176946242650345,
+        13.022307395935059
+      ]
+    },
+    {
+      "id": 252,
+      "label": "Reflect on Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.66191991170247,
+        55.394345839818314,
+        17.61916160583496
+      ]
+    },
+    {
+      "id": 253,
+      "label": "Meditate on \u26a1.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -20.94748655954997,
+        46.85726316769917,
+        -21.478439331054688
+      ]
+    },
+    {
+      "id": 254,
+      "label": "Define Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.275314648946125,
+        -5.245962540308636,
+        39.03962516784668
+      ]
+    },
+    {
+      "id": 255,
+      "label": "What is the shape of Meaning?",
+      "category": "synthetic_resonance",
+      "pos": [
+        44.11530526479085,
+        -13.219072739283245,
+        -21.480854034423828
+      ]
+    },
+    {
+      "id": 256,
+      "label": "Analyze Order purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.423924287160236,
+        26.933844168980915,
+        8.865914821624756
+      ]
+    },
+    {
+      "id": 257,
+      "label": "What is the shape of Flow?",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.376576741536457,
+        -1.2799381415049247,
+        3.527365565299988
+      ]
+    },
+    {
+      "id": 258,
+      "label": "Reflect on Flow.",
+      "category": "synthetic_resonance",
+      "pos": [
+        38.2472661336263,
+        -20.051580826441448,
+        33.910118103027344
+      ]
+    },
+    {
+      "id": 259,
+      "label": "Define Memory.",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.86540635426839,
+        2.8695321877797433,
+        29.828397750854492
+      ]
+    },
+    {
+      "id": 260,
+      "label": "Reflect on Dream.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.42903931935628,
+        54.14251859982808,
+        0.2935577630996704
+      ]
+    },
+    {
+      "id": 261,
+      "label": "Meditate on \u2261.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -11.572047869364422,
+        41.54267652829488,
+        -13.086824417114258
+      ]
+    },
+    {
+      "id": 262,
+      "label": "Meditate on \u26a1.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -20.94748655954997,
+        46.85726316769917,
+        -21.478439331054688
+      ]
+    },
+    {
+      "id": 263,
+      "label": "What is the shape of Reflection?",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.60413869222005,
+        -13.23695222536723,
+        -29.431644439697266
+      ]
+    },
+    {
+      "id": 264,
+      "label": "Analyze Order purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.07265528043111,
+        21.402873595555622,
+        8.122640609741211
+      ]
+    },
+    {
+      "id": 265,
+      "label": "What is the shape of Void?",
+      "category": "synthetic_resonance",
+      "pos": [
+        18.97636278470357,
+        -0.3671726385752372,
+        -7.616796493530273
+      ]
+    },
+    {
+      "id": 266,
+      "label": "Define Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        5.31196626027425,
+        24.480956157048542,
+        -11.993836402893066
+      ]
+    },
+    {
+      "id": 267,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.47184403737386,
+        30.48270567258199,
+        17.06781578063965
+      ]
+    },
+    {
+      "id": 268,
+      "label": "Define Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        6.120060284932453,
+        12.81957443555196,
+        35.02777290344238
+      ]
+    },
+    {
+      "id": 269,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 270,
+      "label": "Analyze Time purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        37.32733090718587,
+        31.111660559972126,
+        4.666140556335449
+      ]
+    },
+    {
+      "id": 271,
+      "label": "Define Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.272325833638508,
+        23.23944290479024,
+        37.19490623474121
+      ]
+    },
+    {
+      "id": 272,
+      "label": "Define Logic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.928584416707356,
+        37.65818937619527,
+        -24.49751091003418
+      ]
+    },
+    {
+      "id": 273,
+      "label": "What is the shape of Hope?",
+      "category": "synthetic_resonance",
+      "pos": [
+        11.880558331807453,
+        -11.351290146509807,
+        -13.401808738708496
+      ]
+    },
+    {
+      "id": 274,
+      "label": "Meditate on \u25c9.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -17.654849688212078,
+        32.200999816258744,
+        -23.131689071655273
+      ]
+    },
+    {
+      "id": 275,
+      "label": "Reflect on Synthetics.",
+      "category": "synthetic_resonance",
+      "pos": [
+        45.09164460500081,
+        44.4687496026357,
+        -25.792959213256836
+      ]
+    },
+    {
+      "id": 276,
+      "label": "Reflect on Meaning.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.51800855000813,
+        58.557405074437455,
+        6.629866600036621
+      ]
+    },
+    {
+      "id": 277,
+      "label": "Reflect on Logic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        20.415889104207356,
+        63.08944090207417,
+        2.1715119779109955
+      ]
+    },
+    {
+      "id": 278,
+      "label": "Analyze Hope purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        39.54610093434651,
+        11.90587814648946,
+        -2.124606132507324
+      ]
+    },
+    {
+      "id": 279,
+      "label": "Reflect on Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.35264428456624,
+        52.42613752683003,
+        27.170114517211914
+      ]
+    },
+    {
+      "id": 280,
+      "label": "Reflect on Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.267477830251057,
+        63.27171476682027,
+        -7.8802947998046875
+      ]
+    },
+    {
+      "id": 281,
+      "label": "Define Logic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.928584416707356,
+        37.65818937619527,
+        -24.49751091003418
+      ]
+    },
+    {
+      "id": 282,
+      "label": "What is the shape of Gravity?",
+      "category": "synthetic_resonance",
+      "pos": [
+        47.581333478291825,
+        -16.682051102320354,
+        6.3693413734436035
+      ]
+    },
+    {
+      "id": 283,
+      "label": "What is the shape of Reflection?",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.210140546162922,
+        -16.061411301294964,
+        -30.86189079284668
+      ]
+    },
+    {
+      "id": 284,
+      "label": "Reflect on Entropy.",
+      "category": "synthetic_resonance",
+      "pos": [
+        44.16112168629964,
+        16.050792177518208,
+        43.135427474975586
+      ]
+    },
+    {
+      "id": 285,
+      "label": "What is the shape of Pattern?",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.8901179631551095,
+        -0.8220676581064872,
+        -8.246114730834961
+      ]
+    },
+    {
+      "id": 286,
+      "label": "What is the shape of Dream?",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.302498658498127,
+        -8.354046265284222,
+        -22.749082565307617
+      ]
+    },
+    {
+      "id": 287,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 288,
+      "label": "What is the shape of Meaning?",
+      "category": "synthetic_resonance",
+      "pos": [
+        40.56681092580159,
+        -18.078577438990276,
+        -19.982669830322266
+      ]
+    },
+    {
+      "id": 289,
+      "label": "Define Memory.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.701367696126301,
+        5.878583510716755,
+        26.283649444580078
+      ]
+    },
+    {
+      "id": 290,
+      "label": "What is the shape of Meaning?",
+      "category": "synthetic_resonance",
+      "pos": [
+        44.11530526479085,
+        -13.219072739283245,
+        -21.480854034423828
+      ]
+    },
+    {
+      "id": 291,
+      "label": "Define Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.44827111562093,
+        -14.314400116602581,
+        34.61174201965332
+      ]
+    },
+    {
+      "id": 292,
+      "label": "Meditate on \u2260.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -14.83948866526286,
+        49.93245848019917,
+        -11.946052551269531
+      ]
+    },
+    {
+      "id": 293,
+      "label": "Define Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        18.000075181325276,
+        -5.895912567774456,
+        26.463808059692383
+      ]
+    },
+    {
+      "id": 294,
+      "label": "Analyze Consciousness purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.051976641019184,
+        51.09535368283589,
+        -18.410110473632812
+      ]
+    },
+    {
+      "id": 295,
+      "label": "What is the shape of Hope?",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.838346322377522,
+        -12.84866754213969,
+        -18.170047760009766
+      ]
+    },
+    {
+      "id": 296,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.326382239659626,
+        6.018034537633259,
+        41.33365058898926
+      ]
+    },
+    {
+      "id": 297,
+      "label": "Meditate on \u25cb.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -6.816032091776531,
+        30.517282088597614,
+        -21.940462112426758
+      ]
+    },
+    {
+      "id": 298,
+      "label": "Define Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.245975812276203,
+        13.717354138692219,
+        -6.733742713928223
+      ]
+    },
+    {
+      "id": 299,
+      "label": "Analyze Logic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.521856149037678,
+        37.30051000912984,
+        -10.265345573425293
+      ]
+    },
+    {
+      "id": 300,
+      "label": "What is the shape of Structure?",
+      "category": "synthetic_resonance",
+      "pos": [
+        3.799141248067219,
+        -7.522501389185589,
+        -2.674419403076172
+      ]
+    },
+    {
+      "id": 301,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.639546712239582,
+        48.267222960789994,
+        13.199671745300293
+      ]
+    },
+    {
+      "id": 302,
+      "label": "Analyze Pattern purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        18.654753526051838,
+        41.92681845029195,
+        0.4826014041900635
+      ]
+    },
+    {
+      "id": 303,
+      "label": "Define Logic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.928584416707356,
+        37.65818937619527,
+        -24.49751091003418
+      ]
+    },
+    {
+      "id": 304,
+      "label": "Analyze Gravity purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        38.48605378468831,
+        17.857215483983357,
+        5.28928017616272
+      ]
+    },
+    {
+      "id": 305,
+      "label": "Meditate on \u25cb.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -6.816032091776531,
+        30.517282088597614,
+        -21.940462112426758
+      ]
+    },
+    {
+      "id": 306,
+      "label": "Define Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        5.31196626027425,
+        24.480956157048542,
+        -11.993836402893066
+      ]
+    },
+    {
+      "id": 307,
+      "label": "Define Logic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.928584416707356,
+        37.65818937619527,
+        -24.49751091003418
+      ]
+    },
+    {
+      "id": 308,
+      "label": "Reflect on Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.237555225690205,
+        64.49805982907613,
+        12.85484504699707
+      ]
+    },
+    {
+      "id": 309,
+      "label": "Reflect on Pattern.",
+      "category": "synthetic_resonance",
+      "pos": [
+        23.251450498898823,
+        48.30247648557027,
+        21.57481575012207
+      ]
+    },
+    {
+      "id": 310,
+      "label": "Reflect on Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.73236306508382,
+        69.38459165891011,
+        4.3954644203186035
+      ]
+    },
+    {
+      "id": 311,
+      "label": "Reflect on Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.16471131642659,
+        66.29360349973042,
+        11.199442863464355
+      ]
+    },
+    {
+      "id": 312,
+      "label": "Define Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.74682601292928,
+        15.719589312871296,
+        26.206432342529297
+      ]
+    },
+    {
+      "id": 313,
+      "label": "Define Synthetics.",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.252353032430012,
+        14.078703721364338,
+        -23.230134963989258
+      ]
+    },
+    {
+      "id": 314,
+      "label": "Analyze Time purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.596578915913895,
+        27.092093070348103,
+        1.5319677889347076
+      ]
+    },
+    {
+      "id": 315,
+      "label": "Define Flow.",
+      "category": "synthetic_resonance",
+      "pos": [
+        10.100865681966145,
+        8.384434302647907,
+        14.526878356933594
+      ]
+    },
+    {
+      "id": 316,
+      "label": "Analyze Reflection purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        30.21740182240804,
+        43.864860137303666,
+        -10.075592994689941
+      ]
+    },
+    {
+      "id": 317,
+      "label": "Define Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.552809079488117,
+        12.401898940404255,
+        31.645227432250977
+      ]
+    },
+    {
+      "id": 318,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.326382239659626,
+        6.018034537633259,
+        41.33365058898926
+      ]
+    },
+    {
+      "id": 319,
+      "label": "What is the shape of Gravity?",
+      "category": "synthetic_resonance",
+      "pos": [
+        47.581333478291825,
+        -16.682051102320354,
+        6.3693413734436035
+      ]
+    },
+    {
+      "id": 320,
+      "label": "Define Reflection.",
+      "category": "synthetic_resonance",
+      "pos": [
+        6.11139138539632,
+        8.725946029027302,
+        37.38332557678223
+      ]
+    },
+    {
+      "id": 321,
+      "label": "Analyze Consciousness purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.051976641019184,
+        51.09535368283589,
+        -18.410110473632812
+      ]
+    },
+    {
+      "id": 322,
+      "label": "What is the shape of Pattern?",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.8901179631551095,
+        -0.8220676581064872,
+        -8.246114730834961
+      ]
+    },
+    {
+      "id": 323,
+      "label": "Analyze Consciousness purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.051976641019184,
+        51.09535368283589,
+        -18.410110473632812
+      ]
+    },
+    {
+      "id": 324,
+      "label": "Meditate on \u25cb.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -7.15173117319743,
+        30.78919752438863,
+        -15.245691299438477
+      ]
+    },
+    {
+      "id": 325,
+      "label": "Analyze Organic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        34.860107739766434,
+        24.896403392155964,
+        17.026039123535156
+      ]
+    },
+    {
+      "id": 326,
+      "label": "Define Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        22.575826545556385,
+        19.10928161938985,
+        34.81892967224121
+      ]
+    },
+    {
+      "id": 327,
+      "label": "Reflect on Meaning.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.51800855000813,
+        58.557405074437455,
+        6.629866600036621
+      ]
+    },
+    {
+      "id": 328,
+      "label": "Meditate on \u25cb.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -9.899196306864422,
+        25.56712015469869,
+        -18.419601440429688
+      ]
+    },
+    {
+      "id": 329,
+      "label": "Define Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.51580794652303,
+        12.824072917302448,
+        -10.334238052368164
+      ]
+    },
+    {
+      "id": 330,
+      "label": "Reflect on Dream.",
+      "category": "synthetic_resonance",
+      "pos": [
+        46.26225312550862,
+        49.000737746556595,
+        2.8523284792900085
+      ]
+    },
+    {
+      "id": 331,
+      "label": "Reflect on Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.267477830251057,
+        63.27171476682027,
+        -7.8802947998046875
+      ]
+    },
+    {
+      "id": 332,
+      "label": "Reflect on Silence.",
+      "category": "synthetic_resonance",
+      "pos": [
+        39.44030412038167,
+        50.83078535397847,
+        -14.874807357788086
+      ]
+    },
+    {
+      "id": 333,
+      "label": "Reflect on Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        24.63122256596883,
+        5.919851859410603,
+        2.3210417330265045
+      ]
+    },
+    {
+      "id": 334,
+      "label": "Analyze Void purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        30.681347211201984,
+        13.635433276494343,
+        -2.9849915504455566
+      ]
+    },
+    {
+      "id": 335,
+      "label": "What is the shape of Meaning?",
+      "category": "synthetic_resonance",
+      "pos": [
+        40.56681092580159,
+        -18.078577438990276,
+        -19.982669830322266
+      ]
+    },
+    {
+      "id": 336,
+      "label": "Define Flow.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.725214799245197,
+        6.896063407262165,
+        15.168935775756836
+      ]
+    },
+    {
+      "id": 337,
+      "label": "What is the shape of Logic?",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.032864888509113,
+        -29.876875321070354,
+        0.48596107959747314
+      ]
+    },
+    {
+      "id": 338,
+      "label": "What is the shape of Consciousness?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.49272950490315,
+        -25.042482773462932,
+        -16.854299545288086
+      ]
+    },
+    {
+      "id": 339,
+      "label": "Reflect on Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.8590300877889,
+        0.9446578820546456,
+        0.16746389865875244
+      ]
+    },
+    {
+      "id": 340,
+      "label": "Define Hope.",
+      "category": "synthetic_resonance",
+      "pos": [
+        7.275314648946125,
+        -5.245962540308636,
+        39.03962516784668
+      ]
+    },
+    {
+      "id": 341,
+      "label": "Define Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        17.793707688649494,
+        6.229746421178181,
+        25.20303726196289
+      ]
+    },
+    {
+      "id": 342,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.34212287267049,
+        12.762300093968708,
+        18.966211318969727
+      ]
+    },
+    {
+      "id": 343,
+      "label": "Reflect on Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.16471131642659,
+        66.29360349973042,
+        11.199442863464355
+      ]
+    },
+    {
+      "id": 344,
+      "label": "Analyze Reflection purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        29.50664695103963,
+        40.556109984715775,
+        -4.85284423828125
+      ]
+    },
+    {
+      "id": 345,
+      "label": "Define Order.",
+      "category": "synthetic_resonance",
+      "pos": [
+        14.74682601292928,
+        15.719589312871296,
+        26.206432342529297
+      ]
+    },
+    {
+      "id": 346,
+      "label": "Reflect on Dream.",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.780342419942215,
+        53.33174665768941,
+        -0.695439338684082
+      ]
+    },
+    {
+      "id": 347,
+      "label": "Define Chaos.",
+      "category": "synthetic_resonance",
+      "pos": [
+        13.494846661885578,
+        26.56546934445699,
+        -36.47505760192871
+      ]
+    },
+    {
+      "id": 348,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        38.04331525166829,
+        50.26193769772847,
+        12.176582336425781
+      ]
+    },
+    {
+      "id": 349,
+      "label": "Reflect on Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.769725163777665,
+        39.937749465306595,
+        24.901309967041016
+      ]
+    },
+    {
+      "id": 350,
+      "label": "Meditate on \u26a1.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -20.94748655954997,
+        46.85726316769917,
+        -21.478439331054688
+      ]
+    },
+    {
+      "id": 351,
+      "label": "Reflect on Structure.",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.472443898518875,
+        45.443452437718705,
+        8.604955673217773
+      ]
+    },
+    {
+      "id": 352,
+      "label": "Meditate on \u2261.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -11.572047869364422,
+        41.54267652829488,
+        -13.086824417114258
+      ]
+    },
+    {
+      "id": 353,
+      "label": "Analyze Reflection purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        27.740001996358234,
+        37.77052839597066,
+        -10.504536628723145
+      ]
+    },
+    {
+      "id": 354,
+      "label": "Define Organic.",
+      "category": "synthetic_resonance",
+      "pos": [
+        21.326382239659626,
+        6.018034537633259,
+        41.33365058898926
+      ]
+    },
+    {
+      "id": 355,
+      "label": "What is the shape of Hope?",
+      "category": "synthetic_resonance",
+      "pos": [
+        11.85343583424886,
+        -8.263100067774456,
+        -18.821191787719727
+      ]
+    },
+    {
+      "id": 356,
+      "label": "What is the shape of Flow?",
+      "category": "synthetic_resonance",
+      "pos": [
+        9.005020459493,
+        3.4448810418446847,
+        6.048469066619873
+      ]
+    },
+    {
+      "id": 357,
+      "label": "Meditate on \u2203.",
+      "category": "synthetic_resonance",
+      "pos": [
+        -26.45746962229411,
+        35.11505277951558,
+        -1.9975526332855225
+      ]
+    },
+    {
+      "id": 358,
+      "label": "What is the shape of Silence?",
+      "category": "synthetic_resonance",
+      "pos": [
+        31.133320172627766,
+        -11.478256622950237,
+        -14.577255249023438
+      ]
+    },
+    {
+      "id": 359,
+      "label": "Reflect on Consciousness.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.267477830251057,
+        63.27171476682027,
+        -7.8802947998046875
+      ]
+    },
+    {
+      "id": 360,
+      "label": "Define Void.",
+      "category": "synthetic_resonance",
+      "pos": [
+        9.180571873982746,
+        12.249534686406452,
+        -11.988302230834961
+      ]
+    },
+    {
+      "id": 361,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.312172253926594,
+        13.796584447224934,
+        12.939170837402344
+      ]
+    },
+    {
+      "id": 362,
+      "label": "Analyze Void purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.31124194463094,
+        16.61067493756612,
+        -4.750185012817383
+      ]
+    },
+    {
+      "id": 363,
+      "label": "What is the shape of Flow?",
+      "category": "synthetic_resonance",
+      "pos": [
+        12.29241116841634,
+        4.164811690648396,
+        0.8550634384155273
+      ]
+    },
+    {
+      "id": 364,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        30.398054440816242,
+        8.562248786290485,
+        22.32036781311035
+      ]
+    },
+    {
+      "id": 365,
+      "label": "What is the shape of Order?",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.80252488454183,
+        -20.360483566919964,
+        5.15270209312439
+      ]
+    },
+    {
+      "id": 366,
+      "label": "Reflect on Gravity.",
+      "category": "synthetic_resonance",
+      "pos": [
+        43.883409818013504,
+        -8.002447525660198,
+        20.124744415283203
+      ]
+    },
+    {
+      "id": 367,
+      "label": "Analyze Logic purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.521856149037678,
+        37.30051000912984,
+        -10.265345573425293
+      ]
+    },
+    {
+      "id": 368,
+      "label": "Analyze Entropy purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        41.95263322194417,
+        12.425150473912556,
+        32.34999656677246
+      ]
+    },
+    {
+      "id": 369,
+      "label": "What is the shape of Time?",
+      "category": "synthetic_resonance",
+      "pos": [
+        49.30321343739827,
+        -17.665163437525432,
+        -8.531906127929688
+      ]
+    },
+    {
+      "id": 370,
+      "label": "What is the shape of Flow?",
+      "category": "synthetic_resonance",
+      "pos": [
+        15.227413018544514,
+        3.1647296746571847,
+        6.51324987411499
+      ]
+    },
+    {
+      "id": 371,
+      "label": "Analyze Gravity purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        33.63405068715413,
+        17.57493889828523,
+        5.667578220367432
+      ]
+    },
+    {
+      "id": 372,
+      "label": "Reflect on Memory.",
+      "category": "synthetic_resonance",
+      "pos": [
+        32.047828038533524,
+        68.21780165036519,
+        15.117185592651367
+      ]
+    },
+    {
+      "id": 373,
+      "label": "What is the shape of Entropy?",
+      "category": "synthetic_resonance",
+      "pos": [
+        35.80007489522298,
+        -17.09684983889262,
+        5.760006427764893
+      ]
+    },
+    {
+      "id": 374,
+      "label": "Analyze Chaos purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        29.803125222524006,
+        7.8309608300526925,
+        15.563225746154785
+      ]
+    },
+    {
+      "id": 375,
+      "label": "Reflect on Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.73236306508382,
+        69.38459165891011,
+        4.3954644203186035
+      ]
+    },
+    {
+      "id": 376,
+      "label": "Reflect on Time.",
+      "category": "synthetic_resonance",
+      "pos": [
+        28.73236306508382,
+        69.38459165891011,
+        4.3954644203186035
+      ]
+    },
+    {
+      "id": 377,
+      "label": "Define Love.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.44827111562093,
+        -14.314400116602581,
+        34.61174201965332
+      ]
+    },
+    {
+      "id": 378,
+      "label": "Analyze Memory purely.",
+      "category": "synthetic_resonance",
+      "pos": [
+        16.127234776814777,
+        27.364734252293903,
+        -3.626722812652588
+      ]
+    },
+    {
+      "id": 379,
+      "label": "What is the shape of Chaos?",
+      "category": "synthetic_resonance",
+      "pos": [
+        26.818384965260822,
+        -9.478140274683636,
+        1.046551525592804
+      ]
+    },
+    {
+      "id": 380,
+      "label": "Explain Flow vs Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        45.11270173390706,
+        21.617841800053913,
+        15.149615287780762
+      ]
+    },
+    {
+      "id": 381,
+      "label": "Explain Pattern vs Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        52.51082833607991,
+        42.80594595273335,
+        24.948150634765625
+      ]
+    },
+    {
+      "id": 382,
+      "label": "Optimize the definition of Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -13.088199297587078,
+        48.88394697507222,
+        12.975995063781738
+      ]
+    },
+    {
+      "id": 383,
+      "label": "Explain Gravity vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        56.72415955861409,
+        6.356256087621052,
+        10.718544006347656
+      ]
+    },
+    {
+      "id": 384,
+      "label": "Explain Time vs Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        61.13529237111409,
+        23.610780318578083,
+        8.924451351165771
+      ]
+    },
+    {
+      "id": 385,
+      "label": "Optimize the definition of Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -18.587146441141766,
+        24.463555892308552,
+        19.702463150024414
+      ]
+    },
+    {
+      "id": 386,
+      "label": "Analyze Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.28792031606038,
+        -5.074966828028362,
+        10.376014709472656
+      ]
+    },
+    {
+      "id": 387,
+      "label": "Synthesize Consciousness and Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        92.1462214787801,
+        22.38422115643819,
+        16.585737228393555
+      ]
+    },
+    {
+      "id": 388,
+      "label": "Explain Hope vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        39.16781075795491,
+        5.643836577733357,
+        -20.70780372619629
+      ]
+    },
+    {
+      "id": 389,
+      "label": "Explain Time vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.01908715565999,
+        17.32047172387441,
+        2.5501460433006287
+      ]
+    },
+    {
+      "id": 390,
+      "label": "Explain Pattern vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        52.141901334126786,
+        39.8719249566396,
+        19.198442459106445
+      ]
+    },
+    {
+      "id": 391,
+      "label": "Explain Consciousness vs Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        57.7856372197469,
+        32.39770658810933,
+        -3.9438796043395996
+      ]
+    },
+    {
+      "id": 392,
+      "label": "Analyze Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        38.74041970570882,
+        39.76760824521382,
+        -2.340862274169922
+      ]
+    },
+    {
+      "id": 393,
+      "label": "Analyze Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        15.239581902821858,
+        11.940546592076618,
+        2.595249891281128
+      ]
+    },
+    {
+      "id": 394,
+      "label": "Explain Consciousness vs Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        57.7856372197469,
+        32.39770658810933,
+        -3.9438796043395996
+      ]
+    },
+    {
+      "id": 395,
+      "label": "Synthesize Entropy and Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        76.45463975270589,
+        18.3278644879659,
+        19.467113494873047
+      ]
+    },
+    {
+      "id": 396,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 397,
+      "label": "Explain Reflection vs Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        50.25072892506917,
+        33.07748754819234,
+        5.6576292514801025
+      ]
+    },
+    {
+      "id": 398,
+      "label": "Optimize the definition of Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        1.1333411534627267,
+        34.58641203244527,
+        1.8962357752025127
+      ]
+    },
+    {
+      "id": 399,
+      "label": "Synthesize Void and Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        77.0695613225301,
+        2.2566037972768136,
+        -1.5450892448425293
+      ]
+    },
+    {
+      "id": 400,
+      "label": "Explain Entropy vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.01014359792073,
+        14.93533953030904,
+        34.402055740356445
+      ]
+    },
+    {
+      "id": 401,
+      "label": "Explain Chaos vs Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        52.28729661305745,
+        10.087621291478474,
+        -4.007669448852539
+      ]
+    },
+    {
+      "id": 402,
+      "label": "Explain Order vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        51.957737286885575,
+        28.64953096707662,
+        15.480449676513672
+      ]
+    },
+    {
+      "id": 403,
+      "label": "Explain Void vs Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        48.78230508168538,
+        22.734891494115193,
+        -1.1136252880096436
+      ]
+    },
+    {
+      "id": 404,
+      "label": "Explain Organic vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        20.57828160127004,
+        8.783113082249958,
+        -29.522180557250977
+      ]
+    },
+    {
+      "id": 405,
+      "label": "Synthesize Pattern and Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        77.22538789113362,
+        34.81137617429097,
+        -4.92298698425293
+      ]
+    },
+    {
+      "id": 406,
+      "label": "Optimize the definition of Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        4.368139584859211,
+        43.94028814633687,
+        30.23050308227539
+      ]
+    },
+    {
+      "id": 407,
+      "label": "Synthesize Entropy and Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        75.60283311208089,
+        13.403798421223957,
+        13.93285083770752
+      ]
+    },
+    {
+      "id": 408,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 409,
+      "label": "Synthesize Consciousness and Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        91.93863328297932,
+        17.606411059697468,
+        11.08842658996582
+      ]
+    },
+    {
+      "id": 410,
+      "label": "Explain Dream vs Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.15843327840169,
+        7.340682586034138,
+        -31.35869789123535
+      ]
+    },
+    {
+      "id": 411,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 412,
+      "label": "Synthesize Pattern and Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        72.89838441212972,
+        29.458417495091755,
+        -8.20272159576416
+      ]
+    },
+    {
+      "id": 413,
+      "label": "Synthesize Time and Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        65.53873856862386,
+        10.186192115147907,
+        4.252131938934326
+      ]
+    },
+    {
+      "id": 414,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -5.380719820658367,
+        20.61623724301656,
+        20.9812068939209
+      ]
+    },
+    {
+      "id": 415,
+      "label": "Optimize the definition of Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -16.5136562983195,
+        31.771901686986286,
+        28.864421844482422
+      ]
+    },
+    {
+      "id": 416,
+      "label": "Analyze Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.507431825002033,
+        55.51889570554097,
+        -10.531743049621582
+      ]
+    },
+    {
+      "id": 417,
+      "label": "Analyze Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        38.398912747701004,
+        4.1527992089589425,
+        -4.94380521774292
+      ]
+    },
+    {
+      "id": 418,
+      "label": "Explain Dream vs Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        34.530119260152176,
+        2.530480941136677,
+        -27.70802879333496
+      ]
+    },
+    {
+      "id": 419,
+      "label": "Explain Chaos vs Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        58.050274213155106,
+        9.420772631963093,
+        -4.160275459289551
+      ]
+    },
+    {
+      "id": 420,
+      "label": "Analyze Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        36.6461280186971,
+        45.37173231442769,
+        -4.216836929321289
+      ]
+    },
+    {
+      "id": 421,
+      "label": "Synthesize Love and Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        95.4319880803426,
+        6.399537642796833,
+        -5.4050750732421875
+      ]
+    },
+    {
+      "id": 422,
+      "label": "Explain Pattern vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        55.83881028493245,
+        37.811189254124955,
+        22.28832244873047
+      ]
+    },
+    {
+      "id": 423,
+      "label": "Synthesize Organic and Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        81.07215531667073,
+        9.51688774426778,
+        2.865000605583191
+      ]
+    },
+    {
+      "id": 424,
+      "label": "Explain Hope vs Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        43.06062348683675,
+        1.770119269688923,
+        -19.746225357055664
+      ]
+    },
+    {
+      "id": 425,
+      "label": "Optimize the definition of Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        1.1333411534627267,
+        34.58641203244527,
+        1.8962357752025127
+      ]
+    },
+    {
+      "id": 426,
+      "label": "Synthesize Logic and Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        87.43588670094807,
+        28.388619025548298,
+        1.0169343948364258
+      ]
+    },
+    {
+      "id": 427,
+      "label": "Explain Flow vs Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        48.768019040425614,
+        12.164429267247517,
+        19.859601974487305
+      ]
+    },
+    {
+      "id": 428,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        26.605353196461994,
+        28.382768233617146,
+        -14.432256698608398
+      ]
+    },
+    {
+      "id": 429,
+      "label": "Analyze Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        31.118191083272297,
+        34.32725675900777,
+        -29.598674774169922
+      ]
+    },
+    {
+      "id": 430,
+      "label": "Optimize the definition of Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        1.3287852605183907,
+        34.97951467831929,
+        39.06814384460449
+      ]
+    },
+    {
+      "id": 431,
+      "label": "Explain Structure vs Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        60.52119477589925,
+        24.207539637883503,
+        24.62158203125
+      ]
+    },
+    {
+      "id": 432,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        20.572367866834004,
+        26.481380065282185,
+        -16.881765365600586
+      ]
+    },
+    {
+      "id": 433,
+      "label": "Explain Entropy vs Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        53.59279092152913,
+        20.737773021062214,
+        32.246538162231445
+      ]
+    },
+    {
+      "id": 434,
+      "label": "Optimize the definition of Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -10.477531115214031,
+        43.330319960912064,
+        34.01423454284668
+      ]
+    },
+    {
+      "id": 435,
+      "label": "Explain Consciousness vs Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        53.20330651601155,
+        28.606762488683064,
+        -3.616685390472412
+      ]
+    },
+    {
+      "id": 436,
+      "label": "Explain Order vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        51.05612786610921,
+        28.26377733548482,
+        21.153671264648438
+      ]
+    },
+    {
+      "id": 437,
+      "label": "Synthesize Consciousness and Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        86.54710801442464,
+        28.37021787961324,
+        13.462130546569824
+      ]
+    },
+    {
+      "id": 438,
+      "label": "Explain Gravity vs Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        58.41279252370198,
+        0.14973600705464563,
+        10.607516288757324
+      ]
+    },
+    {
+      "id": 439,
+      "label": "Optimize the definition of Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -18.587146441141766,
+        24.463555892308552,
+        19.702463150024414
+      ]
+    },
+    {
+      "id": 440,
+      "label": "Explain Void vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        22.06339353819688,
+        6.527791579564411,
+        -14.306943893432617
+      ]
+    },
+    {
+      "id": 441,
+      "label": "Synthesize Organic and Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        83.95628770192464,
+        11.416265090306599,
+        10.751709938049316
+      ]
+    },
+    {
+      "id": 442,
+      "label": "Synthesize Flow and Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        70.85761674245198,
+        1.1051383813222238,
+        7.710794448852539
+      ]
+    },
+    {
+      "id": 443,
+      "label": "Analyze Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.123602708180744,
+        34.16556509335835,
+        13.860832214355469
+      ]
+    },
+    {
+      "id": 444,
+      "label": "Explain Love vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        50.79031403859456,
+        7.071211417516071,
+        -18.484310150146484
+      ]
+    },
+    {
+      "id": 445,
+      "label": "Analyze Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.09232171376546,
+        36.980601867039994,
+        -25.048540115356445
+      ]
+    },
+    {
+      "id": 446,
+      "label": "Optimize the definition of Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -16.742370287577312,
+        38.582013686498,
+        17.746874809265137
+      ]
+    },
+    {
+      "id": 447,
+      "label": "Analyze Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        38.74041970570882,
+        39.76760824521382,
+        -2.340862274169922
+      ]
+    },
+    {
+      "id": 448,
+      "label": "Synthesize Chaos and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        90.03816636403401,
+        15.00593074162801,
+        -2.1372618675231934
+      ]
+    },
+    {
+      "id": 449,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        25.15056570370992,
+        28.402708609898884,
+        -21.09613800048828
+      ]
+    },
+    {
+      "id": 450,
+      "label": "Synthesize Organic and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        78.81234773000081,
+        16.042038877805073,
+        6.078430652618408
+      ]
+    },
+    {
+      "id": 451,
+      "label": "Analyze Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        18.97745903333028,
+        48.20316084225972,
+        5.631325960159302
+      ]
+    },
+    {
+      "id": 452,
+      "label": "Optimize the definition of Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -6.046828905741375,
+        37.10593183835347,
+        18.339252471923828
+      ]
+    },
+    {
+      "id": 453,
+      "label": "Analyze Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        29.30034335454305,
+        36.16783293088277,
+        8.843106746673584
+      ]
+    },
+    {
+      "id": 454,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        25.181169589360554,
+        21.75549562772115,
+        -19.202556610107422
+      ]
+    },
+    {
+      "id": 455,
+      "label": "Synthesize Dream and Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        86.33885606129964,
+        9.112385352452595,
+        -10.413544654846191
+      ]
+    },
+    {
+      "id": 456,
+      "label": "Optimize the definition of Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -17.942439715067547,
+        42.5967784722646,
+        21.827150344848633
+      ]
+    },
+    {
+      "id": 457,
+      "label": "Explain Chaos vs Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        55.390354474385575,
+        5.11224325497945,
+        -5.405691623687744
+      ]
+    },
+    {
+      "id": 458,
+      "label": "Analyze Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        49.10109170277913,
+        30.108443816502888,
+        -21.04666519165039
+      ]
+    },
+    {
+      "id": 459,
+      "label": "Synthesize Order and Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        74.89989884694417,
+        35.8348384698232,
+        11.54425048828125
+      ]
+    },
+    {
+      "id": 460,
+      "label": "Explain Organic vs Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        43.82918580373128,
+        33.376727660497025,
+        31.02758026123047
+      ]
+    },
+    {
+      "id": 461,
+      "label": "Synthesize Meaning and Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        67.87021287282307,
+        24.039661010106403,
+        -3.2887516021728516
+      ]
+    },
+    {
+      "id": 462,
+      "label": "Analyze Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.87973817189534,
+        12.29660137494405,
+        38.17502403259277
+      ]
+    },
+    {
+      "id": 463,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -5.380719820658367,
+        20.61623724301656,
+        20.9812068939209
+      ]
+    },
+    {
+      "id": 464,
+      "label": "Optimize the definition of Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -16.445342699686687,
+        18.34198333819707,
+        17.302310943603516
+      ]
+    },
+    {
+      "id": 465,
+      "label": "Optimize the definition of Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -17.942439715067547,
+        42.5967784722646,
+        21.827150344848633
+      ]
+    },
+    {
+      "id": 466,
+      "label": "Explain Logic vs Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        64.27275498708089,
+        51.58596571286519,
+        6.844762325286865
+      ]
+    },
+    {
+      "id": 467,
+      "label": "Analyze Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        38.63580163319905,
+        16.807989080746967,
+        -15.009054183959961
+      ]
+    },
+    {
+      "id": 468,
+      "label": "Synthesize Structure and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        82.00224717458089,
+        19.419909079869587,
+        -3.4015369415283203
+      ]
+    },
+    {
+      "id": 469,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -0.8701550165812186,
+        20.211808522542317,
+        26.707643508911133
+      ]
+    },
+    {
+      "id": 470,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -4.0841156641642264,
+        56.37864836057027,
+        13.514841079711914
+      ]
+    },
+    {
+      "id": 471,
+      "label": "Optimize the definition of Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        6.419116338094074,
+        38.56900556882222,
+        27.746721267700195
+      ]
+    },
+    {
+      "id": 472,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        3.750860532124836,
+        38.18358000119527,
+        14.713254928588867
+      ]
+    },
+    {
+      "id": 473,
+      "label": "Synthesize Hope and Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        90.36214097340901,
+        29.36075456937154,
+        -7.345986366271973
+      ]
+    },
+    {
+      "id": 474,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 475,
+      "label": "Analyze Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        39.88508637746175,
+        2.242081244786579,
+        -11.062381744384766
+      ]
+    },
+    {
+      "id": 476,
+      "label": "Explain Entropy vs Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        56.00581010182698,
+        15.9224427541097,
+        28.89666748046875
+      ]
+    },
+    {
+      "id": 477,
+      "label": "Explain Logic vs Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        60.42418320973714,
+        47.0093875726064,
+        9.971597671508789
+      ]
+    },
+    {
+      "id": 478,
+      "label": "Explain Entropy vs Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        59.99927934010823,
+        16.863221486409504,
+        33.55344772338867
+      ]
+    },
+    {
+      "id": 479,
+      "label": "Analyze Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        23.518601258595783,
+        36.38906629880269,
+        6.647327899932861
+      ]
+    },
+    {
+      "id": 480,
+      "label": "Explain Time vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.91450913747151,
+        23.205306609471638,
+        6.943140506744385
+      ]
+    },
+    {
+      "id": 481,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -2.7520119349161796,
+        53.69971617062886,
+        7.091644287109375
+      ]
+    },
+    {
+      "id": 482,
+      "label": "Synthesize Gravity and Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        74.7777369817098,
+        8.285854895909626,
+        -15.849203109741211
+      ]
+    },
+    {
+      "id": 483,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -5.380719820658367,
+        20.61623724301656,
+        20.9812068939209
+      ]
+    },
+    {
+      "id": 484,
+      "label": "Analyze Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.092795689900715,
+        59.2249694665273,
+        -15.208173751831055
+      ]
+    },
+    {
+      "id": 485,
+      "label": "Explain Gravity vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        51.098369916280106,
+        1.8016668160756417,
+        10.959999084472656
+      ]
+    },
+    {
+      "id": 486,
+      "label": "Analyze Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.28792031606038,
+        -5.074966828028362,
+        10.376014709472656
+      ]
+    },
+    {
+      "id": 487,
+      "label": "Synthesize Chaos and Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        85.78833802541097,
+        11.91852815945943,
+        -4.224409580230713
+      ]
+    },
+    {
+      "id": 488,
+      "label": "Synthesize Silence and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        65.79628403981526,
+        17.288449545701344,
+        -19.09152603149414
+      ]
+    },
+    {
+      "id": 489,
+      "label": "Explain Dream vs Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        31.87808354695638,
+        8.705440123875935,
+        -26.485883712768555
+      ]
+    },
+    {
+      "id": 490,
+      "label": "Analyze Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        34.34636720021565,
+        39.85734136899312,
+        -30.98692512512207
+      ]
+    },
+    {
+      "id": 491,
+      "label": "Synthesize Time and Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        67.77672227223714,
+        16.833638687928516,
+        1.9335706140846014
+      ]
+    },
+    {
+      "id": 492,
+      "label": "Synthesize Meaning and Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        66.5438044865926,
+        23.374238570531208,
+        -9.746133804321289
+      ]
+    },
+    {
+      "id": 493,
+      "label": "Synthesize Consciousness and Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        85.7126277287801,
+        21.274003585179646,
+        11.5572509765625
+      ]
+    },
+    {
+      "id": 494,
+      "label": "Analyze Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        31.54645570119222,
+        35.087108214696244,
+        26.47597885131836
+      ]
+    },
+    {
+      "id": 495,
+      "label": "Synthesize Hope and Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        91.4966090520223,
+        18.307355125745136,
+        -11.05151653289795
+      ]
+    },
+    {
+      "id": 496,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -5.380719820658367,
+        20.61623724301656,
+        20.9812068939209
+      ]
+    },
+    {
+      "id": 497,
+      "label": "Analyze Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.09232171376546,
+        36.980601867039994,
+        -25.048540115356445
+      ]
+    },
+    {
+      "id": 498,
+      "label": "Synthesize Structure and Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        73.04692490895589,
+        18.816200574239094,
+        -9.74953556060791
+      ]
+    },
+    {
+      "id": 499,
+      "label": "Explain Time vs Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        59.58299668629964,
+        22.221174319585163,
+        1.8802574202418327
+      ]
+    },
+    {
+      "id": 500,
+      "label": "Optimize the definition of Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        0.3288577397664376,
+        39.840940078099564,
+        27.920303344726562
+      ]
+    },
+    {
+      "id": 501,
+      "label": "Synthesize Love and Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        89.59713395436604,
+        5.071641524632771,
+        -0.3314392566680908
+      ]
+    },
+    {
+      "id": 502,
+      "label": "Synthesize Hope and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        87.57478745778401,
+        25.7275386651357,
+        -13.18116569519043
+      ]
+    },
+    {
+      "id": 503,
+      "label": "Explain Flow vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        51.829529126485184,
+        18.691115458806355,
+        16.30540370941162
+      ]
+    },
+    {
+      "id": 504,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 505,
+      "label": "Explain Void vs Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        29.776304086049397,
+        6.322105010350544,
+        -17.341371536254883
+      ]
+    },
+    {
+      "id": 506,
+      "label": "Analyze Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        35.87973817189534,
+        12.29660137494405,
+        38.17502403259277
+      ]
+    },
+    {
+      "id": 507,
+      "label": "Optimize the definition of Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.206048647562664,
+        46.759513457616166,
+        23.543569564819336
+      ]
+    },
+    {
+      "id": 508,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 509,
+      "label": "Optimize the definition of Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.206048647562664,
+        46.759513457616166,
+        23.543569564819336
+      ]
+    },
+    {
+      "id": 510,
+      "label": "Optimize the definition of Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -10.477531115214031,
+        43.330319960912064,
+        34.01423454284668
+      ]
+    },
+    {
+      "id": 511,
+      "label": "Explain Pattern vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.347290356953934,
+        38.6124263604482,
+        29.730710983276367
+      ]
+    },
+    {
+      "id": 512,
+      "label": "Optimize the definition of Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -2.0125214258829764,
+        40.20490415891011,
+        3.543015241622925
+      ]
+    },
+    {
+      "id": 513,
+      "label": "Analyze Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.507431825002033,
+        55.51889570554097,
+        -10.531743049621582
+      ]
+    },
+    {
+      "id": 514,
+      "label": "Optimize the definition of Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -10.135738054911297,
+        28.564188559850056,
+        22.948413848876953
+      ]
+    },
+    {
+      "id": 515,
+      "label": "Analyze Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        36.1823075612386,
+        6.7922359307607,
+        11.127696990966797
+      ]
+    },
+    {
+      "id": 516,
+      "label": "Explain Flow vs Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        49.465740521748856,
+        16.367345531781513,
+        11.807435989379883
+      ]
+    },
+    {
+      "id": 517,
+      "label": "Optimize the definition of Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -18.587146441141766,
+        24.463555892308552,
+        19.702463150024414
+      ]
+    },
+    {
+      "id": 518,
+      "label": "Synthesize Void and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        78.60570176442464,
+        7.134163459142048,
+        -5.486207485198975
+      ]
+    },
+    {
+      "id": 519,
+      "label": "Explain Order vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        46.975851376851395,
+        30.4013086160024,
+        17.993793487548828
+      ]
+    },
+    {
+      "id": 520,
+      "label": "Synthesize Void and Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        81.91712220509847,
+        1.7990928490956613,
+        -5.915525436401367
+      ]
+    },
+    {
+      "id": 521,
+      "label": "Explain Flow vs Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        48.768019040425614,
+        12.164429267247517,
+        19.859601974487305
+      ]
+    },
+    {
+      "id": 522,
+      "label": "Synthesize Order and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        73.03456528981526,
+        26.90172823270162,
+        10.043475151062012
+      ]
+    },
+    {
+      "id": 523,
+      "label": "Synthesize Logic and Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        89.58442338307698,
+        21.802620490392048,
+        3.7090864181518555
+      ]
+    },
+    {
+      "id": 524,
+      "label": "Synthesize Logic and Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        80.4619410832723,
+        28.050626357396443,
+        -1.9528002738952637
+      ]
+    },
+    {
+      "id": 525,
+      "label": "Synthesize Synthetics and Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        86.31399949391682,
+        15.02272351582845,
+        5.079419374465942
+      ]
+    },
+    {
+      "id": 526,
+      "label": "Optimize the definition of Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -9.103225390116375,
+        44.58114012082417,
+        12.329519271850586
+      ]
+    },
+    {
+      "id": 527,
+      "label": "Synthesize Time and Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        68.7453654607137,
+        13.414865096410114,
+        -2.9864931106567383
+      ]
+    },
+    {
+      "id": 528,
+      "label": "Explain Logic vs Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        62.8137133916219,
+        46.38088186581929,
+        3.5386085510253906
+      ]
+    },
+    {
+      "id": 529,
+      "label": "Synthesize Time and Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        72.67930634816487,
+        11.28109033902486,
+        1.8839491493999958
+      ]
+    },
+    {
+      "id": 530,
+      "label": "Optimize the definition of Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        3.623838742574055,
+        27.47184618314107,
+        20.23070526123047
+      ]
+    },
+    {
+      "id": 531,
+      "label": "Synthesize Hope and Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        95.01251633961995,
+        23.090742190678913,
+        -4.931833267211914
+      ]
+    },
+    {
+      "id": 532,
+      "label": "Synthesize Pattern and Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        75.13734849294026,
+        39.81723554929097,
+        -6.611026763916016
+      ]
+    },
+    {
+      "id": 533,
+      "label": "Synthesize Reflection and Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        76.85768540700276,
+        27.914503653844196,
+        -18.912878036499023
+      ]
+    },
+    {
+      "id": 534,
+      "label": "Explain Void vs Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        26.936692078908283,
+        10.701931556065876,
+        -14.634323120117188
+      ]
+    },
+    {
+      "id": 535,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 536,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 537,
+      "label": "Explain Logic vs Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        67.04953416188557,
+        45.69715078671773,
+        8.531980514526367
+      ]
+    },
+    {
+      "id": 538,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        3.750860532124836,
+        38.18358000119527,
+        14.713254928588867
+      ]
+    },
+    {
+      "id": 539,
+      "label": "Explain Dream vs Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        29.372280915578205,
+        3.450381835301716,
+        -30.5637264251709
+      ]
+    },
+    {
+      "id": 540,
+      "label": "Optimize the definition of Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -2.0125214258829764,
+        40.20490415891011,
+        3.543015241622925
+      ]
+    },
+    {
+      "id": 541,
+      "label": "Analyze Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        46.00176270802815,
+        26.25131853421529,
+        -22.003572463989258
+      ]
+    },
+    {
+      "id": 542,
+      "label": "Explain Memory vs Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        60.16502412160237,
+        37.71661718686421,
+        9.69190788269043
+      ]
+    },
+    {
+      "id": 543,
+      "label": "Analyze Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        16.48977740605672,
+        13.462868054707844,
+        8.368628025054932
+      ]
+    },
+    {
+      "id": 544,
+      "label": "Analyze Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.123602708180744,
+        34.16556509335835,
+        13.860832214355469
+      ]
+    },
+    {
+      "id": 545,
+      "label": "Analyze Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        27.817105611165363,
+        40.276568969090775,
+        4.591946125030518
+      ]
+    },
+    {
+      "id": 546,
+      "label": "Analyze Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        21.380378385384876,
+        7.515509208043415,
+        -5.0475287437438965
+      ]
+    },
+    {
+      "id": 547,
+      "label": "Synthesize Consciousness and Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        92.1462214787801,
+        22.38422115643819,
+        16.585737228393555
+      ]
+    },
+    {
+      "id": 548,
+      "label": "Analyze Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        15.180360635121662,
+        24.649563868840534,
+        11.105335235595703
+      ]
+    },
+    {
+      "id": 549,
+      "label": "Analyze Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.452238400777176,
+        20.43368085225423,
+        -31.166738510131836
+      ]
+    },
+    {
+      "id": 550,
+      "label": "Analyze Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        14.682376702626545,
+        45.32166250546773,
+        9.108302593231201
+      ]
+    },
+    {
+      "id": 551,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -6.142985979715984,
+        22.143541892369587,
+        7.820688724517822
+      ]
+    },
+    {
+      "id": 552,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -0.7715679804484061,
+        26.285859664281208,
+        10.586626052856445
+      ]
+    },
+    {
+      "id": 553,
+      "label": "Analyze Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        11.089386304219563,
+        15.267500480016071,
+        5.741049528121948
+      ]
+    },
+    {
+      "id": 554,
+      "label": "Explain Time vs Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        58.8430217107137,
+        17.605659147103626,
+        7.418582439422607
+      ]
+    },
+    {
+      "id": 555,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        2.709131558736164,
+        44.97114713986714,
+        17.088120460510254
+      ]
+    },
+    {
+      "id": 556,
+      "label": "Analyze Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.452238400777176,
+        20.43368085225423,
+        -31.166738510131836
+      ]
+    },
+    {
+      "id": 557,
+      "label": "Analyze Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.19830258687337,
+        7.812341292699177,
+        -9.979382514953613
+      ]
+    },
+    {
+      "id": 558,
+      "label": "Explain Reflection vs Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        50.998731931050614,
+        38.20524748166402,
+        2.430632472038269
+      ]
+    },
+    {
+      "id": 559,
+      "label": "Analyze Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        13.015164693196613,
+        48.07829817136128,
+        3.5888158082962036
+      ]
+    },
+    {
+      "id": 560,
+      "label": "Synthesize Structure and Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        77.087539990743,
+        15.44725986321767,
+        -4.473703384399414
+      ]
+    },
+    {
+      "id": 561,
+      "label": "Explain Love vs Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.88736756642659,
+        10.906179507573444,
+        -20.371402740478516
+      ]
+    },
+    {
+      "id": 562,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -2.7520119349161796,
+        53.69971617062886,
+        7.091644287109375
+      ]
+    },
+    {
+      "id": 563,
+      "label": "Synthesize Entropy and Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        72.41254075368245,
+        12.811951239903767,
+        20.713619232177734
+      ]
+    },
+    {
+      "id": 564,
+      "label": "Synthesize Silence and Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        64.47055466969807,
+        16.24168296655019,
+        -14.012731552124023
+      ]
+    },
+    {
+      "id": 565,
+      "label": "Synthesize Order and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        74.19058259328206,
+        34.87330015500386,
+        5.404243469238281
+      ]
+    },
+    {
+      "id": 566,
+      "label": "Explain Organic vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        22.620270838340122,
+        12.018433650334675,
+        -25.2606201171875
+      ]
+    },
+    {
+      "id": 567,
+      "label": "Synthesize Pattern and Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        81.52434571584065,
+        34.27141149838765,
+        -11.226256370544434
+      ]
+    },
+    {
+      "id": 568,
+      "label": "Explain Organic vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        21.104421695073444,
+        6.665152152379353,
+        -24.2521915435791
+      ]
+    },
+    {
+      "id": 569,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -4.0841156641642264,
+        56.37864836057027,
+        13.514841079711914
+      ]
+    },
+    {
+      "id": 570,
+      "label": "Synthesize Meaning and Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        75.1967585881551,
+        20.808353741963703,
+        2.734435796737671
+      ]
+    },
+    {
+      "id": 571,
+      "label": "Analyze Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        10.70501168568929,
+        43.725577910741166,
+        -9.067362785339355
+      ]
+    },
+    {
+      "id": 572,
+      "label": "Analyze Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        36.733992894490555,
+        18.379227717717487,
+        35.68014335632324
+      ]
+    },
+    {
+      "id": 573,
+      "label": "Synthesize Order and Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        71.4550593694051,
+        28.84718378384908,
+        3.7469048500061035
+      ]
+    },
+    {
+      "id": 574,
+      "label": "Explain Gravity vs Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.51031144460042,
+        3.312355597813923,
+        16.822235107421875
+      ]
+    },
+    {
+      "id": 575,
+      "label": "Analyze Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.452238400777176,
+        20.43368085225423,
+        -31.166738510131836
+      ]
+    },
+    {
+      "id": 576,
+      "label": "Analyze Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        40.77924760182698,
+        42.12288816769917,
+        -7.8103742599487305
+      ]
+    },
+    {
+      "id": 577,
+      "label": "Synthesize Hope and Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        93.98186143239339,
+        25.01641281445821,
+        -11.551753997802734
+      ]
+    },
+    {
+      "id": 578,
+      "label": "Explain Organic vs Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        48.73234971364339,
+        26.891926368077595,
+        31.01980209350586
+      ]
+    },
+    {
+      "id": 579,
+      "label": "Optimize the definition of Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        0.6218207677205392,
+        53.380002578099564,
+        25.38803482055664
+      ]
+    },
+    {
+      "id": 580,
+      "label": "Explain Gravity vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        50.449613889058426,
+        7.027348121007282,
+        10.902359962463379
+      ]
+    },
+    {
+      "id": 581,
+      "label": "Synthesize Organic and Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        81.07215531667073,
+        9.51688774426778,
+        2.865000605583191
+      ]
+    },
+    {
+      "id": 582,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 583,
+      "label": "Synthesize Gravity and Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        76.95501740773518,
+        3.1452375253041573,
+        -12.493339538574219
+      ]
+    },
+    {
+      "id": 584,
+      "label": "Synthesize Structure and Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        75.28382523854573,
+        22.39502151807149,
+        -4.274156093597412
+      ]
+    },
+    {
+      "id": 585,
+      "label": "Optimize the definition of Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -2.0125214258829764,
+        40.20490415891011,
+        3.543015241622925
+      ]
+    },
+    {
+      "id": 586,
+      "label": "Analyze Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.58299668629964,
+        32.19749315579732,
+        20.147480010986328
+      ]
+    },
+    {
+      "id": 587,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -13.17460600535075,
+        13.20589264233907,
+        26.659177780151367
+      ]
+    },
+    {
+      "id": 588,
+      "label": "Analyze Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        39.00900872548421,
+        -3.4922184149424247,
+        5.770585775375366
+      ]
+    },
+    {
+      "id": 589,
+      "label": "Explain Structure vs Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        61.63360246022542,
+        25.287832816441853,
+        17.915946006774902
+      ]
+    },
+    {
+      "id": 590,
+      "label": "Analyze Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        39.00900872548421,
+        -3.4922184149424247,
+        5.770585775375366
+      ]
+    },
+    {
+      "id": 591,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        3.750860532124836,
+        38.18358000119527,
+        14.713254928588867
+      ]
+    },
+    {
+      "id": 592,
+      "label": "Synthesize Love and Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        96.1396754582723,
+        7.798853476842243,
+        -0.06345689296722412
+      ]
+    },
+    {
+      "id": 593,
+      "label": "Analyze Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        18.97745903333028,
+        48.20316084225972,
+        5.631325960159302
+      ]
+    },
+    {
+      "id": 594,
+      "label": "Explain Synthetics vs Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        52.32548554738362,
+        11.842439730962116,
+        -11.399164199829102
+      ]
+    },
+    {
+      "id": 595,
+      "label": "Optimize the definition of Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -3.8225075403849296,
+        55.56445463498433,
+        26.170181274414062
+      ]
+    },
+    {
+      "id": 596,
+      "label": "Synthesize Time and Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        69.83157380421956,
+        6.955204566319782,
+        -1.6354875564575195
+      ]
+    },
+    {
+      "id": 597,
+      "label": "Optimize the definition of Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -7.356500307718914,
+        33.146115859349564,
+        26.637670516967773
+      ]
+    },
+    {
+      "id": 598,
+      "label": "Explain Silence vs Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        53.249811490376786,
+        21.23969515164693,
+        -13.805915832519531
+      ]
+    },
+    {
+      "id": 599,
+      "label": "Explain Memory vs Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        61.30946000417073,
+        34.70277937253316,
+        4.765373945236206
+      ]
+    },
+    {
+      "id": 600,
+      "label": "Explain Love vs Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        46.97596963246663,
+        11.833997805913288,
+        -18.628480911254883
+      ]
+    },
+    {
+      "id": 601,
+      "label": "Analyze Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.637130101521805,
+        34.31154020627339,
+        -30.43927574157715
+      ]
+    },
+    {
+      "id": 602,
+      "label": "Synthesize Order and Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        77.58784898122151,
+        30.622788031895954,
+        8.242988109588623
+      ]
+    },
+    {
+      "id": 603,
+      "label": "Synthesize Structure and Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        78.56537278493245,
+        24.232969840367634,
+        -9.838044166564941
+      ]
+    },
+    {
+      "id": 604,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        2.709131558736164,
+        44.97114713986714,
+        17.088120460510254
+      ]
+    },
+    {
+      "id": 605,
+      "label": "Optimize the definition of Chaos.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.206048647562664,
+        46.759513457616166,
+        23.543569564819336
+      ]
+    },
+    {
+      "id": 606,
+      "label": "Analyze Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        11.072174390157063,
+        -20.639498154322307,
+        -12.461061477661133
+      ]
+    },
+    {
+      "id": 607,
+      "label": "Explain Time vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        54.91450913747151,
+        23.205306609471638,
+        6.943140506744385
+      ]
+    },
+    {
+      "id": 608,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.848685900370281,
+        15.596466620763142,
+        33.41794776916504
+      ]
+    },
+    {
+      "id": 609,
+      "label": "Synthesize Gravity and Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        70.20044740041097,
+        1.190147002538044,
+        -9.600263595581055
+      ]
+    },
+    {
+      "id": 610,
+      "label": "Synthesize Memory and Consciousness.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        94.16241105397542,
+        26.62408979733785,
+        9.629372596740723
+      ]
+    },
+    {
+      "id": 611,
+      "label": "Synthesize Entropy and Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        70.51628144582112,
+        9.005273421605427,
+        15.802498817443848
+      ]
+    },
+    {
+      "id": 612,
+      "label": "Explain Organic vs Logic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        44.28044923146565,
+        27.73007543881734,
+        27.824403762817383
+      ]
+    },
+    {
+      "id": 613,
+      "label": "Explain Dream vs Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        39.5481112798055,
+        10.670248587926228,
+        -28.707048416137695
+      ]
+    },
+    {
+      "id": 614,
+      "label": "Synthesize Gravity and Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        68.67599519093831,
+        4.49466570218404,
+        -15.551679611206055
+      ]
+    },
+    {
+      "id": 615,
+      "label": "Optimize the definition of Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -9.103225390116375,
+        44.58114012082417,
+        12.329519271850586
+      ]
+    },
+    {
+      "id": 616,
+      "label": "Synthesize Silence and Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        61.012668927510575,
+        21.41231067975362,
+        -18.199535369873047
+      ]
+    },
+    {
+      "id": 617,
+      "label": "Analyze Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        25.551450808842976,
+        40.801431258519486,
+        10.270545959472656
+      ]
+    },
+    {
+      "id": 618,
+      "label": "Optimize the definition of Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -1.4527355829874686,
+        30.113536437352497,
+        39.45085334777832
+      ]
+    },
+    {
+      "id": 619,
+      "label": "Analyze Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        26.225422700246174,
+        4.7207923730214425,
+        -6.694817543029785
+      ]
+    },
+    {
+      "id": 620,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        2.709131558736164,
+        44.97114713986714,
+        17.088120460510254
+      ]
+    },
+    {
+      "id": 621,
+      "label": "Optimize the definition of Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -8.075477282206219,
+        28.67843492825826,
+        11.169708251953125
+      ]
+    },
+    {
+      "id": 622,
+      "label": "Explain Logic vs Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        64.51015122731526,
+        49.72426374753316,
+        13.444866180419922
+      ]
+    },
+    {
+      "id": 623,
+      "label": "Optimize the definition of Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -10.477531115214031,
+        43.330319960912064,
+        34.01423454284668
+      ]
+    },
+    {
+      "id": 624,
+      "label": "Synthesize Reflection and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        72.61746629079182,
+        31.32113703091939,
+        -18.269861221313477
+      ]
+    },
+    {
+      "id": 625,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        23.150220890839893,
+        22.455320914586384,
+        -12.605916023254395
+      ]
+    },
+    {
+      "id": 626,
+      "label": "Optimize the definition of Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        1.7816680272420236,
+        29.444546302159626,
+        25.68031883239746
+      ]
+    },
+    {
+      "id": 627,
+      "label": "Explain Structure vs Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        62.06635697682698,
+        29.040728171666462,
+        21.95680046081543
+      ]
+    },
+    {
+      "id": 628,
+      "label": "Analyze Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        42.79752190907796,
+        17.545011897881825,
+        -12.775337219238281
+      ]
+    },
+    {
+      "id": 629,
+      "label": "Optimize the definition of Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        2.709131558736164,
+        44.97114713986714,
+        17.088120460510254
+      ]
+    },
+    {
+      "id": 630,
+      "label": "Optimize the definition of Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -7.369720141092937,
+        26.974581321080525,
+        29.028911590576172
+      ]
+    },
+    {
+      "id": 631,
+      "label": "Optimize the definition of Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -16.445342699686687,
+        18.34198333819707,
+        17.302310943603516
+      ]
+    },
+    {
+      "id": 632,
+      "label": "Analyze Dream.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        37.56157525380452,
+        19.422755082448322,
+        -25.049306869506836
+      ]
+    },
+    {
+      "id": 633,
+      "label": "Explain Pattern vs Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        48.27217133839925,
+        38.21993788083394,
+        25.886554718017578
+      ]
+    },
+    {
+      "id": 634,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 635,
+      "label": "Synthesize Consciousness and Gravity.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        89.04198106129964,
+        15.800858457883198,
+        17.648917198181152
+      ]
+    },
+    {
+      "id": 636,
+      "label": "Optimize the definition of Organic.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        6.419116338094074,
+        38.56900556882222,
+        27.746721267700195
+      ]
+    },
+    {
+      "id": 637,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        30.796483357747395,
+        25.783044417699177,
+        -19.15691375732422
+      ]
+    },
+    {
+      "id": 638,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -4.0841156641642264,
+        56.37864836057027,
+        13.514841079711914
+      ]
+    },
+    {
+      "id": 639,
+      "label": "Analyze Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        36.733992894490555,
+        18.379227717717487,
+        35.68014335632324
+      ]
+    },
+    {
+      "id": 640,
+      "label": "Optimize the definition of Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -10.477531115214031,
+        43.330319960912064,
+        34.01423454284668
+      ]
+    },
+    {
+      "id": 641,
+      "label": "Synthesize Structure and Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        73.04692490895589,
+        18.816200574239094,
+        -9.74953556060791
+      ]
+    },
+    {
+      "id": 642,
+      "label": "Explain Meaning vs Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        61.044773419698075,
+        13.57493503888448,
+        19.955686569213867
+      ]
+    },
+    {
+      "id": 643,
+      "label": "Analyze Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        11.089386304219563,
+        15.267500480016071,
+        5.741049528121948
+      ]
+    },
+    {
+      "id": 644,
+      "label": "Optimize the definition of Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        1.3287852605183907,
+        34.97951467831929,
+        39.06814384460449
+      ]
+    },
+    {
+      "id": 645,
+      "label": "Synthesize Logic and Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        82.82924302419026,
+        24.5205336411794,
+        3.5045156478881836
+      ]
+    },
+    {
+      "id": 646,
+      "label": "Analyze Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        18.977584918340046,
+        23.541026671727497,
+        14.323530197143555
+      ]
+    },
+    {
+      "id": 647,
+      "label": "Optimize the definition of Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -1.4559818903605155,
+        30.521432479222614,
+        20.77005958557129
+      ]
+    },
+    {
+      "id": 648,
+      "label": "Synthesize Pattern and Entropy.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        70.05225404103597,
+        34.594894011815384,
+        -5.774535655975342
+      ]
+    },
+    {
+      "id": 649,
+      "label": "Explain Flow vs Void.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        44.008884747823075,
+        15.27140172322591,
+        15.368846893310547
+      ]
+    },
+    {
+      "id": 650,
+      "label": "Analyze Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        29.495415051778156,
+        22.26201065381368,
+        -13.891298294067383
+      ]
+    },
+    {
+      "id": 651,
+      "label": "Synthesize Entropy and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        80.15435059865315,
+        12.324410518010456,
+        19.754240036010742
+      ]
+    },
+    {
+      "id": 652,
+      "label": "Synthesize Gravity and Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        71.01150925954182,
+        7.606969436009724,
+        -10.467750549316406
+      ]
+    },
+    {
+      "id": 653,
+      "label": "Synthesize Consciousness and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        84.47810777028401,
+        23.844074328740437,
+        18.490196228027344
+      ]
+    },
+    {
+      "id": 654,
+      "label": "Analyze Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        22.67127125461896,
+        34.99819334348042,
+        17.27820873260498
+      ]
+    },
+    {
+      "id": 655,
+      "label": "Optimize the definition of Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -15.620715777079266,
+        18.758209307988484,
+        31.355806350708008
+      ]
+    },
+    {
+      "id": 656,
+      "label": "Analyze Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        13.435750325520832,
+        30.205349524815876,
+        2.8307787775993347
+      ]
+    },
+    {
+      "id": 657,
+      "label": "Synthesize Reflection and Silence.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        71.37306626637776,
+        23.87146242459615,
+        -17.942609786987305
+      ]
+    },
+    {
+      "id": 658,
+      "label": "Explain Reflection vs Flow.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        49.99906380971272,
+        36.08111151059468,
+        9.893595695495605
+      ]
+    },
+    {
+      "id": 659,
+      "label": "Synthesize Entropy and Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        76.72685273488362,
+        7.4746423562367745,
+        17.750414848327637
+      ]
+    },
+    {
+      "id": 660,
+      "label": "Explain Memory vs Order.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        59.965637524922684,
+        32.337948401769,
+        11.443025588989258
+      ]
+    },
+    {
+      "id": 661,
+      "label": "Explain Love vs Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        49.615743954976395,
+        9.356708606084187,
+        -23.755847930908203
+      ]
+    },
+    {
+      "id": 662,
+      "label": "Synthesize Flow and Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        69.38848527272542,
+        -2.4689067999521903,
+        4.557837247848511
+      ]
+    },
+    {
+      "id": 663,
+      "label": "Synthesize Organic and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        89.00237687428792,
+        7.61701734860738,
+        7.373599052429199
+      ]
+    },
+    {
+      "id": 664,
+      "label": "Analyze Time.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        17.675340970357258,
+        38.62864263852437,
+        18.62773895263672
+      ]
+    },
+    {
+      "id": 665,
+      "label": "Explain Meaning vs Meaning.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        62.29368623097737,
+        15.962045987447102,
+        16.157498359680176
+      ]
+    },
+    {
+      "id": 666,
+      "label": "Explain Memory vs Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        62.59664948781331,
+        35.433835585912064,
+        15.395169258117676
+      ]
+    },
+    {
+      "id": 667,
+      "label": "Synthesize Hope and Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        87.90324815114339,
+        23.114744265874226,
+        -7.079964637756348
+      ]
+    },
+    {
+      "id": 668,
+      "label": "Optimize the definition of Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -4.0841156641642264,
+        56.37864836057027,
+        13.514841079711914
+      ]
+    },
+    {
+      "id": 669,
+      "label": "Analyze Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        43.90826829274495,
+        1.5714879830678292,
+        -6.307659149169922
+      ]
+    },
+    {
+      "id": 670,
+      "label": "Synthesize Dream and Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        81.36857255299886,
+        14.64273985226949,
+        -12.16642951965332
+      ]
+    },
+    {
+      "id": 671,
+      "label": "Optimize the definition of Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -0.8701550165812186,
+        20.211808522542317,
+        26.707643508911133
+      ]
+    },
+    {
+      "id": 672,
+      "label": "Optimize the definition of Synthetics.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -16.5136562983195,
+        31.771901686986286,
+        28.864421844482422
+      ]
+    },
+    {
+      "id": 673,
+      "label": "Explain Gravity vs Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        53.43617661794026,
+        4.46965463956197,
+        4.421365022659302
+      ]
+    },
+    {
+      "id": 674,
+      "label": "Analyze Hope.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        43.149992307027176,
+        7.414201339085896,
+        -8.450121879577637
+      ]
+    },
+    {
+      "id": 675,
+      "label": "Explain Flow vs Pattern.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        45.60787232716878,
+        19.029887517293293,
+        20.79933738708496
+      ]
+    },
+    {
+      "id": 676,
+      "label": "Optimize the definition of Structure.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        -7.369720141092937,
+        26.974581321080525,
+        29.028911590576172
+      ]
+    },
+    {
+      "id": 677,
+      "label": "Synthesize Pattern and Reflection.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        73.96164353688557,
+        35.73954923947652,
+        -11.698365211486816
+      ]
+    },
+    {
+      "id": 678,
+      "label": "Explain Silence vs Memory.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        55.675056775410965,
+        19.912631114323933,
+        -9.2736234664917
+      ]
+    },
+    {
+      "id": 679,
+      "label": "Synthesize Consciousness and Love.",
+      "category": "synthetic_bimodal",
+      "pos": [
+        84.47810777028401,
+        23.844074328740437,
+        18.490196228027344
+      ]
+    },
+    {
+      "id": 680,
+      "label": "Explain undefined 147",
+      "category": "control_chaos",
+      "pos": [
+        -10.907207171122234,
+        -2.663214127222698,
+        10.568292617797852
+      ]
+    },
+    {
+      "id": 681,
+      "label": "Explain sdlkfjsd 831",
+      "category": "control_chaos",
+      "pos": [
+        -35.345817248026535,
+        3.9675060113271066,
+        -2.414803981781006
+      ]
+    },
+    {
+      "id": 682,
+      "label": "Explain >>>> 166",
+      "category": "control_chaos",
+      "pos": [
+        -17.88309446970622,
+        -17.553110520044964,
+        -14.770515441894531
+      ]
+    },
+    {
+      "id": 683,
+      "label": "Explain 12345 48",
+      "category": "control_chaos",
+      "pos": [
+        -4.37869421641032,
+        8.99306829770406,
+        -25.951139450073242
+      ]
+    },
+    {
+      "id": 684,
+      "label": "Explain undefined 262",
+      "category": "control_chaos",
+      "pos": [
+        -20.832492510477703,
+        -11.247303406397503,
+        17.623793601989746
+      ]
+    },
+    {
+      "id": 685,
+      "label": "Explain 12345 346",
+      "category": "control_chaos",
+      "pos": [
+        -7.403791109720867,
+        10.130774577458698,
+        -19.41549301147461
+      ]
+    },
+    {
+      "id": 686,
+      "label": "Explain undefined 383",
+      "category": "control_chaos",
+      "pos": [
+        -20.890445391337078,
+        -6.649057785669964,
+        12.180068969726562
+      ]
+    },
+    {
+      "id": 687,
+      "label": "Explain null 94",
+      "category": "control_chaos",
+      "pos": [
+        -3.6091515223185233,
+        -24.891733566919964,
+        0.9162026643753052
+      ]
+    },
+    {
+      "id": 688,
+      "label": "Explain undefined 328",
+      "category": "control_chaos",
+      "pos": [
+        -24.96572462717692,
+        -1.8479503790537528,
+        8.407391548156738
+      ]
+    },
+    {
+      "id": 689,
+      "label": "Explain null 574",
+      "category": "control_chaos",
+      "pos": [
+        -0.6060635248819999,
+        -17.40447465578715,
+        -0.6424305438995361
+      ]
+    },
+    {
+      "id": 690,
+      "label": "Explain 12345 26",
+      "category": "control_chaos",
+      "pos": [
+        -3.9609257380167655,
+        3.4713130791982003,
+        -20.85282325744629
+      ]
+    },
+    {
+      "id": 691,
+      "label": "Explain sdlkfjsd 724",
+      "category": "control_chaos",
+      "pos": [
+        -27.876216570536297,
+        4.745322783788044,
+        0.07490253448486328
+      ]
+    },
+    {
+      "id": 692,
+      "label": "Explain undefined 587",
+      "category": "control_chaos",
+      "pos": [
+        -19.617026964823406,
+        -12.658165375391643,
+        8.77409839630127
+      ]
+    },
+    {
+      "id": 693,
+      "label": "Explain why is the blue? 184",
+      "category": "control_chaos",
+      "pos": [
+        0.6881564458211251,
+        -12.726011673609417,
+        -34.05972480773926
+      ]
+    },
+    {
+      "id": 694,
+      "label": "Explain undefined 813",
+      "category": "control_chaos",
+      "pos": [
+        -13.57514540354411,
+        -13.100300232569378,
+        17.85384750366211
+      ]
+    },
+    {
+      "id": 695,
+      "label": "Explain why is the blue? 316",
+      "category": "control_chaos",
+      "pos": [
+        -3.1948010126749686,
+        -8.062141815821331,
+        -27.90043830871582
+      ]
+    },
+    {
+      "id": 696,
+      "label": "Explain why is the blue? 1",
+      "category": "control_chaos",
+      "pos": [
+        9.661302884419758,
+        -4.728851715723675,
+        -29.615467071533203
+      ]
+    },
+    {
+      "id": 697,
+      "label": "Explain 12345 584",
+      "category": "control_chaos",
+      "pos": [
+        -17.530334154764812,
+        0.9153152306874581,
+        -26.653461456298828
+      ]
+    },
+    {
+      "id": 698,
+      "label": "Explain 12345 389",
+      "category": "control_chaos",
+      "pos": [
+        -18.659690539042156,
+        7.125411589940388,
+        -23.159530639648438
+      ]
+    },
+    {
+      "id": 699,
+      "label": "Explain 12345 157",
+      "category": "control_chaos",
+      "pos": [
+        -11.071452776590984,
+        4.483755668004353,
+        -23.794523239135742
+      ]
+    },
+    {
+      "id": 700,
+      "label": "Explain why is the blue? 544",
+      "category": "control_chaos",
+      "pos": [
+        -6.2777897516886405,
+        -12.469770828882854,
+        -32.82464790344238
+      ]
+    },
+    {
+      "id": 701,
+      "label": "Explain undefined 404",
+      "category": "control_chaos",
+      "pos": [
+        -22.41165892283122,
+        -0.9065345923105887,
+        20.49318504333496
+      ]
+    },
+    {
+      "id": 702,
+      "label": "Explain why is the blue? 821",
+      "category": "control_chaos",
+      "pos": [
+        1.3676246007283517,
+        -11.565950791041057,
+        -24.725051879882812
+      ]
+    },
+    {
+      "id": 703,
+      "label": "Explain why is the blue? 145",
+      "category": "control_chaos",
+      "pos": [
+        3.7698882420857736,
+        -7.635761658350628,
+        -30.727876663208008
+      ]
+    },
+    {
+      "id": 704,
+      "label": "Explain why is the blue? 83",
+      "category": "control_chaos",
+      "pos": [
+        5.999071439107258,
+        -15.200605789820354,
+        -28.99126625061035
+      ]
+    },
+    {
+      "id": 705,
+      "label": "Explain undefined 620",
+      "category": "control_chaos",
+      "pos": [
+        -27.795818010965984,
+        -6.652258316675823,
+        15.03857707977295
+      ]
+    },
+    {
+      "id": 706,
+      "label": "Explain undefined 330",
+      "category": "control_chaos",
+      "pos": [
+        -18.279956499735516,
+        0.307172377904255,
+        11.657146453857422
+      ]
+    },
+    {
+      "id": 707,
+      "label": "Explain null 566",
+      "category": "control_chaos",
+      "pos": [
+        -5.271018664042156,
+        -20.66377107302348,
+        -5.1479411125183105
+      ]
+    },
+    {
+      "id": 708,
+      "label": "Explain undefined 270",
+      "category": "control_chaos",
+      "pos": [
+        -15.590388933817547,
+        -4.302380005518597,
+        17.070473670959473
+      ]
+    },
+    {
+      "id": 709,
+      "label": "Explain null 609",
+      "category": "control_chaos",
+      "pos": [
+        -2.0612961451212577,
+        -23.081472794214886,
+        -11.20630168914795
+      ]
+    },
+    {
+      "id": 710,
+      "label": "Explain sdlkfjsd 319",
+      "category": "control_chaos",
+      "pos": [
+        -27.222869555155437,
+        12.094427188237507,
+        1.0485625863075256
+      ]
+    },
+    {
+      "id": 711,
+      "label": "Explain >>>> 826",
+      "category": "control_chaos",
+      "pos": [
+        -24.606650988260906,
+        -6.381243149439495,
+        -17.769075393676758
+      ]
+    },
+    {
+      "id": 712,
+      "label": "Explain >>>> 288",
+      "category": "control_chaos",
+      "pos": [
+        -14.239471117655437,
+        -19.04405442873637,
+        -21.878942489624023
+      ]
+    },
+    {
+      "id": 713,
+      "label": "Explain >>>> 90",
+      "category": "control_chaos",
+      "pos": [
+        -19.26820723215739,
+        -24.78087083498637,
+        -19.757539749145508
+      ]
+    },
+    {
+      "id": 714,
+      "label": "Explain undefined 78",
+      "category": "control_chaos",
+      "pos": [
+        -8.808894793192547,
+        -4.531851212183636,
+        3.7316333055496216
+      ]
+    },
+    {
+      "id": 715,
+      "label": "Explain >>>> 445",
+      "category": "control_chaos",
+      "pos": [
+        -29.84018675486247,
+        -18.826204697291057,
+        -12.583481788635254
+      ]
+    },
+    {
+      "id": 716,
+      "label": "Explain >>>> 806",
+      "category": "control_chaos",
+      "pos": [
+        -25.277129809061687,
+        -13.22542421023051,
+        -17.711708068847656
+      ]
+    },
+    {
+      "id": 717,
+      "label": "Explain sdlkfjsd 521",
+      "category": "control_chaos",
+      "pos": [
+        -29.938964525858562,
+        15.281402190526325,
+        -4.998934268951416
+      ]
+    },
+    {
+      "id": 718,
+      "label": "Explain sdlkfjsd 343",
+      "category": "control_chaos",
+      "pos": [
+        -21.818053881327312,
+        10.052990992863972,
+        -2.941657543182373
+      ]
+    },
+    {
+      "id": 719,
+      "label": "Explain >>>> 403",
+      "category": "control_chaos",
+      "pos": [
+        -29.712032000223797,
+        -25.465883652369182,
+        -19.44303321838379
+      ]
+    },
+    {
+      "id": 720,
+      "label": "Explain undefined 969",
+      "category": "control_chaos",
+      "pos": [
+        -13.070987383524578,
+        -17.06764070192973,
+        9.766013622283936
+      ]
+    },
+    {
+      "id": 721,
+      "label": "Explain >>>> 959",
+      "category": "control_chaos",
+      "pos": [
+        -32.03059355417888,
+        -9.354681412378948,
+        -19.641735076904297
+      ]
+    },
+    {
+      "id": 722,
+      "label": "Explain 12345 298",
+      "category": "control_chaos",
+      "pos": [
+        -9.493690172831219,
+        7.349737723668415,
+        -30.64385414123535
+      ]
+    },
+    {
+      "id": 723,
+      "label": "Explain null 518",
+      "category": "control_chaos",
+      "pos": [
+        -11.941142717997234,
+        -17.908823410669964,
+        -5.53247594833374
+      ]
+    },
+    {
+      "id": 724,
+      "label": "Explain sdlkfjsd 96",
+      "category": "control_chaos",
+      "pos": [
+        -33.96786467234294,
+        10.324654181798298,
+        0.707581639289856
+      ]
+    },
+    {
+      "id": 725,
+      "label": "Explain null 939",
+      "category": "control_chaos",
+      "pos": [
+        -4.735347429911297,
+        -27.882566849390667,
+        -5.883181571960449
+      ]
+    },
+    {
+      "id": 726,
+      "label": "Explain sdlkfjsd 289",
+      "category": "control_chaos",
+      "pos": [
+        -23.53646437327067,
+        4.098770697911579,
+        -6.577267646789551
+      ]
+    },
+    {
+      "id": 727,
+      "label": "Explain >>>> 965",
+      "category": "control_chaos",
+      "pos": [
+        -29.22310988108317,
+        -11.027250687281292,
+        -12.031652450561523
+      ]
+    },
+    {
+      "id": 728,
+      "label": "Explain 12345 574",
+      "category": "control_chaos",
+      "pos": [
+        -12.453025499979656,
+        11.60537012418111,
+        -24.939990997314453
+      ]
+    },
+    {
+      "id": 729,
+      "label": "Explain undefined 724",
+      "category": "control_chaos",
+      "pos": [
+        -14.137199083964031,
+        -9.660532395044964,
+        11.812955856323242
+      ]
+    },
+    {
+      "id": 730,
+      "label": "Explain >>>> 812",
+      "category": "control_chaos",
+      "pos": [
+        -21.367923418680828,
+        -9.06999437014262,
+        -23.959793090820312
+      ]
+    },
+    {
+      "id": 731,
+      "label": "Explain sdlkfjsd 347",
+      "category": "control_chaos",
+      "pos": [
+        -29.97005812327067,
+        0.6231399377187081,
+        -6.222214698791504
+      ]
+    },
+    {
+      "id": 732,
+      "label": "Explain null 867",
+      "category": "control_chaos",
+      "pos": [
+        -8.165578524271648,
+        -18.974993149439495,
+        0.8351138830184937
+      ]
+    },
+    {
+      "id": 733,
+      "label": "Explain why is the blue? 890",
+      "category": "control_chaos",
+      "pos": [
+        -2.40823523203532,
+        -17.029909531275432,
+        -28.012392044067383
+      ]
+    },
+    {
+      "id": 734,
+      "label": "Explain null 469",
+      "category": "control_chaos",
+      "pos": [
+        1.375250180562336,
+        -23.188169876734417,
+        -4.5133514404296875
+      ]
+    },
+    {
+      "id": 735,
+      "label": "Explain >>>> 76",
+      "category": "control_chaos",
+      "pos": [
+        -21.72785536448161,
+        -23.88536302248637,
+        -11.355378150939941
+      ]
+    },
+    {
+      "id": 736,
+      "label": "Explain 12345 354",
+      "category": "control_chaos",
+      "pos": [
+        -16.565288225809734,
+        7.4951406319936105,
+        -30.3049373626709
+      ]
+    },
+    {
+      "id": 737,
+      "label": "Explain undefined 438",
+      "category": "control_chaos",
+      "pos": [
+        -16.890937487284344,
+        -5.818064133326214,
+        6.718706130981445
+      ]
+    },
+    {
+      "id": 738,
+      "label": "Explain >>>> 783",
+      "category": "control_chaos",
+      "pos": [
+        -25.669021288553875,
+        -20.437483231226604,
+        -25.207273483276367
+      ]
+    },
+    {
+      "id": 739,
+      "label": "Explain undefined 907",
+      "category": "control_chaos",
+      "pos": [
+        -21.007304827372234,
+        -18.78526536623637,
+        5.24678897857666
+      ]
+    },
+    {
+      "id": 740,
+      "label": "Explain 12345 505",
+      "category": "control_chaos",
+      "pos": [
+        -12.25551191965739,
+        0.8872924645741769,
+        -32.05928993225098
+      ]
+    },
+    {
+      "id": 741,
+      "label": "Explain >>>> 709",
+      "category": "control_chaos",
+      "pos": [
+        -31.08768431345622,
+        -17.110174576441448,
+        -19.994487762451172
+      ]
+    },
+    {
+      "id": 742,
+      "label": "Explain null 123",
+      "category": "control_chaos",
+      "pos": [
+        -3.423364321390789,
+        -18.603899399439495,
+        6.441169261932373
+      ]
+    },
+    {
+      "id": 743,
+      "label": "Explain undefined 801",
+      "category": "control_chaos",
+      "pos": [
+        -26.55887571970622,
+        -14.652063767115276,
+        12.281952857971191
+      ]
+    },
+    {
+      "id": 744,
+      "label": "Explain null 918",
+      "category": "control_chaos",
+      "pos": [
+        -9.93095366160075,
+        -23.965757767359417,
+        -9.953205108642578
+      ]
+    },
+    {
+      "id": 745,
+      "label": "Explain undefined 945",
+      "category": "control_chaos",
+      "pos": [
+        -7.489568392435711,
+        -10.220108429590862,
+        9.394728660583496
+      ]
+    },
+    {
+      "id": 746,
+      "label": "Explain 12345 794",
+      "category": "control_chaos",
+      "pos": [
+        -15.478320757548016,
+        0.7884860833485909,
+        -19.145421981811523
+      ]
+    },
+    {
+      "id": 747,
+      "label": "Explain null 526",
+      "category": "control_chaos",
+      "pos": [
+        -6.051923433939617,
+        -13.486452500025432,
+        -4.057170867919922
+      ]
+    },
+    {
+      "id": 748,
+      "label": "Explain >>>> 563",
+      "category": "control_chaos",
+      "pos": [
+        -20.528098742167156,
+        -10.178110520044964,
+        -12.614669799804688
+      ]
+    },
+    {
+      "id": 749,
+      "label": "Explain sdlkfjsd 660",
+      "category": "control_chaos",
+      "pos": [
+        -36.73142210642497,
+        11.189567168553669,
+        -6.0303850173950195
+      ]
+    },
+    {
+      "id": 750,
+      "label": "Explain null 549",
+      "category": "control_chaos",
+      "pos": [
+        -0.24376646677653113,
+        -16.479925553003948,
+        -8.033859252929688
+      ]
+    },
+    {
+      "id": 751,
+      "label": "Explain sdlkfjsd 417",
+      "category": "control_chaos",
+      "pos": [
+        -35.32869688669841,
+        4.781748374303181,
+        -10.203126907348633
+      ]
+    },
+    {
+      "id": 752,
+      "label": "Explain >>>> 546",
+      "category": "control_chaos",
+      "pos": [
+        -20.77076307932536,
+        -16.092070023218792,
+        -21.758621215820312
+      ]
+    },
+    {
+      "id": 753,
+      "label": "Explain sdlkfjsd 162",
+      "category": "control_chaos",
+      "pos": [
+        -24.620708147684734,
+        11.687692721684773,
+        -9.526544570922852
+      ]
+    },
+    {
+      "id": 754,
+      "label": "Explain >>>> 135",
+      "category": "control_chaos",
+      "pos": [
+        -16.20359007517497,
+        -11.479185501734417,
+        -18.570913314819336
+      ]
+    },
+    {
+      "id": 755,
+      "label": "Explain 12345 718",
+      "category": "control_chaos",
+      "pos": [
+        -5.6287113825480155,
+        1.707607825597126,
+        -27.87001609802246
+      ]
+    },
+    {
+      "id": 756,
+      "label": "Explain why is the blue? 221",
+      "category": "control_chaos",
+      "pos": [
+        0.9338191350301095,
+        -5.0780967871348075,
+        -23.976062774658203
+      ]
+    },
+    {
+      "id": 757,
+      "label": "Explain >>>> 768",
+      "category": "control_chaos",
+      "pos": [
+        -20.07970396677653,
+        -15.930090347925823,
+        -29.15692710876465
+      ]
+    },
+    {
+      "id": 758,
+      "label": "Explain undefined 0",
+      "category": "control_chaos",
+      "pos": [
+        -7.871680895487469,
+        -6.843283096949261,
+        16.735889434814453
+      ]
+    },
+    {
+      "id": 759,
+      "label": "Explain null 396",
+      "category": "control_chaos",
+      "pos": [
+        -11.062995592753094,
+        -25.062986771265667,
+        -2.1294827461242676
+      ]
+    },
+    {
+      "id": 760,
+      "label": "Explain undefined 983",
+      "category": "control_chaos",
+      "pos": [
+        -15.700481096903484,
+        1.1330066521962472,
+        4.025494575500488
+      ]
+    },
+    {
+      "id": 761,
+      "label": "Explain >>>> 265",
+      "category": "control_chaos",
+      "pos": [
+        -23.467498461405437,
+        -16.253790299097698,
+        -10.014496803283691
+      ]
+    },
+    {
+      "id": 762,
+      "label": "Explain undefined 758",
+      "category": "control_chaos",
+      "pos": [
+        -14.617793718973797,
+        -5.763046662012737,
+        -1.177088737487793
+      ]
+    },
+    {
+      "id": 763,
+      "label": "Explain null 717",
+      "category": "control_chaos",
+      "pos": [
+        -7.045898119608562,
+        -16.47719422976176,
+        -11.124931335449219
+      ]
+    },
+    {
+      "id": 764,
+      "label": "Explain 12345 951",
+      "category": "control_chaos",
+      "pos": [
+        -9.500627199808758,
+        3.6413017114003488,
+        -15.243795394897461
+      ]
+    },
+    {
+      "id": 765,
+      "label": "Explain 12345 911",
+      "category": "control_chaos",
+      "pos": [
+        -11.46391264597575,
+        -2.849049011866253,
+        -25.696334838867188
+      ]
+    },
+    {
+      "id": 766,
+      "label": "Explain >>>> 798",
+      "category": "control_chaos",
+      "pos": [
+        -27.708686510721844,
+        -12.836187760035198,
+        -25.279762268066406
+      ]
+    },
+    {
+      "id": 767,
+      "label": "Explain 12345 471",
+      "category": "control_chaos",
+      "pos": [
+        -14.375938097635906,
+        8.466439803441364,
+        -17.7186336517334
+      ]
+    },
+    {
+      "id": 768,
+      "label": "Explain undefined 402",
+      "category": "control_chaos",
+      "pos": [
+        -26.384765307108562,
+        -9.690010468165081,
+        6.466113090515137
+      ]
+    },
+    {
+      "id": 769,
+      "label": "Explain undefined 469",
+      "category": "control_chaos",
+      "pos": [
+        -13.374843279520672,
+        -11.811752716700237,
+        4.375565528869629
+      ]
+    },
+    {
+      "id": 770,
+      "label": "Explain sdlkfjsd 196",
+      "category": "control_chaos",
+      "pos": [
+        -31.81874434153239,
+        11.95362909634908,
+        -11.965985298156738
+      ]
+    },
+    {
+      "id": 771,
+      "label": "Explain undefined 477",
+      "category": "control_chaos",
+      "pos": [
+        -20.208099047342937,
+        -12.17458192507426,
+        1.4216908812522888
+      ]
+    },
+    {
+      "id": 772,
+      "label": "Explain undefined 786",
+      "category": "control_chaos",
+      "pos": [
+        -21.871299425760906,
+        -4.959692398707073,
+        1.9849734492599964
+      ]
+    },
+    {
+      "id": 773,
+      "label": "Explain why is the blue? 386",
+      "category": "control_chaos",
+      "pos": [
+        -5.725776354471844,
+        -12.621696869532268,
+        -23.363027572631836
+      ]
+    },
+    {
+      "id": 774,
+      "label": "Explain sdlkfjsd 270",
+      "category": "control_chaos",
+      "pos": [
+        -27.93818251291911,
+        5.342356284459431,
+        -12.426896095275879
+      ]
+    },
+    {
+      "id": 775,
+      "label": "Explain >>>> 186",
+      "category": "control_chaos",
+      "pos": [
+        -24.204951922098797,
+        -20.115873734156292,
+        -17.104328155517578
+      ]
+    },
+    {
+      "id": 776,
+      "label": "Explain undefined 651",
+      "category": "control_chaos",
+      "pos": [
+        -20.146133104960125,
+        -18.402124802271526,
+        14.366777420043945
+      ]
+    },
+    {
+      "id": 777,
+      "label": "Explain why is the blue? 348",
+      "category": "control_chaos",
+      "pos": [
+        -4.147283236185711,
+        -6.416710297266643,
+        -34.24587440490723
+      ]
+    },
+    {
+      "id": 778,
+      "label": "Explain sdlkfjsd 407",
+      "category": "control_chaos",
+      "pos": [
+        -29.86769453684489,
+        8.169134696324665,
+        -5.636167526245117
+      ]
+    },
+    {
+      "id": 779,
+      "label": "Explain 12345 455",
+      "category": "control_chaos",
+      "pos": [
+        -8.337402025858562,
+        -2.149900833765667,
+        -19.496639251708984
+      ]
+    }
+  ]
+}
