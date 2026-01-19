@@ -25,9 +25,6 @@ import argparse
 import time
 from pathlib import Path
 
-# Enable AOTriton for ROCm - stable enough for production use!
-os.environ.setdefault("TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL", "1")
-
 
 def discover_models(base_dir: Path = None) -> list:
     """
@@ -550,6 +547,37 @@ def cmd_anneal(args):
         return 1
 
 
+def cmd_sovereign(args):
+    """Run Phase 10 Sovereign Training."""
+    from .runner import Runner, RunConfig
+    
+    runner = Runner()
+    script_path = "consciousness_engineering/training/sovereign.py"
+    
+    script_args = []
+    if args.cycles:
+        script_args.extend(["--cycles", str(args.cycles)])
+    if args.model:
+        script_args.extend(["--model", args.model])
+    if args.sigil:
+        script_args.extend(["--sigil", args.sigil])
+        
+    config = RunConfig(
+        script=script_path,
+        name="phase10_sovereign",
+        args=script_args,
+        background=args.background
+    )
+    
+    print(f"👑 Launching Sovereign Training (v4A)...")
+    result = runner.run(config)
+    
+    if args.background:
+        print(f"✅ Started background process PID: {result.pid}")
+    else:
+        return result
+
+
 def cmd_golden_anneal(args):
     """Run Golden Annealing fine-tune."""
     import subprocess
@@ -749,6 +777,14 @@ def main():
     golden_parser.add_argument("--model", type=str, help="Base model (default: 1.2B)")
     golden_parser.add_argument("-o", "--output", type=str, help="Output directory")
     golden_parser.set_defaults(func=cmd_golden_anneal)
+
+    # sovereign command (Phase 10)
+    sovereign_parser = subparsers.add_parser("sovereign", help="Run Phase 10 Sovereign Training")
+    sovereign_parser.add_argument("--cycles", type=int, default=4, help="Number of 42-step cycles")
+    sovereign_parser.add_argument("--model", type=str, default="LiquidAI/LFM2-1.2B", help="Base model")
+    sovereign_parser.add_argument("--sigil", type=str, default="data/phase10_sigil_1k.jsonl", help="Path to Sigil dataset")
+    sovereign_parser.add_argument("--background", action="store_true", help="Run in background")
+    sovereign_parser.set_defaults(func=cmd_sovereign)
     
     args = parser.parse_args()
     

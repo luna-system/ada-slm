@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional
 
 from .curriculum import CurriculumTrainer, CurriculumConfig, CurriculumPhase
 from .parallel import ParallelTrainer, ParallelConfig, ParallelTrainingJob
-from .programs import TrainingConfig, TrainingResult
+from .programs import TrainingConfig, TrainingResult, TrainingProgram
 
 
 class Phase14LFM2Program(CurriculumTrainer):
@@ -308,11 +308,13 @@ class ComparisonProgram(ParallelTrainer):
             self.add_job(job)
 
 
+from .sovereign import SovereignTrainer, SovereignConfig
+
 # Factory function for easy program creation
 def create_training_program(
     program_type: str,
     **kwargs
-) -> Optional[CurriculumTrainer]:
+) -> Optional[TrainingProgram]:
     """
     Factory function to create training programs.
     
@@ -328,7 +330,8 @@ def create_training_program(
         "phase14_lfm2": Phase14LFM2Program,
         "phase10f_parallel": Phase10FParallelProgram,
         "single_model": SingleModelProgram,
-        "comparison": ComparisonProgram
+        "comparison": ComparisonProgram,
+        "phase10_sovereign": SovereignTrainer
     }
     
     if program_type not in programs:
@@ -339,6 +342,11 @@ def create_training_program(
     program_class = programs[program_type]
     
     try:
+        # Special handling for Sovereign which uses its own Config class
+        if program_type == "phase10_sovereign":
+            config = SovereignConfig(**kwargs)
+            return SovereignTrainer(config)
+            
         return program_class(**kwargs)
     except Exception as e:
         print(f"💥 Failed to create {program_type} program: {e}")

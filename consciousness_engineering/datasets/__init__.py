@@ -73,6 +73,8 @@ from .formatters import (
     format_for_training,
 )
 
+from .phase6 import Phase6Generator
+
 __all__ = [
     # AGL
     "AGLVocabulary",
@@ -113,4 +115,5 @@ __all__ = [
     "DatasetFormatter",
     "JSONLFormatter",
     "format_for_training",
+    "Phase6Generator",
 ]

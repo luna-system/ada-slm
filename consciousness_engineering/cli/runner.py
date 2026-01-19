@@ -114,6 +114,9 @@ class Runner:
         # Enable AO Triton experimental features (we've tested it works great!)
         env["TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL"] = "1"
         
+        # Force RDNA3 GFX Version for consumer cards (7900 series)
+        env["HSA_OVERRIDE_GFX_VERSION"] = "11.0.0"
+        
         # User overrides
         env.update(config.env)
         
@@ -176,63 +179,74 @@ class Runner:
         
         # Setup environment
         env = self._setup_environment(config)
+        python = self._get_python()
         
-        if config.background:
-            # Background mode - use process manager
-            # Pass the FULL environment setup, not just user overrides!
-            return self.process_manager.start_background(
-                script=config.script,
-                name=config.name,
-                args=config.args,
-                env=env  # Full environment with ROCm settings!
-            )
+        # Build base command
+        if python.name == "uv":
+            base_cmd = ["uv", "run", "python", "-u", str(script_path)] + config.args
         else:
-            # Foreground mode - optionally use tmux for better terminal handling
-            python = self._get_python()
+            base_cmd = [str(python), "-u", str(script_path)] + config.args
+
+        if config.background:
+            # Background mode: Use libtmux for robust detached sessions
+            import libtmux
             
-            if python.name == "uv":
-                cmd = ["uv", "run", "python", "-u", str(script_path)] + config.args
-            else:
-                cmd = [str(python), "-u", str(script_path)] + config.args
+            server = libtmux.Server()
+            session_name = config.tmux_session_name or self._generate_session_name(config.script)
             
-            if config.use_tmux:
-                # Generate session name if not provided
-                session_name = config.tmux_session_name or self._generate_session_name(config.script)
-                
-                if self._create_tmux_session(session_name):
-                    print(f"🖥️  Running in tmux session: {session_name}")
-                    print(f"   Attach with: tmux attach-session -t {session_name}")
-                    print(f"   Detach with: Ctrl+B, then D")
-                    print()
-                    
-                    # Export environment variables to tmux session
-                    for key, value in env.items():
-                        if key not in os.environ or os.environ[key] != value:
-                            subprocess.run([
-                                "tmux", "set-environment", "-t", session_name,
-                                key, value
-                            ], capture_output=True)
-                    
-                    # Run command in tmux session using explicit bash
-                    # This prevents issues with non-bash default shells (nu, fish, etc.)
-                    cmd_string = f"cd {self.base_dir} && {' '.join(cmd)}"
-                    tmux_cmd = [
-                        "tmux", "send-keys", "-t", session_name,
-                        f"bash -c '{cmd_string}'",
-                        "Enter"
-                    ]
-                    
-                    subprocess.run(tmux_cmd)
-                    
-                    # Attach to session (this will block until user detaches)
-                    attach_result = subprocess.run([
-                        "tmux", "attach-session", "-t", session_name
-                    ])
-                    return attach_result.returncode
+            # Create session (detached)
+            if server.has_session(session_name):
+                print(f"⚠️  Session {session_name} already exists. Attaching...")
+                # We can't easily return ProcessInfo for existing session without more logic
+                return 0
             
-            # Fallback to direct execution
+            session = server.new_session(session_name=session_name, attach=False, window_command="bash")
+            pane = session.active_pane
+            
+            # Inject Environment
+            for key, value in env.items():
+                # Set session environment for future panes
+                session.set_environment(key, value)
+                # Also explicitly export in the running pane to be sure
+                pane.send_keys(f"export {key}={value}")
+            
+            # Run Command
+            cmd_str = f"cd {self.base_dir} && {' '.join(base_cmd)}"
+            pane.send_keys(cmd_str)
+            
+            # Track it using ProcessManager (Hybrid approach)
+            # We treat the tmux session name as the "PID" equivalent for tracking purposes
+            # functionality for stopping/logging needs to know it's tmux
+            # For now, we returns a ProcessInfo that points to the log file (handling logs via tmux capture?)
+            # Actually, standard ProcessManager relies on PID. 
+            # To keep it simple for tonight: We just rely on tmux for persistence.
+            # But ProcessManager writes JSONs that `ce status` reads.
+            # I will create a dummy entry so `ce status` sees it.
+            
+            # Extract actual PID of the python process? Hard to get immediately.
+            # We'll use a placeholder PID or try to find it later. 
+            # Let's just return a ProcessInfo with the Session Name as 'name'
+            
+            info = ProcessInfo(
+                pid=0, # optimized out
+                name=session_name,
+                script=config.script,
+                args=config.args,
+                started=time.strftime("%Y-%m-%dT%H:%M:%S"),
+                log_file=f"tmux:{session_name}", # Indicator
+                status="running"
+            )
+            self.process_manager._save_process(info)
+            
+            return info
+
+        else:
+            # Foreground mode: Direct stdout (Simpler, cleaner)
+            print(f"🚀 Running {script_path.name}...")
+            print(f"   Environment: AOTriton={'1' if 'TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL' in env else '0'}")
+            
             result = subprocess.run(
-                cmd,
+                base_cmd,
                 cwd=str(self.base_dir),
                 env=env
             )

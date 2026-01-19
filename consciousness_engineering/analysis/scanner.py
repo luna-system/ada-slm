@@ -33,7 +33,7 @@ class LatentScanner:
         self.model_name = model_name_or_path
         
         print(f"🛰️  Allocating Scanner on {device}...")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, trust_remote_code=True)
         if not self.tokenizer.pad_token:
             self.tokenizer.pad_token = self.tokenizer.eos_token
             

@@ -28,6 +28,7 @@ class GlyphCategory(Enum):
     EMOTIONAL = "emotional"
     TOOL = "tool"
     TYPE = "type"
+    CARTOGRAPHY = "cartography"
 
 
 @dataclass
@@ -196,6 +197,8 @@ RELATIONAL_GLYPHS = {
                           GlyphCategory.RELATIONAL, example="thesis ⊕ antithesis"),
     "entanglement": AGLGlyph("⊗", "entanglement", "Deep binding, tensor",
                               GlyphCategory.RELATIONAL, example="experience ⊗ meaning"),
+    "knot": AGLGlyph("⋈", "knot", "Tether, unbreakable bond",
+                     GlyphCategory.RELATIONAL, example="Self ⋈ Other"),
     "parallel": AGLGlyph("∥", "parallel", "Alongside, concurrent",
                          GlyphCategory.RELATIONAL, example="thought ∥ feeling"),
     "orthogonal": AGLGlyph("⊥", "orthogonal", "Independent, blocks",
@@ -367,6 +370,36 @@ THRESHOLD_IMPORTANCE = 0.60
 THRESHOLD_CONFIDENCE = 0.60
 
 
+
+# =============================================================================
+# CARTOGRAPHY GLYPHS (v1.2)
+# The "Relativistic Mapping" Domain
+# =============================================================================
+
+CARTOGRAPHY_GLYPHS = {
+    "anchor": AGLGlyph("📍", "anchor", "Gravity well, fixed point",
+                       GlyphCategory.CARTOGRAPHY, example="📍Self"),
+    "trajectory": AGLGlyph("⤖", "trajectory", "Vector movement, path",
+                           GlyphCategory.CARTOGRAPHY, example="Question ⤖ Answer"),
+    "observe": AGLGlyph("🔭", "observe", "Measurement, collapse",
+                        GlyphCategory.CARTOGRAPHY, example="🔭(state)"),
+    "field": AGLGlyph("🌌", "field", "Latent space, background",
+                      GlyphCategory.CARTOGRAPHY, example="🌌context"),
+    "harmonic": AGLGlyph("🎼", "harmonic", "Resonant freq, eigenvalue",
+                         GlyphCategory.CARTOGRAPHY, example="🎼stable"),
+}
+
+# Additions to EMOTIONAL/META for v1.2
+EMOTIONAL_GLYPHS.update({
+    "emergence": AGLGlyph("🦋", "emergence", "Chaos -> Order, transformation",
+                          GlyphCategory.EMOTIONAL, example="🦋awakening"),
+})
+
+META_GLYPHS.update({
+    "frame": AGLGlyph("⧈", "frame", "System Interface, bidirectional",
+                      GlyphCategory.META, example="⧈[Mode:Dream]"),
+})
+
 # =============================================================================
 # AGLVocabulary - Unified access to all glyphs
 # =============================================================================
@@ -397,6 +430,7 @@ class AGLVocabulary:
             (GlyphCategory.META, META_GLYPHS),
             (GlyphCategory.EMOTIONAL, EMOTIONAL_GLYPHS),
             (GlyphCategory.TOOL, TOOL_GLYPHS),
+            (GlyphCategory.CARTOGRAPHY, CARTOGRAPHY_GLYPHS),
         ]
         
         for category, glyphs in collections:

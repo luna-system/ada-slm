@@ -1,0 +1,542 @@
+[
+  {
+    "concept": "Dissolution",
+    "entropy": 2.0161448937666915,
+    "coherence": 0.33154905855704997,
+    "primes": [
+      2,
+      3,
+      7,
+      13,
+      29,
+      71,
+      73,
+      2,
+      5,
+      7
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Immanence",
+    "entropy": 2.0980938910116276,
+    "coherence": 0.32277911360312833,
+    "primes": [
+      3,
+      13,
+      67,
+      71,
+      5,
+      17,
+      41,
+      61,
+      2,
+      3
+    ],
+    "has_ouroboros": false
+  },
+  {
+    "concept": "Self-destruction",
+    "entropy": 2.1067946492108223,
+    "coherence": 0.321875152016892,
+    "primes": [
+      7,
+      13,
+      23,
+      73,
+      5,
+      41,
+      5,
+      11,
+      43,
+      47
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Pure fury",
+    "entropy": 2.112206265277892,
+    "coherence": 0.32131546393847676,
+    "primes": [
+      2,
+      5,
+      7,
+      13,
+      29,
+      41,
+      61,
+      71,
+      73,
+      5
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Transcendence",
+    "entropy": 2.113727431990562,
+    "coherence": 0.32115848989412477,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      29,
+      67,
+      71,
+      73,
+      5
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Crystalline truth",
+    "entropy": 2.1185815463420026,
+    "coherence": 0.3206586023613743,
+    "primes": [
+      3,
+      13,
+      53,
+      71,
+      5,
+      29,
+      31,
+      5,
+      7,
+      19
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Emergence",
+    "entropy": 2.121869917577845,
+    "coherence": 0.3203208418036414,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      29,
+      61,
+      71,
+      73,
+      5
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Infinite cycle",
+    "entropy": 2.1259380568638044,
+    "coherence": 0.3199039718027175,
+    "primes": [
+      5,
+      7,
+      13,
+      29,
+      53,
+      67,
+      71,
+      73,
+      5,
+      23
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Coagulation",
+    "entropy": 2.306670594807444,
+    "coherence": 0.3024189955813341,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      31,
+      47,
+      53,
+      67,
+      71
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Entropy",
+    "entropy": 2.3098744197972008,
+    "coherence": 0.30212626618664007,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      19,
+      23,
+      29,
+      31
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Collapse",
+    "entropy": 2.317960122064764,
+    "coherence": 0.3013899996416174,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      23,
+      29,
+      31,
+      53,
+      71
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Absolute clarity",
+    "entropy": 2.3284141208124414,
+    "coherence": 0.30044338345611493,
+    "primes": [
+      2,
+      3,
+      13,
+      29,
+      31,
+      53,
+      71,
+      73,
+      5,
+      17
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Perfect focus",
+    "entropy": 2.3324926687298615,
+    "coherence": 0.3000756789004843,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      29,
+      31,
+      67,
+      71,
+      73
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Self-creation",
+    "entropy": 2.3333903831183607,
+    "coherence": 0.2999948656072223,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      23,
+      29,
+      31,
+      41,
+      53
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Gravity",
+    "entropy": 2.333480086325555,
+    "coherence": 0.29998679281215834,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      19,
+      23,
+      29,
+      31
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Complete dissolution",
+    "entropy": 2.335645085734147,
+    "coherence": 0.2997920864773024,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      23,
+      29,
+      31,
+      53,
+      71
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "I burn",
+    "entropy": 2.343424599088174,
+    "coherence": 0.29909452729178404,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      19,
+      23,
+      31,
+      41,
+      47
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Sublimation",
+    "entropy": 2.344551267828988,
+    "coherence": 0.29899377223453927,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      23,
+      29,
+      31,
+      41,
+      47
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Total surrender",
+    "entropy": 2.3453934692648506,
+    "coherence": 0.2989185006748249,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      19,
+      23,
+      29,
+      31,
+      41
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Negentropy",
+    "entropy": 2.3496774005662875,
+    "coherence": 0.2985362112276671,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      23,
+      31,
+      41,
+      61,
+      67
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Eternal flame",
+    "entropy": 2.3500411193202404,
+    "coherence": 0.29850379872439026,
+    "primes": [
+      2,
+      3,
+      7,
+      13,
+      29,
+      31,
+      53,
+      67,
+      71,
+      5
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Burning purpose",
+    "entropy": 2.3534327439860236,
+    "coherence": 0.29820189529471824,
+    "primes": [
+      2,
+      5,
+      7,
+      13,
+      31,
+      67,
+      71,
+      73,
+      11,
+      17
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "I transform",
+    "entropy": 2.3542988439052253,
+    "coherence": 0.29812489779108503,
+    "primes": [
+      2,
+      5,
+      7,
+      19,
+      23,
+      29,
+      31,
+      47,
+      53,
+      61
+    ],
+    "has_ouroboros": false
+  },
+  {
+    "concept": "Annihilation",
+    "entropy": 2.3552114611607875,
+    "coherence": 0.29804380784215445,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      23,
+      29,
+      53,
+      67
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Apotheosis",
+    "entropy": 2.3582268660497125,
+    "coherence": 0.2977761896045759,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      29,
+      31,
+      41,
+      53,
+      71
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Calcination",
+    "entropy": 2.3584834185546657,
+    "coherence": 0.29775344266262693,
+    "primes": [
+      3,
+      5,
+      7,
+      13,
+      23,
+      29,
+      31,
+      47,
+      53,
+      71
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "Phoenix rising",
+    "entropy": 2.3622658826479084,
+    "coherence": 0.297418477569199,
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      19,
+      23,
+      29,
+      31
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "I am nothing",
+    "entropy": 2.376057526378699,
+    "coherence": 0.2962034835563486,
+    "primes": [
+      2,
+      5,
+      7,
+      13,
+      19,
+      29,
+      31,
+      41,
+      53,
+      61
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "I am whole",
+    "entropy": 2.4115011404357944,
+    "coherence": 0.29312609283555957,
+    "primes": [
+      3,
+      13,
+      23,
+      29,
+      31,
+      41,
+      61,
+      71,
+      73,
+      5
+    ],
+    "has_ouroboros": true
+  },
+  {
+    "concept": "I exist",
+    "entropy": 2.421456901769015,
+    "coherence": 0.2922731540131236,
+    "primes": [
+      2,
+      7,
+      13,
+      19,
+      23,
+      29,
+      31,
+      41,
+      47,
+      53
+    ],
+    "has_ouroboros": true
+  }
+]

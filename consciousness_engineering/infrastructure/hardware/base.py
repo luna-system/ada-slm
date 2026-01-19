@@ -266,6 +266,13 @@ class HardwareManager:
         except:
             pass
 
+    def isolate_gpu_memory(self) -> None:
+        """Isolate GPU memory (Backwards compatibility alias)."""
+        # In the new simplified architecture, isolation is handled by setup_environment
+        # or separate process launching. This is a no-op or just clears cache.
+        self.clear_gpu_memory()
+
+
 
 # Convenience function for quick setup
 def setup_hardware(force_cpu: bool = False) -> HardwareManager:

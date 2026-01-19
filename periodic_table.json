@@ -1,0 +1,2356 @@
+{
+  "total_concepts": 117,
+  "riemann_zeros": [
+    {
+      "concept": "Rage",
+      "entropy": 1.9575188161405197,
+      "coherence": 0.3381212638589303,
+      "resonance": 7.164349855834654,
+      "primes": [
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        73,
+        5,
+        7,
+        17
+      ],
+      "num_features": 11331,
+      "classification": "RIEMANN_ZERO"
+    }
+  ],
+  "unstable": [
+    {
+      "concept": "Beauty",
+      "entropy": 2.35241375701499,
+      "coherence": 0.29829253561183516,
+      "resonance": 7.142267595230713,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 23200,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Being",
+      "entropy": 2.348761540024599,
+      "coherence": 0.2986178585868059,
+      "resonance": 7.137689293448907,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 30204,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Becoming",
+      "entropy": 2.3546278412912214,
+      "coherence": 0.29809565987954495,
+      "resonance": 7.178242719955092,
+      "primes": [
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        53,
+        59,
+        61
+      ],
+      "num_features": 15211,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Existence",
+      "entropy": 2.3381864691753087,
+      "coherence": 0.29956385277873576,
+      "resonance": 7.229511952822241,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        29,
+        31,
+        53,
+        67,
+        71,
+        73
+      ],
+      "num_features": 13524,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Form",
+      "entropy": 2.368998239036865,
+      "coherence": 0.2968241385266743,
+      "resonance": 7.227991741949818,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31531,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Sorrow",
+      "entropy": 2.3696965784709687,
+      "coherence": 0.2967626243825666,
+      "resonance": 7.19928737460388,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        23,
+        41,
+        67,
+        71,
+        73,
+        5
+      ],
+      "num_features": 14490,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Grief",
+      "entropy": 2.3581292309454778,
+      "coherence": 0.29778484722532583,
+      "resonance": 7.195687895329911,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25078,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Anguish",
+      "entropy": 2.3407028339287272,
+      "coherence": 0.2993382080692229,
+      "resonance": 7.1706132989643026,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 17495,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Pride",
+      "entropy": 2.338266996821393,
+      "coherence": 0.2995566265227355,
+      "resonance": 7.134632382263856,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        41,
+        47
+      ],
+      "num_features": 20216,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Infinity",
+      "entropy": 2.3344317208985768,
+      "coherence": 0.2999011776826894,
+      "resonance": 7.125750076328558,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        29,
+        31,
+        41,
+        53
+      ],
+      "num_features": 20728,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Prime",
+      "entropy": 2.3451109458879587,
+      "coherence": 0.29894374691197284,
+      "resonance": 7.12795693144376,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 31591,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Imaginary",
+      "entropy": 2.366121244159965,
+      "coherence": 0.2970778315650231,
+      "resonance": 7.141209402282676,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 21112,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Order",
+      "entropy": 2.3334558512506423,
+      "coherence": 0.2999889737927146,
+      "resonance": 7.1194713203245685,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 30311,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Recursion",
+      "entropy": 2.390541329236834,
+      "coherence": 0.2949381537918273,
+      "resonance": 7.137951200287604,
+      "primes": [
+        7,
+        13,
+        29,
+        71,
+        73,
+        23,
+        47,
+        53,
+        61,
+        2
+      ],
+      "num_features": 5853,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Emergence",
+      "entropy": 2.3880044407870127,
+      "coherence": 0.29515899919177974,
+      "resonance": 7.144113089463472,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        29,
+        31,
+        53
+      ],
+      "num_features": 19337,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Awareness",
+      "entropy": 2.348157798532771,
+      "coherence": 0.29867170550868893,
+      "resonance": 7.161573285337046,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        19,
+        29,
+        31,
+        53,
+        71,
+        73
+      ],
+      "num_features": 19062,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Attention",
+      "entropy": 2.348537942866856,
+      "coherence": 0.2986377986638098,
+      "resonance": 7.165780318316521,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        29,
+        31,
+        41
+      ],
+      "num_features": 19351,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Confusion",
+      "entropy": 2.355972103724124,
+      "coherence": 0.29797625519303317,
+      "resonance": 7.158562841049147,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        29,
+        31,
+        41,
+        53,
+        71
+      ],
+      "num_features": 14480,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Clarity",
+      "entropy": 2.3413441395140326,
+      "coherence": 0.2992807559611147,
+      "resonance": 7.155575716774958,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24510,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Knowledge",
+      "entropy": 2.3335475541064556,
+      "coherence": 0.2999807213693839,
+      "resonance": 7.159182829523077,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        53,
+        61
+      ],
+      "num_features": 18579,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Ignorance",
+      "entropy": 2.3524960776150956,
+      "coherence": 0.29828521103338074,
+      "resonance": 7.1694877467597244,
+      "primes": [
+        3,
+        7,
+        13,
+        29,
+        31,
+        41,
+        61,
+        71,
+        73,
+        2
+      ],
+      "num_features": 10202,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Love",
+      "entropy": 2.36029985413589,
+      "coherence": 0.2975924897800981,
+      "resonance": 7.168182260444369,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 19944,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Hate",
+      "entropy": 2.352932869227972,
+      "coherence": 0.2982463529698567,
+      "resonance": 7.171241802312035,
+      "primes": [
+        3,
+        5,
+        7,
+        11,
+        13,
+        29,
+        31,
+        47,
+        61,
+        67
+      ],
+      "num_features": 20705,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Unity",
+      "entropy": 2.3675710815666573,
+      "coherence": 0.29694993090829763,
+      "resonance": 7.16975462592813,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        29,
+        53,
+        71,
+        73
+      ],
+      "num_features": 18444,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Division",
+      "entropy": 2.3441933454514685,
+      "coherence": 0.2990257729446559,
+      "resonance": 7.167415525949297,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25983,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Discord",
+      "entropy": 2.373874681194957,
+      "coherence": 0.29639512266822565,
+      "resonance": 7.1735681108928535,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        29,
+        31,
+        41,
+        53,
+        71,
+        73
+      ],
+      "num_features": 17235,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Resonance",
+      "entropy": 2.357297994111251,
+      "coherence": 0.2978585760793395,
+      "resonance": 7.174521236674534,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        29,
+        31,
+        67
+      ],
+      "num_features": 22108,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Dissonance",
+      "entropy": 2.344684895738674,
+      "coherence": 0.29898182674070706,
+      "resonance": 7.174944394181961,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        41,
+        53
+      ],
+      "num_features": 20690,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Past",
+      "entropy": 2.3507731380002994,
+      "coherence": 0.2984385868023246,
+      "resonance": 7.174457763094653,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 24750,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Moment",
+      "entropy": 2.3364605970764925,
+      "coherence": 0.2997188100696379,
+      "resonance": 7.17017765599206,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25420,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Permanence",
+      "entropy": 2.3741482989651463,
+      "coherence": 0.2963710872775511,
+      "resonance": 7.172396953239775,
+      "primes": [
+        3,
+        7,
+        13,
+        31,
+        67,
+        71,
+        73,
+        5,
+        17,
+        23
+      ],
+      "num_features": 9032,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Beginning",
+      "entropy": 2.3680555985508667,
+      "coherence": 0.29690721270464127,
+      "resonance": 7.174221371614439,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 22871,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "I am",
+      "entropy": 2.3347871886593987,
+      "coherence": 0.29986921006554695,
+      "resonance": 7.145880280219227,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41,
+        53
+      ],
+      "num_features": 12737,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "We are",
+      "entropy": 2.369936152234916,
+      "coherence": 0.29674152708703627,
+      "resonance": 7.159478660291606,
+      "primes": [
+        3,
+        7,
+        13,
+        19,
+        29,
+        31,
+        53,
+        61,
+        73,
+        5
+      ],
+      "num_features": 10737,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Nobody",
+      "entropy": 2.340217492003144,
+      "coherence": 0.29938170265682174,
+      "resonance": 7.161986329530043,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 26364,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Everybody",
+      "entropy": 2.3465764338797923,
+      "coherence": 0.2988128374646648,
+      "resonance": 7.165467518243587,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        19,
+        23,
+        29,
+        53,
+        61,
+        67
+      ],
+      "num_features": 16406,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Life",
+      "entropy": 2.3427106483306726,
+      "coherence": 0.2991584092088238,
+      "resonance": 7.1636893745030825,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24893,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "Birth",
+      "entropy": 2.334060152442581,
+      "coherence": 0.29993460054024085,
+      "resonance": 7.158821955014039,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        41,
+        47
+      ],
+      "num_features": 17291,
+      "classification": "UNSTABLE"
+    },
+    {
+      "concept": "The All",
+      "entropy": 2.3334606280745818,
+      "coherence": 0.2999885439107776,
+      "resonance": 7.157993061272656,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        29,
+        31,
+        53,
+        61
+      ],
+      "num_features": 25577,
+      "classification": "UNSTABLE"
+    }
+  ],
+  "intermediate": [
+    {
+      "concept": "Truth",
+      "entropy": 2.3050166304430872,
+      "coherence": 0.3025703383120148,
+      "resonance": 6.915049891329261,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        29,
+        31,
+        53,
+        71,
+        73,
+        5
+      ],
+      "num_features": 10938,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Justice",
+      "entropy": 2.3190795886460442,
+      "coherence": 0.3012883461489789,
+      "resonance": 7.126148321672195,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 24773,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Freedom",
+      "entropy": 2.31560338996982,
+      "coherence": 0.3016042277629299,
+      "resonance": 7.096359199598844,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24315,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Necessity",
+      "entropy": 2.3301243807114935,
+      "coherence": 0.3002890840330553,
+      "resonance": 7.11361274201078,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        53,
+        61
+      ],
+      "num_features": 22037,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Possibility",
+      "entropy": 2.125615249987258,
+      "coherence": 0.3199370108026177,
+      "resonance": 7.128189093477566,
+      "primes": [
+        3,
+        5,
+        7,
+        13,
+        29,
+        31,
+        53,
+        71,
+        73,
+        5
+      ],
+      "num_features": 13935,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Actuality",
+      "entropy": 2.320512850687727,
+      "coherence": 0.3011582984215482,
+      "resonance": 7.142387448551016,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        29,
+        71,
+        73,
+        5,
+        17,
+        23
+      ],
+      "num_features": 12358,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Nothingness",
+      "entropy": 2.328580182598137,
+      "coherence": 0.30042839443316216,
+      "resonance": 7.129302554180541,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        61,
+        71
+      ],
+      "num_features": 15556,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Essence",
+      "entropy": 2.1158462961258935,
+      "coherence": 0.32094009298319887,
+      "resonance": 7.18258286746905,
+      "primes": [
+        7,
+        13,
+        29,
+        31,
+        71,
+        73,
+        5,
+        7,
+        17,
+        23
+      ],
+      "num_features": 7278,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Matter",
+      "entropy": 2.3209483299529365,
+      "coherence": 0.3011188072336469,
+      "resonance": 7.207223293470772,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 17870,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Substance",
+      "entropy": 2.3080047972461046,
+      "coherence": 0.3022970223116044,
+      "resonance": 7.187347571262535,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 23287,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Accident",
+      "entropy": 2.3200018522192236,
+      "coherence": 0.30120465123582973,
+      "resonance": 7.176490492325283,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 21538,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Joy",
+      "entropy": 2.3231060709960802,
+      "coherence": 0.3009232864180758,
+      "resonance": 7.163466096301883,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 26550,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Peace",
+      "entropy": 2.306136696420476,
+      "coherence": 0.3024678323442255,
+      "resonance": 7.162323247665913,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 23207,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Fear",
+      "entropy": 2.321869068477997,
+      "coherence": 0.3010353446766572,
+      "resonance": 7.153895606199091,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 18093,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Hope",
+      "entropy": 2.308407145798502,
+      "coherence": 0.3022602587683157,
+      "resonance": 7.144415058316989,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 20555,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Despair",
+      "entropy": 2.317987488412889,
+      "coherence": 0.30138751381438617,
+      "resonance": 7.14717504399562,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        41
+      ],
+      "num_features": 16410,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Ecstasy",
+      "entropy": 2.1256144807106288,
+      "coherence": 0.31993708954555505,
+      "resonance": 7.172984878818875,
+      "primes": [
+        3,
+        7,
+        13,
+        71,
+        73,
+        5,
+        11,
+        41,
+        61,
+        7
+      ],
+      "num_features": 7679,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Serenity",
+      "entropy": 2.3113848265483754,
+      "coherence": 0.3019884587205622,
+      "resonance": 7.162749399068963,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 20755,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Anxiety",
+      "entropy": 2.3212596303479005,
+      "coherence": 0.3010905834830053,
+      "resonance": 7.155747396319212,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 22224,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Wonder",
+      "entropy": 2.3163512328648537,
+      "coherence": 0.3015362154919106,
+      "resonance": 7.14742205134617,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 20477,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Disgust",
+      "entropy": 2.322831581849685,
+      "coherence": 0.30094814478780796,
+      "resonance": 7.1504430500008915,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        29,
+        31,
+        41
+      ],
+      "num_features": 19847,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Shame",
+      "entropy": 2.317338370163213,
+      "coherence": 0.3014464876402705,
+      "resonance": 7.1445238589489914,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 22378,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Zero",
+      "entropy": 2.3287488891564943,
+      "coherence": 0.30041316821990743,
+      "resonance": 7.126989492843023,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 30791,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "One",
+      "entropy": 2.309110012125289,
+      "coherence": 0.30219605765169044,
+      "resonance": 7.119937466410354,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31481,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Composite",
+      "entropy": 2.3194459571102537,
+      "coherence": 0.3012550928440332,
+      "resonance": 7.123265245218596,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25013,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Irrational",
+      "entropy": 2.125907268904202,
+      "coherence": 0.31990712262892995,
+      "resonance": 7.131565312303326,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        41,
+        67,
+        71,
+        73,
+        5
+      ],
+      "num_features": 14658,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Transcendental",
+      "entropy": 2.3071871530800725,
+      "coherence": 0.30237175996183735,
+      "resonance": 7.138978662799889,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        29,
+        31,
+        41,
+        67,
+        71
+      ],
+      "num_features": 17017,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Complex",
+      "entropy": 2.323045321359927,
+      "coherence": 0.3009287876912731,
+      "resonance": 7.136945632260573,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 29823,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Real",
+      "entropy": 2.317320118659191,
+      "coherence": 0.3014481461632905,
+      "resonance": 7.136156627013511,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 31193,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Rational",
+      "entropy": 2.3078259701553208,
+      "coherence": 0.3023133650386826,
+      "resonance": 7.136035099084479,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 24443,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Integer",
+      "entropy": 2.318739026168126,
+      "coherence": 0.3013192637670632,
+      "resonance": 7.131389540517276,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25467,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Fractal",
+      "entropy": 2.321729736378505,
+      "coherence": 0.301047971798646,
+      "resonance": 7.129668604885676,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 23849,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Symmetry",
+      "entropy": 2.316145870807638,
+      "coherence": 0.30155488900627064,
+      "resonance": 7.124972845495684,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 25290,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Asymmetry",
+      "entropy": 2.321068302881525,
+      "coherence": 0.30110792937692665,
+      "resonance": 7.120953264053128,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        53
+      ],
+      "num_features": 19237,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Chaos",
+      "entropy": 2.3301930193918445,
+      "coherence": 0.30028289476824943,
+      "resonance": 7.119520452380017,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 19855,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Consciousness",
+      "entropy": 2.324852023121652,
+      "coherence": 0.3007652650541468,
+      "resonance": 7.147187663605025,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        29,
+        31,
+        53,
+        67
+      ],
+      "num_features": 22654,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Memory",
+      "entropy": 2.319808033853611,
+      "coherence": 0.30122223628671885,
+      "resonance": 7.164753229973902,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 26072,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Forgetting",
+      "entropy": 2.321679858251153,
+      "coherence": 0.30105249231528736,
+      "resonance": 7.160126934335106,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 26328,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Learning",
+      "entropy": 2.3221287980667245,
+      "coherence": 0.3010118092296538,
+      "resonance": 7.158476820391531,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 28450,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Understanding",
+      "entropy": 2.3161762787443605,
+      "coherence": 0.3015521238752244,
+      "resonance": 7.15391442133952,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 27722,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Ambiguity",
+      "entropy": 2.125961626085436,
+      "coherence": 0.31990155978090973,
+      "resonance": 7.163164276357659,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        29,
+        41,
+        67,
+        71,
+        73,
+        2
+      ],
+      "num_features": 11870,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Certainty",
+      "entropy": 2.32582482942199,
+      "coherence": 0.30067729098462304,
+      "resonance": 7.163132085042,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 25058,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Doubt",
+      "entropy": 2.3093122163105515,
+      "coherence": 0.30217759299691244,
+      "resonance": 7.161317075187489,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 22640,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Trust",
+      "entropy": 2.331966371425412,
+      "coherence": 0.30012307704420227,
+      "resonance": 7.169201521075865,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        29,
+        31,
+        47
+      ],
+      "num_features": 23037,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Betrayal",
+      "entropy": 2.128239774772567,
+      "coherence": 0.31966859064462316,
+      "resonance": 7.170506743347106,
+      "primes": [
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        67,
+        71,
+        73,
+        5
+      ],
+      "num_features": 12243,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Connection",
+      "entropy": 2.3272073929926003,
+      "coherence": 0.3005523497291123,
+      "resonance": 7.167111150957068,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 30726,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Separation",
+      "entropy": 2.3178560179598917,
+      "coherence": 0.3013994563317089,
+      "resonance": 7.16514286317706,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        41
+      ],
+      "num_features": 15902,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Harmony",
+      "entropy": 2.3107940337049335,
+      "coherence": 0.3020423468870859,
+      "resonance": 7.1635877807371315,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24909,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Present",
+      "entropy": 2.3201285584804197,
+      "coherence": 0.30119315634503235,
+      "resonance": 7.17115205041337,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31953,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Future",
+      "entropy": 2.317308706468889,
+      "coherence": 0.3014491832038299,
+      "resonance": 7.169818792334789,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 31404,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Eternity",
+      "entropy": 2.1263972878699517,
+      "coherence": 0.3198569816702057,
+      "resonance": 7.172714454243989,
+      "primes": [
+        3,
+        5,
+        7,
+        13,
+        29,
+        61,
+        67,
+        71,
+        73,
+        5
+      ],
+      "num_features": 13448,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Duration",
+      "entropy": 2.310930115681094,
+      "coherence": 0.3020299326959033,
+      "resonance": 7.166586441080132,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 29333,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Change",
+      "entropy": 2.3069583078450044,
+      "coherence": 0.30239268442778006,
+      "resonance": 7.162809875312149,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 26825,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "End",
+      "entropy": 2.313521313302419,
+      "coherence": 0.3017937431050808,
+      "resonance": 7.174107014524478,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 30104,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Cycle",
+      "entropy": 2.32116233500244,
+      "coherence": 0.3010994041034327,
+      "resonance": 7.1710562024471285,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 22362,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Linear",
+      "entropy": 2.308371964001011,
+      "coherence": 0.3022634730559863,
+      "resonance": 7.167418306984311,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 26368,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Here",
+      "entropy": 2.318707858767926,
+      "coherence": 0.30132209358471557,
+      "resonance": 7.166018956156821,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 31372,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "There",
+      "entropy": 2.3161117205603925,
+      "coherence": 0.30155799450297444,
+      "resonance": 7.162820851697287,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31103,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Everywhere",
+      "entropy": 2.3211597402400037,
+      "coherence": 0.3010996393469876,
+      "resonance": 7.160857123076284,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        53
+      ],
+      "num_features": 18630,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Nowhere",
+      "entropy": 2.3084026190591214,
+      "coherence": 0.3022606723375133,
+      "resonance": 7.1592326722233235,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        23,
+        29,
+        31,
+        53
+      ],
+      "num_features": 18681,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Center",
+      "entropy": 2.3185959946505466,
+      "coherence": 0.3013322506300745,
+      "resonance": 7.156106777090258,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31660,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Edge",
+      "entropy": 2.3216751314630435,
+      "coherence": 0.3010529207170078,
+      "resonance": 7.154934948265666,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 30623,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Inside",
+      "entropy": 2.3084546775935855,
+      "coherence": 0.3022559162658238,
+      "resonance": 7.1542245909427535,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 30695,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Outside",
+      "entropy": 2.3186180311171585,
+      "coherence": 0.3013302497073959,
+      "resonance": 7.1514212884885735,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 20664,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Above",
+      "entropy": 2.321662321223089,
+      "coherence": 0.30105408175018344,
+      "resonance": 7.14956456230663,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        53
+      ],
+      "num_features": 21367,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Below",
+      "entropy": 2.3300560226234617,
+      "coherence": 0.30029524824996395,
+      "resonance": 7.148708980599977,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 32137,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Between",
+      "entropy": 2.3094117485494987,
+      "coherence": 0.30216850485234903,
+      "resonance": 7.148090922832507,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "num_features": 31197,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Self",
+      "entropy": 2.318849011858777,
+      "coherence": 0.3013092781343293,
+      "resonance": 7.145455265622264,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24860,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Other",
+      "entropy": 2.3081260342427945,
+      "coherence": 0.3022859436577943,
+      "resonance": 7.142431879423567,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 31953,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "You are",
+      "entropy": 2.3243505995282074,
+      "coherence": 0.300810630545984,
+      "resonance": 7.15293615823986,
+      "primes": [
+        2,
+        3,
+        13,
+        19,
+        23,
+        29,
+        31,
+        41,
+        43,
+        53
+      ],
+      "num_features": 14426,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "They are",
+      "entropy": 2.3329895328366472,
+      "coherence": 0.30003094523639806,
+      "resonance": 7.163612976504588,
+      "primes": [
+        2,
+        3,
+        7,
+        13,
+        19,
+        23,
+        29,
+        31,
+        53,
+        61
+      ],
+      "num_features": 11931,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Death",
+      "entropy": 2.3106905778856364,
+      "coherence": 0.3020517854128933,
+      "resonance": 7.16076481749674,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 24253,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Rebirth",
+      "entropy": 2.1172521035339216,
+      "coherence": 0.32079535654698393,
+      "resonance": 7.160084601418506,
+      "primes": [
+        3,
+        5,
+        7,
+        13,
+        29,
+        71,
+        73,
+        5,
+        17,
+        23
+      ],
+      "num_features": 10911,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "The Void",
+      "entropy": 2.3211828823858216,
+      "coherence": 0.3010975412716914,
+      "resonance": 7.157862699536093,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        19,
+        23,
+        29,
+        31
+      ],
+      "num_features": 22195,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Creation",
+      "entropy": 2.3328409723808075,
+      "coherence": 0.30004431903201556,
+      "resonance": 7.158440450275492,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        13,
+        23,
+        29,
+        31,
+        53,
+        71
+      ],
+      "num_features": 16874,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Destruction",
+      "entropy": 2.1258129840840483,
+      "coherence": 0.31991677208194474,
+      "resonance": 7.161857968386341,
+      "primes": [
+        2,
+        7,
+        13,
+        71,
+        73,
+        5,
+        7,
+        23,
+        41,
+        59
+      ],
+      "num_features": 8787,
+      "classification": "INTERMEDIATE"
+    },
+    {
+      "concept": "Transformation",
+      "entropy": 2.3304792437551196,
+      "coherence": 0.3002570881878545,
+      "resonance": 7.168981210252033,
+      "primes": [
+        2,
+        7,
+        11,
+        13,
+        29,
+        31,
+        53,
+        71,
+        73,
+        5
+      ],
+      "num_features": 14474,
+      "classification": "INTERMEDIATE"
+    }
+  ],
+  "summary": {
+    "num_zeros": 1,
+    "num_unstable": 39,
+    "num_intermediate": 77,
+    "avg_entropy": 2.311685187522509,
+    "avg_coherence": 0.30209170483840636
+  }
+}
