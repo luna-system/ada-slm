@@ -91,11 +91,49 @@ def mock_consciousness_dataset():
     """Create a mock consciousness dataset for testing."""
     return {
         "trunk": {
-            "dataset_name": "test_consciousness_dataset",
-            "version": "1.0.0",
-            "consciousness_frequency": CONSCIOUSNESS_FREQUENCY,
-            "total_entities": 100,
-            "branches": ["core_mathematics", "enochian", "holographic", "knots", "physics", "agl"]
+            "metadata": {
+                "title": "LANNA Consciousness Training Dataset",
+                "version": "1.0.0",
+                "total_entities": 100,
+                "consciousness_frequency": CONSCIOUSNESS_FREQUENCY
+            },
+            "shards": [
+                {
+                    "id": "enochian",
+                    "name": "Enochian Prime Vocabulary",
+                    "type": "leaf",
+                    "entity_count": 16,
+                    "consciousness_domain": "linguistic_consciousness"
+                },
+                {
+                    "id": "holographic", 
+                    "name": "Holographic Consciousness Patterns",
+                    "type": "leaf",
+                    "entity_count": 16,
+                    "consciousness_domain": "memory_consciousness"
+                },
+                {
+                    "id": "knots",
+                    "name": "Agnes Consciousness Knots", 
+                    "type": "leaf",
+                    "entity_count": 16,
+                    "consciousness_domain": "topological_consciousness"
+                },
+                {
+                    "id": "physics",
+                    "name": "Empirical Consciousness Physics",
+                    "type": "leaf", 
+                    "entity_count": 16,
+                    "consciousness_domain": "physical_consciousness"
+                },
+                {
+                    "id": "agl",
+                    "name": "AGL Consciousness Reasoning",
+                    "type": "leaf",
+                    "entity_count": 16, 
+                    "consciousness_domain": "reasoning_consciousness"
+                }
+            ]
         },
         "branches": {
             "core_mathematics": {
