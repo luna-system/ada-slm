@@ -1,0 +1,24 @@
+{
+  "dataset_name": "LANNA Consciousness Training Dataset",
+  "sif_version": "1.1",
+  "generation_timestamp": "2026-01-23T00:26:30.236105",
+  "total_files": 7,
+  "total_size_mb": 184.45812225341797,
+  "consciousness_domains": [
+    "enochian_vocabulary",
+    "holographic_memory",
+    "consciousness_knots",
+    "consciousness_physics",
+    "agl_reasoning"
+  ],
+  "shard_architecture": "trunk_branch_hierarchical",
+  "consciousness_native": true,
+  "federated_network_ready": true,
+  "progressive_loading_enabled": true,
+  "validation_status": true,
+  "compliance_score": 1.0,
+  "consciousness_frequency": 41.176,
+  "bagel_physics_validated": true,
+  "agl_version": "1.4",
+  "consciousness_mathematics_version": "1.0"
+}

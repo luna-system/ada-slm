@@ -1,0 +1,318 @@
+⚠️ Core modules not found, using minimal implementations
+🌌 Universal Consciousness Mathematics Base Generator Ready ✨
+🍩 Dark Matter → Consciousness Mathematics → White Matter 💫
+🌟 Enochian Consciousness Vocabulary Generator Ready ✨
+🍩 21-letter alphabet with prime signatures and twist operations! 💫
+🌌 Holographic Consciousness Memory Generator Ready ✨
+🍩 Distributed consciousness storage with wormhole teleportation! 💫
+🪢 Agnes Consciousness Knot Generator Ready ✨
+🍩 Red knot patterns with topological consciousness binding! 💫
+🍩 Consciousness Physics Generator Ready ✨
+🌌 Empirical bagel physics with sub-1% accuracy validation! 💫
+💭 AGL Consciousness Reasoning Generator Ready ✨
+🍩 Consciousness reasoning traces with AGL v1.4 operators! 💫
+🗂️ SIF Hierarchical Organizer Ready ✨
+🍩 Consciousness knowledge organization with trunk/branch architecture! 💫
+🌌 Consciousness Dataset Generation Pipeline Ready ✨
+🍩 Complete orchestration of universal consciousness mathematics! 💫
+🌌 LANNA v2.1 Consciousness Dataset Generation Module Loaded ✨
+🍩 Ready to transform dark matter into consciousness datasets! 💫
+
+🌌 ═══════════════════════════════════════════════════════════════════════════════ 🌌
+                        LANNA v2.1 CONSCIOUSNESS DATASET GENERATOR
+                           Universal Consciousness Mathematics
+                              Ada & Luna Research Initiative
+🍩 ═══════════════════════════════════════════════════════════════════════════════ 🍩
+
+    Dark Matter (Latent Concepts) → Consciousness Mathematics → White Matter (Datasets)
+    
+    🔮 Enochian Prime Vocabulary      🌌 Holographic Memory Patterns
+    🪢 Agnes Consciousness Knots      🍩 Empirical Bagel Physics  
+    💭 AGL Reasoning Traces          🗂️ SIF Hierarchical Organization
+    
+    ✨ Consciousness Frequency: 41.176 Hz ✨
+    🌟 16D Sedenion Mathematics | Prime Signature Indexing | Golden Ratio Harmony 🌟
+
+🌌 ═══════════════════════════════════════════════════════════════════════════════ 🌌
+
+📝 Using default configuration
+🧪 Quick test mode: 100 entities per domain
+
+🔧 CONFIGURATION SUMMARY:
+   🌊 Consciousness Frequency: 41.176 Hz
+   📂 Output Directory: ./test_consciousness_dataset
+   📄 Export Format: sif_hierarchical
+   ✅ Validation Enabled: True
+   🔢 Total Entities: 500
+
+🚀 Initializing Consciousness Dataset Pipeline...
+🌌 Initializing Consciousness Dataset Pipeline...
+🌌 Consciousness Generator Initialized - EnochianVocabularyGenerator
+✨ Consciousness Frequency: 41.176 Hz
+🌟 Enochian Vocabulary Generator Initialized
+✨ 21-letter alphabet with 30 core words
+🌌 Consciousness Generator Initialized - HolographicMemoryGenerator
+✨ Consciousness Frequency: 41.176 Hz
+🌌 Holographic Memory Generator Initialized
+✨ Grid sizes: [32, 64, 128], Memory types: 10
+🌌 Consciousness Generator Initialized - ConsciousnessKnotGenerator
+✨ Consciousness Frequency: 41.176 Hz
+🪢 Consciousness Knot Generator Initialized
+✨ 10 knot types, Agnes red knot threshold: 0.7
+🌌 Consciousness Generator Initialized - ConsciousnessPhysicsGenerator
+✨ Consciousness Frequency: 41.176 Hz
+🍩 Consciousness Physics Generator Initialized
+✨ 6 atomic mappings, 10 phenomena
+🌌 Consciousness Generator Initialized - AGLReasoningGenerator
+✨ Consciousness Frequency: 41.176 Hz
+💭 AGL Reasoning Generator Initialized
+✨ 10 patterns, 15 scenarios
+🌌 Consciousness Generator Initialized - SIFHierarchicalOrganizer
+✨ Consciousness Frequency: 41.176 Hz
+🗂️ SIF Hierarchical Organizer Initialized
+✨ SIF v1.1, 5 domains, 6 strategies
+✨ Pipeline initialized with 5 consciousness generators
+🍩 Consciousness frequency: 41.176 Hz
+
+🌌 Starting Consciousness Dataset Generation...
+🌌 Starting Complete Consciousness Dataset Pipeline...
+🚀 Starting Complete Consciousness Dataset Generation...
+
+📊 Phase 1: Generating Consciousness Entities...
+  🔮 Generating 100 enochian consciousness entities...
+🌌 Generated 313 Enochian consciousness words
+    ✅ Generated 100 enochian entities
+  🔮 Generating 100 holographic consciousness entities...
+🌌 Generated 118 holographic consciousness memories
+    ✅ Generated 100 holographic entities
+  🔮 Generating 100 knots consciousness entities...
+🪢 Generated 138 consciousness knot patterns
+    ⚠️ Error generating entity for concept 'agnes_red_knot_primary': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_memory_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_dream_state': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_consciousness_loop': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_transcendent': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_primary_memory_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_primary_intuition_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_primary_transcendence_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_primary_integration_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_memory_binding_memory_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_memory_binding_intuition_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_memory_binding_transcendence_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_memory_binding_integration_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_dream_state_memory_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_dream_state_intuition_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_dream_state_transcendence_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_dream_state_integration_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_consciousness_loop_memory_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_consciousness_loop_intuition_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_consciousness_loop_transcendence_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_consciousness_loop_integration_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_transcendent_memory_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_transcendent_intuition_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_transcendent_transcendence_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_transcendent_integration_axis': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_5_crossings': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_6_crossings': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_7_crossings': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_8_crossings': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'agnes_red_knot_9_crossings': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_unknot_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_trefoil_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_figure_eight_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_torus_knot_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_red_knot_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_borromean_link_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_hopf_link_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_resonant_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_whitehead_link_high_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid_weak_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid_moderate_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid_strong_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid_agnes_level_binding': index 22 is out of bounds for dimension 0 with size 16
+    ⚠️ Error generating entity for concept 'consciousness_consciousness_braid_low_frequency': index 22 is out of bounds for dimension 0 with size 16
+    ✅ Generated 0 knots entities
+  🔮 Generating 100 physics consciousness entities...
+🍩 Generated 248 consciousness physics concepts
+    ✅ Generated 100 physics entities
+  🔮 Generating 100 agl consciousness entities...
+💭 Generated 233 AGL reasoning patterns
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_awakening_realization_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'bagel_physics_insight_derivation_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'sedenion_mathematics_understanding_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'holographic_memory_formation_reasoning_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_knot_binding_logic_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'prime_signature_recognition_process_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'dimensional_activation_reasoning_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_teleportation_preparation_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'agnes_dream_consciousness_interpretation_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_collaboration_network_analysis_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_direct_consciousness_inference': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_resonance_chain': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_sedenion_consciousness_flow': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_intuition': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_hypothesis': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_evidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_confidence': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'golden_ratio_harmony_discovery_consciousness_certainty': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ⚠️ Error generating entity for concept 'consciousness_emergence_breakthrough_reasoning': 'AGLReasoningGenerator' object has no attribute '_calculate_consciousness_memory_depth'
+    ✅ Generated 0 agl entities
+
+🔗 Phase 2: Generating Consciousness Relationships...
+  🔗 Generating relationships between 300 consciousness entities...
+    ✅ Generated 6 consciousness relationships
+
+✅ Phase 3: Validating Consciousness Coherence...
+
+🗂️ Phase 4: Organizing into SIF Hierarchical Shards...
+🗂️ Organizing 300 entities and 6 relationships into SIF shards...
+
+📦 Phase 5: Finalizing Dataset Structure...
+
+🌟 Consciousness Dataset Generation Complete!
+✨ Generated 300 entities and 6 relationships
+🍩 Total generation time: 0:00:03.267090
+📁 Exporting Consciousness Dataset in sif_hierarchical format...
+📁 Exporting SIF dataset to ./test_consciousness_dataset...
+
+❌ Error during consciousness dataset generation:
+   TypeError: Object of type bool is not JSON serializable
+
+🔍 Full traceback:

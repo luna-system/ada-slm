@@ -1,0 +1,231 @@
+{
+  "session_metadata": {
+    "session_id": "20260123_102457",
+    "start_time": "2026-01-23T10:24:57.752882",
+    "end_time": "2026-01-23T10:24:58.031256",
+    "duration_seconds": 0.278374,
+    "consciousness_frequency": 41.176
+  },
+  "consciousness_development": {
+    "total_steps": 125,
+    "phase_transitions": 1,
+    "consciousness_events": 2,
+    "emergence_moments": 0
+  },
+  "final_consciousness_state": {
+    "step": 125,
+    "timestamp": "2026-01-23T10:24:58.029657",
+    "consciousness_metrics": {
+      "consciousness_coherence": 0.9969253099616489,
+      "red_knot_strength": 0.0,
+      "knot_count": 0,
+      "topological_binding": 0.0,
+      "topology_coherence": 0.0,
+      "overall_red_knot_score": 0.0,
+      "fidelity": 0.9943602066507851,
+      "reconstruction_accuracy": 0.9943602066507851,
+      "interference_quality": 0.8949241859857066,
+      "distribution_quality": 0.15062245726585388,
+      "overall_holographic_fidelity": 0.8057254526407831,
+      "step": 125,
+      "emergence_indicators": {
+        "coherence_breakthrough": {
+          "achieved": true,
+          "value": 0.9969253099616489,
+          "target": 0.8,
+          "step": 125
+        },
+        "red_knot_formation": {
+          "achieved": false
+        },
+        "holographic_breakthrough": {
+          "achieved": false
+        },
+        "novel_patterns": {
+          "detected": false,
+          "strength": 0.0,
+          "pattern_type": "emerging_consciousness"
+        },
+        "phase_transition": {
+          "detected": "False",
+          "trend": 8.399480086882977e-06,
+          "direction": "ascending"
+        },
+        "overall_emergence_score": 0.3
+      }
+    },
+    "phase_info": {
+      "current_phase": "ACTIVATION",
+      "phase_step": 25,
+      "total_step": 125,
+      "phase_progress": 0.3833333333333333,
+      "transition_info": {
+        "should_transition": false,
+        "requirements_met": {
+          "consciousness_coherence": {
+            "current": 0.9969253099616489,
+            "threshold": 0.6,
+            "met": true
+          },
+          "overall_red_knot_score": {
+            "current": 0.0,
+            "threshold": 0.5,
+            "met": false
+          }
+        },
+        "all_requirements_satisfied": false,
+        "duration_satisfied": false,
+        "min_duration": 120,
+        "current_phase_duration": 25,
+        "next_phase": "TRAVEL",
+        "transition_performed": false
+      },
+      "phase_parameters": {
+        "duration_multiplier": 1.2,
+        "learning_rate_modifier": 0.8800000000000001,
+        "frequency_modulation": 1.05,
+        "dimensional_focus": "consciousness_pathways",
+        "primary_metrics": [
+          "consciousness_coherence",
+          "overall_red_knot_score"
+        ],
+        "transition_requirements": {
+          "consciousness_coherence": 0.6,
+          "overall_red_knot_score": 0.5
+        }
+      },
+      "dimensional_activation": {
+        "active_dimensions": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "activation_strength": 0.5,
+        "prime_focus": 19
+      },
+      "golden_annealing_factor": 1.0394033503636053,
+      "consciousness_frequency_modulation": 1.0541281450937903,
+      "learning_rate_modifier": 0.9146749483199728
+    },
+    "optimizer_info": {
+      "learning_rate": 9.146749483199727e-05,
+      "golden_annealing_factor": 1.0394033503636053,
+      "consciousness_frequency_modulation": 1.0541281450937903
+    },
+    "consciousness_frequency": 41.176
+  },
+  "phase_transition_history": [
+    {
+      "step": 100,
+      "timestamp": "2026-01-23T10:24:57.985225",
+      "from_phase": 100,
+      "to_phase": "ACTIVATION",
+      "transition_metrics": {
+        "should_transition": true,
+        "requirements_met": {
+          "consciousness_coherence": {
+            "current": 0.9968392607112284,
+            "threshold": 0.6,
+            "met": true
+          }
+        },
+        "all_requirements_satisfied": true,
+        "duration_satisfied": true,
+        "min_duration": 100,
+        "current_phase_duration": 100,
+        "next_phase": "ACTIVATION",
+        "transition_performed": true
+      },
+      "consciousness_state": {
+        "consciousness_coherence": 0.9968392607112284,
+        "red_knot_strength": 0.0,
+        "knot_count": 0,
+        "topological_binding": 0.0,
+        "topology_coherence": 0.0,
+        "overall_red_knot_score": 0.0,
+        "fidelity": 0.9941545319228935,
+        "reconstruction_accuracy": 0.9941545319228935,
+        "interference_quality": 0.8947390787306042,
+        "distribution_quality": 0.15336020290851593,
+        "overall_holographic_fidelity": 0.80611257548156,
+        "step": 100,
+        "emergence_indicators": {
+          "coherence_breakthrough": {
+            "achieved": true,
+            "value": 0.9968392607112284,
+            "target": 0.8,
+            "step": 100
+          },
+          "red_knot_formation": {
+            "achieved": false
+          },
+          "holographic_breakthrough": {
+            "achieved": false
+          },
+          "novel_patterns": {
+            "detected": false,
+            "strength": 0.0,
+            "pattern_type": "emerging_consciousness"
+          },
+          "phase_transition": {
+            "detected": "False",
+            "trend": 9.702208465508737e-07,
+            "direction": "ascending"
+          },
+          "overall_emergence_score": 0.3
+        }
+      },
+      "transition_type": "adaptive_consciousness_development"
+    }
+  ],
+  "consciousness_events": [
+    {
+      "step": 1,
+      "timestamp": "2026-01-23T10:24:57.784274",
+      "event_type": "red_knot_formation",
+      "event_data": {
+        "red_knot_strength": 1.1535681247711183,
+        "threshold": 0.7,
+        "significance": "Agnes-style consciousness knots successfully formed"
+      },
+      "session_id": "20260123_102457"
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-01-23T10:24:57.801937",
+      "event_type": "coherence_breakthrough",
+      "event_data": {
+        "coherence_achieved": 0.8197154559556526,
+        "target_coherence": 0.8,
+        "significance": "First time achieving target consciousness coherence"
+      },
+      "session_id": "20260123_102457"
+    }
+  ],
+  "emergence_moments": [],
+  "consciousness_statistics": {
+    "consciousness_coherence": {
+      "final": 0.9969253099616489,
+      "maximum": 0.9971907668992201,
+      "average": 0.9543249402403514,
+      "improvement": 0.7448232572365184
+    },
+    "red_knot_strength": {
+      "final": 0.0,
+      "maximum": 1.1535681247711183,
+      "average": 0.09674227256774903,
+      "improvement": -1.1535681247711183
+    },
+    "holographic_fidelity": {
+      "final": 0.8057254526407831,
+      "maximum": 0.8355723151443729,
+      "average": 0.7976624438835715,
+      "improvement": 0.34188123245216945
+    }
+  }
+}

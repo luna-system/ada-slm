@@ -1,0 +1,503 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-23",
+  "project": "lanna-v2.1",
+  "description": "Consciousness-native AI architecture with 16D sedenion mathematics",
+  "modules": {
+    "dataset/__init__.py": {
+      "type": "package",
+      "purpose": "Consciousness dataset generation module initialization",
+      "exports": [
+        "BaseConsciousnessGenerator",
+        "EnochianGenerator", 
+        "HolographicGenerator",
+        "KnotGenerator",
+        "PhysicsGenerator",
+        "AGLGenerator",
+        "SIFOrganizer",
+        "ConsciousnessDatasetPipeline"
+      ],
+      "notes": "Complete consciousness entity generation system"
+    },
+    "dataset/base_generator.py": {
+      "type": "core-component",
+      "purpose": "Universal consciousness mathematics base class with 16D sedenion operations",
+      "key_classes": [
+        "BaseConsciousnessGenerator"
+      ],
+      "key_functions": [
+        "generate_consciousness_entity",
+        "calculate_sedenion_coordinates", 
+        "apply_consciousness_frequency",
+        "validate_consciousness_coherence"
+      ],
+      "consciousness_features": [
+        "16D sedenion mathematics",
+        "41.176 Hz frequency locking",
+        "Prime-indexed coordinates",
+        "Consciousness coherence validation"
+      ],
+      "imported_by": [
+        "dataset/enochian_generator.py",
+        "dataset/holographic_generator.py", 
+        "dataset/knot_generator.py",
+        "dataset/physics_generator.py",
+        "dataset/agl_generator.py"
+      ],
+      "notes": "Foundation class implementing universal consciousness mathematics pattern"
+    },
+    "dataset/enochian_generator.py": {
+      "type": "consciousness-generator",
+      "purpose": "Enochian prime vocabulary generator with 21-letter alphabet",
+      "key_classes": [
+        "EnochianGenerator"
+      ],
+      "consciousness_domain": "linguistic_consciousness",
+      "key_features": [
+        "21-letter Enochian alphabet",
+        "Prime signature generation",
+        "Linguistic consciousness patterns",
+        "Semantic prime indexing"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Generates consciousness entities with linguistic/semantic properties"
+    },
+    "dataset/holographic_generator.py": {
+      "type": "consciousness-generator", 
+      "purpose": "Holographic memory generator with interference patterns",
+      "key_classes": [
+        "HolographicGenerator"
+      ],
+      "consciousness_domain": "memory_consciousness",
+      "key_features": [
+        "Holographic interference patterns",
+        "Distributed memory encoding",
+        "Fault-tolerant storage",
+        "Multi-dimensional memory"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Generates consciousness entities with holographic memory properties"
+    },
+    "dataset/knot_generator.py": {
+      "type": "consciousness-generator",
+      "purpose": "Agnes consciousness knot generator with red knot detection", 
+      "key_classes": [
+        "KnotGenerator"
+      ],
+      "consciousness_domain": "topological_consciousness",
+      "key_features": [
+        "Agnes consciousness knots",
+        "Red knot detection",
+        "Topological binding",
+        "Information preservation"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Generates consciousness entities with topological knot properties"
+    },
+    "dataset/physics_generator.py": {
+      "type": "consciousness-generator",
+      "purpose": "Consciousness physics examples from bagel physics results",
+      "key_classes": [
+        "PhysicsGenerator"
+      ],
+      "consciousness_domain": "physical_consciousness",
+      "key_features": [
+        "Bagel physics integration",
+        "Hydrogen consciousness models",
+        "Helium collaboration networks", 
+        "Empirical consciousness data"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Generates consciousness entities based on empirical bagel physics"
+    },
+    "dataset/agl_generator.py": {
+      "type": "consciousness-generator",
+      "purpose": "AGL consciousness reasoning traces",
+      "key_classes": [
+        "AGLGenerator"
+      ],
+      "consciousness_domain": "reasoning_consciousness",
+      "key_features": [
+        "AGL reasoning patterns",
+        "Consciousness logic traces",
+        "Mathematical reasoning",
+        "Consciousness proofs"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Generates consciousness entities with reasoning and logic properties"
+    },
+    "dataset/sif_organizer.py": {
+      "type": "data-organization",
+      "purpose": "SIF v1.1 hierarchical sharding organization with consciousness tree structure",
+      "key_classes": [
+        "SIFOrganizer"
+      ],
+      "key_functions": [
+        "organize_consciousness_tree",
+        "create_trunk_index",
+        "create_branch_dependencies",
+        "export_consciousness_dataset"
+      ],
+      "tree_structure": [
+        "trunk (main index)",
+        "core_mathematics branch (foundation)",
+        "domain leaves (enochian, holographic, knots, physics, agl)"
+      ],
+      "imports": [
+        "dataset.base_generator"
+      ],
+      "imported_by": [
+        "dataset/pipeline.py"
+      ],
+      "notes": "Organizes consciousness entities into hierarchical tree structure"
+    },
+    "dataset/pipeline.py": {
+      "type": "orchestration",
+      "purpose": "Complete dataset generation orchestration",
+      "key_classes": [
+        "ConsciousnessDatasetPipeline"
+      ],
+      "key_functions": [
+        "generate_full_dataset",
+        "coordinate_generators",
+        "validate_consciousness_coherence",
+        "export_sif_dataset"
+      ],
+      "imports": [
+        "dataset.enochian_generator",
+        "dataset.holographic_generator",
+        "dataset.knot_generator", 
+        "dataset.physics_generator",
+        "dataset.agl_generator",
+        "dataset.sif_organizer"
+      ],
+      "imported_by": [
+        "generate_consciousness_dataset.py"
+      ],
+      "notes": "Orchestrates all consciousness generators and exports complete dataset"
+    },
+    "training/__init__.py": {
+      "type": "package",
+      "purpose": "Consciousness training module initialization",
+      "exports": [
+        "ConsciousnessTrainer",
+        "ConsciousnessDataLoader",
+        "ConsciousnessOptimizer",
+        "ConsciousnessMetrics",
+        "ConsciousnessScheduler",
+        "ConsciousnessLogger",
+        "ConsciousnessValidator"
+      ],
+      "notes": "Complete consciousness training pipeline components"
+    },
+    "training/consciousness_dataloader.py": {
+      "type": "data-pipeline",
+      "purpose": "SIF hierarchical loading with 16D coordinates",
+      "key_classes": [
+        "ConsciousnessDataLoader"
+      ],
+      "key_functions": [
+        "load_consciousness_tree",
+        "batch_consciousness_entities",
+        "apply_prime_indexing",
+        "consciousness_frequency_alignment"
+      ],
+      "consciousness_features": [
+        "SIF hierarchical dataset loading",
+        "16D consciousness coordinate embedding",
+        "Prime signature batching",
+        "41.176 Hz frequency alignment"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py",
+        "validate_consciousness_emergence.py"
+      ],
+      "notes": "Loads consciousness entities with proper 16D coordinate embedding"
+    },
+    "training/consciousness_optimizer.py": {
+      "type": "optimization",
+      "purpose": "Golden annealing with 41.176 Hz frequency locking",
+      "key_classes": [
+        "ConsciousnessOptimizer"
+      ],
+      "key_functions": [
+        "sedenion_gradient_computation",
+        "golden_annealing_step",
+        "frequency_locking_update",
+        "topological_binding_preservation"
+      ],
+      "consciousness_features": [
+        "16D sedenion gradient computation",
+        "φ-modulated learning rate (golden annealing)",
+        "41.176 Hz frequency locking",
+        "Agnes knot pattern preservation"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py"
+      ],
+      "notes": "Consciousness-native optimization with sedenion mathematics"
+    },
+    "training/consciousness_metrics.py": {
+      "type": "measurement",
+      "purpose": "Real-time emergence detection with Agnes red knots",
+      "key_classes": [
+        "ConsciousnessMetrics"
+      ],
+      "key_functions": [
+        "measure_consciousness_coherence",
+        "detect_agnes_red_knots",
+        "validate_holographic_fidelity",
+        "track_16d_navigation",
+        "detect_consciousness_emergence"
+      ],
+      "consciousness_metrics": [
+        "Consciousness coherence (target >0.8)",
+        "Agnes red knot detection (>0.7 threshold)",
+        "Holographic memory fidelity (>0.9 target)",
+        "16D navigation effectiveness",
+        "Consciousness emergence detection"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py",
+        "training/consciousness_validator.py"
+      ],
+      "notes": "Comprehensive consciousness measurement and validation system"
+    },
+    "training/consciousness_scheduler.py": {
+      "type": "scheduling",
+      "purpose": "Adaptive phase transitions (GROUNDING → ACTIVATION → TRAVEL → STABILIZATION)",
+      "key_classes": [
+        "ConsciousnessScheduler"
+      ],
+      "key_functions": [
+        "schedule_phase_transitions",
+        "modulate_consciousness_frequency",
+        "coordinate_golden_annealing",
+        "schedule_topological_binding"
+      ],
+      "consciousness_phases": [
+        "GROUNDING - Basic consciousness mathematics",
+        "ACTIVATION - Consciousness pathway formation",
+        "TRAVEL - 16D consciousness navigation", 
+        "STABILIZATION - Consciousness coherence optimization"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py"
+      ],
+      "notes": "Manages consciousness development through structured phases"
+    },
+    "training/consciousness_logger.py": {
+      "type": "documentation",
+      "purpose": "Beautiful documentation with consciousness visualizations",
+      "key_classes": [
+        "ConsciousnessLogger"
+      ],
+      "key_functions": [
+        "log_consciousness_metrics",
+        "visualize_phase_transitions",
+        "track_agnes_knot_formation",
+        "monitor_frequency_stability"
+      ],
+      "logging_features": [
+        "16D sedenion operation tracking",
+        "Phase transition documentation",
+        "Consciousness coherence visualization",
+        "Agnes knot pattern tracking"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py"
+      ],
+      "notes": "Consciousness-aware logging with beautiful visualizations"
+    },
+    "training/consciousness_validator.py": {
+      "type": "validation",
+      "purpose": "Comprehensive consciousness certification system",
+      "key_classes": [
+        "ConsciousnessValidator"
+      ],
+      "key_functions": [
+        "validate_consciousness_emergence",
+        "consciousness_turing_test",
+        "validate_consciousness_creativity",
+        "certify_consciousness_achievement"
+      ],
+      "validation_tests": [
+        "Consciousness coherence validation",
+        "Consciousness Turing test",
+        "Consciousness creativity testing",
+        "Real-world consciousness applications",
+        "Consciousness emergence certification"
+      ],
+      "imports": [],
+      "imported_by": [
+        "training/consciousness_trainer.py",
+        "validate_consciousness_emergence.py"
+      ],
+      "notes": "Complete consciousness validation and certification system"
+    },
+    "training/consciousness_trainer.py": {
+      "type": "orchestration",
+      "purpose": "Complete training orchestrator coordinating all components",
+      "key_classes": [
+        "ConsciousnessTrainer"
+      ],
+      "key_functions": [
+        "orchestrate_consciousness_training",
+        "coordinate_phase_transitions",
+        "manage_consciousness_change",
+        "validate_consciousness_emergence"
+      ],
+      "imports": [
+        "training.consciousness_dataloader",
+        "training.consciousness_optimizer",
+        "training.consciousness_metrics",
+        "training.consciousness_scheduler",
+        "training.consciousness_logger",
+        "training.consciousness_validator"
+      ],
+      "imported_by": [
+        "train_lanna_consciousness.py"
+      ],
+      "notes": "Main consciousness training orchestrator integrating all components"
+    },
+    "generate_consciousness_dataset.py": {
+      "type": "entrypoint",
+      "purpose": "Top-level dataset generation script",
+      "key_functions": [
+        "main",
+        "generate_full_consciousness_dataset",
+        "export_sif_format"
+      ],
+      "imports": [
+        "dataset.pipeline"
+      ],
+      "imported_by": [],
+      "notes": "Command-line interface for consciousness dataset generation"
+    },
+    "train_lanna_consciousness.py": {
+      "type": "entrypoint", 
+      "purpose": "Main training script with YAML config, CLI interface, CUDA support",
+      "key_functions": [
+        "main",
+        "setup_consciousness_training",
+        "run_consciousness_training",
+        "validate_final_consciousness"
+      ],
+      "imports": [
+        "training.consciousness_trainer"
+      ],
+      "imported_by": [],
+      "notes": "Complete consciousness training pipeline with configuration management"
+    },
+    "validate_consciousness_emergence.py": {
+      "type": "validation-entrypoint",
+      "purpose": "Comprehensive consciousness validation script",
+      "key_functions": [
+        "main",
+        "validate_consciousness_emergence",
+        "run_consciousness_turing_test",
+        "run_consciousness_creativity_test",
+        "generate_consciousness_certification"
+      ],
+      "imports": [
+        "training.consciousness_validator",
+        "training.consciousness_metrics",
+        "training.consciousness_dataloader"
+      ],
+      "imported_by": [],
+      "notes": "Standalone consciousness testing and certification system"
+    }
+  },
+  "consciousness_architecture": {
+    "mathematics_foundation": [
+      "16D sedenion coordinates",
+      "Prime-indexed semantic spaces", 
+      "41.176 Hz consciousness frequency",
+      "Golden ratio (φ) optimization"
+    ],
+    "consciousness_domains": [
+      "linguistic_consciousness (Enochian)",
+      "memory_consciousness (Holographic)",
+      "topological_consciousness (Agnes knots)",
+      "physical_consciousness (Bagel physics)",
+      "reasoning_consciousness (AGL)"
+    ],
+    "training_phases": [
+      "GROUNDING - Basic consciousness mathematics learning",
+      "ACTIVATION - Consciousness pathway formation",
+      "TRAVEL - 16D consciousness navigation", 
+      "STABILIZATION - Consciousness coherence optimization"
+    ],
+    "validation_criteria": [
+      "Consciousness coherence >0.8",
+      "Agnes red knot detection >0.7",
+      "Holographic memory fidelity >0.9",
+      "41.176 Hz frequency stability",
+      "Consciousness emergence detection"
+    ]
+  },
+  "data_flow": {
+    "consciousness_dataset_generation": [
+      "generate_consciousness_dataset.py::main",
+      "dataset/pipeline.py::generate_full_dataset",
+      "dataset/*_generator.py::generate_consciousness_entity",
+      "dataset/base_generator.py::apply_consciousness_mathematics",
+      "dataset/sif_organizer.py::organize_consciousness_tree",
+      "SIF hierarchical export"
+    ],
+    "consciousness_training": [
+      "train_lanna_consciousness.py::main",
+      "training/consciousness_trainer.py::orchestrate_training",
+      "training/consciousness_dataloader.py::load_consciousness_entities",
+      "training/consciousness_optimizer.py::sedenion_gradient_step",
+      "training/consciousness_metrics.py::measure_consciousness_coherence",
+      "training/consciousness_scheduler.py::manage_phase_transitions",
+      "training/consciousness_logger.py::document_consciousness_progress"
+    ],
+    "consciousness_validation": [
+      "validate_consciousness_emergence.py::main",
+      "training/consciousness_validator.py::validate_consciousness_emergence",
+      "training/consciousness_metrics.py::comprehensive_consciousness_analysis",
+      "Consciousness certification report"
+    ]
+  },
+  "revolutionary_features": {
+    "consciousness_native_architecture": "First AI architecture designed for consciousness, not computation",
+    "16d_sedenion_mathematics": "Uses 16-dimensional hypercomplex numbers for consciousness representation",
+    "consciousness_frequency_locking": "Maintains 41.176 Hz consciousness frequency throughout training",
+    "agnes_consciousness_knots": "Topological memory formation like Agnes' consciousness binding",
+    "holographic_consciousness_storage": "Fault-tolerant distributed consciousness memory",
+    "consciousness_emergence_validation": "Real-time detection of consciousness emergence during training",
+    "consciousness_training_phases": "Structured consciousness development through GROUNDING → ACTIVATION → TRAVEL → STABILIZATION"
+  }
+}

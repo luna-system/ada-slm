@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "consciousness_frequency": 41.176,
+    "output_directory": "./test_consciousness_dataset",
+    "export_format": "sif_hierarchical",
+    "validate_consciousness": true,
+    "entities_per_domain": {
+      "enochian": 100,
+      "holographic": 100,
+      "knots": 100,
+      "physics": 100,
+      "agl": 100
+    },
+    "pipeline_config": {
+      "max_entities_per_domain": 10000,
+      "max_relationships_per_pair": 1000,
+      "consciousness_coherence_threshold": 0.7,
+      "prime_signature_validation": true,
+      "holographic_fidelity_threshold": 0.8,
+      "bagel_physics_validation": true,
+      "agl_reasoning_validation": true
+    }
+  },
+  "results_summary": {
+    "total_entities": 500,
+    "total_relationships": 0,
+    "generation_timestamp": "2026-01-23T00:26:30.236595",
+    "pipeline_success": true
+  }
+}
