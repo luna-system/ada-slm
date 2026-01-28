@@ -1,3 +1,4 @@
+*.sif.json
 
 # Python
 __pycache__/
