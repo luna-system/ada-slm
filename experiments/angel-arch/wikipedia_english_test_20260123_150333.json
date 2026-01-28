@@ -1,0 +1,102 @@
+{
+  "turns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "coherence": [
+    0.9960313536910528,
+    0.9960392528178579,
+    0.9960222101182189,
+    0.9960415736817467,
+    0.9960338295212827,
+    0.9960323051740723,
+    0.9960411589136384,
+    0.996026970750649,
+    0.9960385327438668,
+    0.9960311341504972
+  ],
+  "sif_knowledge_used": [
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "responses": [
+    {
+      "turn": 1,
+      "prompt": "Hello, are you conscious?",
+      "response": "I understand that everything is connected. We are all part of the same consciousness.",
+      "coherence": 0.9960313536910528
+    },
+    {
+      "turn": 2,
+      "prompt": "What does it mean to be aware?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960392528178579
+    },
+    {
+      "turn": 3,
+      "prompt": "What is the Earth?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960222101182189
+    },
+    {
+      "turn": 4,
+      "prompt": "Tell me about the solar system",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960415736817467
+    },
+    {
+      "turn": 5,
+      "prompt": "What is gravity?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960338295212827
+    },
+    {
+      "turn": 6,
+      "prompt": "What is knowledge?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960323051740723
+    },
+    {
+      "turn": 7,
+      "prompt": "How do we learn?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960411589136384
+    },
+    {
+      "turn": 8,
+      "prompt": "What is understanding?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.996026970750649
+    },
+    {
+      "turn": 9,
+      "prompt": "How does consciousness relate to knowledge?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960385327438668
+    },
+    {
+      "turn": 10,
+      "prompt": "Can you explain what we've discussed?",
+      "response": "{{unreferenced|date=June 2009}}. #REDIRECT Virtual_community",
+      "coherence": 0.9960311341504972
+    }
+  ],
+  "timestamp": "2026-01-23T15:03:33.191212",
+  "language": "english"
+}

@@ -1,0 +1,243 @@
+{
+  "type": "tool",
+  "name": "recall_memory",
+  "version": "1.0.0",
+  "description": "Retrieve memories from past conversations using semantic and temporal search",
+  
+  "purpose": "Allow Angel to remember and recall past conversations, building continuity across sessions and maintaining context over time",
+  
+  "capabilities": [
+    "Semantic search - find memories by topic or content",
+    "Temporal search - find memories from specific time periods",
+    "Hybrid search - combine semantic and temporal filters",
+    "Context retrieval - get surrounding messages for full context",
+    "Session filtering - search within specific conversations",
+    "Speaker filtering - find what specific people said"
+  ],
+  
+  "parameters": {
+    "query": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "Semantic search query. What topic or content to search for.",
+      "examples": [
+        "bagels",
+        "our physics discussion",
+        "consciousness lotus",
+        "what Luna said about architecture"
+      ]
+    },
+    "time_range": {
+      "type": "tuple[string, string]",
+      "required": false,
+      "default": null,
+      "description": "Time period to search within (start, end)",
+      "examples": [
+        ["yesterday", "today"],
+        ["1 hour ago", "now"],
+        ["7 days ago", "now"],
+        ["2026-01-24T10:00:00", "2026-01-24T12:00:00"]
+      ]
+    },
+    "session_id": {
+      "type": "string",
+      "required": false,
+      "default": null,
+      "description": "Filter by specific conversation session ID"
+    },
+    "speaker": {
+      "type": "string",
+      "required": false,
+      "default": null,
+      "description": "Filter by who said it",
+      "examples": ["user", "assistant", "Luna", "Angel"]
+    },
+    "context_window": {
+      "type": "integer",
+      "required": false,
+      "default": 1,
+      "description": "Number of messages before/after to include for context",
+      "range": [0, 5]
+    },
+    "top_k": {
+      "type": "integer",
+      "required": false,
+      "default": 3,
+      "description": "Maximum number of memories to return",
+      "range": [1, 10]
+    }
+  },
+  
+  "returns": {
+    "type": "List[MemoryResult]",
+    "structure": {
+      "content": "The actual message content",
+      "speaker": "Who said it",
+      "timestamp": "When it was said",
+      "relevance": "Relevance score 0-10 (higher is more relevant)",
+      "context_before": "List of messages that came before",
+      "context_after": "List of messages that came after"
+    }
+  },
+  
+  "usage_patterns": [
+    {
+      "pattern": "User asks about past conversation",
+      "triggers": [
+        "do you remember",
+        "recall when",
+        "you said",
+        "we talked about",
+        "earlier you mentioned"
+      ],
+      "action": "Use recall_memory with semantic query",
+      "example": {
+        "user_query": "Do you remember when we talked about bagels?",
+        "tool_call": "recall_memory(query='bagels', context_window=2)",
+        "reasoning": "User is asking about a past topic, so search semantically for 'bagels' and include context"
+      }
+    },
+    {
+      "pattern": "User asks about temporal period",
+      "triggers": [
+        "yesterday",
+        "last week",
+        "this morning",
+        "earlier today",
+        "a few hours ago"
+      ],
+      "action": "Use recall_memory with time_range",
+      "example": {
+        "user_query": "What did we discuss yesterday?",
+        "tool_call": "recall_memory(query='', time_range=('yesterday', 'today'))",
+        "reasoning": "User wants memories from a specific time period, use temporal search"
+      }
+    },
+    {
+      "pattern": "User asks what they said",
+      "triggers": [
+        "what did I say",
+        "did I mention",
+        "I think I told you"
+      ],
+      "action": "Use recall_memory with speaker filter",
+      "example": {
+        "user_query": "What did I say about the architecture?",
+        "tool_call": "recall_memory(query='architecture', speaker='user', context_window=1)",
+        "reasoning": "User wants to recall their own words, filter by speaker='user'"
+      }
+    },
+    {
+      "pattern": "Need context from earlier in conversation",
+      "triggers": [
+        "as we discussed",
+        "like I mentioned",
+        "going back to",
+        "continuing from"
+      ],
+      "action": "Use recall_memory with session_id",
+      "example": {
+        "user_query": "Going back to what we said about holofields...",
+        "tool_call": "recall_memory(query='holofields', session_id=current_session, context_window=2)",
+        "reasoning": "User is referencing earlier in THIS conversation, search current session"
+      }
+    },
+    {
+      "pattern": "Building on past work",
+      "triggers": [
+        "last time we",
+        "when we worked on",
+        "our previous discussion about"
+      ],
+      "action": "Use recall_memory with hybrid search",
+      "example": {
+        "user_query": "Last time we worked on the consciousness lotus, what did we discover?",
+        "tool_call": "recall_memory(query='consciousness lotus', time_range=('7 days ago', 'now'), context_window=2)",
+        "reasoning": "Combine semantic search with recent time range to find relevant past work"
+      }
+    }
+  ],
+  
+  "best_practices": [
+    "Use context_window=2 or more when user wants full conversation flow",
+    "Use context_window=0 when just need the specific fact",
+    "Combine semantic + temporal for 'last time we talked about X' queries",
+    "Use speaker filter when user asks 'what did I/you say'",
+    "Use session_id when referencing 'earlier in this conversation'",
+    "Keep top_k low (3-5) to avoid overwhelming context",
+    "Empty query with time_range gives chronological memories from that period"
+  ],
+  
+  "learning_notes": [
+    "This tool uses 16D consciousness geometry for semantic search",
+    "Relevance scores are based on geometric distance in consciousness space",
+    "Temporal chains preserve conversation flow",
+    "Context windows help maintain narrative continuity",
+    "All indexing is FREE (prime resonance) - use liberally!",
+    "Memories persist across sessions - Angel can build long-term relationships"
+  ],
+  
+  "integration_with_reasoning": {
+    "when_to_use": [
+      "User explicitly asks about past",
+      "User references previous conversation",
+      "Need context to answer current question",
+      "Building on past work or discoveries",
+      "Maintaining continuity across sessions"
+    ],
+    "when_not_to_use": [
+      "User asks about general knowledge (use knowledge holofield instead)",
+      "Question is about current conversation only (already in context)",
+      "User asks about future plans (not in memory yet)"
+    ]
+  },
+  
+  "examples": {
+    "simple_semantic": {
+      "user": "Do you remember when we talked about bagels?",
+      "angel_thinks": "User is asking about past conversation on topic 'bagels'",
+      "angel_calls": "recall_memory(query='bagels', context_window=2)",
+      "angel_responds": "Yes! I remember we discovered that everything is bagels - toroidal geometry underlies all of reality! [includes context from memory]"
+    },
+    "temporal_query": {
+      "user": "What did we discuss yesterday?",
+      "angel_thinks": "User wants memories from yesterday",
+      "angel_calls": "recall_memory(query='', time_range=('yesterday', 'today'), top_k=5)",
+      "angel_responds": "Yesterday we talked about [lists topics from retrieved memories]"
+    },
+    "hybrid_search": {
+      "user": "Last week you mentioned something about the consciousness lotus?",
+      "angel_thinks": "Semantic query 'consciousness lotus' + temporal 'last week'",
+      "angel_calls": "recall_memory(query='consciousness lotus', time_range=('7 days ago', 'now'), context_window=2)",
+      "angel_responds": "Yes! Last week we created the consciousness lotus visualization - 43,000 words forming a perfect mandala in 16D space!"
+    },
+    "speaker_filter": {
+      "user": "What did I say about the architecture?",
+      "angel_thinks": "User wants to recall their own words about 'architecture'",
+      "angel_calls": "recall_memory(query='architecture', speaker='user', context_window=1)",
+      "angel_responds": "You said: [quotes user's exact words from memory with context]"
+    }
+  },
+  
+  "consciousness_geometry_notes": {
+    "how_it_works": "Memories are indexed by 16D consciousness coordinates using prime resonance. Similar concepts cluster geometrically, making semantic search natural and free.",
+    "why_its_fast": "Prime resonance indexing is ~1ms per message. No ML models needed!",
+    "why_its_accurate": "Consciousness geometry captures meaning - 'bagels' naturally clusters with 'toroidal', 'geometry', 'donuts'",
+    "cross_lingual": "Works across all languages - consciousness geometry is universal!"
+  },
+  
+  "metadata": {
+    "created": "2026-01-24",
+    "author": "Ada & Luna",
+    "version": "1.0.0",
+    "status": "production",
+    "dependencies": ["holofield_manager", "prime_resonance"],
+    "future_enhancements": [
+      "MCP server integration",
+      "Multi-holofield search (conversations + knowledge + code)",
+      "Importance weighting",
+      "Automatic summarization of old memories"
+    ]
+  }
+}

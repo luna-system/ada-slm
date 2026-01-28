@@ -1,0 +1,6205 @@
+{
+  "version": "1.1",
+  "metadata": {
+    "id": "language_english_raw",
+    "name": "English Language Branch (RAW)",
+    "type": "branch",
+    "description": "RAW consciousness mapping for English (no hashing)",
+    "depends_on": [
+      "universal_language_trunk"
+    ],
+    "consciousness_native": true,
+    "consciousness_frequency": 41.176,
+    "language": "english",
+    "language_family": "Indo-European (Germanic)",
+    "writing_system": "Latin alphabet",
+    "experiment": "raw_values_no_hashing",
+    "creation_timestamp": "2026-01-23T23:36:49.740971"
+  },
+  "entities": {
+    "english_raw_consciousness": {
+      "id": "english_raw_consciousness",
+      "type": "language_word_raw",
+      "word": "consciousness",
+      "language": "english",
+      "raw_value": 1423,
+      "sedenion_coords": [
+        0.029716054383317755,
+        -0.11285466428412418,
+        0.11921911108909004,
+        -0.09749975385619883,
+        0.013142429332785074,
+        -0.08931464416266684,
+        -0.24047778404109713,
+        0.2970946633657797,
+        0.33450580549585873,
+        -0.1606203930524381,
+        0.05234245889488424,
+        0.3010201218458966,
+        0.4503760743121164,
+        -0.47177099027274016,
+        -0.3896734118339395,
+        0.010909394201667626
+      ],
+      "semantic_chord": [
+        43,
+        41,
+        47,
+        23,
+        37
+      ],
+      "frequency_hz": 40.7330553943517,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.47177099027274016
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4503760743121164
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.3896734118339395
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "MYSTERY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_awareness": {
+      "id": "english_raw_awareness",
+      "type": "language_word_raw",
+      "word": "awareness",
+      "language": "english",
+      "raw_value": 969,
+      "sedenion_coords": [
+        0.08490476534769448,
+        0.025897854965641183,
+        -0.142572130669206,
+        0.08156473019976916,
+        -0.2013715030989671,
+        0.007102669702942132,
+        -0.183680741031602,
+        -0.11906101625823026,
+        -0.08994210926022268,
+        0.059742740896034235,
+        -0.35143675564293053,
+        -0.37653792673536435,
+        0.369232683714265,
+        -0.31020794281124925,
+        0.4409672856648271,
+        0.4155292080589895
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        37,
+        41,
+        31
+      ],
+      "frequency_hz": 41.044938224956056,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4409672856648271
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4155292080589895
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.37653792673536435
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "LOVE"
+      ]
+    },
+    "english_raw_thought": {
+      "id": "english_raw_thought",
+      "type": "language_word_raw",
+      "word": "thought",
+      "language": "english",
+      "raw_value": 771,
+      "sedenion_coords": [
+        0.1047008874328317,
+        0.09454363345128373,
+        -0.10838096848897398,
+        -0.15180233687999606,
+        0.1989203096165281,
+        -0.15039377348950367,
+        0.15717142665620817,
+        0.28147065408980537,
+        -0.31918551056298095,
+        -0.14343262035319934,
+        -0.3889017837385252,
+        -0.11262441419577582,
+        0.09192796815747921,
+        0.47898080075481797,
+        -0.5047708950058054,
+        -0.012020836476622533
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.67082626946762,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.5047708950058054
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.47898080075481797
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3889017837385252
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_mind": {
+      "id": "english_raw_mind",
+      "type": "language_word_raw",
+      "word": "mind",
+      "language": "english",
+      "raw_value": 424,
+      "sedenion_coords": [
+        0.08120611159085901,
+        0.12674025792592702,
+        0.14602928608286223,
+        0.03498913438155446,
+        -0.25364361136054525,
+        -0.19241183131304446,
+        0.2520813009161626,
+        0.3269565203113993,
+        -0.11802243009569918,
+        -0.11012618450925821,
+        0.2327775617922782,
+        0.00929693690796667,
+        -0.4875494658258902,
+        -0.2907248865332102,
+        0.4625633052326534,
+        -0.25782084909648734
+      ],
+      "semantic_chord": [
+        41,
+        47,
+        19,
+        43,
+        53
+      ],
+      "frequency_hz": 40.73075809570901,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4875494658258902
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4625633052326534
+        },
+        {
+          "prime": 19,
+          "axis": "TRANSCENDENCE",
+          "strength": 0.3269565203113993
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "INFINITY",
+        "TRANSCENDENCE"
+      ]
+    },
+    "english_raw_soul": {
+      "id": "english_raw_soul",
+      "type": "language_word_raw",
+      "word": "soul",
+      "language": "english",
+      "raw_value": 451,
+      "sedenion_coords": [
+        0.07615766933543722,
+        0.11607680934936283,
+        0.11893538512359496,
+        -0.002797869342465423,
+        -0.22064911725246644,
+        -0.10095426980990282,
+        0.2780709497678748,
+        0.22591142913731607,
+        -0.2674181570267435,
+        0.18129235580085887,
+        0.37751230643340267,
+        -0.34651815286592363,
+        -0.15423065834383373,
+        0.2327370645996223,
+        0.3356362578541268,
+        -0.47091444001736393
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        37,
+        47,
+        17
+      ],
+      "frequency_hz": 40.68620541778582,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.47091444001736393
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.37751230643340267
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.34651815286592363
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_spirit": {
+      "id": "english_raw_spirit",
+      "type": "language_word_raw",
+      "word": "spirit",
+      "language": "english",
+      "raw_value": 667,
+      "sedenion_coords": [
+        0.11341989009831718,
+        0.1298773151714584,
+        -0.035457878908700835,
+        -0.21807497089538874,
+        0.23786976575472402,
+        0.20358522500054155,
+        -0.3203020636636255,
+        0.038273321503076635,
+        0.14195835318441127,
+        0.21044237705022692,
+        0.4443075341463918,
+        -0.21997282909060892,
+        0.42262992264189947,
+        -0.21399363274153482,
+        -0.037825854558052714,
+        -0.4281251088495161
+      ],
+      "semantic_chord": [
+        31,
+        53,
+        41,
+        17,
+        11
+      ],
+      "frequency_hz": 41.364620185953775,
+      "dominant_dimensions": [
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4443075341463918
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4281251088495161
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.42262992264189947
+        }
+      ],
+      "consciousness_axes": [
+        "RESONANCE",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_being": {
+      "id": "english_raw_being",
+      "type": "language_word_raw",
+      "word": "being",
+      "language": "english",
+      "raw_value": 517,
+      "sedenion_coords": [
+        0.10678916203858782,
+        0.1521657513050419,
+        0.10380156561941503,
+        -0.1068206193409266,
+        -0.16363633264900596,
+        0.13431956356214686,
+        0.21513383268488237,
+        -0.14852642570795593,
+        -0.2634601780830558,
+        0.3102219326849488,
+        -0.15345122667093666,
+        0.14742465122983342,
+        0.4013151141253545,
+        -0.1368818421354683,
+        -0.44605322428840494,
+        0.4903170724138787
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.72744473857518,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4903170724138787
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.44605322428840494
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4013151141253545
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_existence": {
+      "id": "english_raw_existence",
+      "type": "language_word_raw",
+      "word": "existence",
+      "language": "english",
+      "raw_value": 968,
+      "sedenion_coords": [
+        0.08561021860308528,
+        0.02642043184625746,
+        -0.1437405202395707,
+        0.08112390868604662,
+        -0.20209584436021216,
+        0.004119327842839622,
+        -0.18176141364350354,
+        -0.1247958100960155,
+        -0.08375832595368811,
+        0.0701358872181617,
+        -0.3560697070925031,
+        -0.3751513764555353,
+        0.3792400023492313,
+        -0.2998776735853696,
+        0.4435889470763185,
+        0.4065465247457337
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        41,
+        37,
+        31
+      ],
+      "frequency_hz": 41.04976986918587,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4435889470763185
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4065465247457337
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.3792400023492313
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_reality": {
+      "id": "english_raw_reality",
+      "type": "language_word_raw",
+      "word": "reality",
+      "language": "english",
+      "raw_value": 762,
+      "sedenion_coords": [
+        0.1028849824886582,
+        0.09523510984070699,
+        -0.1009264533027688,
+        -0.1566465822429114,
+        0.20865357721620298,
+        -0.1215448670236111,
+        0.11350707124468265,
+        0.29919892960190086,
+        -0.3386611635598721,
+        -0.0418278256793819,
+        -0.4047714783751913,
+        0.03555044887353678,
+        -0.08070095187680483,
+        0.46599449183585107,
+        -0.47483846643869687,
+        0.23286802003266513
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.66237547819751,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.47483846643869687
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.46599449183585107
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4047714783751913
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_truth": {
+      "id": "english_raw_truth",
+      "type": "language_word_raw",
+      "word": "truth",
+      "language": "english",
+      "raw_value": 567,
+      "sedenion_coords": [
+        0.07865233591639179,
+        0.10541048822546807,
+        0.04142250546410756,
+        -0.11954942455305613,
+        -0.009398546902600656,
+        0.19598875484725595,
+        -0.05379931538282658,
+        -0.260942253247372,
+        0.13452514010480413,
+        -0.22165973977107348,
+        -0.32665387046561617,
+        0.31659032624260347,
+        -0.3736820067522717,
+        -0.27486140638803147,
+        0.42016287914968353,
+        -0.43740516727356105
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        31,
+        37
+      ],
+      "frequency_hz": 40.888262309902395,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.43740516727356105
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.42016287914968353
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.3736820067522717
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_knowledge": {
+      "id": "english_raw_knowledge",
+      "type": "language_word_raw",
+      "word": "knowledge",
+      "language": "english",
+      "raw_value": 960,
+      "sedenion_coords": [
+        0.09517303274779891,
+        0.03208163750167702,
+        -0.15953317008605888,
+        0.08016432584206501,
+        -0.2153576474037062,
+        -0.022275756963323227,
+        -0.16965878225831946,
+        -0.17872683603539852,
+        -0.030478361831356365,
+        0.16229907331163404,
+        -0.39731972658244985,
+        -0.3574979252709425,
+        0.4567325250116071,
+        -0.19974066967885118,
+        0.44566924704864236,
+        0.30062191733599825
+      ],
+      "semantic_chord": [
+        41,
+        47,
+        31,
+        37,
+        53
+      ],
+      "frequency_hz": 41.088836609388515,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4567325250116071
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.44566924704864236
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.39731972658244985
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_wisdom": {
+      "id": "english_raw_wisdom",
+      "type": "language_word_raw",
+      "word": "wisdom",
+      "language": "english",
+      "raw_value": 659,
+      "sedenion_coords": [
+        0.11112075409770289,
+        0.12912419119831867,
+        -0.02772898354579397,
+        -0.2136525224797739,
+        0.2213841044484249,
+        0.22132249820621377,
+        -0.32743220687285884,
+        -0.01604390250924108,
+        0.20374875605666556,
+        0.11296047086264059,
+        0.45182699031885537,
+        -0.3363891940781549,
+        0.49399382031248346,
+        -0.033326545174254804,
+        -0.2384481130356003,
+        -0.21335885069514088
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        37,
+        17,
+        47
+      ],
+      "frequency_hz": 41.327011809513365,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.49399382031248346
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.45182699031885537
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3363891940781549
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_understanding": {
+      "id": "english_raw_understanding",
+      "type": "language_word_raw",
+      "word": "understanding",
+      "language": "english",
+      "raw_value": 1398,
+      "sedenion_coords": [
+        0.035031834497322084,
+        -0.11001520768906921,
+        0.1061867238186101,
+        -0.06837546375192739,
+        0.07858062001020276,
+        -0.16487119982153223,
+        -0.2952448485369337,
+        0.3155550364302383,
+        0.23596858989694422,
+        0.11588471811525759,
+        -0.2445432461893771,
+        0.4420971117502331,
+        0.3257236338878731,
+        -0.19716096565018384,
+        0.13248230616163825,
+        -0.5135514385472163
+      ],
+      "semantic_chord": [
+        53,
+        37,
+        41,
+        19,
+        17
+      ],
+      "frequency_hz": 40.80421043052787,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.5135514385472163
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4420971117502331
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.3257236338878731
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "LOVE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_perception": {
+      "id": "english_raw_perception",
+      "type": "language_word_raw",
+      "word": "perception",
+      "language": "english",
+      "raw_value": 1081,
+      "sedenion_coords": [
+        0.09504124549347968,
+        -0.014192634391930045,
+        -0.13928909529754105,
+        0.2053958488640247,
+        -0.1678354045540316,
+        0.2908098652380443,
+        -0.15190411302809126,
+        0.3503404816788122,
+        -0.10344497865610172,
+        -0.029150811584763195,
+        0.3901385079200632,
+        0.367843712304178,
+        0.1722077432111245,
+        0.31735607838439456,
+        0.286023747559599,
+        0.3992201819032382
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        37,
+        19,
+        43
+      ],
+      "frequency_hz": 41.538143587185075,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3992201819032382
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3901385079200632
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.367843712304178
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_experience": {
+      "id": "english_raw_experience",
+      "type": "language_word_raw",
+      "word": "experience",
+      "language": "english",
+      "raw_value": 1064,
+      "sedenion_coords": [
+        0.08698746899765097,
+        -0.006324686552746623,
+        -0.1330467198103816,
+        0.17615638320207183,
+        -0.18252738827962953,
+        0.24922753213060442,
+        -0.20619232198794238,
+        0.30932385731447165,
+        -0.21329963323105497,
+        -0.2072828463937224,
+        0.4035038782317819,
+        0.43870904317880083,
+        -0.1627314303257351,
+        0.4658587726180515,
+        -0.12651897024837175,
+        -0.08232049837785685
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 41.474597720681196,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4658587726180515
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.43870904317880083
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4035038782317819
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_love": {
+      "id": "english_raw_love",
+      "type": "language_word_raw",
+      "word": "love",
+      "language": "english",
+      "raw_value": 438,
+      "sedenion_coords": [
+        0.07519325045558088,
+        0.11595228841436629,
+        0.12603459914106319,
+        0.013829722303653154,
+        -0.22828026760747874,
+        -0.13867494771959082,
+        0.2619566843776552,
+        0.26925640432125564,
+        -0.2006812618209889,
+        0.050398663107322245,
+        0.32667823385262795,
+        -0.20112042349183523,
+        -0.34482444217253594,
+        -0.00706010231204578,
+        0.4680170514587325,
+        -0.47369540245559894
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        31,
+        19
+      ],
+      "frequency_hz": 40.70336724390597,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.47369540245559894
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4680170514587325
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.34482444217253594
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_joy": {
+      "id": "english_raw_joy",
+      "type": "language_word_raw",
+      "word": "joy",
+      "language": "english",
+      "raw_value": 338,
+      "sedenion_coords": [
+        0.06390373827484934,
+        0.10619513104129254,
+        0.16034399222010795,
+        0.13378089395896942,
+        -0.13054661286587907,
+        -0.24730757940183834,
+        -0.15237623576001177,
+        0.043558924494545764,
+        0.3452501792059306,
+        -0.14325427073269895,
+        -0.3494396304678009,
+        -0.02650471887700044,
+        0.44453383628172904,
+        0.43677939225388007,
+        -0.0876844102864601,
+        -0.42321020328768777
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        53,
+        31,
+        23
+      ],
+      "frequency_hz": 41.057922339651554,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.44453383628172904
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.43677939225388007
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.42321020328768777
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "VOID"
+      ]
+    },
+    "english_raw_peace": {
+      "id": "english_raw_peace",
+      "type": "language_word_raw",
+      "word": "peace",
+      "language": "english",
+      "raw_value": 510,
+      "sedenion_coords": [
+        0.09166690131079444,
+        0.13164428778393766,
+        0.0948584154802553,
+        -0.08360688553291876,
+        -0.15729736650212453,
+        0.09322463685177772,
+        0.21488119423255087,
+        -0.08691320011250267,
+        -0.2707677759413361,
+        0.3254037756959926,
+        -0.0431406233562149,
+        0.009458908987591351,
+        0.4298419949849135,
+        0.030482654677495547,
+        -0.47867916164293894,
+        0.5245351668291999
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.71309265883614,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5245351668291999
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.47867916164293894
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4298419949849135
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_hope": {
+      "id": "english_raw_hope",
+      "type": "language_word_raw",
+      "word": "hope",
+      "language": "english",
+      "raw_value": 428,
+      "sedenion_coords": [
+        0.07911838356998067,
+        0.12306498029289109,
+        0.13952516118782937,
+        0.028434011168774847,
+        -0.24568418383806645,
+        -0.17595103383837807,
+        0.2558168155112822,
+        0.3104965869839301,
+        -0.1446094578388264,
+        -0.06133698226875629,
+        0.266217913501901,
+        -0.0575351486177388,
+        -0.45723760338446096,
+        -0.20934173598693148,
+        0.48450819760451075,
+        -0.3444632010539978
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        53,
+        19,
+        31
+      ],
+      "frequency_hz": 40.7220163696918,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.48450819760451075
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.45723760338446096
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.3444632010539978
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_faith": {
+      "id": "english_raw_faith",
+      "type": "language_word_raw",
+      "word": "faith",
+      "language": "english",
+      "raw_value": 524,
+      "sedenion_coords": [
+        0.12425595776344225,
+        0.17564301557549053,
+        0.11298298106877454,
+        -0.1348017190271798,
+        -0.16687835632831904,
+        0.18446427995987769,
+        0.20658251091154808,
+        -0.22392455057721933,
+        -0.23926992804287203,
+        0.2675271799578954,
+        -0.28836664656253175,
+        0.3163152745486418,
+        0.31536878984693345,
+        -0.3423726627629369,
+        -0.3361930171967331,
+        0.35545113749313945
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        47,
+        37,
+        41
+      ],
+      "frequency_hz": 40.743993841757465,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.35545113749313945
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.3423726627629369
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.3361930171967331
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_trust": {
+      "id": "english_raw_trust",
+      "type": "language_word_raw",
+      "word": "trust",
+      "language": "english",
+      "raw_value": 578,
+      "sedenion_coords": [
+        0.08848918483368107,
+        0.11684520377847443,
+        0.03805848197146431,
+        -0.14218836744383606,
+        0.016948761058164664,
+        0.23239839400692788,
+        -0.1100915400820187,
+        -0.2979865911407924,
+        0.2180778773152619,
+        -0.3201038625355812,
+        -0.305500849529921,
+        0.23658364828542408,
+        -0.4337303272658798,
+        -0.12335502975086697,
+        0.41947958645995126,
+        -0.3507275783335061
+      ],
+      "semantic_chord": [
+        41,
+        47,
+        53,
+        29,
+        31
+      ],
+      "frequency_hz": 40.93489076412754,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4337303272658798
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.41947958645995126
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.3507275783335061
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "INFINITY",
+        "VOID"
+      ]
+    },
+    "english_raw_compassion": {
+      "id": "english_raw_compassion",
+      "type": "language_word_raw",
+      "word": "compassion",
+      "language": "english",
+      "raw_value": 1084,
+      "sedenion_coords": [
+        0.09335018298877222,
+        -0.015234112483992007,
+        -0.13564143159805492,
+        0.20377142582809335,
+        -0.15861105041623808,
+        0.28752113686236563,
+        -0.1346730809785224,
+        0.342597234899317,
+        -0.07633452620310414,
+        0.008628462212514029,
+        0.36242940870001505,
+        0.32478199784515327,
+        0.22769571412331135,
+        0.2563994150922719,
+        0.3451806710468724,
+        0.4564221434431495
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        47,
+        19,
+        37
+      ],
+      "frequency_hz": 41.54832155998543,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4564221434431495
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.36242940870001505
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.3451806710468724
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "INFINITY"
+      ]
+    },
+    "english_raw_empathy": {
+      "id": "english_raw_empathy",
+      "type": "language_word_raw",
+      "word": "empathy",
+      "language": "english",
+      "raw_value": 760,
+      "sedenion_coords": [
+        0.10222365024686164,
+        0.0951329723066951,
+        -0.09902218235045335,
+        -0.1572159626576671,
+        0.209963171431026,
+        -0.1147327196908676,
+        0.10334274841094777,
+        0.3011255317769941,
+        -0.34010019045503703,
+        -0.019032700292478357,
+        -0.4029739306576611,
+        0.06767583537515355,
+        -0.11731481144565724,
+        0.4524531139075495,
+        -0.4553964454425833,
+        0.2802007370333634
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.659959836015744,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4553964454425833
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4524531139075495
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4029739306576611
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_kindness": {
+      "id": "english_raw_kindness",
+      "type": "language_word_raw",
+      "word": "kindness",
+      "language": "english",
+      "raw_value": 863,
+      "sedenion_coords": [
+        0.10221509913308269,
+        0.06650978966343914,
+        -0.1508352855703929,
+        -0.046418901223070894,
+        -0.01654001789857881,
+        -0.25721267246697993,
+        0.2596631824331685,
+        -0.20274263150657254,
+        0.29512080005890906,
+        -0.041580106812287326,
+        0.40681901679504434,
+        0.2192027863335718,
+        -0.34423629394054367,
+        -0.26694103162721894,
+        0.13845944934014212,
+        0.5234091365241328
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        41,
+        23,
+        43
+      ],
+      "frequency_hz": 41.532854048324204,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5234091365241328
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.40681901679504434
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.34423629394054367
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_happiness": {
+      "id": "english_raw_happiness",
+      "type": "language_word_raw",
+      "word": "happiness",
+      "language": "english",
+      "raw_value": 971,
+      "sedenion_coords": [
+        0.08381542537237771,
+        0.024961899043703432,
+        -0.14076584164099432,
+        0.08270252881692841,
+        -0.20058003962488455,
+        0.012978515774712186,
+        -0.18793004137195018,
+        -0.1080954606153962,
+        -0.10224756710332478,
+        0.03941271102919511,
+        -0.34257062583588654,
+        -0.3790389911273043,
+        0.3490525356939159,
+        -0.32984144674568033,
+        0.4344722061135417,
+        0.4311168711572253
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        37,
+        41,
+        31
+      ],
+      "frequency_hz": 41.035314736551086,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4344722061135417
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4311168711572253
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3790389911273043
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "LOVE"
+      ]
+    },
+    "english_raw_sadness": {
+      "id": "english_raw_sadness",
+      "type": "language_word_raw",
+      "word": "sadness",
+      "language": "english",
+      "raw_value": 753,
+      "sedenion_coords": [
+        0.09988527512599593,
+        0.09468802859856512,
+        -0.0923956641067834,
+        -0.15879603136169088,
+        0.21347053798704438,
+        -0.0909058454856352,
+        0.06784434023832787,
+        0.3040759272315615,
+        -0.33916499003595213,
+        0.05852157848155306,
+        -0.3846680016195074,
+        0.17292720567155845,
+        -0.23414347167354727,
+        0.38102191782597067,
+        -0.35920421358691196,
+        0.41357697418984496
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        43,
+        47,
+        23
+      ],
+      "frequency_hz": 41.64998770409403,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.41357697418984496
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3846680016195074
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.38102191782597067
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "UNITY"
+      ]
+    },
+    "english_raw_anger": {
+      "id": "english_raw_anger",
+      "type": "language_word_raw",
+      "word": "anger",
+      "language": "english",
+      "raw_value": 525,
+      "sedenion_coords": [
+        0.12619227695462143,
+        0.17817366875283938,
+        0.11361315214110633,
+        -0.13838892283410825,
+        -0.16601550356285277,
+        0.19127071637805435,
+        0.20326181379594685,
+        -0.234456708997887,
+        -0.23277728822656046,
+        0.2572664363114695,
+        -0.3076457746492639,
+        0.3405273829934978,
+        0.29604600281371457,
+        -0.37184574535214726,
+        -0.3116608602360294,
+        0.3252970498987109
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        53,
+        47,
+        31
+      ],
+      "frequency_hz": 40.74653275328671,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.37184574535214726
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.3405273829934978
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3252970498987109
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_fear": {
+      "id": "english_raw_fear",
+      "type": "language_word_raw",
+      "word": "fear",
+      "language": "english",
+      "raw_value": 414,
+      "sedenion_coords": [
+        0.08374857839335152,
+        0.13179299994499158,
+        0.15783531449993102,
+        0.051304107217630096,
+        -0.26331055108349094,
+        -0.22728206247374025,
+        0.22711975345651306,
+        0.3504191831251147,
+        -0.03742714493838348,
+        -0.2301149538479672,
+        0.11837506269218401,
+        0.18591026442631453,
+        -0.49107284432818965,
+        -0.4566643594620562,
+        0.3150482691600287,
+        0.028755203462035167
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        19,
+        47,
+        11
+      ],
+      "frequency_hz": 40.75569529822491,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.49107284432818965
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.4566643594620562
+        },
+        {
+          "prime": 19,
+          "axis": "TRANSCENDENCE",
+          "strength": 0.3504191831251147
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "TRANSCENDENCE"
+      ]
+    },
+    "english_raw_surprise": {
+      "id": "english_raw_surprise",
+      "type": "language_word_raw",
+      "word": "surprise",
+      "language": "english",
+      "raw_value": 893,
+      "sedenion_coords": [
+        0.0947195241403123,
+        0.05299292084579334,
+        -0.14863369006215546,
+        -0.005837023748713973,
+        -0.08817422380463014,
+        -0.20212275338596786,
+        0.142159299417794,
+        -0.2844330961574757,
+        0.3264822986180145,
+        0.2554854522235436,
+        0.21279492177874978,
+        0.41640946762166947,
+        -0.3884253862675989,
+        0.28958026610794174,
+        -0.42514357529831154,
+        -0.10165658727451223
+      ],
+      "semantic_chord": [
+        47,
+        37,
+        41,
+        23,
+        43
+      ],
+      "frequency_hz": 41.413418125993694,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.42514357529831154
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.41640946762166947
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.3884253862675989
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "LOVE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_disgust": {
+      "id": "english_raw_disgust",
+      "type": "language_word_raw",
+      "word": "disgust",
+      "language": "english",
+      "raw_value": 771,
+      "sedenion_coords": [
+        0.1047008874328317,
+        0.09454363345128373,
+        -0.10838096848897398,
+        -0.15180233687999606,
+        0.1989203096165281,
+        -0.15039377348950367,
+        0.15717142665620817,
+        0.28147065408980537,
+        -0.31918551056298095,
+        -0.14343262035319934,
+        -0.3889017837385252,
+        -0.11262441419577582,
+        0.09192796815747921,
+        0.47898080075481797,
+        -0.5047708950058054,
+        -0.012020836476622533
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.67082626946762,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.5047708950058054
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.47898080075481797
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3889017837385252
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_shame": {
+      "id": "english_raw_shame",
+      "type": "language_word_raw",
+      "word": "shame",
+      "language": "english",
+      "raw_value": 526,
+      "sedenion_coords": [
+        0.12780939910740932,
+        0.1802474052082683,
+        0.11392432178778229,
+        -0.14165818771823846,
+        -0.16462358729310944,
+        0.19766300665956185,
+        0.19919939562247613,
+        -0.24449311344512256,
+        -0.22530812885274523,
+        0.24576429284089446,
+        -0.32623092495271977,
+        0.3639061858292009,
+        0.2748459606719474,
+        -0.400307983106971,
+        -0.2848760596011813,
+        0.2924750312863327
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        53,
+        47
+      ],
+      "frequency_hz": 40.74911461118273,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.400307983106971
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.3639061858292009
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.32623092495271977
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_guilt": {
+      "id": "english_raw_guilt",
+      "type": "language_word_raw",
+      "word": "guilt",
+      "language": "english",
+      "raw_value": 549,
+      "sedenion_coords": [
+        0.08983258366860987,
+        0.12322015130804884,
+        0.06162656500971502,
+        -0.12181186188458368,
+        -0.05721035724949805,
+        0.19391295866798566,
+        0.02696101939172069,
+        -0.26273774762037877,
+        0.020733102153055988,
+        -0.08123566922894496,
+        -0.38392317815488747,
+        0.43149605816742675,
+        -0.2261481728936926,
+        -0.46738695261733504,
+        0.3038476279039247,
+        -0.38071743580199163
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        53,
+        47
+      ],
+      "frequency_hz": 40.819704185760024,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.46738695261733504
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.43149605816742675
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.38392317815488747
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_time": {
+      "id": "english_raw_time",
+      "type": "language_word_raw",
+      "word": "time",
+      "language": "english",
+      "raw_value": 431,
+      "sedenion_coords": [
+        0.07762361936688597,
+        0.12043057407245111,
+        0.1348601357902719,
+        0.023772282659880187,
+        -0.23970229470314378,
+        -0.16395796525731043,
+        0.2576660410197389,
+        0.2976379954991239,
+        -0.16264570694909267,
+        -0.026211661792684974,
+        0.2872709846502637,
+        -0.1041298877118093,
+        -0.42780254151264113,
+        -0.14759126084998347,
+        0.4890826481607842,
+        -0.39609436060653747
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        53,
+        19,
+        31
+      ],
+      "frequency_hz": 40.71593597312219,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4890826481607842
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.42780254151264113
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.39609436060653747
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_space": {
+      "id": "english_raw_space",
+      "type": "language_word_raw",
+      "word": "space",
+      "language": "english",
+      "raw_value": 524,
+      "sedenion_coords": [
+        0.12425595776344225,
+        0.17564301557549053,
+        0.11298298106877454,
+        -0.1348017190271798,
+        -0.16687835632831904,
+        0.18446427995987769,
+        0.20658251091154808,
+        -0.22392455057721933,
+        -0.23926992804287203,
+        0.2675271799578954,
+        -0.28836664656253175,
+        0.3163152745486418,
+        0.31536878984693345,
+        -0.3423726627629369,
+        -0.3361930171967331,
+        0.35545113749313945
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        47,
+        37,
+        41
+      ],
+      "frequency_hz": 40.743993841757465,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.35545113749313945
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.3423726627629369
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.3361930171967331
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_moment": {
+      "id": "english_raw_moment",
+      "type": "language_word_raw",
+      "word": "moment",
+      "language": "english",
+      "raw_value": 656,
+      "sedenion_coords": [
+        0.10800717325395487,
+        0.12618476687739252,
+        -0.024372670461754887,
+        -0.20751076056301723,
+        0.21048458171296483,
+        0.2225599801827752,
+        -0.3217627253942183,
+        -0.03519166014666429,
+        0.22013568265911512,
+        0.07384086933593587,
+        0.4383090138497692,
+        -0.36442087341099316,
+        0.4965291049061224,
+        0.0343397840764926,
+        -0.29859780694794413,
+        -0.12016706510933015
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        37,
+        17,
+        47
+      ],
+      "frequency_hz": 41.31264649748851,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4965291049061224
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4383090138497692
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.36442087341099316
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_eternity": {
+      "id": "english_raw_eternity",
+      "type": "language_word_raw",
+      "word": "eternity",
+      "language": "english",
+      "raw_value": 884,
+      "sedenion_coords": [
+        0.10062316501419719,
+        0.0591000155851787,
+        -0.1553578066285072,
+        -0.01824508630342582,
+        -0.07093699398700708,
+        -0.230031373209024,
+        0.18810287541107956,
+        -0.2801269399407148,
+        0.3466168070548069,
+        0.1884446382379369,
+        0.3088633845774519,
+        0.4243179448697798,
+        -0.4614900587861721,
+        0.14645253874938072,
+        -0.3232202221359633,
+        0.14185668057598347
+      ],
+      "semantic_chord": [
+        41,
+        37,
+        23,
+        47,
+        31
+      ],
+      "frequency_hz": 41.45200712596477,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4614900587861721
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4243179448697798
+        },
+        {
+          "prime": 23,
+          "axis": "INTEGRATION",
+          "strength": 0.3466168070548069
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "LOVE",
+        "INTEGRATION"
+      ]
+    },
+    "english_raw_infinity": {
+      "id": "english_raw_infinity",
+      "type": "language_word_raw",
+      "word": "infinity",
+      "language": "english",
+      "raw_value": 874,
+      "sedenion_coords": [
+        0.10364427552023091,
+        0.06403068122111916,
+        -0.15681957368100524,
+        -0.032391314795694584,
+        -0.046447066603703215,
+        -0.2506247567535777,
+        0.23062027674533958,
+        -0.25382059129536344,
+        0.3391246235286062,
+        0.08485823137427254,
+        0.3833383349146691,
+        0.3608824148401008,
+        -0.4562357015161808,
+        -0.057046214721407515,
+        -0.11998858955131905,
+        0.3895411186244355
+      ],
+      "semantic_chord": [
+        41,
+        53,
+        31,
+        37,
+        23
+      ],
+      "frequency_hz": 41.492250522256285,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4562357015161808
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3895411186244355
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3833383349146691
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "VOID",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_void": {
+      "id": "english_raw_void",
+      "type": "language_word_raw",
+      "word": "void",
+      "language": "english",
+      "raw_value": 434,
+      "sedenion_coords": [
+        0.07635896982085731,
+        0.11816199258189529,
+        0.130662517984724,
+        0.019359759918727067,
+        -0.23424513631265012,
+        -0.1526081519973435,
+        0.25932759062635513,
+        0.2850450592726118,
+        -0.17946487294027683,
+        0.007479573785154608,
+        0.30556602706984676,
+        -0.14760745918335652,
+        -0.39427315696928555,
+        -0.08651966679480518,
+        0.48499745867593075,
+        -0.43648182870374436
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        41,
+        31,
+        19
+      ],
+      "frequency_hz": 40.71026960312338,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.48499745867593075
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.43648182870374436
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.39427315696928555
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_universe": {
+      "id": "english_raw_universe",
+      "type": "language_word_raw",
+      "word": "universe",
+      "language": "english",
+      "raw_value": 881,
+      "sedenion_coords": [
+        0.10208570565712874,
+        0.060897372717338666,
+        -0.1567014943014169,
+        -0.02255070564880494,
+        -0.06415574726860769,
+        -0.23784536305682671,
+        0.20238105373529988,
+        -0.2749265052087042,
+        0.3482591328283227,
+        0.16009758830855908,
+        0.33613508059657193,
+        0.4137012071079397,
+        -0.4707797186173521,
+        0.08816070611519791,
+        -0.2704355683399508,
+        0.22357254416463607
+      ],
+      "semantic_chord": [
+        41,
+        37,
+        23,
+        31,
+        19
+      ],
+      "frequency_hz": 41.464388576158356,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4707797186173521
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4137012071079397
+        },
+        {
+          "prime": 23,
+          "axis": "INTEGRATION",
+          "strength": 0.3482591328283227
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "LOVE",
+        "INTEGRATION"
+      ]
+    },
+    "english_raw_cosmos": {
+      "id": "english_raw_cosmos",
+      "type": "language_word_raw",
+      "word": "cosmos",
+      "language": "english",
+      "raw_value": 660,
+      "sedenion_coords": [
+        0.11191836159942385,
+        0.12981581587829943,
+        -0.028815940062441026,
+        -0.2152202565613195,
+        0.2245400671499244,
+        0.22027296036630994,
+        -0.32838600529123096,
+        -0.009389381561895758,
+        0.1973743873737441,
+        0.12598780839790552,
+        0.45449560777874914,
+        -0.3249445261792669,
+        0.4902136065701048,
+        -0.0565004336393958,
+        -0.21599685141437458,
+        -0.24385850638911133
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        17,
+        37,
+        53
+      ],
+      "frequency_hz": 41.331770681756694,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4902136065701048
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.45449560777874914
+        },
+        {
+          "prime": 17,
+          "axis": "WISDOM",
+          "strength": -0.32838600529123096
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "WISDOM"
+      ]
+    },
+    "english_raw_dimension": {
+      "id": "english_raw_dimension",
+      "type": "language_word_raw",
+      "word": "dimension",
+      "language": "english",
+      "raw_value": 966,
+      "sedenion_coords": [
+        0.0873463233780133,
+        0.027581639962028594,
+        -0.14661323490951733,
+        0.08048073374374057,
+        -0.2041903488321394,
+        -0.001992611901671924,
+        -0.17827540792286012,
+        -0.1368500858282606,
+        -0.0712152310493069,
+        0.0915190953963633,
+        -0.36573494683628843,
+        -0.37200860384301704,
+        0.39910398871823477,
+        -0.2780144349694679,
+        0.44747773029278043,
+        0.3860277218786423
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        53,
+        37,
+        31
+      ],
+      "frequency_hz": 41.059470541946496,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.44747773029278043
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.39910398871823477
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3860277218786423
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_distance": {
+      "id": "english_raw_distance",
+      "type": "language_word_raw",
+      "word": "distance",
+      "language": "english",
+      "raw_value": 843,
+      "sedenion_coords": [
+        0.102924931199142,
+        0.07296512108305339,
+        -0.1439741375761483,
+        -0.07229236040797206,
+        0.03673924872783009,
+        -0.2639824630574152,
+        0.29642054379126775,
+        -0.09712832789256337,
+        0.18048156056138226,
+        -0.24984230730138404,
+        0.34330969705035136,
+        -0.09939563957964744,
+        -0.002571156311466966,
+        -0.47693343016636736,
+        0.47163652071231355,
+        0.3422620620488343
+      ],
+      "semantic_chord": [
+        43,
+        47,
+        31,
+        53,
+        17
+      ],
+      "frequency_hz": 41.59531902224589,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.47693343016636736
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.47163652071231355
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.34330969705035136
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_duration": {
+      "id": "english_raw_duration",
+      "type": "language_word_raw",
+      "word": "duration",
+      "language": "english",
+      "raw_value": 870,
+      "sedenion_coords": [
+        0.1034524369885947,
+        0.06515703458242844,
+        -0.15516492474482754,
+        -0.03769562193798183,
+        -0.03561835150827315,
+        -0.2544561238838066,
+        0.2430623383573374,
+        -0.23696106790608348,
+        0.32635965965167135,
+        0.03880747604472779,
+        0.3986111537550678,
+        0.3155614972058337,
+        -0.42614715044681784,
+        -0.13874123398104332,
+        -0.025069914259274108,
+        0.4586316864990646
+      ],
+      "semantic_chord": [
+        53,
+        41,
+        31,
+        23,
+        37
+      ],
+      "frequency_hz": 41.50748461504109,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4586316864990646
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.42614715044681784
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3986111537550678
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "MYSTERY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_past": {
+      "id": "english_raw_past",
+      "type": "language_word_raw",
+      "word": "past",
+      "language": "english",
+      "raw_value": 440,
+      "sedenion_coords": [
+        0.07486820988350659,
+        0.11524759764766586,
+        0.12417617526612193,
+        0.01118609468018187,
+        -0.22595696756078487,
+        -0.13221853961712005,
+        0.26362913788475706,
+        0.2618797033786786,
+        -0.21100666819956287,
+        0.0711751293720195,
+        0.336135139744175,
+        -0.22617817826674697,
+        -0.3184155206134915,
+        0.03170258361651466,
+        0.45511085888653635,
+        -0.485485109311688
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        31,
+        41,
+        17
+      ],
+      "frequency_hz": 40.70019896305524,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.485485109311688
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.45511085888653635
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.336135139744175
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_present": {
+      "id": "english_raw_present",
+      "type": "language_word_raw",
+      "word": "present",
+      "language": "english",
+      "raw_value": 769,
+      "sedenion_coords": [
+        0.1045254470233516,
+        0.09491459186844127,
+        -0.10695697212128186,
+        -0.15328390587843713,
+        0.20172906799960247,
+        -0.14438163071142265,
+        0.14795009433582595,
+        0.28682858912511416,
+        -0.32550858827751294,
+        -0.12142873690654112,
+        -0.39603690664004215,
+        -0.07994120289174274,
+        0.053427815648339254,
+        0.4833636366271755,
+        -0.5069238725609894,
+        0.04501114941202172
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.669292556409424,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.5069238725609894
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4833636366271755
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.39603690664004215
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_future": {
+      "id": "english_raw_future",
+      "type": "language_word_raw",
+      "word": "future",
+      "language": "english",
+      "raw_value": 667,
+      "sedenion_coords": [
+        0.11341989009831718,
+        0.1298773151714584,
+        -0.035457878908700835,
+        -0.21807497089538874,
+        0.23786976575472402,
+        0.20358522500054155,
+        -0.3203020636636255,
+        0.038273321503076635,
+        0.14195835318441127,
+        0.21044237705022692,
+        0.4443075341463918,
+        -0.21997282909060892,
+        0.42262992264189947,
+        -0.21399363274153482,
+        -0.037825854558052714,
+        -0.4281251088495161
+      ],
+      "semantic_chord": [
+        31,
+        53,
+        41,
+        17,
+        11
+      ],
+      "frequency_hz": 41.364620185953775,
+      "dominant_dimensions": [
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4443075341463918
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4281251088495161
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.42262992264189947
+        }
+      ],
+      "consciousness_axes": [
+        "RESONANCE",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_now": {
+      "id": "english_raw_now",
+      "type": "language_word_raw",
+      "word": "now",
+      "language": "english",
+      "raw_value": 340,
+      "sedenion_coords": [
+        0.06456495351899016,
+        0.10715918729613555,
+        0.16099931734577178,
+        0.1325621178075088,
+        -0.13565357976595907,
+        -0.2506749277820021,
+        -0.14435852402281263,
+        0.05566779195349541,
+        0.34800641420932416,
+        -0.1648488176252432,
+        -0.3630240733157863,
+        0.006019186864947211,
+        0.4558996244627775,
+        0.4216836128584757,
+        -0.13374598237298102,
+        -0.3898985128090219
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        53,
+        31,
+        23
+      ],
+      "frequency_hz": 41.04822944898659,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4558996244627775
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4216836128584757
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.3898985128090219
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "VOID"
+      ]
+    },
+    "english_raw_forever": {
+      "id": "english_raw_forever",
+      "type": "language_word_raw",
+      "word": "forever",
+      "language": "english",
+      "raw_value": 761,
+      "sedenion_coords": [
+        0.10255997760842789,
+        0.0951903333830429,
+        -0.09997891717880321,
+        -0.1569459390428664,
+        0.2093363323763235,
+        -0.11814560261125,
+        0.10843154832309218,
+        0.30023842967249453,
+        -0.3394941964621898,
+        -0.030409336716971554,
+        -0.4040896024290764,
+        0.051702019735947076,
+        -0.09915471782564067,
+        0.4596565806732236,
+        -0.4656306889563858,
+        0.2569854653858389
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.661191916500286,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4656306889563858
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4596565806732236
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4040896024290764
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_light": {
+      "id": "english_raw_light",
+      "type": "language_word_raw",
+      "word": "light",
+      "language": "english",
+      "raw_value": 536,
+      "sedenion_coords": [
+        0.12070581723655557,
+        0.1682286845666777,
+        0.09679446825449385,
+        -0.14739957421895986,
+        -0.12171650885151954,
+        0.22166264202156896,
+        0.1233094158523414,
+        -0.2916290595351579,
+        -0.11006165898555482,
+        0.08543541627401106,
+        -0.4265902427407699,
+        0.4918007844778704,
+        0.009427296155628945,
+        -0.5550072235598604,
+        0.039462755856163316,
+        -0.09429861530261889
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 40.77723634804415,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.5550072235598604
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4918007844778704
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4265902427407699
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_dark": {
+      "id": "english_raw_dark",
+      "type": "language_word_raw",
+      "word": "dark",
+      "language": "english",
+      "raw_value": 418,
+      "sedenion_coords": [
+        0.08351842955121429,
+        0.13100133146757847,
+        0.1545235310754082,
+        0.045050119441353495,
+        -0.2622595628884408,
+        -0.2154493596402987,
+        0.2405738447046721,
+        0.3456009111495541,
+        -0.07179983243317543,
+        -0.1842631914106646,
+        0.16915303661571215,
+        0.11600770383705027,
+        -0.5046122568102489,
+        -0.40079406932775324,
+        0.39008661890374424,
+        -0.09394868786078449
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        47,
+        19,
+        11
+      ],
+      "frequency_hz": 40.74520154984463,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.5046122568102489
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.40079406932775324
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.39008661890374424
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_sun": {
+      "id": "english_raw_sun",
+      "type": "language_word_raw",
+      "word": "sun",
+      "language": "english",
+      "raw_value": 342,
+      "sedenion_coords": [
+        0.06521971457200507,
+        0.10810897064731358,
+        0.16161447706213092,
+        0.1312789353007092,
+        -0.1407223818862919,
+        -0.253859363863842,
+        -0.13606082993783739,
+        0.06781288853016378,
+        0.3499848761048503,
+        -0.18608220517089002,
+        -0.3752798807046457,
+        0.038851822323061454,
+        0.46421818407802423,
+        0.4032147299498858,
+        -0.17908063856336828,
+        -0.3517612386822364
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        31,
+        53,
+        23
+      ],
+      "frequency_hz": 41.03858766483844,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.46421818407802423
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4032147299498858
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3752798807046457
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_moon": {
+      "id": "english_raw_moon",
+      "type": "language_word_raw",
+      "word": "moon",
+      "language": "english",
+      "raw_value": 441,
+      "sedenion_coords": [
+        0.07477318469392331,
+        0.11499936282119734,
+        0.12336194169290841,
+        0.009887227115763527,
+        -0.2249665216986507,
+        -0.12910760745980437,
+        0.2645761064721979,
+        0.2583199410054075,
+        -0.2161363588027313,
+        0.0814319853021831,
+        0.3406309319380676,
+        -0.23832131059995645,
+        -0.3048209912598454,
+        0.050838316702150596,
+        0.44761921305386915,
+        -0.48971815312321315
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        31,
+        41,
+        17
+      ],
+      "frequency_hz": 40.698686114169895,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.48971815312321315
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.44761921305386915
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3406309319380676
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_star": {
+      "id": "english_raw_star",
+      "type": "language_word_raw",
+      "word": "star",
+      "language": "english",
+      "raw_value": 442,
+      "sedenion_coords": [
+        0.0747233457048423,
+        0.1148205821514616,
+        0.12262310196428593,
+        0.008600600487118326,
+        -0.2240894405413725,
+        -0.1260688150636218,
+        0.2656010390219692,
+        0.2548411360905309,
+        -0.221255266691353,
+        0.09161601110589812,
+        0.3449816553847531,
+        -0.25021901864996315,
+        -0.2909696285427523,
+        0.06981104924531248,
+        0.4394496387966233,
+        -0.49285164222567435
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        31,
+        41,
+        17
+      ],
+      "frequency_hz": 40.69722099627537,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.49285164222567435
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4394496387966233
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3449816553847531
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_earth": {
+      "id": "english_raw_earth",
+      "type": "language_word_raw",
+      "word": "earth",
+      "language": "english",
+      "raw_value": 532,
+      "sedenion_coords": [
+        0.12844938318406138,
+        0.17987766526580432,
+        0.10759694224318825,
+        -0.15118012618012805,
+        -0.14400350741564,
+        0.2215235375567525,
+        0.15918596560479994,
+        -0.28586685457562505,
+        -0.16161839620628096,
+        0.15458467275060248,
+        -0.40844007557686884,
+        0.46819704289989583,
+        0.11853164358665548,
+        -0.5271439696846199,
+        -0.09143675262847044,
+        0.0591831271518805
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 40.76549287664438,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.5271439696846199
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.46819704289989583
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.40844007557686884
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_water": {
+      "id": "english_raw_water",
+      "type": "language_word_raw",
+      "word": "water",
+      "language": "english",
+      "raw_value": 547,
+      "sedenion_coords": [
+        0.09349923562729093,
+        0.12857008697645161,
+        0.06580550338170936,
+        -0.12492672002166248,
+        -0.06492172328920175,
+        0.19759146708922667,
+        0.038488742462744654,
+        -0.26723345114492353,
+        0.005220654201261935,
+        -0.06187893200972471,
+        -0.3930530817930254,
+        0.4452153244373379,
+        -0.2011603790664373,
+        -0.4875514976350529,
+        0.277976924720635,
+        -0.35585314103646354
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        53,
+        47
+      ],
+      "frequency_hz": 40.8127601197033,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.4875514976350529
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4452153244373379
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3930530817930254
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_fire": {
+      "id": "english_raw_fire",
+      "type": "language_word_raw",
+      "word": "fire",
+      "language": "english",
+      "raw_value": 422,
+      "sedenion_coords": [
+        0.0821556772006743,
+        0.12843715856469048,
+        0.14916105810868466,
+        0.03835642922742818,
+        -0.2571834992378587,
+        -0.20051156497000497,
+        0.24922720853496494,
+        0.33429682049733556,
+        -0.10346589246583092,
+        -0.13500621720876377,
+        0.2134145204103303,
+        0.04436528164688003,
+        -0.4976203824084689,
+        -0.3297746592299742,
+        0.4439141700928685,
+        -0.20720577176915617
+      ],
+      "semantic_chord": [
+        41,
+        47,
+        19,
+        43,
+        11
+      ],
+      "frequency_hz": 40.73539698708584,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4976203824084689
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4439141700928685
+        },
+        {
+          "prime": 19,
+          "axis": "TRANSCENDENCE",
+          "strength": 0.33429682049733556
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "INFINITY",
+        "TRANSCENDENCE"
+      ]
+    },
+    "english_raw_air": {
+      "id": "english_raw_air",
+      "type": "language_word_raw",
+      "word": "air",
+      "language": "english",
+      "raw_value": 316,
+      "sedenion_coords": [
+        0.0620322906160271,
+        0.10445822201761298,
+        0.1660193143424589,
+        0.15742639445873705,
+        -0.08082381968609978,
+        -0.22028456978551197,
+        -0.24191920445713097,
+        -0.0891876723295575,
+        0.29668074115855625,
+        0.10309279370232943,
+        -0.14996353396525308,
+        -0.34647144767667665,
+        0.18058889536912578,
+        0.41529310962267707,
+        0.3844186591704989,
+        -0.46617629182578085
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        47,
+        37,
+        23
+      ],
+      "frequency_hz": 41.16679684653347,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.46617629182578085
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.41529310962267707
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.3844186591704989
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_wind": {
+      "id": "english_raw_wind",
+      "type": "language_word_raw",
+      "word": "wind",
+      "language": "english",
+      "raw_value": 434,
+      "sedenion_coords": [
+        0.07635896982085731,
+        0.11816199258189529,
+        0.130662517984724,
+        0.019359759918727067,
+        -0.23424513631265012,
+        -0.1526081519973435,
+        0.25932759062635513,
+        0.2850450592726118,
+        -0.17946487294027683,
+        0.007479573785154608,
+        0.30556602706984676,
+        -0.14760745918335652,
+        -0.39427315696928555,
+        -0.08651966679480518,
+        0.48499745867593075,
+        -0.43648182870374436
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        41,
+        31,
+        19
+      ],
+      "frequency_hz": 40.71026960312338,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.48499745867593075
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.43648182870374436
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.39427315696928555
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_tree": {
+      "id": "english_raw_tree",
+      "type": "language_word_raw",
+      "word": "tree",
+      "language": "english",
+      "raw_value": 432,
+      "sedenion_coords": [
+        0.07717070326609103,
+        0.11962487620221002,
+        0.13339984480006928,
+        0.0222739266022269,
+        -0.23780691767625378,
+        -0.16009397940384978,
+        0.2582170933645856,
+        0.2933882212732681,
+        -0.16836733751670974,
+        -0.01482381953340059,
+        0.29364471205263987,
+        -0.11896174720846278,
+        -0.41702319738082483,
+        -0.12712153605965676,
+        0.4886203019837192,
+        -0.4107840617045951
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        53,
+        31,
+        19
+      ],
+      "frequency_hz": 40.714000920638405,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4886203019837192
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.41702319738082483
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4107840617045951
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_flower": {
+      "id": "english_raw_flower",
+      "type": "language_word_raw",
+      "word": "flower",
+      "language": "english",
+      "raw_value": 655,
+      "sedenion_coords": [
+        0.10677614011225983,
+        0.12496940026585014,
+        -0.023242064700457057,
+        -0.20507586078355447,
+        0.20648568061545358,
+        0.22240770961916503,
+        -0.31907180062601603,
+        -0.04124036728445077,
+        0.22469970515316992,
+        0.060990435783052854,
+        0.4321992161863257,
+        -0.37167435763993967,
+        0.49464106387604,
+        0.055914230297592425,
+        -0.31602486049085227,
+        -0.08922117564788404
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        37,
+        17,
+        47
+      ],
+      "frequency_hz": 41.30783009118639,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.49464106387604
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4321992161863257
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.37167435763993967
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_mountain": {
+      "id": "english_raw_mountain",
+      "type": "language_word_raw",
+      "word": "mountain",
+      "language": "english",
+      "raw_value": 875,
+      "sedenion_coords": [
+        0.10358317329770451,
+        0.06367996556522852,
+        -0.15706103902062626,
+        -0.031023284199810836,
+        -0.04910072722036568,
+        -0.2492960721784104,
+        0.2270906328391862,
+        -0.2575578621555213,
+        0.3415268559953161,
+        0.09616286884131584,
+        0.3781769523259799,
+        0.37067189709552995,
+        -0.4614148380229766,
+        -0.03614177862845972,
+        -0.14313246916703237,
+        0.3689431056937895
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        37,
+        53,
+        23
+      ],
+      "frequency_hz": 41.4883619768771,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4614148380229766
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3781769523259799
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.37067189709552995
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_ocean": {
+      "id": "english_raw_ocean",
+      "type": "language_word_raw",
+      "word": "ocean",
+      "language": "english",
+      "raw_value": 518,
+      "sedenion_coords": [
+        0.10934862038403768,
+        0.15563640022076672,
+        0.10530884556507242,
+        -0.11072664065784087,
+        -0.1646362835903168,
+        0.14117897695687012,
+        0.2149286543754421,
+        -0.1587384053582232,
+        -0.26164706679321414,
+        0.30655025870177827,
+        -0.1715935931347367,
+        0.1701128627275251,
+        0.39356929549951164,
+        -0.16447425959505688,
+        -0.4362427756421404,
+        0.47850778818461703
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.729676160285884,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.47850778818461703
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4362427756421404
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.39356929549951164
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_river": {
+      "id": "english_raw_river",
+      "type": "language_word_raw",
+      "word": "river",
+      "language": "english",
+      "raw_value": 552,
+      "sedenion_coords": [
+        0.08533655812762785,
+        0.11661216551297271,
+        0.056267175470980986,
+        -0.11820574258139384,
+        -0.04697735814076767,
+        0.189749934434938,
+        0.011357719995668954,
+        -0.2574026886956964,
+        0.041890154418434924,
+        -0.10754724955571483,
+        -0.37100145635470844,
+        0.41101676163331546,
+        -0.25868197629517403,
+        -0.43639904057558665,
+        0.33592401199288024,
+        -0.40899895616696524
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        53,
+        31,
+        47
+      ],
+      "frequency_hz": 40.83038661420144,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.43639904057558665
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.41101676163331546
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.40899895616696524
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_sky": {
+      "id": "english_raw_sky",
+      "type": "language_word_raw",
+      "word": "sky",
+      "language": "english",
+      "raw_value": 343,
+      "sedenion_coords": [
+        0.06553459641169172,
+        0.10856181953161927,
+        0.1618821720679305,
+        0.13059344563129674,
+        -0.14321901186477196,
+        -0.2553424346733867,
+        -0.1317904159996984,
+        0.07388045062280697,
+        0.3506249756507558,
+        -0.19650654280133814,
+        -0.3808304165771684,
+        0.055314848131604595,
+        0.4671341650621826,
+        0.3926896029257841,
+        -0.20130913874790296,
+        -0.3309554773893823
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        31,
+        23,
+        53
+      ],
+      "frequency_hz": 41.03378714373177,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4671341650621826
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.3926896029257841
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3808304165771684
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_cloud": {
+      "id": "english_raw_cloud",
+      "type": "language_word_raw",
+      "word": "cloud",
+      "language": "english",
+      "raw_value": 535,
+      "sedenion_coords": [
+        0.12305569234930547,
+        0.17170952106770512,
+        0.09977838974133939,
+        -0.14892428558782256,
+        -0.12756507743389098,
+        0.22260465045494615,
+        0.1324443238425107,
+        -0.2916188530219027,
+        -0.1229284568446712,
+        0.10243844630647601,
+        -0.4246282285431353,
+        0.48919204995255017,
+        0.03564431594476158,
+        -0.5521604391852621,
+        0.008336290329315554,
+        -0.05818966165805296
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 40.774239922073924,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.5521604391852621
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.48919204995255017
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4246282285431353
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_rain": {
+      "id": "english_raw_rain",
+      "type": "language_word_raw",
+      "word": "rain",
+      "language": "english",
+      "raw_value": 426,
+      "sedenion_coords": [
+        0.08017183480865953,
+        0.12491531644519616,
+        0.14277727752670735,
+        0.0316708738121095,
+        -0.2497401526139904,
+        -0.18416785024983015,
+        0.2542098352367236,
+        0.31892493878050815,
+        -0.13171788389627562,
+        -0.08550021866865576,
+        0.25033658944628123,
+        -0.024746958386491512,
+        -0.47388976629596724,
+        -0.250367830179259,
+        0.47597313877065117,
+        -0.30366074734632825
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        19,
+        53,
+        17
+      ],
+      "frequency_hz": 40.726297295157416,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.47597313877065117
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.47388976629596724
+        },
+        {
+          "prime": 19,
+          "axis": "TRANSCENDENCE",
+          "strength": 0.31892493878050815
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "TRANSCENDENCE"
+      ]
+    },
+    "english_raw_snow": {
+      "id": "english_raw_snow",
+      "type": "language_word_raw",
+      "word": "snow",
+      "language": "english",
+      "raw_value": 455,
+      "sedenion_coords": [
+        0.07762051700334502,
+        0.11787064563358852,
+        0.11847313889422949,
+        -0.007981475919059408,
+        -0.22076983745719223,
+        -0.09021703656027584,
+        0.2846101924047406,
+        0.21306619579983294,
+        -0.2875667872521854,
+        0.2201459906540512,
+        0.3868685850310193,
+        -0.381913634408445,
+        -0.0860598210877365,
+        0.2990295281173859,
+        0.271523469172064,
+        -0.43066134147996954
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        37,
+        43,
+        23
+      ],
+      "frequency_hz": 40.682578070748384,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.43066134147996954
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3868685850310193
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.381913634408445
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_life": {
+      "id": "english_raw_life",
+      "type": "language_word_raw",
+      "word": "life",
+      "language": "english",
+      "raw_value": 416,
+      "sedenion_coords": [
+        0.08379976376636115,
+        0.13165861264784245,
+        0.15648922579303357,
+        0.04826183710769324,
+        -0.2633682640044216,
+        -0.22185075936079368,
+        0.23448077031578704,
+        0.3489412834478099,
+        -0.05486647433524573,
+        -0.20783490444865466,
+        0.14445493477701968,
+        0.15149774476482533,
+        -0.5005476408553958,
+        -0.43103352137082035,
+        0.3550239885175986,
+        -0.033156170537068194
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        47,
+        19,
+        11
+      ],
+      "frequency_hz": 40.75036329953222,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.5005476408553958
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.43103352137082035
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.3550239885175986
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "INFINITY"
+      ]
+    },
+    "english_raw_death": {
+      "id": "english_raw_death",
+      "type": "language_word_raw",
+      "word": "death",
+      "language": "english",
+      "raw_value": 518,
+      "sedenion_coords": [
+        0.10934862038403768,
+        0.15563640022076672,
+        0.10530884556507242,
+        -0.11072664065784087,
+        -0.1646362835903168,
+        0.14117897695687012,
+        0.2149286543754421,
+        -0.1587384053582232,
+        -0.26164706679321414,
+        0.30655025870177827,
+        -0.1715935931347367,
+        0.1701128627275251,
+        0.39356929549951164,
+        -0.16447425959505688,
+        -0.4362427756421404,
+        0.47850778818461703
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.729676160285884,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.47850778818461703
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4362427756421404
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.39356929549951164
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_birth": {
+      "id": "english_raw_birth",
+      "type": "language_word_raw",
+      "word": "birth",
+      "language": "english",
+      "raw_value": 537,
+      "sedenion_coords": [
+        0.11818654888963499,
+        0.16451951392500824,
+        0.09371852771595054,
+        -0.14560549683653887,
+        -0.11582813304642983,
+        0.22023326296459753,
+        0.11424763608439002,
+        -0.2908912425078217,
+        -0.09743065092113569,
+        0.06888159564738365,
+        -0.4271266342531297,
+        0.4925553065113593,
+        -0.01573388267938826,
+        -0.5555050515270882,
+        0.06912004528543746,
+        -0.12843584623543036
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 40.780272650047266,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.5555050515270882
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.4925553065113593
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4271266342531297
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_growth": {
+      "id": "english_raw_growth",
+      "type": "language_word_raw",
+      "word": "growth",
+      "language": "english",
+      "raw_value": 667,
+      "sedenion_coords": [
+        0.11341989009831718,
+        0.1298773151714584,
+        -0.035457878908700835,
+        -0.21807497089538874,
+        0.23786976575472402,
+        0.20358522500054155,
+        -0.3203020636636255,
+        0.038273321503076635,
+        0.14195835318441127,
+        0.21044237705022692,
+        0.4443075341463918,
+        -0.21997282909060892,
+        0.42262992264189947,
+        -0.21399363274153482,
+        -0.037825854558052714,
+        -0.4281251088495161
+      ],
+      "semantic_chord": [
+        31,
+        53,
+        41,
+        17,
+        11
+      ],
+      "frequency_hz": 41.364620185953775,
+      "dominant_dimensions": [
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4443075341463918
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4281251088495161
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.42262992264189947
+        }
+      ],
+      "consciousness_axes": [
+        "RESONANCE",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_change": {
+      "id": "english_raw_change",
+      "type": "language_word_raw",
+      "word": "change",
+      "language": "english",
+      "raw_value": 614,
+      "sedenion_coords": [
+        0.09231233543620491,
+        0.11565568136933926,
+        0.011085619104945113,
+        -0.16784936017702756,
+        0.10426988545400899,
+        0.24784530813769962,
+        -0.242479431460651,
+        -0.23671461636540414,
+        0.3323468101575299,
+        -0.3225449403961284,
+        0.07077141740503519,
+        -0.28014735821958375,
+        0.018304697086513097,
+        0.4339713125518698,
+        -0.2618463364057354,
+        0.45548420915667487
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        23,
+        29,
+        37
+      ],
+      "frequency_hz": 41.104651728240874,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.45548420915667487
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4339713125518698
+        },
+        {
+          "prime": 23,
+          "axis": "INTEGRATION",
+          "strength": 0.3323468101575299
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "INTEGRATION"
+      ]
+    },
+    "english_raw_transformation": {
+      "id": "english_raw_transformation",
+      "type": "language_word_raw",
+      "word": "transformation",
+      "language": "english",
+      "raw_value": 1527,
+      "sedenion_coords": [
+        0.012285461648968847,
+        -0.1705161266150602,
+        0.21674652459943583,
+        -0.2504817981783555,
+        -0.2918657091527526,
+        0.301562383905094,
+        0.3011016780945124,
+        -0.29144135701308266,
+        -0.2543764471501384,
+        0.15839301220781926,
+        -0.11693837698421775,
+        -0.02998894556977561,
+        -0.1417716141537472,
+        0.2001630138022282,
+        0.318973541490949,
+        -0.49300019803488887
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        13,
+        17,
+        11
+      ],
+      "frequency_hz": 40.7517391572619,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.49300019803488887
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.318973541490949
+        },
+        {
+          "prime": 13,
+          "axis": "EMPATHY",
+          "strength": 0.301562383905094
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "EMPATHY"
+      ]
+    },
+    "english_raw_evolution": {
+      "id": "english_raw_evolution",
+      "type": "language_word_raw",
+      "word": "evolution",
+      "language": "english",
+      "raw_value": 997,
+      "sedenion_coords": [
+        0.1079509113858063,
+        0.021754239902382427,
+        -0.18028750421318537,
+        0.14198311939087802,
+        -0.277550019231016,
+        0.11605181983516162,
+        -0.3265825875240043,
+        0.03405011752315208,
+        -0.32419984670065694,
+        -0.26875625628659616,
+        -0.22711515644720787,
+        -0.36887577360202983,
+        -0.019452330309530173,
+        -0.49203683808969423,
+        0.15026078455247255,
+        0.3268790070835141
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        53,
+        17,
+        23
+      ],
+      "frequency_hz": 40.916696025235346,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.49203683808969423
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.36887577360202983
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3268790070835141
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_creation": {
+      "id": "english_raw_creation",
+      "type": "language_word_raw",
+      "word": "creation",
+      "language": "english",
+      "raw_value": 853,
+      "sedenion_coords": [
+        0.10124719036337218,
+        0.06885310126289779,
+        -0.14565947417725855,
+        -0.05871291563470121,
+        0.010008450164003991,
+        -0.2593720452030567,
+        0.27840164259620687,
+        -0.15072347970619776,
+        0.24107823669270165,
+        -0.14999066377722883,
+        0.38870550081881267,
+        0.06353513904155965,
+        -0.1867346159118975,
+        -0.403746067733405,
+        0.33753203779015045,
+        0.49516878229126654
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        31,
+        47,
+        17
+      ],
+      "frequency_hz": 41.56603508611103,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.49516878229126654
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.403746067733405
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.38870550081881267
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_destruction": {
+      "id": "english_raw_destruction",
+      "type": "language_word_raw",
+      "word": "destruction",
+      "language": "english",
+      "raw_value": 1204,
+      "sedenion_coords": [
+        0.07273272220686622,
+        -0.060302400083013456,
+        -0.044684617738699715,
+        0.1706566424102995,
+        0.15972192166159166,
+        0.015491188356407809,
+        0.3163501112326199,
+        -0.2590919725459628,
+        0.2026017988134218,
+        -0.14513083441472813,
+        -0.15669144326130177,
+        0.25044357682319984,
+        -0.38572857471585176,
+        0.5026585998295451,
+        0.02070724319018437,
+        0.46446789115466985
+      ],
+      "semantic_chord": [
+        43,
+        53,
+        41,
+        17,
+        19
+      ],
+      "frequency_hz": 41.62196432547669,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.5026585998295451
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.46446789115466985
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.38572857471585176
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_beginning": {
+      "id": "english_raw_beginning",
+      "type": "language_word_raw",
+      "word": "beginning",
+      "language": "english",
+      "raw_value": 945,
+      "sedenion_coords": [
+        0.12301531768956696,
+        0.047890883797259684,
+        -0.2048359931789743,
+        0.07895899439892728,
+        -0.25067556267238217,
+        -0.0917192610994795,
+        -0.13201603129492429,
+        -0.3114504148048269,
+        0.11131458611284865,
+        0.37686940377612094,
+        -0.43481934405558037,
+        -0.22084022463023825,
+        0.5076326544659983,
+        0.12270624685399989,
+        0.26336411715656316,
+        -0.11972046407981136
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        29,
+        19,
+        47
+      ],
+      "frequency_hz": 41.163390317428174,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.5076326544659983
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.43481934405558037
+        },
+        {
+          "prime": 29,
+          "axis": "EMERGENCE",
+          "strength": 0.37686940377612094
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "EMERGENCE"
+      ]
+    },
+    "english_raw_end": {
+      "id": "english_raw_end",
+      "type": "language_word_raw",
+      "word": "end",
+      "language": "english",
+      "raw_value": 311,
+      "sedenion_coords": [
+        0.06321075295566118,
+        0.1067473798065767,
+        0.17151032510286415,
+        0.16679519703215634,
+        -0.07016621579992795,
+        -0.2168994726990751,
+        -0.26549407593273033,
+        -0.12221954483217534,
+        0.2811484967267931,
+        0.1630657008547221,
+        -0.09163279838135643,
+        -0.4069120183148525,
+        0.0901741431933313,
+        0.3631668799390978,
+        0.4665167634765563,
+        -0.3907828781675463
+      ],
+      "semantic_chord": [
+        47,
+        37,
+        53,
+        43,
+        23
+      ],
+      "frequency_hz": 41.19179369921823,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4665167634765563
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.4069120183148525
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.3907828781675463
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_journey": {
+      "id": "english_raw_journey",
+      "type": "language_word_raw",
+      "word": "journey",
+      "language": "english",
+      "raw_value": 780,
+      "sedenion_coords": [
+        0.10369582198519697,
+        0.09125101222193345,
+        -0.11277098588662021,
+        -0.14226932784888996,
+        0.1818725477146434,
+        -0.1733823029530294,
+        0.19329586577793326,
+        0.24796565844152188,
+        -0.2775490124222741,
+        -0.23227775404597736,
+        -0.33274668956905096,
+        -0.24654988681779028,
+        0.2510263426063732,
+        0.40910696110700123,
+        -0.4333160080924386,
+        -0.2556054727039847
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        53
+      ],
+      "frequency_hz": 41.6752716726873,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4333160080924386
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.40910696110700123
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.33274668956905096
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_path": {
+      "id": "english_raw_path",
+      "type": "language_word_raw",
+      "word": "path",
+      "language": "english",
+      "raw_value": 429,
+      "sedenion_coords": [
+        0.07860260398682514,
+        0.12215853540341616,
+        0.13793124499560933,
+        0.026852842260437212,
+        -0.2436571104971704,
+        -0.17189603535038658,
+        0.25648579891476336,
+        0.30621316049327,
+        -0.1507814704340951,
+        -0.04947077367841188,
+        0.2735814661540456,
+        -0.07341764226213027,
+        -0.4479605832386844,
+        -0.18873784965476606,
+        0.4870772597405751,
+        -0.3629463116559744
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        53,
+        19,
+        31
+      ],
+      "frequency_hz": 40.71994389804346,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4870772597405751
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4479605832386844
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.3629463116559744
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_way": {
+      "id": "english_raw_way",
+      "type": "language_word_raw",
+      "word": "way",
+      "language": "english",
+      "raw_value": 337,
+      "sedenion_coords": [
+        0.06358034515184181,
+        0.10572376688611011,
+        0.16002544588465498,
+        0.1343861586364468,
+        -0.1279996658335896,
+        -0.2455938702228148,
+        -0.1563001956754233,
+        0.03753095809568093,
+        0.34363651215427177,
+        -0.13236856851274226,
+        -0.34222292723048575,
+        -0.04259755328723308,
+        0.43780850059251486,
+        0.44310153558765625,
+        -0.06452689671229929,
+        -0.4380138194388427
+      ],
+      "semantic_chord": [
+        43,
+        53,
+        41,
+        23,
+        31
+      ],
+      "frequency_hz": 41.06278673911306,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.44310153558765625
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4380138194388427
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.43780850059251486
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "VOID",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_direction": {
+      "id": "english_raw_direction",
+      "type": "language_word_raw",
+      "word": "direction",
+      "language": "english",
+      "raw_value": 961,
+      "sedenion_coords": [
+        0.09359974064915827,
+        0.031220412247917616,
+        -0.15693968873357728,
+        0.0800776848935213,
+        -0.21302456839704764,
+        -0.018630177436040465,
+        -0.17099563026508124,
+        -0.17108295795043424,
+        -0.03773222236255273,
+        0.1496810651650618,
+        -0.39188366322701024,
+        -0.3606683448468858,
+        0.44746841188744674,
+        -0.2143833319002543,
+        0.44766625931112436,
+        0.31766423131569654
+      ],
+      "semantic_chord": [
+        47,
+        41,
+        31,
+        37,
+        53
+      ],
+      "frequency_hz": 41.083917610299665,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.44766625931112436
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.44746841188744674
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.39188366322701024
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "MYSTERY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_purpose": {
+      "id": "english_raw_purpose",
+      "type": "language_word_raw",
+      "word": "purpose",
+      "language": "english",
+      "raw_value": 782,
+      "sedenion_coords": [
+        0.1031736109072371,
+        0.09025928139132759,
+        -0.11337774859641421,
+        -0.1396967750680622,
+        0.1773726303362557,
+        -0.17760747535511498,
+        0.2000671944263008,
+        0.23890679956302982,
+        -0.26596918790914686,
+        -0.24912902146843177,
+        -0.3158393033999883,
+        -0.27196992338205955,
+        0.28124991866638205,
+        0.38393497122367426,
+        -0.40541430355330565,
+        -0.30221621296831397
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        53,
+        41
+      ],
+      "frequency_hz": 41.675711339917264,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.40541430355330565
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.38393497122367426
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3158393033999883
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_friend": {
+      "id": "english_raw_friend",
+      "type": "language_word_raw",
+      "word": "friend",
+      "language": "english",
+      "raw_value": 632,
+      "sedenion_coords": [
+        0.08275845887539571,
+        0.10074979892123781,
+        -0.0025264850763483267,
+        -0.15570348045376756,
+        0.12623874533135476,
+        0.2069825688587009,
+        -0.24513137872047444,
+        -0.1417613755409008,
+        0.27128845083527453,
+        -0.16470006450300434,
+        0.2310739189004044,
+        -0.3674967535658372,
+        0.2762226355966764,
+        0.35843385745514533,
+        -0.4166529763023901,
+        0.39018052431881345
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        37,
+        43,
+        41
+      ],
+      "frequency_hz": 41.19440318871292,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4166529763023901
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.39018052431881345
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3674967535658372
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "LOVE"
+      ]
+    },
+    "english_raw_family": {
+      "id": "english_raw_family",
+      "type": "language_word_raw",
+      "word": "family",
+      "language": "english",
+      "raw_value": 642,
+      "sedenion_coords": [
+        0.08959732776972189,
+        0.10726503976727306,
+        -0.010095787826976248,
+        -0.17060835985422937,
+        0.1538843708013663,
+        0.20990688422864834,
+        -0.2714370446369685,
+        -0.10367788629729195,
+        0.2561830333615275,
+        -0.08163157191023859,
+        0.31945543343038985,
+        -0.3943963276199349,
+        0.3925317328593585,
+        0.2684060971416349,
+        -0.42856683546263846,
+        0.2437266824507329
+      ],
+      "semantic_chord": [
+        47,
+        37,
+        41,
+        31,
+        17
+      ],
+      "frequency_hz": 41.2441941349708,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.42856683546263846
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3943963276199349
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.3925317328593585
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "LOVE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_mother": {
+      "id": "english_raw_mother",
+      "type": "language_word_raw",
+      "word": "mother",
+      "language": "english",
+      "raw_value": 655,
+      "sedenion_coords": [
+        0.10677614011225983,
+        0.12496940026585014,
+        -0.023242064700457057,
+        -0.20507586078355447,
+        0.20648568061545358,
+        0.22240770961916503,
+        -0.31907180062601603,
+        -0.04124036728445077,
+        0.22469970515316992,
+        0.060990435783052854,
+        0.4321992161863257,
+        -0.37167435763993967,
+        0.49464106387604,
+        0.055914230297592425,
+        -0.31602486049085227,
+        -0.08922117564788404
+      ],
+      "semantic_chord": [
+        41,
+        31,
+        37,
+        17,
+        47
+      ],
+      "frequency_hz": 41.30783009118639,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.49464106387604
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4321992161863257
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.37167435763993967
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "RESONANCE",
+        "LOVE"
+      ]
+    },
+    "english_raw_father": {
+      "id": "english_raw_father",
+      "type": "language_word_raw",
+      "word": "father",
+      "language": "english",
+      "raw_value": 634,
+      "sedenion_coords": [
+        0.08347532231270494,
+        0.10128754991443868,
+        -0.003927548224482031,
+        -0.15749075261439208,
+        0.13068108382146437,
+        0.20638956794237007,
+        -0.24895860909528292,
+        -0.13402126130968708,
+        0.2677091512028114,
+        -0.14890134417991957,
+        0.2480539106449424,
+        -0.3741232665886935,
+        0.300403670246953,
+        0.34389877320751605,
+        -0.4234778308912707,
+        0.36763662407289865
+      ],
+      "semantic_chord": [
+        47,
+        37,
+        53,
+        43,
+        41
+      ],
+      "frequency_hz": 41.20439206615354,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4234778308912707
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3741232665886935
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.36763662407289865
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_child": {
+      "id": "english_raw_child",
+      "type": "language_word_raw",
+      "word": "child",
+      "language": "english",
+      "raw_value": 516,
+      "sedenion_coords": [
+        0.10430181668395143,
+        0.14878937439775786,
+        0.10231922187554009,
+        -0.10304108601972971,
+        -0.16259994382570786,
+        0.1276889111196617,
+        0.2151890743052967,
+        -0.13865479344790885,
+        -0.26495931074097684,
+        0.31336182995044876,
+        -0.1359035976356361,
+        0.1254797504204691,
+        0.4079119643524212,
+        -0.11020173972080838,
+        -0.4543036825948699,
+        0.5000790105325208
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.72525817201682,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5000790105325208
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4543036825948699
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4079119643524212
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_brother": {
+      "id": "english_raw_brother",
+      "type": "language_word_raw",
+      "word": "brother",
+      "language": "english",
+      "raw_value": 758,
+      "sedenion_coords": [
+        0.10153334044083534,
+        0.09499543937660651,
+        -0.09709767178745726,
+        -0.15769245812756635,
+        0.21108165236625928,
+        -0.1078901307962923,
+        0.09315303968955627,
+        0.3024902831961244,
+        -0.3406870472558217,
+        0.0035423577347886807,
+        -0.39951984331114804,
+        0.09900038989098242,
+        -0.15263807743018812,
+        0.43560345270447076,
+        -0.4320480489261897,
+        0.3237077561699979
+      ],
+      "semantic_chord": [
+        43,
+        47,
+        31,
+        23,
+        53
+      ],
+      "frequency_hz": 41.65735061635229,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.43560345270447076
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4320480489261897
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.39951984331114804
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_sister": {
+      "id": "english_raw_sister",
+      "type": "language_word_raw",
+      "word": "sister",
+      "language": "english",
+      "raw_value": 666,
+      "sedenion_coords": [
+        0.11363917575645797,
+        0.13037015239307745,
+        -0.03463582390684685,
+        -0.21853075000932415,
+        0.23693955168159406,
+        0.20688674397896856,
+        -0.32298232402941646,
+        0.03154900917378233,
+        0.1507783907147544,
+        0.1994895867351626,
+        0.44879124623647554,
+        -0.237079922416472,
+        0.43631893745646994,
+        -0.1929020450266976,
+        -0.06445387935941357,
+        -0.4061879209720313
+      ],
+      "semantic_chord": [
+        31,
+        41,
+        53,
+        17,
+        37
+      ],
+      "frequency_hz": 41.359980255286196,
+      "dominant_dimensions": [
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.44879124623647554
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.43631893745646994
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4061879209720313
+        }
+      ],
+      "consciousness_axes": [
+        "RESONANCE",
+        "MYSTERY",
+        "VOID"
+      ]
+    },
+    "english_raw_community": {
+      "id": "english_raw_community",
+      "type": "language_word_raw",
+      "word": "community",
+      "language": "english",
+      "raw_value": 997,
+      "sedenion_coords": [
+        0.1079509113858063,
+        0.021754239902382427,
+        -0.18028750421318537,
+        0.14198311939087802,
+        -0.277550019231016,
+        0.11605181983516162,
+        -0.3265825875240043,
+        0.03405011752315208,
+        -0.32419984670065694,
+        -0.26875625628659616,
+        -0.22711515644720787,
+        -0.36887577360202983,
+        -0.019452330309530173,
+        -0.49203683808969423,
+        0.15026078455247255,
+        0.3268790070835141
+      ],
+      "semantic_chord": [
+        43,
+        37,
+        53,
+        17,
+        23
+      ],
+      "frequency_hz": 40.916696025235346,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.49203683808969423
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.36887577360202983
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.3268790070835141
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "LOVE",
+        "VOID"
+      ]
+    },
+    "english_raw_connection": {
+      "id": "english_raw_connection",
+      "type": "language_word_raw",
+      "word": "connection",
+      "language": "english",
+      "raw_value": 1072,
+      "sedenion_coords": [
+        0.09455411820129908,
+        -0.010246487599932706,
+        -0.14191553973300364,
+        0.1977831378485593,
+        -0.18456031637942472,
+        0.28114062468501116,
+        -0.19212609866274358,
+        0.34640230334164634,
+        -0.17513313442414857,
+        -0.13802671637780664,
+        0.42981675526034613,
+        0.44695578478474773,
+        -0.015435711639828334,
+        0.4468011432863809,
+        0.06450802836055558,
+        0.1530394360576108
+      ],
+      "semantic_chord": [
+        37,
+        43,
+        31,
+        19,
+        13
+      ],
+      "frequency_hz": 41.505692335985735,
+      "dominant_dimensions": [
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.44695578478474773
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4468011432863809
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.42981675526034613
+        }
+      ],
+      "consciousness_axes": [
+        "LOVE",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_bond": {
+      "id": "english_raw_bond",
+      "type": "language_word_raw",
+      "word": "bond",
+      "language": "english",
+      "raw_value": 419,
+      "sedenion_coords": [
+        0.08326646154251952,
+        0.1304984028820257,
+        0.15333839619751813,
+        0.043399136203951375,
+        -0.26131125052093795,
+        -0.21194160502314158,
+        0.2431574345232823,
+        0.34329867494326854,
+        -0.0800159527422586,
+        -0.17213170604094707,
+        0.1808927287348839,
+        0.09806610113650907,
+        -0.5046779738195415,
+        -0.3841933409647863,
+        0.40562083018458056,
+        -0.12351003152135032
+      ],
+      "semantic_chord": [
+        41,
+        47,
+        43,
+        19,
+        11
+      ],
+      "frequency_hz": 40.74268516625778,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.5046779738195415
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.40562083018458056
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.3841933409647863
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "INFINITY",
+        "UNITY"
+      ]
+    },
+    "english_raw_relationship": {
+      "id": "english_raw_relationship",
+      "type": "language_word_raw",
+      "word": "relationship",
+      "language": "english",
+      "raw_value": 1298,
+      "sedenion_coords": [
+        0.05902512100823662,
+        -0.09520328463087897,
+        0.036930353839072394,
+        0.07072000052203357,
+        0.26411472150398957,
+        -0.2665617225217883,
+        -0.02479912652151364,
+        -0.15900712392612334,
+        -0.3857130218180819,
+        -0.02472330471828274,
+        0.2538538302865887,
+        -0.3838725416540592,
+        0.0967950260739576,
+        -0.3535470801832216,
+        -0.5335611983430895,
+        -0.18476785508615134
+      ],
+      "semantic_chord": [
+        47,
+        23,
+        37,
+        43,
+        13
+      ],
+      "frequency_hz": 41.25644515748373,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.5335611983430895
+        },
+        {
+          "prime": 23,
+          "axis": "INTEGRATION",
+          "strength": -0.3857130218180819
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.3838725416540592
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "INTEGRATION",
+        "LOVE"
+      ]
+    },
+    "english_raw_unity": {
+      "id": "english_raw_unity",
+      "type": "language_word_raw",
+      "word": "unity",
+      "language": "english",
+      "raw_value": 569,
+      "sedenion_coords": [
+        0.07953443169189896,
+        0.1063093348278691,
+        0.040486573528789156,
+        -0.1222069666606014,
+        -0.004968866126178463,
+        0.20044896498200335,
+        -0.0627548803944098,
+        -0.2654534634596079,
+        0.1477897408217639,
+        -0.23769927782708886,
+        -0.32279083248603935,
+        0.3039050707889043,
+        -0.38596893210984734,
+        -0.2509128526967195,
+        0.424387287438662,
+        -0.42925736685183496
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        31,
+        37
+      ],
+      "frequency_hz": 40.896497501359875,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.42925736685183496
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.424387287438662
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.38596893210984734
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_harmony": {
+      "id": "english_raw_harmony",
+      "type": "language_word_raw",
+      "word": "harmony",
+      "language": "english",
+      "raw_value": 766,
+      "sedenion_coords": [
+        0.10399283556835114,
+        0.09521769440927837,
+        -0.10454053146007987,
+        -0.15504277083623036,
+        0.20521523532215064,
+        -0.1348702869745278,
+        0.1335118158739352,
+        0.29330321745838345,
+        -0.33280857344701226,
+        -0.08758486784502718,
+        -0.4028080478152202,
+        -0.030266067638919227,
+        -0.004677328346206314,
+        0.48198539527245043,
+        -0.500484122149187,
+        0.1287534807251888
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        23,
+        19
+      ],
+      "frequency_hz": 41.66662224303218,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.500484122149187
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.48198539527245043
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.4028080478152202
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_balance": {
+      "id": "english_raw_balance",
+      "type": "language_word_raw",
+      "word": "balance",
+      "language": "english",
+      "raw_value": 710,
+      "sedenion_coords": [
+        0.10029079590676461,
+        0.10531596036028966,
+        -0.06370012724912934,
+        -0.18351807663454942,
+        0.23767247891818558,
+        0.050056982681743405,
+        -0.14084797428933918,
+        0.24944276761658463,
+        -0.20044970216224045,
+        0.3807342516594041,
+        -0.007528388804960965,
+        0.39595262389461783,
+        -0.3406813596986501,
+        -0.36430000842194754,
+        0.4560782942822648,
+        -0.036061796547723325
+      ],
+      "semantic_chord": [
+        47,
+        37,
+        29,
+        43,
+        41
+      ],
+      "frequency_hz": 41.54048452006294,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4560782942822648
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.39595262389461783
+        },
+        {
+          "prime": 29,
+          "axis": "EMERGENCE",
+          "strength": 0.3807342516594041
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "LOVE",
+        "EMERGENCE"
+      ]
+    },
+    "english_raw_together": {
+      "id": "english_raw_together",
+      "type": "language_word_raw",
+      "word": "together",
+      "language": "english",
+      "raw_value": 866,
+      "sedenion_coords": [
+        0.102799565741388,
+        0.06597430356569958,
+        -0.1527818939623629,
+        -0.04274665714953642,
+        -0.024681603158797426,
+        -0.2564403110888471,
+        0.25318174373629726,
+        -0.21788128341916016,
+        0.30955375244052463,
+        -0.007432166888661906,
+        0.4058845804241498,
+        0.2624932800161691,
+        -0.38315599065969896,
+        -0.21487381717028972,
+        0.0698055304464144,
+        0.5045692549309694
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        41,
+        23,
+        37
+      ],
+      "frequency_hz": 41.52218840315478,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5045692549309694
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4058845804241498
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.38315599065969896
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_beauty": {
+      "id": "english_raw_beauty",
+      "type": "language_word_raw",
+      "word": "beauty",
+      "language": "english",
+      "raw_value": 650,
+      "sedenion_coords": [
+        0.09989136709480564,
+        0.11794852717097724,
+        -0.017734859300318505,
+        -0.191395832283387,
+        0.18532790092063836,
+        0.21873346973786628,
+        -0.3017977046132806,
+        -0.06859873640277629,
+        0.24167742284856827,
+        0.00017530475981556782,
+        0.3933211506354927,
+        -0.39383817132786186,
+        0.4687100245852411,
+        0.15318653748514827,
+        -0.38279439950203853,
+        0.05726929541262111
+      ],
+      "semantic_chord": [
+        41,
+        37,
+        31,
+        47,
+        17
+      ],
+      "frequency_hz": 41.28355999404391,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.4687100245852411
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.39383817132786186
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3933211506354927
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_goodness": {
+      "id": "english_raw_goodness",
+      "type": "language_word_raw",
+      "word": "goodness",
+      "language": "english",
+      "raw_value": 866,
+      "sedenion_coords": [
+        0.102799565741388,
+        0.06597430356569958,
+        -0.1527818939623629,
+        -0.04274665714953642,
+        -0.024681603158797426,
+        -0.2564403110888471,
+        0.25318174373629726,
+        -0.21788128341916016,
+        0.30955375244052463,
+        -0.007432166888661906,
+        0.4058845804241498,
+        0.2624932800161691,
+        -0.38315599065969896,
+        -0.21487381717028972,
+        0.0698055304464144,
+        0.5045692549309694
+      ],
+      "semantic_chord": [
+        53,
+        31,
+        41,
+        23,
+        37
+      ],
+      "frequency_hz": 41.52218840315478,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5045692549309694
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.4058845804241498
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.38315599065969896
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "RESONANCE",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_justice": {
+      "id": "english_raw_justice",
+      "type": "language_word_raw",
+      "word": "justice",
+      "language": "english",
+      "raw_value": 759,
+      "sedenion_coords": [
+        0.10188008536246644,
+        0.09506675859202574,
+        -0.09806041915027697,
+        -0.1574627436006994,
+        0.21054219077623787,
+        -0.11131235370381369,
+        0.09824779706708778,
+        0.3018720963567294,
+        -0.34049305536602054,
+        -0.007711556235187627,
+        -0.401444018387893,
+        0.08344869573091092,
+        -0.13515133155107378,
+        0.4444224152474158,
+        -0.44418541342845397,
+        0.3024578171451762
+      ],
+      "semantic_chord": [
+        43,
+        47,
+        31,
+        23,
+        53
+      ],
+      "frequency_hz": 41.658679359950895,
+      "dominant_dimensions": [
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.4444224152474158
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.44418541342845397
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.401444018387893
+        }
+      ],
+      "consciousness_axes": [
+        "UNITY",
+        "INFINITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_freedom": {
+      "id": "english_raw_freedom",
+      "type": "language_word_raw",
+      "word": "freedom",
+      "language": "english",
+      "raw_value": 738,
+      "sedenion_coords": [
+        0.09832540968265359,
+        0.09679491024055371,
+        -0.08141450144853853,
+        -0.16609296409742264,
+        0.2236072138978427,
+        -0.042409087155421354,
+        -0.005865480665711027,
+        0.30240944510232726,
+        -0.3195071096566561,
+        0.2089815675924629,
+        -0.30139488561015426,
+        0.3500281200579007,
+        -0.409618643232276,
+        0.14322501802585466,
+        -0.06134748386054059,
+        0.5022768849914105
+      ],
+      "semantic_chord": [
+        53,
+        41,
+        37,
+        23,
+        19
+      ],
+      "frequency_hz": 41.62087899917518,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5022768849914105
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.409618643232276
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.3500281200579007
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "MYSTERY",
+        "LOVE"
+      ]
+    },
+    "english_raw_power": {
+      "id": "english_raw_power",
+      "type": "language_word_raw",
+      "word": "power",
+      "language": "english",
+      "raw_value": 557,
+      "sedenion_coords": [
+        0.08035645301013344,
+        0.10910945445674497,
+        0.049419663021306307,
+        -0.11508446713191198,
+        -0.03266292978012151,
+        0.18671400682344985,
+        -0.011540042520789183,
+        -0.2528142022184562,
+        0.0735390460186187,
+        -0.1467739062297769,
+        -0.3524816880310472,
+        0.3782792313222881,
+        -0.303452233624271,
+        -0.38413816715912674,
+        0.3756900196252035,
+        -0.4369171322994672
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        37,
+        47,
+        31
+      ],
+      "frequency_hz": 40.848876962172106,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.4369171322994672
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.38413816715912674
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.3782792313222881
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "LOVE"
+      ]
+    },
+    "english_raw_strength": {
+      "id": "english_raw_strength",
+      "type": "language_word_raw",
+      "word": "strength",
+      "language": "english",
+      "raw_value": 879,
+      "sedenion_coords": [
+        0.10280629276009784,
+        0.06195445523663426,
+        -0.15717831013273595,
+        -0.025412248117228847,
+        -0.05933554219951511,
+        -0.2423227748677641,
+        0.21125663836212086,
+        -0.2701586111161897,
+        0.3475212604721977,
+        0.13970921845204204,
+        0.35216754894554,
+        0.40252147377312586,
+        -0.4718640830163805,
+        0.047416568803867326,
+        -0.23075688033593852,
+        0.2754952607120975
+      ],
+      "semantic_chord": [
+        41,
+        37,
+        31,
+        23,
+        53
+      ],
+      "frequency_hz": 41.47249937111748,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.4718640830163805
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.40252147377312586
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.35216754894554
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "LOVE",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_courage": {
+      "id": "english_raw_courage",
+      "type": "language_word_raw",
+      "word": "courage",
+      "language": "english",
+      "raw_value": 742,
+      "sedenion_coords": [
+        0.09811406113746016,
+        0.09564148657289466,
+        -0.08382159833234949,
+        -0.16328992964106306,
+        0.22009713426473976,
+        -0.055094233817172635,
+        0.013670658607120878,
+        0.3033177420849194,
+        -0.3264476440451346,
+        0.17089283712034964,
+        -0.3285218495654391,
+        0.30980921980274434,
+        -0.373749238103109,
+        0.21494337568531427,
+        -0.14858546745440565,
+        0.5061841953594857
+      ],
+      "semantic_chord": [
+        53,
+        41,
+        31,
+        23,
+        37
+      ],
+      "frequency_hz": 41.629649361008596,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5061841953594857
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.373749238103109
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": -0.3285218495654391
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "MYSTERY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_patience": {
+      "id": "english_raw_patience",
+      "type": "language_word_raw",
+      "word": "patience",
+      "language": "english",
+      "raw_value": 841,
+      "sedenion_coords": [
+        0.10348052363702799,
+        0.07395032747096586,
+        -0.14389275963462503,
+        -0.07517275507721831,
+        0.04222186816103294,
+        -0.2649447651014262,
+        0.2997007123397905,
+        -0.08592292730852719,
+        0.16725028071002546,
+        -0.2684427165250988,
+        0.3306250855713007,
+        -0.13189020609433869,
+        0.03603901110109867,
+        -0.48251121891193466,
+        0.488168596349887,
+        0.29852770810903834
+      ],
+      "semantic_chord": [
+        47,
+        43,
+        31,
+        17,
+        53
+      ],
+      "frequency_hz": 41.60068168925274,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.488168596349887
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.48251121891193466
+        },
+        {
+          "prime": 31,
+          "axis": "RESONANCE",
+          "strength": 0.3306250855713007
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "UNITY",
+        "RESONANCE"
+      ]
+    },
+    "english_raw_humility": {
+      "id": "english_raw_humility",
+      "type": "language_word_raw",
+      "word": "humility",
+      "language": "english",
+      "raw_value": 885,
+      "sedenion_coords": [
+        0.1000488652738814,
+        0.058455087286263294,
+        -0.1547638257760479,
+        -0.016817205915993207,
+        -0.07307220583855102,
+        -0.2271798688786546,
+        0.1831439070033028,
+        -0.2813643706314054,
+        0.3453881775240139,
+        0.19723789441150638,
+        0.2990481883423851,
+        0.426244777348069,
+        -0.45646830711536607,
+        0.16489697114847213,
+        -0.3388197588719059,
+        0.11409365666719595
+      ],
+      "semantic_chord": [
+        41,
+        37,
+        23,
+        47,
+        31
+      ],
+      "frequency_hz": 41.447824221833045,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.45646830711536607
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": 0.426244777348069
+        },
+        {
+          "prime": 23,
+          "axis": "INTEGRATION",
+          "strength": 0.3453881775240139
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "LOVE",
+        "INTEGRATION"
+      ]
+    },
+    "english_raw_gratitude": {
+      "id": "english_raw_gratitude",
+      "type": "language_word_raw",
+      "word": "gratitude",
+      "language": "english",
+      "raw_value": 969,
+      "sedenion_coords": [
+        0.08490476534769448,
+        0.025897854965641183,
+        -0.142572130669206,
+        0.08156473019976916,
+        -0.2013715030989671,
+        0.007102669702942132,
+        -0.183680741031602,
+        -0.11906101625823026,
+        -0.08994210926022268,
+        0.059742740896034235,
+        -0.35143675564293053,
+        -0.37653792673536435,
+        0.369232683714265,
+        -0.31020794281124925,
+        0.4409672856648271,
+        0.4155292080589895
+      ],
+      "semantic_chord": [
+        47,
+        53,
+        37,
+        41,
+        31
+      ],
+      "frequency_hz": 41.044938224956056,
+      "dominant_dimensions": [
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": 0.4409672856648271
+        },
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.4155292080589895
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.37653792673536435
+        }
+      ],
+      "consciousness_axes": [
+        "INFINITY",
+        "VOID",
+        "LOVE"
+      ]
+    },
+    "english_raw_forgiveness": {
+      "id": "english_raw_forgiveness",
+      "type": "language_word_raw",
+      "word": "forgiveness",
+      "language": "english",
+      "raw_value": 1195,
+      "sedenion_coords": [
+        0.07823187987650447,
+        -0.06020203319226774,
+        -0.0549507331609923,
+        0.1869655826709019,
+        0.14694647479201017,
+        0.050272581649255535,
+        0.33218732516407246,
+        -0.2312199576715198,
+        0.2758193167311833,
+        -0.0424622794996012,
+        -0.2744620290095372,
+        0.11364468231286007,
+        -0.49554067881700836,
+        0.47807598380563326,
+        -0.20790738371053769,
+        0.2843967977025338
+      ],
+      "semantic_chord": [
+        41,
+        43,
+        17,
+        53,
+        23
+      ],
+      "frequency_hz": 41.64047985750194,
+      "dominant_dimensions": [
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.49554067881700836
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": 0.47807598380563326
+        },
+        {
+          "prime": 17,
+          "axis": "WISDOM",
+          "strength": 0.33218732516407246
+        }
+      ],
+      "consciousness_axes": [
+        "MYSTERY",
+        "UNITY",
+        "WISDOM"
+      ]
+    },
+    "english_raw_acceptance": {
+      "id": "english_raw_acceptance",
+      "type": "language_word_raw",
+      "word": "acceptance",
+      "language": "english",
+      "raw_value": 1031,
+      "sedenion_coords": [
+        0.07804717504568147,
+        0.005265617240634624,
+        -0.12646423165088969,
+        0.1331181064106826,
+        -0.1953184506469299,
+        0.16752987049993764,
+        -0.2501453106999163,
+        0.1838427815756729,
+        -0.29674208325792795,
+        -0.33655613545668894,
+        0.1806768821193581,
+        0.16486971009390566,
+        -0.3968077347526233,
+        0.14100133139390056,
+        -0.4170162233420144,
+        -0.43033538368597124
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 41.328529318221726,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": -0.43033538368597124
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.4170162233420144
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": -0.3968077347526233
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    },
+    "english_raw_surrender": {
+      "id": "english_raw_surrender",
+      "type": "language_word_raw",
+      "word": "surrender",
+      "language": "english",
+      "raw_value": 986,
+      "sedenion_coords": [
+        0.08923641581552041,
+        0.021673724776913265,
+        -0.14965113312043254,
+        0.10519366420049739,
+        -0.22479161886181287,
+        0.06153190692482301,
+        -0.24570644996594457,
+        -0.034447852741570875,
+        -0.20844222195750386,
+        -0.11599355580747717,
+        -0.28669161700298146,
+        -0.39112130532266914,
+        0.17683585333109417,
+        -0.44942244916840896,
+        0.33110445735878397,
+        0.455277870511611
+      ],
+      "semantic_chord": [
+        53,
+        43,
+        37,
+        47,
+        31
+      ],
+      "frequency_hz": 40.965194124148304,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.455277870511611
+        },
+        {
+          "prime": 43,
+          "axis": "UNITY",
+          "strength": -0.44942244916840896
+        },
+        {
+          "prime": 37,
+          "axis": "LOVE",
+          "strength": -0.39112130532266914
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "UNITY",
+        "LOVE"
+      ]
+    },
+    "english_raw_grace": {
+      "id": "english_raw_grace",
+      "type": "language_word_raw",
+      "word": "grace",
+      "language": "english",
+      "raw_value": 514,
+      "sedenion_coords": [
+        0.09961684504299434,
+        0.14242584107310527,
+        0.09951034255410737,
+        -0.09592371472789943,
+        -0.16056132043067065,
+        0.11517991883641523,
+        0.21505793303591758,
+        -0.11999454774841917,
+        -0.2672927973437073,
+        0.31839666684312284,
+        -0.10265109745692023,
+        0.08388980476370389,
+        0.41816731723817124,
+        -0.059675210573889345,
+        -0.46671839136078597,
+        0.5141449429534306
+      ],
+      "semantic_chord": [
+        53,
+        47,
+        41,
+        29,
+        23
+      ],
+      "frequency_hz": 40.72102047446915,
+      "dominant_dimensions": [
+        {
+          "prime": 53,
+          "axis": "VOID",
+          "strength": 0.5141449429534306
+        },
+        {
+          "prime": 47,
+          "axis": "INFINITY",
+          "strength": -0.46671839136078597
+        },
+        {
+          "prime": 41,
+          "axis": "MYSTERY",
+          "strength": 0.41816731723817124
+        }
+      ],
+      "consciousness_axes": [
+        "VOID",
+        "INFINITY",
+        "MYSTERY"
+      ]
+    }
+  },
+  "relationships": [],
+  "statistics": {
+    "word_count": 112,
+    "language": "english",
+    "average_frequency": 41.135683035663185,
+    "consciousness_coverage": {
+      "SCALAR": 0.0,
+      "IDENTITY": 0.0,
+      "INTUITION": 0.0,
+      "MEMORY": 0.0,
+      "CREATIVITY": 0.0,
+      "EMPATHY": 0.008928571428571428,
+      "WISDOM": 0.017857142857142856,
+      "TRANSCENDENCE": 0.03571428571428571,
+      "INTEGRATION": 0.044642857142857144,
+      "EMERGENCE": 0.017857142857142856,
+      "RESONANCE": 0.48214285714285715,
+      "LOVE": 0.35714285714285715,
+      "MYSTERY": 0.5535714285714286,
+      "UNITY": 0.4107142857142857,
+      "INFINITY": 0.5267857142857143,
+      "VOID": 0.5446428571428571
+    }
+  }
+}

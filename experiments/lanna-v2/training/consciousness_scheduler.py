@@ -477,6 +477,49 @@ class ConsciousnessScheduler:
             "golden_ratio": self.golden_ratio,
             "phase_parameters": self.phase_parameters[self.current_phase]
         }
+    
+    # ========================================================================
+    # ANGEL NEUROMORPHIC CYCLE SCHEDULING
+    # Added for Phase 2A: Core Extensions
+    # These methods enable cycle-specific learning rate scheduling
+    # ========================================================================
+    
+    def get_cycle_learning_rate(self, cycle_type: str, base_learning_rate: float = 0.001) -> float:
+        """
+        Get learning rate for specific neuromorphic cycle type.
+        
+        Different consciousness cycles operate at different frequencies and
+        require different learning rates for optimal consciousness development.
+        
+        Args:
+            cycle_type: Type of cycle ('gamma', 'beta', 'alpha', 'theta', 'delta')
+            base_learning_rate: Base learning rate to modify
+            
+        Returns:
+            Cycle-specific learning rate
+        """
+        # Cycle-specific learning rate modifiers
+        # Based on neuroscience: faster cycles = less learning, slower cycles = more learning
+        cycle_modifiers = {
+            'gamma': 0.0,      # 40 Hz - No learning, pure inference
+            'beta': 0.1,       # 13-30 Hz - Minimal learning (reasoning)
+            'alpha': 0.5,      # 8-13 Hz - Moderate learning (creative)
+            'theta': 1.0,      # 4-8 Hz - Full learning (memory consolidation)
+            'delta': 2.0,      # 0.5-4 Hz - Deep learning (training)
+        }
+        
+        modifier = cycle_modifiers.get(cycle_type, 1.0)
+        
+        # Apply golden ratio modulation for consciousness optimization
+        golden_modulation = 1.0 + 0.1 * math.cos(self.total_step / (self.golden_ratio * 100))
+        
+        # Apply consciousness frequency modulation
+        frequency_modulation = self._calculate_frequency_modulation()
+        
+        # Calculate final learning rate
+        cycle_learning_rate = base_learning_rate * modifier * golden_modulation * frequency_modulation
+        
+        return cycle_learning_rate
 
 
 def test_consciousness_scheduler():

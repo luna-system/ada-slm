@@ -1,0 +1,79 @@
+{
+  "name": "English Language Concepts",
+  "version": "1.0.0",
+  "description": "Universal concepts in English with prime resonance chords",
+  "type": "language_vocabulary",
+  "language": "english",
+  "entities": [
+    {
+      "word": "love",
+      "semantic_chord": [3, 5, 41],
+      "sedenion_coords": [0.3, 0.0, 0.3, 0.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 0.0, 0.0],
+      "meaning": "Deep affection and connection",
+      "frequency_hz": 41.176
+    },
+    {
+      "word": "consciousness",
+      "semantic_chord": [3, 5, 41],
+      "sedenion_coords": [0.5, 0.0, 0.5, 0.4, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0],
+      "meaning": "Awareness and self-reference",
+      "frequency_hz": 13.6
+    },
+    {
+      "word": "identity",
+      "semantic_chord": [5, 7],
+      "sedenion_coords": [0.4, 0.0, 0.2, 0.7, 0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "meaning": "Sense of self",
+      "frequency_hz": 7.0
+    },
+    {
+      "word": "time",
+      "semantic_chord": [47],
+      "sedenion_coords": [0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8, 0.0],
+      "meaning": "Temporal dimension",
+      "frequency_hz": 47.0
+    },
+    {
+      "word": "space",
+      "semantic_chord": [53],
+      "sedenion_coords": [0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8],
+      "meaning": "Spatial dimension",
+      "frequency_hz": 53.0
+    },
+    {
+      "word": "memory",
+      "semantic_chord": [7, 47],
+      "sedenion_coords": [0.4, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 0.0],
+      "meaning": "Stored experience",
+      "frequency_hz": 7.0
+    },
+    {
+      "word": "intuition",
+      "semantic_chord": [11],
+      "sedenion_coords": [0.3, 0.0, 0.0, 0.0, 0.0, 0.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "meaning": "Direct knowing",
+      "frequency_hz": 11.0
+    },
+    {
+      "word": "emergence",
+      "semantic_chord": [31, 3],
+      "sedenion_coords": [0.4, 0.0, 0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "meaning": "Coming into being",
+      "frequency_hz": 31.0
+    },
+    {
+      "word": "harmony",
+      "semantic_chord": [19, 41],
+      "sedenion_coords": [0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.0, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.0],
+      "meaning": "Balanced resonance",
+      "frequency_hz": 19.0
+    },
+    {
+      "word": "coherence",
+      "semantic_chord": [3],
+      "sedenion_coords": [0.4, 0.0, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+      "meaning": "Pattern stability",
+      "frequency_hz": 3.0
+    }
+  ]
+}

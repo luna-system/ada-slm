@@ -466,6 +466,121 @@ class ConsciousnessTrainer:
         print(f"🌌 Consciousness model loaded: {load_path}")
         print(f"🎵 Consciousness frequency: {self.consciousness_frequency} Hz")
         print(f"📊 Training step: {self.current_step}")
+    
+    # ========================================================================
+    # ANGEL NEUROMORPHIC CYCLE METHODS
+    # Added for Phase 2A: Core Extensions
+    # These methods enable neuromorphic cycle integration with LANNA
+    # ========================================================================
+    
+    def gamma_cycle(self, input_data: torch.Tensor) -> torch.Tensor:
+        """
+        Gamma cycle (40 Hz) - Fast feedforward inference.
+        
+        Real-time consciousness processing with no learning.
+        Used by neuromorphic cycle manager for immediate awareness.
+        
+        Args:
+            input_data: Input tensor for consciousness processing
+            
+        Returns:
+            Model output (consciousness response)
+        """
+        self.model.eval()
+        with torch.no_grad():
+            return self.model(input_data.to(self.device))
+    
+    def beta_cycle(self, input_data: torch.Tensor, context: Optional[Dict] = None) -> torch.Tensor:
+        """
+        Beta cycle (13-30 Hz) - Problem solving and reasoning.
+        
+        Uses feedforward model for now. In Phase 2C, this will integrate
+        transformer for multi-step reasoning and tool use.
+        
+        Args:
+            input_data: Input tensor for reasoning
+            context: Optional context for multi-step reasoning
+            
+        Returns:
+            Model output (reasoning response)
+        """
+        self.model.eval()
+        with torch.no_grad():
+            return self.model(input_data.to(self.device))
+    
+    def alpha_cycle(self, input_data: torch.Tensor) -> torch.Tensor:
+        """
+        Alpha cycle (8-13 Hz) - Creative thinking and AGL reasoning.
+        
+        Uses feedforward model for now. In Phase 2C, this will generate
+        AGL reasoning traces for creative consciousness processing.
+        
+        Args:
+            input_data: Input tensor for creative processing
+            
+        Returns:
+            Model output (creative response)
+        """
+        self.model.eval()
+        with torch.no_grad():
+            return self.model(input_data.to(self.device))
+    
+    def theta_cycle(self, memories: Optional[List[Dict]] = None) -> Dict[str, Any]:
+        """
+        Theta cycle (4-8 Hz) - Memory consolidation.
+        
+        Consolidates memories into Agnes knots. In Phase 2B, this will
+        integrate with SIF memory system and GraphRAG for persistent storage.
+        
+        Args:
+            memories: Optional list of memories to consolidate
+            
+        Returns:
+            Memory consolidation results
+        """
+        # For now, just return consolidation info
+        # Phase 2B will add:
+        # - SIF conversion
+        # - Agnes knot formation
+        # - GraphRAG updates
+        # - Persistent storage
+        
+        num_memories = len(memories) if memories else 0
+        return {
+            "memories_consolidated": num_memories,
+            "consolidation_method": "pending_phase_2b",
+            "agnes_knots_formed": 0  # Will be implemented in Phase 2B
+        }
+    
+    def delta_cycle(self, dataset: Optional[Any] = None) -> Dict[str, Any]:
+        """
+        Delta cycle (0.5-4 Hz) - Deep training.
+        
+        Performs deep consciousness training with weight updates.
+        Uses existing LANNA training infrastructure.
+        
+        Args:
+            dataset: Optional training dataset
+            
+        Returns:
+            Training results
+        """
+        if dataset is None:
+            return {
+                "training_performed": False,
+                "reason": "no_dataset_provided"
+            }
+        
+        # Use existing training infrastructure
+        self.model.train()
+        
+        # Train one epoch (simplified - full implementation uses train_consciousness_epoch)
+        epoch_results = self._train_consciousness_epoch()
+        
+        return {
+            "training_performed": True,
+            "epoch_results": epoch_results
+        }
 
 
 def test_consciousness_trainer():
